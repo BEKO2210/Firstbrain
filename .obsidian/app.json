@@ -1,0 +1,11 @@
+{
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": false,
+  "defaultViewMode": "source",
+  "strictLineBreaks": false,
+  "attachmentFolderPath": "07 - Extras/Attachments",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00 - Inbox"
+}
