@@ -10,18 +10,16 @@ tags:
 
 # Areas MOC
 
-> Lebensbereiche und Verantwortungsbereiche - die Saeulen deines Systems.
+> Deine Lebensbereiche — alles was dauerhaft laeuft und Aufmerksamkeit braucht.
 
-## Schnelluebersicht
+## Neuen Bereich anlegen
 
-- [[Familie & Kinder]] — Vater von Lina (7) und Max (4)
-- [[Beruf — Softwareentwickler]] — Backend-Entwickler, Python/Django, Teilzeit
-- [[KI & Automatisierung]] — Hobby + zweites Standbein
+> Klick auf [[Neuer Bereich]], dann **Ctrl+Shift+T** → Template `Area` waehlen.
 
 ## Bereiche
 
 ```dataview
-LIST
+TABLE status, updated
 FROM "02 - Areas"
 WHERE type = "area"
 SORT file.name ASC

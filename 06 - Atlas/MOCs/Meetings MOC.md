@@ -10,7 +10,11 @@ tags:
 
 # Meetings MOC
 
-> Alle Meeting-Notizen chronologisch und nach Projekt.
+> Alle Meeting-Protokolle — chronologisch und nach Projekt.
+
+## Neues Meeting protokollieren
+
+> Klick auf [[Neues Meeting]], dann **Ctrl+Shift+T** → Template `Meeting` waehlen.
 
 ## Letzte Meetings
 

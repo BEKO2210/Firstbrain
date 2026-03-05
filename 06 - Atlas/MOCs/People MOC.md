@@ -10,11 +10,11 @@ tags:
 
 # People MOC
 
-> Netzwerk und Kontakte - wer kennt wen, wer arbeitet woran.
+> Dein Netzwerk — Kontakte, Kollegen, Kunden.
 
-## Schnelluebersicht
+## Neuen Kontakt anlegen
 
-- [[Thomas Mueller]] — Geschaeftsfuehrer, Mueller Haustechnik GmbH (potenzieller erster Kunde)
+> Klick auf [[Neue Person]], dann **Ctrl+Shift+T** → Template `Person` waehlen.
 
 ## Alle Personen
 
