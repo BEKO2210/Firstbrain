@@ -12,6 +12,12 @@ tags:
 
 > Lebensbereiche und Verantwortungsbereiche - die Saeulen deines Systems.
 
+## Schnelluebersicht
+
+- [[Familie & Kinder]] — Vater von Lina (7) und Max (4)
+- [[Beruf — Softwareentwickler]] — Backend-Entwickler, Python/Django, Teilzeit
+- [[KI & Automatisierung]] — Hobby + zweites Standbein
+
 ## Bereiche
 
 ```dataview

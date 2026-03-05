@@ -8,7 +8,7 @@ tags:
   - project
   - pkm
   - productivity
-area: "[[]]"
+area: "[[KI & Automatisierung]]"
 ---
 
 # Persönliches Second Brain aufbauen
@@ -42,8 +42,8 @@ Der wichtigste Grundsatz: Nicht perfekt starten, sondern überhaupt starten. Das
 
 ## Verbindungen
 
-- **Area:** [[]]
-- **Verwandte Projekte:** [[]]
+- **Area:** [[KI & Automatisierung]]
+- **Verwandte Projekte:** [[KI-Automatisierung Freelance aufbauen]]
 - **Ressourcen:** [[Buch — Building a Second Brain (Tiago Forte)]], [[Zettel — Atomare Notizen schreiben]]
 
 ## Log

@@ -12,6 +12,20 @@ tags:
 
 > Wissen, Referenzen und Lernmaterial - organisiert nach Thema.
 
+## Schnelluebersicht
+
+### Buecher & Kurse
+- [[Buch — Building a Second Brain (Tiago Forte)]] — Rating: 5
+- [[Kurs — ChatGPT und KI fuer Unternehmer]] — Rating: 3
+
+### Videos
+- [[YouTube — AI Automation Agency Modell]] — Rating: 4
+
+### Zettel (Atomare Ideen)
+- [[Zettel — Atomare Notizen schreiben]]
+- [[Zettel — Die 1000-Euro-Regel fuer Side Business]]
+- [[Zettel — KI-Agenten als Geschaeftsmodell]]
+
 ## Alle Ressourcen
 
 ```dataview
