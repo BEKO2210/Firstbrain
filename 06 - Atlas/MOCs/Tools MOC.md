@@ -10,12 +10,11 @@ tags:
 
 # Tools MOC
 
-> Alle Tools, Software und Dienste die ich nutze.
+> Alle Tools, Software und Dienste die du nutzt.
 
-## Schnelluebersicht
+## Neues Tool dokumentieren
 
-- [[Tool — Claude Code]] — KI-Assistent, CLI, Second Brain Verwaltung
-- [[Tool — n8n]] — Open-Source Workflow-Automatisierung, Self-Hosted
+> Klick auf [[Neues Tool]], dann **Ctrl+Shift+T** → Template `Tool` waehlen.
 
 ## Alle Tools
 

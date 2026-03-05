@@ -10,7 +10,11 @@ tags:
 
 # Decisions MOC
 
-> Entscheidungslog - was wurde warum entschieden.
+> Entscheidungslog — was wurde warum entschieden.
+
+## Neue Entscheidung dokumentieren
+
+> Klick auf [[Neue Entscheidung]], dann **Ctrl+Shift+T** → Template `Decision` waehlen.
 
 ## Offene Entscheidungen
 
@@ -20,10 +24,6 @@ FROM #decision
 WHERE status = "pending"
 SORT impact DESC
 ```
-
-## Schnelluebersicht
-
-- [[Entscheidung — KI-Geschaeftsmodell]] — Entschieden: KI-Workflow-Automatisierung (high impact)
 
 ## Getroffene Entscheidungen
 

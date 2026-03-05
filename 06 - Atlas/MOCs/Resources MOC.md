@@ -10,21 +10,11 @@ tags:
 
 # Resources MOC
 
-> Wissen, Referenzen und Lernmaterial - organisiert nach Thema.
+> Wissen, Referenzen und Lernmaterial — organisiert nach Thema.
 
-## Schnelluebersicht
+## Neu erstellen
 
-### Buecher & Kurse
-- [[Buch — Building a Second Brain (Tiago Forte)]] — Rating: 5
-- [[Kurs — ChatGPT und KI fuer Unternehmer]] — Rating: 3
-
-### Videos
-- [[YouTube — AI Automation Agency Modell]] — Rating: 4
-
-### Zettel (Atomare Ideen)
-- [[Zettel — Atomare Notizen schreiben]]
-- [[Zettel — Die 1000-Euro-Regel fuer Side Business]]
-- [[Zettel — KI-Agenten als Geschaeftsmodell]]
+> [[Neue Ressource]] | [[Neuer Zettel]] — dann **Ctrl+Shift+T** → passendes Template waehlen.
 
 ## Alle Ressourcen
 
@@ -35,32 +25,22 @@ WHERE type = "resource"
 SORT rating DESC
 ```
 
-## Nach Tags
+## Zettel (Atomare Ideen)
 
 ```dataview
-TABLE tags
+TABLE source, created
 FROM "03 - Resources"
-SORT file.name ASC
+WHERE type = "zettel"
+SORT created DESC
 ```
 
 ## Zuletzt hinzugefuegt
 
 ```dataview
-TABLE created, source
+TABLE created, type, source
 FROM "03 - Resources"
 SORT created DESC
 LIMIT 10
-```
-
----
-
-## Alle Ressourcen (erweitert)
-
-```dataview
-TABLE created, tags, rating
-FROM "03 - Resources"
-WHERE type = "resource" OR type = "zettel" OR type = "book"
-SORT created DESC
 ```
 
 ---

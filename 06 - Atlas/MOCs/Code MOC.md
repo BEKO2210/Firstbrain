@@ -10,7 +10,11 @@ tags:
 
 # Code MOC
 
-> Code Snippets, Patterns und technisches Wissen.
+> Code Snippets, Loesungen und technisches Wissen.
+
+## Neues Snippet speichern
+
+> Klick auf [[Neues Snippet]], dann **Ctrl+Shift+T** → Template `Code Snippet` waehlen.
 
 ## Alle Snippets
 

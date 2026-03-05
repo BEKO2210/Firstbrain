@@ -12,12 +12,9 @@ tags:
 
 > Alle aktiven und geplanten Projekte auf einen Blick.
 
-## Schnelluebersicht
+## Neues Projekt anlegen
 
-- [[KI-Automatisierung Freelance aufbauen]] — Prio: high, Area: KI & Automatisierung
-- [[KI-Workflow fuer Familienorganisation]] — Prio: medium, Area: Familie & Kinder
-- [[Beispiel-Projekt — Second Brain aufbauen]] — Prio: high
-- [[Entscheidung — KI-Geschaeftsmodell]] — Entschieden: KI-Workflow-Automatisierung
+> Klick auf [[Neues Projekt]], dann **Ctrl+Shift+T** → Template `Project` waehlen.
 
 ## Aktive Projekte
 
@@ -54,26 +51,6 @@ FROM "01 - Projects"
 WHERE status = "completed"
 SORT updated DESC
 LIMIT 10
-```
-
----
-
-## Projektübersicht mit Details
-
-```dataview
-TABLE created, tags, file.mtime as "Zuletzt geändert"
-FROM "01 - Projects"
-WHERE type = "project" AND status = "active"
-SORT file.mtime DESC
-```
-
-## Alle Projekte
-
-```dataview
-TABLE created, status, tags
-FROM "01 - Projects"
-WHERE type = "project"
-SORT created DESC
 ```
 
 ---

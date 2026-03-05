@@ -1,187 +1,105 @@
-# Second Brain - Obsidian Edition
+# Firstbrain — Obsidian Starter Vault
 
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?logo=obsidian&logoColor=white)
-![Claude Code](https://img.shields.io/badge/Claude_Code-AI_powered-orange)
+Ein vorkonfiguriertes Obsidian-Vault fuer alle, die ihre Notizen, Projekte und Ideen endlich an einem Ort haben wollen. Kein Chaos mehr, keine vergessenen Zettel — einfach ein System, das mitwächst.
 
-Ein vollständiges **Second Brain System** für [Obsidian](https://obsidian.md), optimiert für die Nutzung mit **Claude Code** als KI-Assistent. Basierend auf bewährten Methoden: PARA, Zettelkasten und Maps of Content (MOC).
+## Warum?
 
-## Was ist das?
+Ich hab jahrelang Notizen in verschiedenen Apps verstreut gehabt. Google Docs hier, Apple Notes da, Slack-Nachrichten an mich selbst, und irgendwo eine Textdatei mit "WICHTIG" im Namen. Irgendwann war's genug. Ich wollte **ein** System, das alles abdeckt — und das hab ich mir gebaut.
 
-Dieses Repository ist ein vorkonfigurierter Obsidian Vault, der wie ein menschliches Gehirn funktioniert:
+Das hier ist das Ergebnis. Es basiert auf drei bewaehrten Methoden, die ich so zusammengesteckt hab, dass sie fuer den Alltag taugen:
 
-- **Neuronen** = Einzelne Notizen (atomare Wissenseinheiten)
-- **Synapsen** = Wiki-Links `[[zwischen Notizen]]`
-- **Gehirnregionen** = Ordner (Projects, Areas, Resources)
-- **Navigationspfade** = Maps of Content (MOCs)
-- **Gedächtnis** = Frontmatter-Metadaten + Tags
+- **PARA** — Vier Ordner statt zwanzig: Projekte, Bereiche, Wissen, Archiv. Fertig.
+- **Zettelkasten** — Jede Idee in eigenen Worten aufschreiben und mit anderen Ideen verlinken. Klingt simpel, funktioniert aber erstaunlich gut.
+- **Maps of Content** — Uebersichtsseiten statt endloser Ordner-Verschachtelung.
 
-## Für wen ist das?
+## Was steckt drin?
 
-| Persona | Nutzen |
+```
+00 - Inbox/          Alles Neue kommt erstmal hier rein
+01 - Projects/       Projekte mit Anfang und Ende
+02 - Areas/          Lebensbereiche (Beruf, Familie, Hobbys...)
+03 - Resources/      Wissen: Buecher, Tools, Ideen, Kontakte
+04 - Archive/        Fertiges und Abgelegtes
+05 - Templates/      12 Vorlagen fuer verschiedene Notiztypen
+06 - Atlas/MOCs/     8 Uebersichtsseiten zur Navigation
+07 - Extras/         Bilder und Anhaenge
+```
+
+Dazu: vorkonfigurierte Obsidian-Settings (Graph-Farben, Daily Notes, Attachment-Ordner) und ein Dashboard als Startseite.
+
+## Loslegen
+
+**1.** Repo klonen oder als ZIP runterladen:
+```bash
+git clone https://github.com/BEKO2210/Firstbrain.git
+```
+
+**2.** In Obsidian als Vault oeffnen ("Open folder as vault").
+
+**3.** Community Plugin **Dataview** installieren (Einstellungen → Community Plugins → Durchsuchen). Ohne Dataview funktionieren die automatischen Listen auf den MOC-Seiten nicht.
+
+**4.** `Home.md` oeffnen. Von dort erreichst du alles — inklusive Ein-Klick-Links zum Erstellen neuer Notizen.
+
+Fuer eine ausfuehrliche Anleitung: Oeffne `START HERE.md` im Vault.
+
+## Templates
+
+Es gibt 12 Vorlagen, die du per Ctrl+Shift+T einfuegen kannst:
+
+| Vorlage | Wofuer |
 |---------|--------|
-| **Wissensarbeiter** | Strukturiere dein gesamtes Wissen über Projekte, Meetings und Entscheidungen hinweg. Verknüpfe Ideen und finde Zusammenhänge, die dir sonst entgehen würden. |
-| **Entwickler** | Dokumentiere Code-Snippets, Architektur-Entscheidungen und technische Ressourcen. Nutze Claude Code direkt im Vault für KI-gestützte Recherche und Automatisierung. |
-| **Studenten** | Organisiere Vorlesungsnotizen, Lernmaterial und Prüfungsvorbereitung nach dem Zettelkasten-Prinzip. Verbinde Wissen aus verschiedenen Fächern intelligent miteinander. |
+| Project | Aktive Projekte mit Tasks und Deadline |
+| Area | Lebensbereiche und Verantwortungen |
+| Resource | Buecher, Kurse, Artikel |
+| Tool | Software und Dienste |
+| Zettel | Eigene Gedanken und Ideen (atomar) |
+| Decision | Entscheidungen mit Pro/Contra |
+| Person | Kontakte und Netzwerk |
+| Meeting | Meeting-Protokolle |
+| Code Snippet | Code-Schnipsel mit Kontext |
+| Daily Note | Tagesnotizen |
+| Weekly Review | Wochenrueckblick |
+| Monthly Review | Monatsrueckblick |
 
-## Schnellstart
+Jede Vorlage hat korrektes Frontmatter, eine saubere Struktur und einen Verbindungen-Abschnitt fuer Wiki-Links.
 
-### 1. Repository klonen
+## Navigation im Vault
 
-```bash
-git clone https://github.com/BEKO2210/Second_brain_Obsidian_Edition-.git
-```
+Die `Home.md` ist dein Startpunkt. Dort gibt es:
 
-### 2. In Obsidian öffnen
+- **Ein-Klick-Erstellung** — Tabelle mit Links zum sofortigen Anlegen neuer Notizen
+- **Aktive Projekte** — Automatische Liste aller laufenden Projekte
+- **Offene Aufgaben** — Alle unerledigten Tasks auf einen Blick
+- **Letzte Aenderungen** — Was wurde zuletzt bearbeitet?
 
-1. Obsidian starten
-2. "Open folder as vault" wählen
-3. Den geklonten Ordner auswählen
-4. **Empfohlen:** Community Plugin [Dataview](https://github.com/blacksmithgu/obsidian-dataview) installieren
+Die 8 MOCs (Maps of Content) bieten Uebersicht nach Thema: Projekte, Bereiche, Ressourcen, Tools, Kontakte, Code, Meetings, Entscheidungen.
 
-### 3. Loslegen
+## Claude Code
 
-1. Öffne `Home.md` — dein zentrales Dashboard
-2. Lies den `Workflow Guide` für die Nutzung
-3. Erstelle deine erste Notiz in `00 - Inbox`
+Das Vault hat eine `CLAUDE.md`, die Claude Code beim Start automatisch liest. Damit kennt er die Ordnerstruktur, alle Templates und die Konventionen. Einfach `claude` im Vault-Ordner starten und z.B. sagen:
 
-## Ordnerstruktur
+- *"Erstelle ein neues Projekt: Kueche renovieren"*
+- *"Was sind meine offenen Aufgaben?"*
+- *"Schreib einen Zettel zur Idee XY"*
 
-```
-/
-├── 00 - Inbox/              # Sammelpunkt für neue Gedanken
-│   └── Daily Notes/         # Tagesnotizen
-├── 01 - Projects/           # Aktive Projekte (zeitlich begrenzt)
-├── 02 - Areas/              # Lebensbereiche (Gesundheit, Finanzen, ...)
-├── 03 - Resources/          # Wissen, Bücher, Artikel, Tools
-├── 04 - Archive/            # Abgeschlossenes
-├── 05 - Templates/          # 11 vorgefertigte Vorlagen
-│   ├── Project.md
-│   ├── Area.md
-│   ├── Resource.md
-│   ├── Daily Note.md
-│   ├── Meeting.md
-│   ├── Person.md
-│   ├── Zettel.md
-│   ├── Weekly Review.md
-│   ├── Code Snippet.md
-│   ├── Tool.md
-│   └── Decision.md
-├── 06 - Atlas/
-│   └── MOCs/                # 8 Maps of Content (Navigation)
-│       ├── Projects MOC.md
-│       ├── Areas MOC.md
-│       ├── Resources MOC.md
-│       ├── People MOC.md
-│       ├── Tools MOC.md
-│       ├── Code MOC.md
-│       ├── Meetings MOC.md
-│       └── Decisions MOC.md
-├── 07 - Extras/             # Bilder, Anhänge, Kanban
-├── Home.md                  # Zentrales Dashboard
-├── Workflow Guide.md        # Anleitung zur Nutzung
-├── Tag Conventions.md       # Tag-System Referenz
-└── CLAUDE.md                # Claude Code Konfiguration
-```
-
-## Das System verstehen
-
-### PARA-Methode (Ordner)
-
-| Ordner | Frage | Beispiel |
-|--------|-------|---------|
-| **Projects** | Was arbeite ich gerade aktiv daran? | "Website Relaunch", "Umzug" |
-| **Areas** | Wofür bin ich dauerhaft verantwortlich? | "Gesundheit", "Finanzen", "Karriere" |
-| **Resources** | Was könnte in Zukunft nützlich sein? | Buch-Notizen, Tutorials, Artikel |
-| **Archive** | Was ist abgeschlossen? | Fertige Projekte, alte Ressourcen |
-
-### Zettelkasten (Denkweise)
-
-- **Eine Idee = Eine Notiz** (atomar)
-- **Eigene Worte** (nicht kopieren, sondern verstehen)
-- **Verlinken** statt kategorisieren
-- Nutze das `Zettel.md` Template
-
-### Maps of Content (Navigation)
-
-MOCs sind Index-Seiten, die verwandte Notizen zusammenfassen. Sie nutzen **Dataview-Queries** um automatisch relevante Notizen anzuzeigen.
-
-## CLAUDE.md — KI-Integration
-
-Dieses Vault enthält eine `CLAUDE.md`-Datei, die Claude Code automatisch liest und ihm beibringt, wie er mit deinem Second Brain arbeiten soll:
-
-- **Vault Struktur** — Claude kennt alle Ordner und deren Zweck
-- **Konventionen** — Jede Notiz bekommt korrektes Frontmatter (`type`, `created`, `tags`) und einen `## Verbindungen`-Abschnitt mit Wiki-Links
-- **Wiki-Links** — Claude verwendet `[[Notizname]]` und verlinkt neue Notizen mit mindestens 2 bestehenden
-- **Templates** — Claude wählt automatisch das passende Template aus `05 - Templates/`
-- **Cross-Project Arbeit** — Claude navigiert über MOCs und `Home.md` und verknüpft Projekte, Areas und Ressourcen
-
-> Starte einfach `claude` im Vault-Ordner — die Integration funktioniert sofort.
-
-## Mit Claude Code nutzen
-
-Dieses Vault ist speziell für die Arbeit mit Claude Code optimiert:
-
-```bash
-# Im Vault-Ordner:
-claude
-
-# Beispiel-Befehle:
-# "Erstelle ein neues Projekt für meinen Blog"
-# "Fasse alle Ressourcen zum Thema Marketing zusammen"
-# "Welche offenen Tasks habe ich?"
-# "Erstelle ein Meeting-Protokoll für heute"
-# "Verlinke meine Notiz XY mit relevanten Ressourcen"
-```
-
-Claude liest die `CLAUDE.md` automatisch und kennt:
-- Die Ordnerstruktur und Konventionen
-- Alle Templates und wann welches zu nutzen ist
-- Wie Wiki-Links und Frontmatter funktionieren
-- Wie cross-project Verbindungen hergestellt werden
-
-## Projektübergreifend arbeiten
-
-Das System funktioniert als **zentrales Gehirn** über alle Projekte hinweg:
-
-```
-Projekt A ──┐
-             ├── verlinkt auf ──> Ressource "React Patterns"
-Projekt B ──┘
-
-Meeting X ──> verlinkt auf ──> Person Y ──> verlinkt auf ──> Projekt A
-
-Entscheidung Z ──> beeinflusst ──> Projekt A + Projekt B
-```
-
-Jede Notiz kann auf jede andere verlinken. Die **Graph View** (Ctrl/Cmd+G) zeigt alle Verbindungen als visuelles Netzwerk.
+Funktioniert aber genauso gut ohne Claude Code — ist ein normaler Obsidian Vault.
 
 ## Empfohlene Plugins
 
-| Plugin | Zweck | Notwendig? |
-|--------|-------|------------|
-| **Dataview** | Automatische Listen und Tabellen | Sehr empfohlen |
-| **Templater** | Erweiterte Templates | Optional |
-| **Calendar** | Daily Notes Kalender | Optional |
-| **Kanban** | Kanban-Boards | Optional |
+| Plugin | Warum | Pflicht? |
+|--------|-------|----------|
+| [Dataview](https://github.com/blacksmithgu/obsidian-dataview) | Automatische Listen und Tabellen | Ja |
+| [Templater](https://github.com/SilentVoid13/Templater) | Erweiterte Template-Variablen | Nein |
+| [Calendar](https://github.com/liamcain/obsidian-calendar-plugin) | Kalender fuer Daily Notes | Nein |
 
-## Beitragen
+## Mitmachen
 
-Beiträge sind willkommen! Lies die [CONTRIBUTING.md](CONTRIBUTING.md) für Details zu:
-- Bug-Reports und Feature-Vorschläge
-- Neue Templates einreichen
-- Pull Requests erstellen
+Ideen, Bugs oder neue Templates? Gerne — schau in die [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Lizenz
 
-MIT — Frei nutzbar für alle.
+MIT — Nimm's, benutz's, pass es an.
 
 ---
-
-## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=BEKO2210/Firstbrain&type=Date)](https://star-history.com/#BEKO2210/Firstbrain&Date)
-
----
-
-Wenn dir dieses System hilft, hinterlasse einen ⭐ auf [GitHub](https://github.com/BEKO2210/Second_brain_Obsidian_Edition-)!
