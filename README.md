@@ -178,4 +178,10 @@ MIT — Frei nutzbar für alle.
 
 ---
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=BEKO2210/Firstbrain&type=Date)](https://star-history.com/#BEKO2210/Firstbrain&Date)
+
+---
+
 Wenn dir dieses System hilft, hinterlasse einen ⭐ auf [GitHub](https://github.com/BEKO2210/Second_brain_Obsidian_Edition-)!
