@@ -21,6 +21,10 @@ WHERE status = "pending"
 SORT impact DESC
 ```
 
+## Schnelluebersicht
+
+- [[Entscheidung — KI-Geschaeftsmodell]] — Entschieden: KI-Workflow-Automatisierung (high impact)
+
 ## Getroffene Entscheidungen
 
 ```dataview

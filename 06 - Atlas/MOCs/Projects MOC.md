@@ -12,6 +12,13 @@ tags:
 
 > Alle aktiven und geplanten Projekte auf einen Blick.
 
+## Schnelluebersicht
+
+- [[KI-Automatisierung Freelance aufbauen]] — Prio: high, Area: KI & Automatisierung
+- [[KI-Workflow fuer Familienorganisation]] — Prio: medium, Area: Familie & Kinder
+- [[Beispiel-Projekt — Second Brain aufbauen]] — Prio: high
+- [[Entscheidung — KI-Geschaeftsmodell]] — Entschieden: KI-Workflow-Automatisierung
+
 ## Aktive Projekte
 
 ```dataview

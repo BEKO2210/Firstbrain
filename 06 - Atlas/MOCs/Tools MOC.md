@@ -12,6 +12,11 @@ tags:
 
 > Alle Tools, Software und Dienste die ich nutze.
 
+## Schnelluebersicht
+
+- [[Tool — Claude Code]] — KI-Assistent, CLI, Second Brain Verwaltung
+- [[Tool — n8n]] — Open-Source Workflow-Automatisierung, Self-Hosted
+
 ## Alle Tools
 
 ```dataview
