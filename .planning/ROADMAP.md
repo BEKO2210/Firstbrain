@@ -69,8 +69,8 @@ Plans:
 Plans:
 - [x] 03-01-PLAN.md -- /create and /daily skills (create-utils.cjs, daily-utils.cjs, SKILL.md definitions)
 - [x] 03-02-PLAN.md -- /connect and /health skills (connect-utils.cjs, health-utils.cjs, SKILL.md definitions)
-- [ ] 03-03-PLAN.md -- Working memory system (MEMORY.md, topic files, CLAUDE.md memory architecture update)
-- [ ] 03-04-PLAN.md -- Verification checkpoint (automated tests + Obsidian compatibility)
+- [x] 03-03-PLAN.md -- Working memory system (MEMORY.md, topic files, CLAUDE.md memory architecture update)
+- [x] 03-04-PLAN.md -- Verification checkpoint (automated tests + Obsidian compatibility)
 
 ### Phase 4: Deep Memory & Semantic Search
 **Goal**: Claude develops long-term understanding of vault patterns and can find notes by meaning, not just keywords -- transitioning from explicit data to semantic intelligence
