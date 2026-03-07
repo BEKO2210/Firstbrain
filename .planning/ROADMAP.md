@@ -14,8 +14,8 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation & Vault Preparation** - English rewrite, governance system, trust infrastructure, Obsidian compatibility
 - [x] **Phase 2: Scanning Engine & Cache Infrastructure** - Level 1 parser, incremental scanning, JSON indexes, /scan skill
-- [ ] **Phase 3: Core Skills & Working Memory** - /create, /daily, /connect, /health skills with cross-session working memory
-- [ ] **Phase 4: Deep Memory & Semantic Search** - Long-term summary memory, project-specific memory, semantic search
+- [x] **Phase 3: Core Skills & Working Memory** - /create, /daily, /connect, /health skills with cross-session working memory
+- [x] **Phase 4: Deep Memory & Semantic Search** - Long-term summary memory, project-specific memory, semantic search
 - [ ] **Phase 5: Proactive Intelligence** - /briefing, /triage, /synthesize, /maintain skills for autonomous vault care
 
 ## Phase Details
@@ -85,7 +85,7 @@ Plans:
 Plans:
 - [x] 04-01-PLAN.md -- Embedding infrastructure + /search skill (embedder.cjs, search-utils.cjs, npm setup)
 - [x] 04-02-PLAN.md -- Memory management + /memory skill (memory-utils.cjs, insights.md, CLAUDE.md Layer 3-4 activation)
-- [ ] 04-03-PLAN.md -- /scan embedding sync integration + verification checkpoint
+- [x] 04-03-PLAN.md -- /scan embedding sync integration + verification checkpoint
 
 ### Phase 5: Proactive Intelligence
 **Goal**: The vault actively works for the user -- surfacing priorities, classifying inbox items, synthesizing knowledge, and maintaining consistency without being asked
@@ -113,6 +113,6 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 |-------|----------------|--------|-----------|
 | 1. Foundation & Vault Preparation | 4/4 | Complete | 2026-03-07 |
 | 2. Scanning Engine & Cache Infrastructure | 2/2 | Complete | 2026-03-07 |
-| 3. Core Skills & Working Memory | 3/4 | In progress | - |
-| 4. Deep Memory & Semantic Search | 0/? | Not started | - |
+| 3. Core Skills & Working Memory | 4/4 | Complete | 2026-03-07 |
+| 4. Deep Memory & Semantic Search | 3/3 | Complete | 2026-03-07 |
 | 5. Proactive Intelligence | 0/? | Not started | - |
