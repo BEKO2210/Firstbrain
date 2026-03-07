@@ -56,11 +56,26 @@ Persists across sessions via files Claude reads and writes:
 
 **MEMORY.md maintenance:** Rewrite (not append) on each update. Keep under 50 lines. Detailed context goes in topic files.
 
-### Layer 3: Long-term Summary Memory (Phase 4 stub)
-*Not yet implemented.* Will distill recurring themes, organizational patterns, and cross-session insights. Extension point: `.claude/memory/insights.md`.
+### Layer 3: Long-term Summary Memory (active)
+Distills recurring themes, organizational patterns, and cross-session insights:
 
-### Layer 4: Project-specific Memory (Phase 4 stub)
-*Not yet implemented.* Will track per-project state, decisions, and blockers with richer context than the current projects.md. Extension point: `.claude/memory/project-{name}.md` files.
+- **`.claude/memory/insights.md`** -- Structured insights with confidence scores, observation counts, and emergent categories.
+- **Distillation triggers:** After 10+ note changes (activity volume) OR 3+ notes in same tag cluster (topic density).
+- **Confidence scoring:** Initial 0.5, +0.1 per re-observation (cap 1.0), decay -0.05 per active session without reinforcement.
+- **Pruning:** Entries below 0.3 confidence removed. Soft limit ~100 entries.
+- **Surfacing:** Use distinct callout blocks ("Pattern noticed:") -- never woven into conversation text. Only surface insights with confidence >= 0.5.
+- **User-editable:** insights.md is plain markdown. Respect all user corrections.
+
+Cross-reference top insights in MEMORY.md (brief mention, full detail stays in insights.md).
+
+### Layer 4: Project-specific Memory (active)
+Tracks per-project state, decisions, blockers, and context:
+
+- **`.claude/memory/project-{name}.md`** -- One file per active project. Created when Claude first interacts with a project note.
+- **Projects identified from:** Notes in `01 - Projects/` with `type: project` frontmatter.
+- **Tracks:** Current status, key decisions, blockers, next actions -- enough to resume without re-explaining.
+- **Archive:** On project completion, move to `.claude/memory/archive/project-{name}.md`. Distill key lessons into insights.md.
+- **Dashboard:** Use `/memory` to see all active project memories and their status.
 
 ## Governance
 

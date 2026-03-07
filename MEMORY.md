@@ -29,3 +29,4 @@ Claude's persistent context across sessions. Updated after significant actions.
 Detailed per-area context lives in `.claude/memory/`:
 - [[.claude/memory/projects.md]] -- per-project state, decisions, blockers
 - [[.claude/memory/preferences.md]] -- user patterns and preferences
+- [[.claude/memory/insights.md]] -- long-term patterns and organizational insights (Layer 3)
