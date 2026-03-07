@@ -1,0 +1,20 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sync
+.sync
+
+# Large files
+*.pdf
+*.zip
+*.tar.gz
+
+# Claude indexes (derived data, regenerable)
+.claude/indexes/
