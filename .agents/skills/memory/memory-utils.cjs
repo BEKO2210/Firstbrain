@@ -286,7 +286,9 @@ function distillInsights(vaultRoot, vaultIndex, tagIndex, options = {}) {
   // 1. Analyze vault structure for organizational patterns
   // -----------------------------------------------------------------------
 
-  const notes = Array.isArray(vaultIndex) ? vaultIndex : [];
+  const notes = vaultIndex && vaultIndex.notes
+    ? Object.values(vaultIndex.notes)
+    : (Array.isArray(vaultIndex) ? vaultIndex : []);
 
   // Tag usage distribution
   const tagCounts = {};
@@ -596,12 +598,12 @@ function pruneInsights(insightData) {
  * @returns {Array<{ path: string, name: string, status: string }>}
  */
 function getActiveProjects(vaultRoot) {
-  const indexPath = path.join(vaultRoot, '.vault-index', 'vault-index.json');
+  const indexPath = path.join(vaultRoot, '.claude', 'indexes', 'vault-index.json');
   const index = loadJson(indexPath);
 
-  if (!index || !Array.isArray(index)) return [];
+  if (!index || !index.notes) return [];
 
-  return index
+  return Object.values(index.notes)
     .filter(note => {
       const fm = note.frontmatter || {};
       return (
@@ -922,13 +924,12 @@ function generateMemoryOverview(vaultRoot) {
   try {
     const embedderPath = path.join(vaultRoot, '.agents', 'skills', 'search', 'embedder.cjs');
     if (fs.existsSync(embedderPath)) {
-      // Try to read embedding stats
-      const embeddingIndexPath = path.join(vaultRoot, '.vault-index', 'embeddings.json');
-      const embData = loadJson(embeddingIndexPath);
-      if (embData && embData.entries) {
-        const embCount = Array.isArray(embData.entries) ? embData.entries.length : Object.keys(embData.entries).length;
-        sections.push(`- **Notes embedded:** ${embCount}`);
-        sections.push(`- **Last update:** ${embData.updated || 'unknown'}`);
+      // Get embedding stats from SQLite via embedder.cjs
+      const embedder = require(embedderPath);
+      const embStatus = embedder.getEmbeddingStatus(vaultRoot);
+      if (embStatus && embStatus.totalEmbeddings > 0) {
+        sections.push(`- **Notes embedded:** ${embStatus.totalEmbeddings}`);
+        sections.push(`- **Last update:** ${embStatus.latestUpdate || 'unknown'}`);
       } else {
         sections.push('- Embedder available but no embeddings generated yet');
         sections.push('- Run `/scan` to generate embeddings');
