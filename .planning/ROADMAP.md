@@ -35,7 +35,7 @@ See: `.planning/milestones/v1.0-ROADMAP.md` for full details.
   3. User invokes /synthesize on a topic and gets a generated summary note that cites specific vault notes via wiki-links and is marked as Claude-synthesized in its frontmatter
   4. User invokes /maintain and gets a report of tag/frontmatter inconsistencies, stale projects (active but untouched), and outdated references -- with proposed fixes
   5. All proactive actions respect the AUTO/PROPOSE/NEVER classification from Phase 1 -- no silent structural changes
-**Plans:** 4 plans
+**Plans:** 2/4 plans executed
 
 Plans:
 - [x] 05-01-PLAN.md — /briefing skill: calm daily executive summary (changes, priorities, neglected items, suggestions)
@@ -51,4 +51,4 @@ Plans:
 | 2. Scanning Engine & Cache Infrastructure | v1.0 | 2/2 | Complete | 2026-03-07 |
 | 3. Core Skills & Working Memory | v1.0 | 4/4 | Complete | 2026-03-07 |
 | 4. Deep Memory & Semantic Search | v1.0 | 4/4 | Complete | 2026-03-07 |
-| 5. Proactive Intelligence | v1.1 | 1/4 | In progress | - |
+| 5. Proactive Intelligence | 2/4 | In Progress|  | - |
