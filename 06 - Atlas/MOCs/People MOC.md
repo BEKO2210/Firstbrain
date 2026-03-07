@@ -10,13 +10,13 @@ tags:
 
 # People MOC
 
-> Dein Netzwerk — Kontakte, Kollegen, Kunden.
+> Your network -- contacts, colleagues, clients.
 
-## Neuen Kontakt anlegen
+## Create New Contact
 
-> Klick auf [[New Person]], dann **Ctrl+Shift+T** → Template `Person` waehlen.
+> Click on [[New Person]], then **Ctrl+Shift+T** and select the `Person` template.
 
-## Alle Personen
+## All People
 
 ```dataview
 TABLE role, company
@@ -24,7 +24,7 @@ FROM #person
 SORT file.name ASC
 ```
 
-## Nach Unternehmen
+## By Company
 
 ```dataview
 TABLE role

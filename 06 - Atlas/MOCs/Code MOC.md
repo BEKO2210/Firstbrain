@@ -10,13 +10,13 @@ tags:
 
 # Code MOC
 
-> Code Snippets, Loesungen und technisches Wissen.
+> Code snippets, solutions, and technical knowledge.
 
-## Neues Snippet speichern
+## Save New Snippet
 
-> Klick auf [[New Snippet]], dann **Ctrl+Shift+T** → Template `Code Snippet` waehlen.
+> Click on [[New Snippet]], then **Ctrl+Shift+T** and select the `Code Snippet` template.
 
-## Alle Snippets
+## All Snippets
 
 ```dataview
 TABLE language, project
@@ -25,7 +25,7 @@ WHERE type = "code-snippet"
 SORT language ASC
 ```
 
-## Nach Sprache
+## By Language
 
 ```dataview
 TABLE WITHOUT ID file.link AS "Snippet"

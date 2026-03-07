@@ -10,13 +10,13 @@ tags:
 
 # Meetings MOC
 
-> Alle Meeting-Protokolle — chronologisch und nach Projekt.
+> All meeting minutes -- chronological and by project.
 
-## Neues Meeting protokollieren
+## Record New Meeting
 
-> Klick auf [[New Meeting]], dann **Ctrl+Shift+T** → Template `Meeting` waehlen.
+> Click on [[New Meeting]], then **Ctrl+Shift+T** and select the `Meeting` template.
 
-## Letzte Meetings
+## Recent Meetings
 
 ```dataview
 TABLE date, participants, project
@@ -25,7 +25,7 @@ SORT date DESC
 LIMIT 20
 ```
 
-## Nach Projekt
+## By Project
 
 ```dataview
 TABLE date

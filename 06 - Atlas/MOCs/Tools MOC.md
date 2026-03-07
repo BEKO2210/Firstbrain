@@ -10,13 +10,13 @@ tags:
 
 # Tools MOC
 
-> Alle Tools, Software und Dienste die du nutzt.
+> All tools, software, and services you use.
 
-## Neues Tool dokumentieren
+## Document New Tool
 
-> Klick auf [[New Tool]], dann **Ctrl+Shift+T** → Template `Tool` waehlen.
+> Click on [[New Tool]], then **Ctrl+Shift+T** and select the `Tool` template.
 
-## Alle Tools
+## All Tools
 
 ```dataview
 TABLE category, url
@@ -24,7 +24,7 @@ FROM #tool
 SORT category ASC
 ```
 
-## Nach Kategorie
+## By Category
 
 ```dataview
 TABLE WITHOUT ID file.link AS "Tool", url

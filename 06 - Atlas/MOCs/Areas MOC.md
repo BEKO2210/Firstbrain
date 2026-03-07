@@ -10,13 +10,13 @@ tags:
 
 # Areas MOC
 
-> Deine Lebensbereiche — alles was dauerhaft laeuft und Aufmerksamkeit braucht.
+> Your life areas -- everything that runs continuously and needs attention.
 
-## Neuen Bereich anlegen
+## Create New Area
 
-> Klick auf [[New Area]], dann **Ctrl+Shift+T** → Template `Area` waehlen.
+> Click on [[New Area]], then **Ctrl+Shift+T** and select the `Area` template.
 
-## Bereiche
+## Areas
 
 ```dataview
 TABLE status, updated
@@ -25,10 +25,10 @@ WHERE type = "area"
 SORT file.name ASC
 ```
 
-## Bereiche mit aktiven Projekten
+## Areas with Active Projects
 
 ```dataview
-TABLE length(filter(file.inlinks, (x) => contains(meta(x).path, "01 - Projects"))) AS "Projekte"
+TABLE length(filter(file.inlinks, (x) => contains(meta(x).path, "01 - Projects"))) AS "Projects"
 FROM "02 - Areas"
 SORT file.name ASC
 ```

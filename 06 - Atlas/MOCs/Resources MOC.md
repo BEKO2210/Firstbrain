@@ -10,13 +10,13 @@ tags:
 
 # Resources MOC
 
-> Wissen, Referenzen und Lernmaterial — organisiert nach Thema.
+> Knowledge, references, and learning material -- organized by topic.
 
-## Neu erstellen
+## Create New
 
-> [[New Resource]] | [[New Zettel]] — dann **Ctrl+Shift+T** → passendes Template waehlen.
+> [[New Resource]] | [[New Zettel]] -- then **Ctrl+Shift+T** and select the appropriate template.
 
-## Alle Ressourcen
+## All Resources
 
 ```dataview
 TABLE source, author, rating
@@ -25,7 +25,7 @@ WHERE type = "resource"
 SORT rating DESC
 ```
 
-## Zettel (Atomare Ideen)
+## Zettel (Atomic Ideas)
 
 ```dataview
 TABLE source, created
@@ -34,7 +34,7 @@ WHERE type = "zettel"
 SORT created DESC
 ```
 
-## Zuletzt hinzugefuegt
+## Recently Added
 
 ```dataview
 TABLE created, type, source

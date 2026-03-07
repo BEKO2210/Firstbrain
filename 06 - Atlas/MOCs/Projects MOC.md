@@ -10,13 +10,13 @@ tags:
 
 # Projects MOC
 
-> Alle aktiven und geplanten Projekte auf einen Blick.
+> All active and planned projects at a glance.
 
-## Neues Projekt anlegen
+## Create New Project
 
-> Klick auf [[New Project]], dann **Ctrl+Shift+T** → Template `Project` waehlen.
+> Click on [[New Project]], then **Ctrl+Shift+T** and select the `Project` template.
 
-## Aktive Projekte
+## Active Projects
 
 ```dataview
 TABLE status, priority, area
@@ -25,7 +25,7 @@ WHERE status = "active"
 SORT priority ASC
 ```
 
-## Geplante Projekte
+## Planned Projects
 
 ```dataview
 TABLE status, priority
@@ -34,7 +34,7 @@ WHERE status = "planned"
 SORT priority ASC
 ```
 
-## Nach Area
+## By Area
 
 ```dataview
 TABLE area, status
@@ -43,7 +43,7 @@ WHERE status != "archived"
 GROUP BY area
 ```
 
-## Kuerzlich abgeschlossen
+## Recently Completed
 
 ```dataview
 TABLE status, updated

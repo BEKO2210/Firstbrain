@@ -10,13 +10,13 @@ tags:
 
 # Decisions MOC
 
-> Entscheidungslog — was wurde warum entschieden.
+> Decision log -- what was decided and why.
 
-## Neue Entscheidung dokumentieren
+## Document New Decision
 
-> Klick auf [[New Decision]], dann **Ctrl+Shift+T** → Template `Decision` waehlen.
+> Click on [[New Decision]], then **Ctrl+Shift+T** and select the `Decision` template.
 
-## Offene Entscheidungen
+## Open Decisions
 
 ```dataview
 TABLE impact, date
@@ -25,7 +25,7 @@ WHERE status = "pending"
 SORT impact DESC
 ```
 
-## Getroffene Entscheidungen
+## Made Decisions
 
 ```dataview
 TABLE impact, date
