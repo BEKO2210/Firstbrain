@@ -11,6 +11,7 @@ const fs = require('fs');
 const path = require('path');
 const { hashContent, writeJsonAtomic, discoverFiles, loadJson } = require('./utils.cjs');
 const { parseFile } = require('./parser.cjs');
+const { buildLinkMap, buildTagIndex } = require('./indexer.cjs');
 
 /**
  * Classify file changes by comparing current files against previous scan state.
@@ -159,6 +160,13 @@ function scan(vaultRoot, options = {}) {
     };
     writeJsonAtomic(path.join(indexDir, 'vault-index.json'), vaultIndex);
 
+    // Phase 6b: Build and write derived indexes
+    const linkMap = buildLinkMap(vaultIndex);
+    writeJsonAtomic(path.join(indexDir, 'link-map.json'), linkMap);
+
+    const tagIndex = buildTagIndex(vaultIndex);
+    writeJsonAtomic(path.join(indexDir, 'tag-index.json'), tagIndex);
+
     // Phase 7: Write scan-state.json
     const scanState = {
       version: 1,
@@ -185,6 +193,9 @@ function scan(vaultRoot, options = {}) {
       unchanged: unchanged.length,
       total: Object.keys(notes).length,
       elapsed: Date.now() - startTime,
+      links: linkMap.totalCount,
+      unresolvedLinks: linkMap.unresolvedCount,
+      tags: tagIndex.tagCount,
     };
 
     if (verbose) {
