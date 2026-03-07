@@ -9,7 +9,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Foundation
 
-- [ ] **FOUND-01**: All vault content (templates, MOCs, guides, system docs) rewritten in English
+- [x] **FOUND-01**: All vault content (templates, MOCs, guides, system docs) rewritten in English
 - [x] **FOUND-02**: CLAUDE.md rewritten with AI-native instructions covering autonomous behavior, memory, skills, and governance
 - [x] **FOUND-03**: Path-specific rules in .claude/rules/ for per-directory conventions
 - [x] **FOUND-04**: Evolution governance system with three zones (content/structure/system) and explicit rules for each
@@ -104,7 +104,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FOUND-01 | Phase 1 | Pending |
+| FOUND-01 | Phase 1 | Complete |
 | FOUND-02 | Phase 1 | Complete |
 | FOUND-03 | Phase 1 | Complete |
 | FOUND-04 | Phase 1 | Complete |
