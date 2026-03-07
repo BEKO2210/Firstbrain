@@ -22,16 +22,26 @@ See: `.planning/milestones/v1.0-ROADMAP.md` for full details.
 ### 📋 v1.1 Proactive Intelligence (Planned)
 
 - [ ] **Phase 5: Proactive Intelligence** — /briefing, /triage, /synthesize, /maintain skills for autonomous vault care
-  - **Goal**: The vault actively works for the user -- surfacing priorities, classifying inbox items, synthesizing knowledge, and maintaining consistency without being asked
-  - **Depends on**: Phase 4
-  - **Requirements**: PROA-01, PROA-02, PROA-03, PROA-04, PROA-05, PROA-06, PROA-07, PROA-08, PROA-09
-  - **Success Criteria**:
-    1. /briefing generates calm daily summary (changes, priorities, neglected items, suggestions)
-    2. /triage classifies inbox notes by type with suggested target folder; high-confidence items auto-tagged
-    3. /synthesize generates topic summaries citing vault notes via wiki-links, marked as Claude-synthesized
-    4. /maintain reports tag/frontmatter inconsistencies, stale projects, outdated references with proposed fixes
-    5. All proactive actions respect AUTO/PROPOSE/NEVER governance
-  - **Plans**: TBD
+
+## Phase Details
+
+### Phase 5: Proactive Intelligence
+**Goal**: The vault actively works for the user -- surfacing priorities, classifying inbox items, synthesizing knowledge, and maintaining consistency without being asked
+**Depends on**: Phase 4
+**Requirements**: PROA-01, PROA-02, PROA-03, PROA-04, PROA-05, PROA-06, PROA-07, PROA-08, PROA-09
+**Success Criteria** (what must be TRUE):
+  1. User invokes /briefing and gets a calm daily summary covering recent changes, current priorities, neglected items, and actionable suggestions -- without information overload
+  2. User invokes /triage on inbox notes and each note gets classified by type with a suggested target folder; high-confidence items get auto-tagged, structural changes are proposed for review
+  3. User invokes /synthesize on a topic and gets a generated summary note that cites specific vault notes via wiki-links and is marked as Claude-synthesized in its frontmatter
+  4. User invokes /maintain and gets a report of tag/frontmatter inconsistencies, stale projects (active but untouched), and outdated references -- with proposed fixes
+  5. All proactive actions respect the AUTO/PROPOSE/NEVER classification from Phase 1 -- no silent structural changes
+**Plans:** 4 plans
+
+Plans:
+- [ ] 05-01-PLAN.md — /briefing skill: calm daily executive summary (changes, priorities, neglected items, suggestions)
+- [ ] 05-02-PLAN.md — /triage skill: inbox classification with confidence-based governance (AUTO/PROPOSE/REVIEW)
+- [ ] 05-03-PLAN.md — /synthesize skill: topic-based knowledge synthesis with wiki-link citations
+- [ ] 05-04-PLAN.md — /maintain skill: vault consistency auditing (frontmatter, staleness, outdated references)
 
 ## Progress
 
@@ -41,4 +51,4 @@ See: `.planning/milestones/v1.0-ROADMAP.md` for full details.
 | 2. Scanning Engine & Cache Infrastructure | v1.0 | 2/2 | Complete | 2026-03-07 |
 | 3. Core Skills & Working Memory | v1.0 | 4/4 | Complete | 2026-03-07 |
 | 4. Deep Memory & Semantic Search | v1.0 | 4/4 | Complete | 2026-03-07 |
-| 5. Proactive Intelligence | v1.1 | 0/? | Not started | - |
+| 5. Proactive Intelligence | v1.1 | 0/4 | Not started | - |
