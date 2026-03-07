@@ -1,5 +1,5 @@
 ---
-updated: 2026-03-07
+updated: 2026-03-08
 ---
 
 # Working Memory
@@ -8,21 +8,19 @@ Claude's persistent context across sessions. Updated after significant actions.
 
 ## Active Projects
 
-- (No active user projects yet -- this section will be populated as the user creates projects)
+- (Will be populated as you create projects in `01 - Projects/`)
 
 ## Current Priorities
 
-1. Vault setup and AI-native skill development (Phase 3 in progress)
+- Get started: explore the vault, create your first notes, run `/scan` to initialize indexes
 
 ## Recent Changes
 
-- Working memory system initialized (2026-03-07)
-- Scanning infrastructure complete: /scan skill, vault-index, link-map, tag-index (2026-03-07)
-- English vault foundation complete: all templates, MOCs, guides translated (2026-03-07)
+- (Will be populated as Claude performs actions)
 
 ## User Preferences
 
-- (Preferences will be learned during sessions -- writing style, tag habits, workflow patterns)
+- (Learned during sessions -- writing style, tag habits, workflow patterns)
 
 ## Topic Files
 

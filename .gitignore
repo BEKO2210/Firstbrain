@@ -29,3 +29,12 @@ node_modules/
 .claude/embeddings.db
 .claude/embeddings.db-wal
 .claude/embeddings.db-shm
+
+# Claude local settings (personal per-user config)
+.claude/settings.local.json
+
+# Claude development changelog (internal)
+.claude/changelog.md
+
+# GSD planning directory (development tooling, not part of product)
+.planning/
