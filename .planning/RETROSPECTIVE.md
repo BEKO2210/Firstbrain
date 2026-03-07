@@ -47,6 +47,48 @@
 
 ---
 
+## Milestone: v1.1 — Proactive Intelligence
+
+**Shipped:** 2026-03-08
+**Phases:** 2 | **Plans:** 5 | **Commits:** 25
+
+### What Was Built
+- /briefing skill — calm daily executive summary aggregating changes, priorities, neglected items, and actionable suggestions
+- /triage skill — inbox classification with three-tier confidence model mapped to governance zones (AUTO/PROPOSE/REVIEW)
+- /synthesize skill — topic-based knowledge synthesis with multi-signal relevance scoring (tag + title + semantic) and AI provenance metadata
+- /maintain skill — vault consistency auditing with 7-type issue detection, staleness tracking, outdated reference detection, and governance-aware auto-fix
+- Gap closure — fixed 3 integration bugs (field name mismatch, template false-positive, review-type routing null return)
+
+### What Worked
+- Milestone audit after Phase 5 caught 3 real integration bugs that per-plan verification missed (same pattern as v1.0)
+- Reusing existing utilities (memory-utils, create-utils, health-utils) kept skill modules lean and avoided code duplication
+- Confidence-tiered governance mapping (HIGH→AUTO, MEDIUM→PROPOSE, LOW→REVIEW) provided a clean, consistent pattern for all proactive skills
+- Optional semantic search with graceful degradation — /synthesize works without embeddings installed, just with reduced relevance quality
+
+### What Was Inefficient
+- Phase 5 verification passed all plans statically, but integration bugs were only caught by the milestone audit — reinforces that static verification alone is insufficient
+- SUMMARY.md one_liner fields still not populated by executor agents, requiring manual extraction during milestone completion (same issue as v1.0)
+- Maintain-utils reimplemented frontmatter parsing locally to avoid coupling with triage-utils — slight code duplication, but justified by independence
+
+### Patterns Established
+- Proactive skills follow a consistent structure: SKILL.md interface + {name}-utils.cjs module
+- Governance zone mapping for autonomous features: tier actions by confidence, map to existing AUTO/PROPOSE/NEVER zones
+- TYPE_FOLDER_FALLBACK pattern for type-to-folder mappings that don't fit the primary TEMPLATE_MAP
+- Milestone audit → gap-closure phase is now a validated two-step quality gate
+
+### Key Lessons
+1. Milestone audits are essential — they caught 3 bugs that per-plan verification missed, same pattern as v1.0
+2. Governance zone mapping is reusable — any new autonomous feature can classify its actions into the existing three-tier system
+3. Skills should be independently deployable — reimplementing a small utility locally is preferable to creating cross-skill dependencies
+4. Graceful degradation should be the default for optional features — try/catch around optional deps, not hard failures
+
+### Cost Observations
+- Model mix: Opus for execution, sonnet for research/verification
+- Sessions: 2 sessions (phase 5 execution, phase 6 gap closure + milestone completion)
+- Notable: 5 plans in ~16 minutes total — consistent 3-4min/plan average
+
+---
+
 ## Cross-Milestone Trends
 
 ### Process Evolution
@@ -54,14 +96,18 @@
 | Milestone | Commits | Phases | Key Change |
 |-----------|---------|--------|------------|
 | v1.0 | 60 | 4 | Initial process -- wave-based execution, gap-closure pattern discovered |
+| v1.1 | 25 | 2 | Milestone audit → gap-closure validated as standard quality gate |
 
 ### Cumulative Quality
 
-| Milestone | Plans | Avg Duration | Zero-Dep Modules |
-|-----------|-------|--------------|------------------|
-| v1.0 | 14 | 4min | 7 (utils, parser, scanner, indexer, create-utils, daily-utils, connect-utils, health-utils, memory-utils, search-utils) |
+| Milestone | Plans | Avg Duration | Modules Added |
+|-----------|-------|--------------|---------------|
+| v1.0 | 14 | 4min | 10 core modules (scanner, indexer, 7 skill utils) |
+| v1.1 | 5 | 3min | 4 skill modules (briefing, triage, synthesize, maintain) |
 
 ### Top Lessons (Verified Across Milestones)
 
 1. Zero-dependency core + optional-dependency extensions is the right architecture for a portable tool
-2. Gap-closure plans catch integration bugs that per-module verification misses
+2. Gap-closure plans catch integration bugs that per-module verification misses — confirmed in both v1.0 and v1.1
+3. Governance zone mapping (AUTO/PROPOSE/NEVER) scales cleanly to new autonomous features
+4. Skills should be independently deployable — avoid cross-skill utility dependencies

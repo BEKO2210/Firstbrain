@@ -20,14 +20,15 @@ Claude autonomously maintains, connects, and evolves the knowledge base so the u
 - ✓ Orphan detection and link suggestion engine — v1.0
 - ✓ Persistent layered memory system (session memory, working memory, long-term summary memory, project-specific memory) — v1.0
 - ✓ Tiered semantic understanding engine (Level 1: explicit structure, Level 2: semantic search via embeddings) — v1.0
+- ✓ Calm daily briefing system (priorities, changes, neglected items, suggestions) — v1.1
+- ✓ Inbox triage automation (classify, suggest routing, auto-tag low-risk, propose moves) — v1.1
+- ✓ Cross-note synthesis capability (thematic summaries, concept overviews, "what the vault knows about X") — v1.1
+- ✓ Knowledge decay detection (stale projects, outdated notes, deprecated references, review queues) — v1.1
+- ✓ Conflict resolution system (detect misclassifications, propose corrections, never override silently) — v1.1
 
 ### Active
 
-- [ ] Calm daily briefing system (priorities, changes, neglected items, suggestions)
-- [ ] Inbox triage automation (classify, suggest routing, auto-tag low-risk, propose moves)
-- [ ] Cross-note synthesis capability (thematic summaries, concept overviews, "what the vault knows about X")
-- [ ] Knowledge decay detection (stale projects, outdated notes, deprecated references, review queues)
-- [ ] Conflict resolution system (detect misclassifications, propose corrections, never override silently)
+(None — next milestone requirements to be defined via `/gsd:new-milestone`)
 
 ### Out of Scope
 
@@ -36,18 +37,16 @@ Claude autonomously maintains, connects, and evolves the knowledge base so the u
 - External API integrations (Notion, Todoist, etc.) — self-contained system
 - Custom Obsidian plugins — Claude Code skills only, no JS plugin development
 - Automatic deletion or archiving without user review — review-first always
-- Typed weighted relationships in v1 — needs to emerge from actual use patterns, not imposed upfront
-- Emergent structure proposals in v1 — needs critical mass of vault content to avoid noise
 - Smart template adaptation — current 12-template system covers all use cases adequately
 - Knowledge graph with typed, weighted relationships — deferred to v2
 
 ## Context
 
 ### Current State
-Shipped v1.0 with ~25,246 LOC across markdown, CJS modules, and JSON.
+Shipped v1.1 with ~30,124 LOC across markdown, CJS modules, and JSON.
 Tech stack: Node.js (zero external deps for core), @huggingface/transformers (optional, for embeddings), SQLite (node:sqlite built-in).
 
-**Skills available:** /create, /daily, /connect, /health, /scan, /search, /memory
+**Skills available:** /create, /daily, /connect, /health, /scan, /search, /memory, /briefing, /triage, /synthesize, /maintain
 **Infrastructure:** vault-index.json, link-map.json, tag-index.json, scan-state.json, embeddings.db
 **Memory:** MEMORY.md (working), insights.md (long-term), project-{name}.md (per-project)
 
@@ -98,6 +97,11 @@ Open-source template for anyone who wants an AI-driven second brain. Must work w
 | Dynamic import() for ESM modules | Transformers.js is ESM-only, CJS codebase needs compatibility | ✓ Good — graceful degradation when not installed |
 | Scale-ready from day one | Design for 5,000+ notes even though starting near zero | ✓ Good — incremental scan, hash-based change detection |
 | Evolution governance | Content evolves freely, structure intentionally, system rules governed | ✓ Good — three zones, clear classification |
+| READ-ONLY /briefing skill | Never modifies vault — pure data aggregation and presentation | ✓ Good — zero governance risk |
+| Confidence-tiered triage governance | HIGH auto-tags, MEDIUM proposes, LOW reviews — maps to AUTO/PROPOSE/NEVER | ✓ Good — consistent with governance model |
+| Three-layer relevance scoring for /synthesize | Tag (0.7) + title (0.6) + semantic (sim*0.5) with graceful degradation | ✓ Good — works without embeddings installed |
+| Local frontmatter parsing in /maintain | Reimplemented vs. cross-skill dependency on triage-utils | ✓ Good — avoided coupling between skills |
+| TYPE_FOLDER_FALLBACK for review routing | Separate constant vs. modifying shared TEMPLATE_MAP | ✓ Good — preserved weekly/monthly template distinction |
 
 ---
-*Last updated: 2026-03-07 after v1.0 milestone*
+*Last updated: 2026-03-08 after v1.1 milestone*
