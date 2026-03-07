@@ -19,7 +19,7 @@ See: `.planning/milestones/v1.0-ROADMAP.md` for full details.
 
 </details>
 
-### 📋 v1.1 Proactive Intelligence (Planned)
+### 🚧 v1.1 Proactive Intelligence (In Progress)
 
 - [ ] **Phase 5: Proactive Intelligence** — /briefing, /triage, /synthesize, /maintain skills for autonomous vault care
 
@@ -38,7 +38,7 @@ See: `.planning/milestones/v1.0-ROADMAP.md` for full details.
 **Plans:** 4 plans
 
 Plans:
-- [ ] 05-01-PLAN.md — /briefing skill: calm daily executive summary (changes, priorities, neglected items, suggestions)
+- [x] 05-01-PLAN.md — /briefing skill: calm daily executive summary (changes, priorities, neglected items, suggestions)
 - [ ] 05-02-PLAN.md — /triage skill: inbox classification with confidence-based governance (AUTO/PROPOSE/REVIEW)
 - [ ] 05-03-PLAN.md — /synthesize skill: topic-based knowledge synthesis with wiki-link citations
 - [ ] 05-04-PLAN.md — /maintain skill: vault consistency auditing (frontmatter, staleness, outdated references)
@@ -51,4 +51,4 @@ Plans:
 | 2. Scanning Engine & Cache Infrastructure | v1.0 | 2/2 | Complete | 2026-03-07 |
 | 3. Core Skills & Working Memory | v1.0 | 4/4 | Complete | 2026-03-07 |
 | 4. Deep Memory & Semantic Search | v1.0 | 4/4 | Complete | 2026-03-07 |
-| 5. Proactive Intelligence | v1.1 | 0/4 | Not started | - |
+| 5. Proactive Intelligence | v1.1 | 1/4 | In progress | - |
