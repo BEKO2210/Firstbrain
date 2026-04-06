@@ -16,7 +16,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC%20BY--NC%204.0-blue?style=flat-square" alt="License: CC BY-NC 4.0" /></a>
   <a href="https://github.com/BEKO2210/Firstbrain/stargazers"><img src="https://img.shields.io/github/stars/BEKO2210/Firstbrain?style=flat-square" alt="Stars" /></a>
   <a href="https://github.com/BEKO2210/Firstbrain/issues"><img src="https://img.shields.io/github/issues/BEKO2210/Firstbrain?style=flat-square" alt="Issues" /></a>
-  <img src="https://img.shields.io/badge/skills-11-blueviolet?style=flat-square" alt="11 Skills" />
+  <img src="https://img.shields.io/badge/skills-12-blueviolet?style=flat-square" alt="12 Skills" />
 </p>
 
 <p align="center">
@@ -32,7 +32,7 @@
 
 ## What is Firstbrain?
 
-Firstbrain transforms a plain Obsidian vault into an **AI-native knowledge management system**. Claude Code acts as the cognitive layer — scanning your vault, creating notes from templates, discovering connections, searching by meaning, triaging your inbox, synthesizing knowledge, and maintaining consistency — all while remembering your context across sessions.
+Firstbrain transforms a plain Obsidian vault into an **AI-native knowledge management system**. Claude Code acts as the cognitive layer — scanning your vault, creating notes from templates, discovering connections, searching by meaning, triaging your inbox, processing prompt-driven workflows, synthesizing knowledge, and maintaining consistency — all while remembering your context across sessions.
 
 **Without Claude Code**, it's a beautifully structured Obsidian starter vault with PARA folders, 12 templates, and 8 Maps of Content.
 
@@ -43,6 +43,7 @@ Firstbrain transforms a plain Obsidian vault into an **AI-native knowledge manag
 "What did I write about productivity?"   → Semantic search finds notes by meaning, not keywords
 "Triage my inbox"                        → Classifies notes, suggests folders, auto-tags high-confidence items
 "Give me a briefing"                     → Calm daily summary of changes, priorities, and suggestions
+/process                                 → Executes PROMPT: files from Inbox, creates full project structures
 ```
 
 ---
@@ -51,7 +52,7 @@ Firstbrain transforms a plain Obsidian vault into an **AI-native knowledge manag
 
 | Feature | Description |
 |---------|-------------|
-| **11 Claude Code Skills** | `/create`, `/daily`, `/connect`, `/health`, `/scan`, `/search`, `/memory`, `/briefing`, `/triage`, `/synthesize`, `/maintain` |
+| **12 Claude Code Skills** | `/create`, `/daily`, `/connect`, `/health`, `/scan`, `/search`, `/memory`, `/briefing`, `/triage`, `/synthesize`, `/maintain`, `/process` |
 | **Zero-Dependency Core** | All scanning, parsing, and indexing runs on Node.js built-ins — no `npm install` required for core |
 | **Incremental Scanning** | SHA-256 content hashing detects changes without re-reading the entire vault |
 | **Semantic Search** | Local embeddings via Transformers.js + SQLite — your notes never leave your machine |
@@ -59,7 +60,7 @@ Firstbrain transforms a plain Obsidian vault into an **AI-native knowledge manag
 | **Proactive Intelligence** | Daily briefings, inbox triage, knowledge synthesis, and vault maintenance — Claude works for you |
 | **Evolution Governance** | Three zones (AUTO / PROPOSE / NEVER) control what Claude can do autonomously |
 | **12 Note Templates** | Project, Area, Resource, Tool, Zettel, Person, Decision, Meeting, Code Snippet, Daily, Weekly Review, Monthly Review |
-| **8 Maps of Content** | Navigation hubs for Projects, Areas, Resources, Tools, People, Code, Meetings, Decisions |
+| **9 Maps of Content** | Navigation hubs for Projects, Areas, Resources, Tools, People, Code, Meetings, Decisions, Prompts |
 | **Full Obsidian Compatibility** | Graph view, search, Properties panel, Dataview queries — everything works |
 
 ---
@@ -145,7 +146,7 @@ Or just talk naturally:
 
 ## Skills
 
-Firstbrain ships with **11 Claude Code skills** organized in two tiers.
+Firstbrain ships with **12 Claude Code skills** organized in three tiers.
 
 ### Core Skills (v1.0)
 
@@ -168,6 +169,21 @@ Firstbrain ships with **11 Claude Code skills** organized in two tiers.
 | **`/synthesize`** | Topic-based knowledge synthesis — finds all notes related to a topic (by tags, title, semantic similarity), generates a summary zettel with wiki-link citations and AI provenance metadata. |
 | **`/maintain`** | Vault consistency auditing — detects frontmatter issues, tag inconsistencies, stale projects, outdated references. Proposes fixes respecting governance zones. Can auto-fix low-risk issues. |
 
+### Command Processor (v1.2)
+
+| Skill | What it does |
+|-------|-------------|
+| **`/process`** | Scans `00 - Inbox/` for `PROMPT:`-prefixed files and **fully executes** them — analyzes external sources (GitHub repos, URLs), creates richly detailed notes (projects, tools, zettel, code snippets) in the correct PARA folders, links to MOCs, discovers connections, logs to per-project CHANGELOG.md, and archives prompts to `03 - Resources/Prompts/` with execution metadata. |
+
+**Example workflow:**
+```
+1. Create note in Obsidian:  00 - Inbox/New App Plan.md
+2. Write content:            PROMPT: Analyze https://github.com/user/repo and create a project structure
+3. Run in Claude Code:       /process
+4. Result:                   Project note, tool notes, zettel, code snippets — all with real content,
+                             cross-linked, documented in CHANGELOG, prompt archived
+```
+
 ---
 
 ## Architecture
@@ -182,7 +198,7 @@ Firstbrain/
 ├── 03 - Resources/           Knowledge, references, learning material
 ├── 04 - Archive/             Completed or inactive items
 ├── 05 - Templates/           12 note templates (read-only)
-├── 06 - Atlas/MOCs/          8 Maps of Content (navigation hubs)
+├── 06 - Atlas/MOCs/          9 Maps of Content (navigation hubs)
 ├── 07 - Extras/              Attachments, Kanban boards, media
 ├── .agents/skills/           Claude Code skill definitions + utilities
 │   ├── briefing/             Daily executive summary
@@ -192,6 +208,7 @@ Firstbrain/
 │   ├── health/               Orphan + broken link detection
 │   ├── maintain/             Vault consistency auditing
 │   ├── memory/               Four-layer memory management
+│   ├── process/              Command Processor (prompt execution)
 │   ├── scan/                 Incremental vault scanner + indexer
 │   ├── search/               Semantic + keyword search
 │   ├── synthesize/           Topic-based knowledge synthesis
@@ -332,7 +349,7 @@ Claude's autonomy is governed by three zones:
 | Component | Technology | Purpose |
 |-----------|-----------|---------|
 | Vault | Obsidian + Markdown | Knowledge storage |
-| AI Layer | Claude Code | Cognitive engine (11 skills) |
+| AI Layer | Claude Code | Cognitive engine (12 skills) |
 | Scanner | Node.js built-ins | File parsing + indexing |
 | Embeddings | Transformers.js (optional) | Semantic vector generation |
 | Vector Store | SQLite (node:sqlite) | Embedding storage + search |
@@ -344,6 +361,7 @@ Claude's autonomy is governed by three zones:
 
 - [x] **v1.0 MVP** — Foundation, scanning, core skills, semantic search, memory *(shipped 2026-03-07)*
 - [x] **v1.1 Proactive Intelligence** — `/briefing`, `/triage`, `/synthesize`, `/maintain` *(shipped 2026-03-08)*
+- [x] **v1.2 Command Processor** — `/process` with full prompt execution, external source analysis, per-project changelogs, prompt archiving *(shipped 2026-04-06)*
 - [ ] **v2.0** — Knowledge graph, emergent structure proposals, advanced connection intelligence
 
 ---
