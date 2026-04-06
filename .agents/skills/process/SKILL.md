@@ -2,12 +2,14 @@
 name: process
 trigger: /process
 description: Scan Inbox for PROMPT:-prefixed notes, execute instructions, create files, link to MOCs, and archive prompts
-version: 1.0.0
+version: 2.0.0
 ---
 
 # /process -- Command Processor
 
-Scans `00 - Inbox/` for Markdown files whose body begins with `PROMPT:`, interprets the instructions, creates the requested files in the correct PARA folders, links them to the appropriate MOCs, archives the prompt to `03 - Resources/Prompts/`, and logs every action to a per-project CHANGELOG.md.
+Scans `00 - Inbox/` for Markdown files whose body begins with `PROMPT:`, **fully executes** the instructions by creating richly detailed notes in the correct PARA folders, links them to the appropriate MOCs, connects them to existing vault notes, archives the prompt to `03 - Resources/Prompts/` with execution metadata, and logs every action to per-project and global changelogs.
+
+**Key difference from v1:** The processor doesn't just *catalog* prompts -- it **executes** them. When a prompt says "create a project structure", Claude analyzes the request (including external sources like GitHub repos), creates all requested files with **real, detailed content**, and documents everything in Obsidian.
 
 ## Usage
 
@@ -185,9 +187,60 @@ created-files:
 
 The [[Prompts MOC]] in `06 - Atlas/MOCs/` tracks all prompts by category and status.
 
+## Full Execution Model
+
+When `/process` encounters a prompt, Claude doesn't just file it -- Claude **acts on it**:
+
+### What "full execution" means:
+
+1. **External Research:** If the prompt references a URL (GitHub repo, docs, etc.), Claude fetches and analyzes the content
+2. **Rich Content Creation:** Each note gets filled with real, detailed content -- not just template placeholders:
+   - Project notes: full architecture, tech stack tables, task lists, setup instructions
+   - Tool notes: actual setup commands, feature tables, tips & tricks
+   - Zettel notes: explained ideas with examples and context
+   - Code snippets: working code with usage examples
+3. **Cross-Linking:** Every note gets at least 2 wiki-links. The `## Connections` section is populated with real references
+4. **MOC Integration:** Notes are linked to relevant MOCs (Dataview handles this automatically for most MOCs)
+5. **Complete Documentation:** Every action is logged to per-project CHANGELOG.md and the global changelog
+
+### Example: Processing a GitHub repo prompt
+
+Input (in Inbox):
+```
+PROMPT: Analysiere https://github.com/user/repo und erstelle eine Projektstruktur
+```
+
+Output (created in vault):
+- `01 - Projects/Repo Name.md` -- Full project note with architecture, tech stack, tasks
+- `03 - Resources/Tool -- X.md` -- Tool notes for key technologies used
+- `03 - Resources/Zettel -- Core Concept.md` -- Atomic ideas distilled from the project
+- `03 - Resources/Snippet -- Key Pattern.md` -- Code examples from the repo
+- `01 - Projects/CHANGELOG.md` -- Log of all created files
+- `03 - Resources/Prompts/Prompt -- Name.md` -- Archived prompt with execution metadata
+
+### Execution checklist (Claude follows for every prompt):
+
+- [ ] Read and understand the full prompt text
+- [ ] If URLs referenced: fetch and analyze external content
+- [ ] Determine what deliverables to create (project, tools, zettel, snippets)
+- [ ] Create each file using the correct template with **real content** (not placeholders)
+- [ ] Fill frontmatter completely (type, created, tags, status, etc.)
+- [ ] Add at least 2 wiki-links per note in `## Connections`
+- [ ] Log every created file to CHANGELOG.md (per-project + global)
+- [ ] Archive the prompt to `03 - Resources/Prompts/` with `created-files` metadata
+- [ ] Report summary to user
+
+## External Content Integration
+
+When files from external AI tools (Gemini, Kimi, etc.) are placed in `00 - Inbox/`:
+- If they start with `PROMPT:` -- process them via `/process`
+- If they don't -- they will be handled by `/triage` instead
+- Run `/scan` after adding external files to update vault indexes
+
 ## Limitations
 
-- **Claude-dependent:** The prompt interpretation step relies entirely on Claude's reasoning. The utility module handles file discovery, archiving, and logging -- but the creative work of understanding and executing the prompt is Claude's responsibility.
-- **Single-pass:** Each prompt is processed once. If the result is unsatisfactory, create a new prompt to iterate.
-- **No undo:** Files created by /process follow normal vault governance. They can be archived but not auto-deleted.
-- **Prompt format:** The `PROMPT:` prefix is required. Notes without it are ignored by /process (use /triage for those).
+- **Claude-dependent:** Prompt interpretation and content creation relies on Claude's reasoning. The utility module handles discovery, archiving, and logging.
+- **Single-pass:** Each prompt is processed once. Create a new prompt to iterate on results.
+- **No undo:** Created files follow normal vault governance. They can be archived but not auto-deleted.
+- **Prompt format:** The `PROMPT:` prefix is required. Notes without it are ignored (use `/triage` for those).
+- **External fetch:** URLs in prompts require internet access. Local-only prompts work offline.
