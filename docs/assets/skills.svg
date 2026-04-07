@@ -28,7 +28,7 @@
   <text x="390" y="56" text-anchor="middle" fill="#8b949e" font-size="12">12 Claude Code skills in three tiers</text>
 
   <!-- ══════════════════════════════════════════════════ -->
-  <!-- TIER 1: Core Skills (v1.0) -- Blue                -->
+  <!-- TIER 1: Core Skills (v1.0) | Blue                 -->
   <!-- ══════════════════════════════════════════════════ -->
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.2s" fill="freeze"/>
     <!-- Section header -->
@@ -110,7 +110,7 @@
   </g>
 
   <!-- ══════════════════════════════════════════════════ -->
-  <!-- TIER 2: Proactive Intelligence (v1.1) -- Purple   -->
+  <!-- TIER 2: Proactive Intelligence (v1.1) | Purple    -->
   <!-- ══════════════════════════════════════════════════ -->
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.9s" fill="freeze"/>
     <rect x="30" y="358" width="720" height="28" rx="6" fill="#8957e5" opacity="0.08"/>
@@ -161,7 +161,7 @@
   </g>
 
   <!-- ══════════════════════════════════════════════════ -->
-  <!-- TIER 3: Command Processor (v1.2) -- Green         -->
+  <!-- TIER 3: Command Processor (v1.2) | Green          -->
   <!-- ══════════════════════════════════════════════════ -->
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.4s" fill="freeze"/>
     <rect x="30" y="522" width="720" height="28" rx="6" fill="#2ea043" opacity="0.08"/>
