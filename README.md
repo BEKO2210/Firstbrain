@@ -50,139 +50,25 @@ Firstbrain transforms a plain Obsidian vault into an **AI-native knowledge manag
 
 ## Features
 
-| Feature | Description |
-|---------|-------------|
-| **12 Claude Code Skills** | `/create`, `/daily`, `/connect`, `/health`, `/scan`, `/search`, `/memory`, `/briefing`, `/triage`, `/synthesize`, `/maintain`, `/process` |
-| **Zero-Dependency Core** | All scanning, parsing, and indexing runs on Node.js built-ins — no `npm install` required for core |
-| **Incremental Scanning** | SHA-256 content hashing detects changes without re-reading the entire vault |
-| **Semantic Search** | Local embeddings via Transformers.js + SQLite — your notes never leave your machine |
-| **Four-Layer Memory** | Session → Working → Long-term Summary → Project-specific context persistence |
-| **Proactive Intelligence** | Daily briefings, inbox triage, knowledge synthesis, and vault maintenance — Claude works for you |
-| **Evolution Governance** | Three zones (AUTO / PROPOSE / NEVER) control what Claude can do autonomously |
-| **12 Note Templates** | Project, Area, Resource, Tool, Zettel, Person, Decision, Meeting, Code Snippet, Daily, Weekly Review, Monthly Review |
-| **9 Maps of Content** | Navigation hubs for Projects, Areas, Resources, Tools, People, Code, Meetings, Decisions, Prompts |
-| **Full Obsidian Compatibility** | Graph view, search, Properties panel, Dataview queries — everything works |
+<p align="center">
+  <img src="docs/assets/features.svg" alt="Features" width="780"/>
+</p>
 
 ---
 
 ## Quick Start
 
-### Prerequisites
-
-| Tool | Version | Required |
-|------|---------|----------|
-| [Obsidian](https://obsidian.md) | Latest | Yes |
-| [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) | Latest | Yes (for AI features) |
-| [Node.js](https://nodejs.org) | >= 22 | Yes (for AI features) |
-
-### Step 1: Clone & Open in Obsidian
-
-```bash
-git clone https://github.com/BEKO2210/Firstbrain.git
-```
-
-Open Obsidian → **Open folder as vault** → select the `Firstbrain` folder.
-
-### Step 2: Install Dataview Plugin
-
-In Obsidian: Settings → Community Plugins → Browse → search **"Dataview"** → Install → Enable.
-
-> Dataview powers the automatic lists on MOC pages and the Home dashboard.
-
-### Step 3: Install Semantic Search (optional)
-
-```bash
-cd Firstbrain
-npm install
-```
-
-This installs `@huggingface/transformers` for local embeddings. Semantic search runs **100% locally** — no API calls, no data leaves your machine. If you skip this, `/search` falls back to keyword matching.
-
-### Step 4: Start Claude Code
-
-Open a terminal in the Firstbrain folder and start Claude Code:
-
-```bash
-cd Firstbrain
-claude
-```
-
-Claude automatically reads `CLAUDE.md` on startup and understands the vault structure, templates, rules, and all 11 skills. No configuration needed — it's ready immediately.
-
-### Step 5: Initialize the Vault Index
-
-In the Claude Code session, type:
-
-```
-/scan
-```
-
-This scans all markdown files and builds the indexes (`vault-index.json`, `link-map.json`, `tag-index.json`). Takes ~15ms. After this, all skills have full vault awareness.
-
-### Step 6: Start Using It
-
-Try these commands in your Claude Code session:
-
-```
-/briefing                              → Daily summary of your vault
-/create a project note: Learn Rust     → Creates note from template
-/health                                → Find orphan notes and broken links
-/search productivity                   → Semantic search across all notes
-/triage                                → Classify and file inbox notes
-/daily                                 → Create today's daily note
-```
-
-Or just talk naturally:
-
-```
-"Create a zettel about why deadlines improve creativity"
-"What do I know about Docker?"
-"Show me my open tasks"
-"Synthesize what I know about marketing"
-"Run a maintenance check on my vault"
-```
+<p align="center">
+  <img src="docs/assets/quick-start.svg" alt="Quick Start" width="780"/>
+</p>
 
 ---
 
 ## Skills
 
-Firstbrain ships with **12 Claude Code skills** organized in three tiers.
-
-### Core Skills (v1.0)
-
-| Skill | What it does |
-|-------|-------------|
-| **`/create`** | Creates notes from 12 templates. Picks the right template, fills frontmatter, substitutes variables, suggests wiki-links, places file in the correct folder. |
-| **`/daily`** | Creates today's daily note. Rolls over open tasks from the past 7 days with provenance links. |
-| **`/connect`** | Discovers connections between notes via shared tags and link adjacency. Returns scored suggestions with evidence. |
-| **`/health`** | Detects orphan notes (0-1 connections) and broken wiki-links. Suggests fixes with Levenshtein matching. |
-| **`/scan`** | Incrementally scans all markdown files. Builds `vault-index.json`, `link-map.json`, `tag-index.json`. Only re-parses changed files (SHA-256). |
-| **`/search`** | Finds notes by meaning using local embeddings (Transformers.js + SQLite). Falls back to keyword matching if embeddings aren't installed. |
-| **`/memory`** | Memory dashboard — shows active projects, recent insights, organizational patterns across all four memory layers. |
-
-### Proactive Intelligence Skills (v1.1)
-
-| Skill | What it does |
-|-------|-------------|
-| **`/briefing`** | Calm daily executive summary — recent changes, current priorities, neglected items, and actionable suggestions. Read-only, never modifies your vault. |
-| **`/triage`** | Inbox classification — scans `00 - Inbox/`, classifies each note by type, suggests target folder. High-confidence items get auto-tagged, structural changes are proposed for review. |
-| **`/synthesize`** | Topic-based knowledge synthesis — finds all notes related to a topic (by tags, title, semantic similarity), generates a summary zettel with wiki-link citations and AI provenance metadata. |
-| **`/maintain`** | Vault consistency auditing — detects frontmatter issues, tag inconsistencies, stale projects, outdated references. Proposes fixes respecting governance zones. Can auto-fix low-risk issues. |
-
-### Command Processor (v1.2)
-
-| Skill | What it does |
-|-------|-------------|
-| **`/process`** | Scans `00 - Inbox/` for `PROMPT:`-prefixed files and **fully executes** them — analyzes external sources (GitHub repos, URLs), creates richly detailed notes (projects, tools, zettel, code snippets) in the correct PARA folders, links to MOCs, discovers connections, logs to per-project CHANGELOG.md, and archives prompts to `03 - Resources/Prompts/` with execution metadata. |
-
-**Example workflow:**
-```
-1. Create note in Obsidian:  00 - Inbox/New App Plan.md
-2. Write content:            PROMPT: Analyze https://github.com/user/repo and create a project structure
-3. Run in Claude Code:       /process
-4. Result:                   Project note, tool notes, zettel, code snippets — all with real content,
-                             cross-linked, documented in CHANGELOG, prompt archived
-```
+<p align="center">
+  <img src="docs/assets/skills.svg" alt="Skills" width="780"/>
+</p>
 
 ---
 
