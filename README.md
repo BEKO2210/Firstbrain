@@ -45,7 +45,7 @@ Firstbrain turns an Obsidian vault into an **AI command center**. Claude Code or
 ## Features
 
 <p align="center">
-  <img src="docs/assets/features.svg" alt="Features" width="780"/>
+  <img src="docs/assets/feat-v3.svg" alt="Features" width="780"/>
 </p>
 
 ---
@@ -63,7 +63,7 @@ Double-click to start. The launcher checks Node.js, Claude Code CLI, validates t
 ### Manual Setup
 
 <p align="center">
-  <img src="docs/assets/quick-start.svg" alt="Quick Start" width="780"/>
+  <img src="docs/assets/start-v3.svg" alt="Quick Start" width="780"/>
 </p>
 
 ---
@@ -71,7 +71,7 @@ Double-click to start. The launcher checks Node.js, Claude Code CLI, validates t
 ## Execution Engine
 
 <p align="center">
-  <img src="docs/assets/execution-engine.svg" alt="Execution Engine" width="780"/>
+  <img src="docs/assets/exec-v3.svg" alt="Execution Engine" width="780"/>
 </p>
 
 ---
@@ -91,7 +91,7 @@ Built-in graph engine analyzes your vault's structure with zero external depende
 ## Skills
 
 <p align="center">
-  <img src="docs/assets/skills-v3.svg" alt="Skills" width="780"/>
+  <img src="docs/assets/skills-v3a.svg" alt="Skills" width="780"/>
 </p>
 
 ---
@@ -101,13 +101,13 @@ Built-in graph engine analyzes your vault's structure with zero external depende
 ### Vault Structure
 
 <p align="center">
-  <img src="docs/assets/vault-structure.svg" alt="Vault Structure" width="780"/>
+  <img src="docs/assets/vault-v3.svg" alt="Vault Structure" width="780"/>
 </p>
 
 ### Scanning Pipeline
 
 <p align="center">
-  <img src="docs/assets/scanning-pipeline.svg" alt="Scanning Pipeline" width="720"/>
+  <img src="docs/assets/scan-v3.svg" alt="Scanning Pipeline" width="720"/>
 </p>
 
 ---
@@ -115,7 +115,7 @@ Built-in graph engine analyzes your vault's structure with zero external depende
 ## Governance
 
 <p align="center">
-  <img src="docs/assets/governance.svg" alt="Governance" width="780"/>
+  <img src="docs/assets/gov-v3.svg" alt="Governance" width="780"/>
 </p>
 
 ---
@@ -123,7 +123,7 @@ Built-in graph engine analyzes your vault's structure with zero external depende
 ## Memory System
 
 <p align="center">
-  <img src="docs/assets/memory-architecture.svg" alt="Memory Architecture" width="620"/>
+  <img src="docs/assets/mem-v3.svg" alt="Memory Architecture" width="620"/>
 </p>
 
 ---
