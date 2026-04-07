@@ -224,28 +224,9 @@ Firstbrain/
 
 ### Scanning Pipeline
 
-```
-Markdown Files
-     │
-     ▼
-┌─────────┐    ┌──────────┐    ┌───────────────┐
-│ parser  │───▶│ scanner  │────│ vault-index   │
-│   .cjs  │    │   .cjs   │    │   .json       │
-└─────────┘    └──────────┘    └───────────────┘
-                    │               │
-                    │          ┌────┴────┐
-                    │          ▼         ▼
-                    │    ┌──────────┐ ┌──────────┐
-                    │    │ link-map │ │ tag-index│
-                    │    │  .json   │ │  .json   │
-                    │    └──────────┘ └──────────┘
-                    │
-                    ▼
-              ┌──────────┐    ┌──────────────┐
-              │ embedder │───▶│ embeddings   │
-              │   .cjs   │    │   .db        │
-              └──────────┘    └──────────────┘
-```
+<p align="center">
+  <img src="docs/assets/scanning-pipeline.svg" alt="Scanning Pipeline" width="720"/>
+</p>
 
 ### Zero-Dependency Core
 
@@ -264,25 +245,9 @@ The only optional dependency is `@huggingface/transformers` for semantic search 
 
 Firstbrain implements a **four-layer memory architecture** that gives Claude persistent context across sessions.
 
-```
-┌─────────────────────────────────────────────────┐
-│  Layer 4: Project-Specific Memory               │
-│  .claude/memory/project-{name}.md               │
-│  Per-project state, decisions, blockers          │
-├─────────────────────────────────────────────────┤
-│  Layer 3: Long-term Summary Memory              │
-│  .claude/memory/insights.md                      │
-│  Distilled patterns, confidence-scored insights  │
-├─────────────────────────────────────────────────┤
-│  Layer 2: Working Memory                         │
-│  MEMORY.md + .claude/memory/ topic files         │
-│  Active projects, recent changes, priorities     │
-├─────────────────────────────────────────────────┤
-│  Layer 1: Session Memory                         │
-│  Current conversation context                    │
-│  Automatic, no persistence needed                │
-└─────────────────────────────────────────────────┘
-```
+<p align="center">
+  <img src="docs/assets/memory-architecture.svg" alt="Memory Architecture" width="620"/>
+</p>
 
 | Layer | Persistence | Updates |
 |-------|-------------|---------|
