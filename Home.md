@@ -95,6 +95,7 @@ Empty here? That is by design — your brain grows with you.
 
 - [[START HERE]] — Getting started guide
 - [[Workflow Guide]] — How to work with the system daily
+- [[Cheatsheet]] — All 15 skills and commands at a glance
 - [[Tag Conventions]] — Available tags and when to use them
 - [[CLAUDE|Claude Code]] — AI assistant for your Second Brain
 
