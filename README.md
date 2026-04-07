@@ -40,6 +40,8 @@ Firstbrain turns an Obsidian vault into an **AI command center**. Claude Code or
 
 **With Claude Code** -- a second brain that thinks, builds, ships, and understands its own structure.
 
+> **[Cheatsheet](Cheatsheet.md)** -- All 15 skills with every command, subcommand, and flag. Copy & paste ready.
+
 ---
 
 ## Features
