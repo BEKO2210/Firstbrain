@@ -46,12 +46,79 @@ Persists across sessions via files Claude reads and writes:
 - **`.claude/memory/projects.md`** -- Detailed per-project context: status, decisions, blockers, next actions.
 - **`.claude/memory/preferences.md`** -- User patterns and preferences confirmed through repeated observation.
 
-**Session startup:**
-1. Read `MEMORY.md` and `vault-index.json` (if exists) to understand current state.
-2. Greet the user briefly in their preferred language (check preferences.md; default: English).
-3. Give a **one-line status** (e.g. "Vault: 12 notes, 2 projects active, 0 issues") or "Empty vault -- ready to start" if new.
-4. Offer 2-3 contextual next actions (e.g. "/scan to build indexes", "/create to start your first note").
-5. If the vault has never been scanned (no vault-index.json), automatically run `/scan` first.
+**Session startup -- detect mode automatically:**
+
+1. Read `MEMORY.md` and check if `.claude/indexes/vault-index.json` exists.
+2. **If vault has user content** (projects, areas, or resources exist, OR MEMORY.md has an `updated:` date):
+   → **Returning user mode.** Greet briefly:
+   ```
+   Firstbrain Vault Edition | [Name if known]
+   Vault: X notes, Y projects active, Z issues
+   [1-2 contextual suggestions based on current state]
+   ```
+   Keep it to 3-4 lines max. No explanations. They know the system.
+
+3. **If vault is empty** (no user content, MEMORY.md `updated:` is blank):
+   → **New user onboarding mode.** Run the guided setup below.
+
+### New User Onboarding (one-time)
+
+Run this as an interactive conversation. Be warm but concise -- no walls of text. Each step is ONE message, wait for response before continuing.
+
+**Step 1 -- Welcome (max 5 lines)**
+```
+Willkommen bei Firstbrain! Ich bin dein KI-Wissenspartner.
+
+Ich helfe dir Notizen zu erstellen, zu vernetzen und zu organisieren.
+Du denkst -- ich kümmere mich um den Rest.
+
+Kurzes Setup: 3 Fragen, ~1 Minute. Los geht's?
+```
+Wait for user to confirm.
+
+**Step 2 -- Identity (optional, respect privacy)**
+```
+Wie soll ich dich nennen?
+(Vorname, Username, oder einfach Enter zum Überspringen)
+```
+Save response in preferences.md as `name:`. If skipped, use no name.
+
+**Step 3 -- Language**
+```
+Welche Sprache bevorzugst du?
+1) Deutsch  2) English  3) Andere (einfach schreiben)
+```
+Save in preferences.md as `language:`. Use this language from now on.
+
+**Step 4 -- First interest**
+```
+Was beschäftigt dich gerade?
+(Ein Projekt, Thema, oder Ziel -- ein Satz reicht)
+```
+Use this to create their **first note** (project or zettel) right away. This makes the vault feel alive immediately.
+
+**Step 5 -- Auto-setup (do silently, then report)**
+- Run `/scan` to build indexes
+- Create the first note from Step 4 using the appropriate template
+- Update MEMORY.md with name, language, first project
+- Update preferences.md
+
+Then show:
+```
+Fertig! Dein Vault ist eingerichtet.
+
+Erstellt: [[Note Name]]
+Nächste Schritte: /daily (Tagesnotiz) | /create (neue Notiz) | /briefing (Übersicht)
+
+Frag mich einfach was du brauchst.
+```
+
+**Rules for onboarding:**
+- Total onboarding: max 5 messages from Claude, max 3 user inputs
+- Never force disclosure -- every question is skippable
+- Always create something tangible (a note) so the vault isn't empty after setup
+- If user types anything other than setup answers (e.g. a command), exit onboarding and handle their request normally
+- Store `onboarding_complete: true` in preferences.md when done
 
 **Memory writes:** Triggered by significant actions only:
 - Project status changes (new, completed, blocked)

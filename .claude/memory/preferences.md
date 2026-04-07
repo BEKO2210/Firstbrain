@@ -1,5 +1,8 @@
 ---
 updated: 
+onboarding_complete: false
+name: 
+language: 
 ---
 
 # User Preferences
@@ -12,12 +15,8 @@ Patterns and preferences observed during sessions. Updated when Claude notices r
 
 ## Communication Style
 
-- (To be learned -- does user prefer brief or detailed responses?)
+- (To be learned)
 
 ## Workflow Habits
 
-- (To be learned -- morning review routine? Weekly review day? Tagging patterns?)
-
----
-
-*Preferences are written here when Claude observes confirmed patterns (not after every interaction).*
+- (To be learned)
