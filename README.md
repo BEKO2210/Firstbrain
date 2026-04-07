@@ -67,7 +67,7 @@ Firstbrain transforms a plain Obsidian vault into an **AI-native knowledge manag
 ## Skills
 
 <p align="center">
-  <img src="docs/assets/skills.svg" alt="Skills" width="780"/>
+  <img src="docs/assets/skills-overview.svg" alt="Skills" width="780"/>
 </p>
 
 ---
