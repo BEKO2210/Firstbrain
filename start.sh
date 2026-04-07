@@ -22,7 +22,7 @@ VAULT_DIR="$(pwd)"
 
 echo ""
 echo -e "${PURPLE}${BOLD}  ┌─────────────────────────────────────┐${NC}"
-echo -e "${PURPLE}${BOLD}  │         Firstbrain v1.2              │${NC}"
+echo -e "${PURPLE}${BOLD}  │         Firstbrain v2.0              │${NC}"
 echo -e "${PURPLE}${BOLD}  │    AI-Native Second Brain            │${NC}"
 echo -e "${PURPLE}${BOLD}  └─────────────────────────────────────┘${NC}"
 echo ""

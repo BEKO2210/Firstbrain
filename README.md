@@ -117,11 +117,10 @@ Double-click to start. The launcher checks Node.js, Claude Code CLI, validates t
 
 ## Roadmap
 
-- [x] **v1.0** -- Foundation, scanning, 7 core skills, semantic search, 4-layer memory
-- [x] **v1.1** -- Proactive Intelligence: `/briefing`, `/triage`, `/synthesize`, `/maintain`
-- [x] **v1.2** -- Command Processor: `/process` with full execution, prompt archiving
-- [x] **v1.3** -- Execution Engine: `workspace/`, `ACTION:`/`TASK:` markers, `/watch`, governance hardening
-- [ ] **v2.0** -- Knowledge graph, emergent structure proposals, advanced connection intelligence
+- [x] **v1.0** -- Foundation, scanning, 7 core skills, semantic search, 4-layer memory *(2026-03-07)*
+- [x] **v1.1** -- Proactive Intelligence: `/briefing`, `/triage`, `/synthesize`, `/maintain` *(2026-03-08)*
+- [x] **v2.0** -- Execution Engine, `/process`, `/watch`, `workspace/`, `ACTION:`/`TASK:` markers, guided onboarding, prompt injection defense, 8 animated SVG docs *(2026-04-07)*
+- [ ] **v3.0** -- Knowledge graph, emergent structure proposals, advanced connection intelligence
 
 ---
 

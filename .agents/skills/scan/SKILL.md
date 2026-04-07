@@ -2,7 +2,7 @@
 name: scan
 trigger: /scan
 description: Scan the vault and rebuild cached indexes for all .md files
-version: 1.0.0
+version: 2.0.0
 ---
 
 # /scan -- Vault Scanner

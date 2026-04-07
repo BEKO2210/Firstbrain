@@ -2,7 +2,7 @@
 name: briefing
 trigger: /briefing
 description: Generate a calm daily executive summary of vault state -- priorities, changes, neglected items, and suggestions
-version: 1.0.0
+version: 2.0.0
 ---
 
 # /briefing -- Daily Briefing

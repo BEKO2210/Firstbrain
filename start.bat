@@ -7,7 +7,7 @@ cd /d "%~dp0"
 
 echo.
 echo   ┌─────────────────────────────────────┐
-echo   │         Firstbrain v1.2              │
+echo   │         Firstbrain v2.0              │
 echo   │    AI-Native Second Brain            │
 echo   └─────────────────────────────────────┘
 echo.
