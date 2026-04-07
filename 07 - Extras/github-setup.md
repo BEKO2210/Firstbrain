@@ -1,6 +1,6 @@
 # GitHub Repository Setup Checklist
 
-## Set Topics (GitHub → Settings → Topics)
+## Set Topics (GitHub > Settings > Topics)
 - obsidian
 - second-brain
 - zettelkasten
@@ -11,14 +11,16 @@
 - productivity
 - markdown
 - templates
+- ai-agent
+- execution-engine
 
 ## Create Release
-- Tag: v1.0.0
-- Title: "Second Brain - Obsidian Edition v1.0.0"
-- Description: "First complete release with PARA + Zettelkasten + MOC system and Claude Code integration"
+- Tag: v2.0.0
+- Title: "Firstbrain v2.0 -- Execution Engine"
+- Description: see release notes in project docs
 
 ## Set Repository Description
-"A preconfigured Obsidian vault with PARA, Zettelkasten, and Claude Code integration — your digital brain as an open source system."
+"AI-Native Second Brain & Execution Engine for Obsidian. 13 Claude Code skills, 4-layer memory, prompt injection defense. You think -- Claude organizes, codes, and ships."
 
 ## Set Website
 https://github.com/BEKO2210

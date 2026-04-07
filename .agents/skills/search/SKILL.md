@@ -2,7 +2,7 @@
 name: search
 trigger: /search
 description: Search vault notes by meaning using semantic similarity or keyword matching
-version: 1.0.0
+version: 2.0.0
 ---
 
 # /search -- Semantic Search

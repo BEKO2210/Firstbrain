@@ -2,7 +2,7 @@
 name: triage
 trigger: /triage
 description: Classify inbox notes by type, auto-tag high-confidence items, and propose folder moves for review
-version: 1.0.0
+version: 2.0.0
 ---
 
 # /triage -- Inbox Triage

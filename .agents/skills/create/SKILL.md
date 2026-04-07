@@ -2,7 +2,7 @@
 name: create
 trigger: /create
 description: Create a new note from template with filled frontmatter and wiki-link suggestions
-version: 1.0.0
+version: 2.0.0
 ---
 
 # /create -- Note Creator

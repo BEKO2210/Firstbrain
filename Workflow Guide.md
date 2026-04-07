@@ -55,19 +55,48 @@ Use the **[[Weekly Review]]** template:
 
 ## Working with Claude Code
 
-### Claude as Knowledge Assistant
-Claude can read and understand this vault. Use it for:
+### Quick Start
 
-- **"Summarize project X"** — Claude reads the project note and linked resources
-- **"Create a new project note for Y"** — Claude uses the template
-- **"What connections are there between A and B?"** — Claude follows the links
-- **"Create a meeting protocol"** — Claude uses the Meeting template
-- **"What do I know about topic Z?"** — Claude searches Resources and Zettel notes
+```bash
+./start.sh    # or double-click start.bat / start.command
+```
+
+### 13 Skills
+
+| Do this | Command |
+|---------|---------|
+| Build vault indexes | `/scan` |
+| Create a note | `/create` |
+| Daily note with task rollover | `/daily` |
+| Find notes by meaning | `/search` |
+| Daily status summary | `/briefing` |
+| Classify inbox notes | `/triage` |
+| Find orphans and broken links | `/health` |
+| Discover connections | `/connect` |
+| Synthesize a topic | `/synthesize` |
+| Audit vault consistency | `/maintain` |
+| View memory dashboard | `/memory` |
+| Execute prompts/actions from Inbox | `/process` |
+| Auto-monitor Inbox | `/watch` |
+
+### Execution Engine
+
+Firstbrain is also an **execution engine**. Drop instructions in your Inbox:
+
+```markdown
+ACTION: Build a REST API with Flask and push to GitHub.
+```
+
+Claude executes the instructions: creates `workspace/my-api/`, writes code, commits, pushes, and logs everything in the vault.
+
+- **Vault note** (`01 - Projects/`) = plan, status, decisions
+- **Workspace folder** (`workspace/`) = actual code
+- Both are linked and kept in sync
 
 ### Cross-Project Work
 This vault works across projects:
 
-1. **Create a project** -> In `01 - Projects/` with template
+1. **Create a project** -> `/create` or drop ACTION: in Inbox
 2. **Link to an area** -> `area: "[[Health]]"` in the frontmatter
 3. **Assign resources** -> Wiki-links to `03 - Resources/`
 4. **Log meetings** -> `project: "[[My Project]]"` in the meeting

@@ -2,7 +2,7 @@
 name: connect
 trigger: /connect
 description: Discover connections between notes using shared tags and link adjacency
-version: 1.0.0
+version: 2.0.0
 ---
 
 # /connect -- Connection Discovery

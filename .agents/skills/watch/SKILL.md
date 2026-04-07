@@ -1,7 +1,7 @@
 ---
 name: watch
 description: Watch Inbox for new action/prompt files and execute them automatically
-version: 1.0
+version: 2.0.0
 triggers:
   - /watch
   - /dashboard

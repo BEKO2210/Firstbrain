@@ -109,20 +109,45 @@ There are only four:
 
 ## Using Claude Code
 
-You can also manage this Second Brain via the terminal with Claude Code. Start Claude Code in the vault folder and enter this prompt:
+The fastest way to start is the **one-click launcher**:
+
+```bash
+./start.sh          # Linux/macOS
+start.bat            # Windows (double-click)
+```
+
+The launcher checks your system, starts Claude Code, and Claude greets you with a guided setup (language, name, first project).
+
+Or start manually:
+
+```bash
+cd Firstbrain
+claude
+```
+
+Claude reads `CLAUDE.md` on startup and knows all 13 skills. Try:
 
 ```
-Read the CLAUDE.md and familiarize yourself with my Second Brain.
-I would like you to help me create, search, and connect notes.
-Follow the templates and conventions.
+/scan                → Build vault indexes
+/briefing            → Daily summary
+/create              → Create a note from template
+/daily               → Today's daily note
+/search              → Find notes by meaning
+/health              → Find broken links
+/process             → Execute action files from Inbox
+/watch               → Auto-monitor Inbox for new actions
 ```
 
-After that, you can say things like:
-- *"Create a new project: Website Relaunch"*
-- *"Search all notes about marketing"*
-- *"What are my open tasks?"*
-- *"Create a zettel about idea XY"*
-- *"Do a Weekly Review for this week"*
+### Execution Engine (v2.0)
+
+Firstbrain is not just a note vault -- it is a **command center**. Drop an action file in your Inbox:
+
+```markdown
+ACTION: Create a Flask REST API with user authentication.
+Push to GitHub as my-app.
+```
+
+Claude reads it, creates the project in `workspace/`, writes code, commits, pushes, and logs everything as markdown in your vault. Use `/watch` to have Claude auto-detect new action files.
 
 ---
 
