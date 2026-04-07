@@ -38,3 +38,6 @@ node_modules/
 
 # GSD planning directory (development tooling, not part of product)
 .planning/
+
+# Workspace projects (each has its own git repo)
+workspace/*/

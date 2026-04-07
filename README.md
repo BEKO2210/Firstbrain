@@ -58,6 +58,20 @@ Firstbrain transforms a plain Obsidian vault into an **AI-native knowledge manag
 
 ## Quick Start
 
+### One-Click Launcher
+
+The fastest way to start -- just double-click:
+
+| Platform | File | How |
+|----------|------|-----|
+| **macOS** | `start.command` | Double-click in Finder |
+| **Linux** | `start.sh` | Double-click or `./start.sh` in terminal |
+| **Windows** | `start.bat` | Double-click in Explorer |
+
+The launcher checks for Node.js and Claude Code CLI, validates the vault structure, and starts Claude Code with full context. Claude greets you and is immediately ready to work.
+
+### Manual Setup
+
 <p align="center">
   <img src="docs/assets/quick-start.svg" alt="Quick Start" width="780"/>
 </p>
@@ -78,8 +92,8 @@ Firstbrain transforms a plain Obsidian vault into an **AI-native knowledge manag
 
 ```
 Firstbrain/
-├── 00 - Inbox/              Landing zone for new notes and daily notes
-├── 01 - Projects/            Active projects (time-bound, has end date)
+├── 00 - Inbox/              Landing zone -- drop notes, actions, prompts here
+├── 01 - Projects/            Vault notes about projects (plans, status, logs)
 ├── 02 - Areas/               Life areas (ongoing, no end date)
 ├── 03 - Resources/           Knowledge, references, learning material
 ├── 04 - Archive/             Completed or inactive items
@@ -94,18 +108,23 @@ Firstbrain/
 │   ├── health/               Orphan + broken link detection
 │   ├── maintain/             Vault consistency auditing
 │   ├── memory/               Four-layer memory management
-│   ├── process/              Command Processor (prompt execution)
+│   ├── process/              Command Processor (prompt + action execution)
 │   ├── scan/                 Incremental vault scanner + indexer
+│   ├── watch/                Inbox monitor + auto-executor
 │   ├── search/               Semantic + keyword search
 │   ├── synthesize/           Topic-based knowledge synthesis
 │   └── triage/               Inbox classification and filing
 ├── .claude/                  AI system config, rules, memory
 │   ├── memory/               Working memory + insights + project state
 │   └── rules/                Governance rules (naming, linking, frontmatter)
+├── workspace/                Actual code projects (each has own git repo)
 ├── CLAUDE.md                 AI-native instructions (loaded on startup)
 ├── Home.md                   Central dashboard
 ├── START HERE.md             User onboarding guide
-└── Workflow Guide.md         Daily workflow instructions
+├── Workflow Guide.md         Daily workflow instructions
+├── start.sh                  One-click launcher (Linux/macOS)
+├── start.bat                 One-click launcher (Windows)
+└── start.command             One-click launcher (macOS Finder)
 ```
 
 ### Scanning Pipeline
