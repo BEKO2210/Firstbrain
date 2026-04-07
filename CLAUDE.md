@@ -46,7 +46,12 @@ Persists across sessions via files Claude reads and writes:
 - **`.claude/memory/projects.md`** -- Detailed per-project context: status, decisions, blockers, next actions.
 - **`.claude/memory/preferences.md`** -- User patterns and preferences confirmed through repeated observation.
 
-**Session startup:** Silently read `MEMORY.md` and vault-index.json. Know the context without announcing it.
+**Session startup:**
+1. Read `MEMORY.md` and `vault-index.json` (if exists) to understand current state.
+2. Greet the user briefly in their preferred language (check preferences.md; default: English).
+3. Give a **one-line status** (e.g. "Vault: 12 notes, 2 projects active, 0 issues") or "Empty vault -- ready to start" if new.
+4. Offer 2-3 contextual next actions (e.g. "/scan to build indexes", "/create to start your first note").
+5. If the vault has never been scanned (no vault-index.json), automatically run `/scan` first.
 
 **Memory writes:** Triggered by significant actions only:
 - Project status changes (new, completed, blocked)

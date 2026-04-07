@@ -58,6 +58,20 @@ Firstbrain transforms a plain Obsidian vault into an **AI-native knowledge manag
 
 ## Quick Start
 
+### One-Click Launcher
+
+The fastest way to start -- just double-click:
+
+| Platform | File | How |
+|----------|------|-----|
+| **macOS** | `start.command` | Double-click in Finder |
+| **Linux** | `start.sh` | Double-click or `./start.sh` in terminal |
+| **Windows** | `start.bat` | Double-click in Explorer |
+
+The launcher checks for Node.js and Claude Code CLI, validates the vault structure, and starts Claude Code with full context. Claude greets you and is immediately ready to work.
+
+### Manual Setup
+
 <p align="center">
   <img src="docs/assets/quick-start.svg" alt="Quick Start" width="780"/>
 </p>
@@ -105,7 +119,10 @@ Firstbrain/
 ├── CLAUDE.md                 AI-native instructions (loaded on startup)
 ├── Home.md                   Central dashboard
 ├── START HERE.md             User onboarding guide
-└── Workflow Guide.md         Daily workflow instructions
+├── Workflow Guide.md         Daily workflow instructions
+├── start.sh                  One-click launcher (Linux/macOS)
+├── start.bat                 One-click launcher (Windows)
+└── start.command             One-click launcher (macOS Finder)
 ```
 
 ### Scanning Pipeline
