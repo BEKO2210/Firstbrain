@@ -7,8 +7,8 @@
 <h1 align="center">Firstbrain</h1>
 
 <p align="center">
-  <strong>AI-Native Second Brain &amp; Execution Engine</strong><br/>
-  <em>You think. Claude organizes, codes, and ships.</em>
+  <strong>AI-Native Second Brain, Execution Engine &amp; Knowledge Graph</strong><br/>
+  <em>You think. Claude organizes, codes, ships, and discovers connections.</em>
 </p>
 
 <p align="center">
@@ -23,6 +23,7 @@
   <a href="#features">Features</a> &bull;
   <a href="#quick-start">Quick Start</a> &bull;
   <a href="#execution-engine">Execution Engine</a> &bull;
+  <a href="#knowledge-graph">Knowledge Graph</a> &bull;
   <a href="#skills">Skills</a> &bull;
   <a href="#architecture">Architecture</a> &bull;
   <a href="#governance">Governance</a> &bull;
@@ -33,11 +34,11 @@
 
 ## What is Firstbrain?
 
-Firstbrain turns an Obsidian vault into an **AI command center**. Claude Code doesn't just organize your notes -- it **executes your instructions**: writing code, creating projects, pushing to GitHub, and documenting everything as interconnected markdown.
+Firstbrain turns an Obsidian vault into an **AI command center**. Claude Code organizes your notes, **executes your instructions** (writing code, creating projects, pushing to GitHub), and **discovers hidden connections** in your knowledge using graph algorithms -- all documented as interconnected markdown.
 
 **Without Claude Code** -- a structured Obsidian starter vault (PARA folders, 12 templates, 9 MOCs).
 
-**With Claude Code** -- a second brain that thinks, builds, and ships for you.
+**With Claude Code** -- a second brain that thinks, builds, ships, and understands its own structure.
 
 ---
 
@@ -72,6 +73,18 @@ Double-click to start. The launcher checks Node.js, Claude Code CLI, validates t
 <p align="center">
   <img src="docs/assets/execution-engine.svg" alt="Execution Engine" width="780"/>
 </p>
+
+---
+
+## Knowledge Graph
+
+Built-in graph engine analyzes your vault's structure with zero external dependencies.
+
+**`/graph`** -- PageRank ranking, topic clusters, shortest paths, bridge detection, structural similarity, multi-hop discovery. Read-only, never modifies files.
+
+**`/propose`** -- Finds emergent patterns and suggests improvements: new MOCs for tag clusters (5+ notes), missed connections (3+ shared tags, no link), hub candidates (high PageRank notes), orphan rescue (isolated notes matched to best links). All proposals require user approval.
+
+**`/connect` v3** -- Three signal layers: direct (tags + links), multi-hop (2-3 hops via graph), structural similarity (Jaccard on neighborhoods).
 
 ---
 
