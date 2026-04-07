@@ -8,7 +8,7 @@ tags:
 
 # Firstbrain Cheatsheet
 
-> All 15 skills with every command, subcommand, and flag. Copy & paste ready.
+> All 15 skills. Every command in its own code block. Copy & paste ready.
 
 ---
 
@@ -16,17 +16,54 @@ tags:
 
 ### /create -- Note Creator
 
+Create a note with guided prompts:
 ```
-/create                              Guided (prompts for type + title)
-/create project My App               Create project note
-/create tool Docker                   Create tool note
-/create zettel My Idea                Create zettel note
-/create person John Doe               Create person note
-/create decision API Strategy         Create decision note
-/create meeting Kickoff 2026-04-07    Create meeting note
-/create area Health                   Create area note
-/create resource Book Title           Create resource note
-/create code-snippet My Snippet       Create code snippet
+/create
+```
+
+Create project note:
+```
+/create project My App
+```
+
+Create tool note:
+```
+/create tool Docker
+```
+
+Create zettel (atomic idea):
+```
+/create zettel My Idea
+```
+
+Create person note:
+```
+/create person John Doe
+```
+
+Create decision note:
+```
+/create decision API Strategy
+```
+
+Create meeting note:
+```
+/create meeting Kickoff 2026-04-07
+```
+
+Create area note:
+```
+/create area Health
+```
+
+Create resource note:
+```
+/create resource Book Title
+```
+
+Create code snippet:
+```
+/create code-snippet My Snippet
 ```
 
 Types: `project` `area` `resource` `tool` `zettel` `person` `decision` `meeting` `code-snippet` `daily` `weekly` `monthly`
@@ -35,73 +72,102 @@ Types: `project` `area` `resource` `tool` `zettel` `person` `decision` `meeting`
 
 ### /daily -- Daily Note
 
+Create today's daily note:
 ```
-/daily                               Create today's daily note
-/daily 2026-04-07                    Create note for specific date
+/daily
 ```
 
-Rolls over open tasks from the last 7 days with provenance links.
+Create note for a specific date:
+```
+/daily 2026-04-07
+```
 
 ---
 
 ### /scan -- Vault Scanner
 
+Incremental scan (only changed files):
 ```
-/scan                                Incremental (only changed files)
-/scan --full                         Force re-scan everything
-/scan --verbose                      Show per-file details
+/scan
 ```
 
-Builds: `vault-index.json` `link-map.json` `tag-index.json`
+Force full re-scan:
+```
+/scan --full
+```
+
+Scan with per-file details:
+```
+/scan --verbose
+```
 
 ---
 
 ### /search -- Semantic Search
 
+Search by meaning:
 ```
-/search "productivity"               Search by meaning
-/search API design patterns          Multi-word search
+/search "productivity"
 ```
 
-Uses local embeddings (Transformers.js) if installed, falls back to keyword matching.
+Multi-word search:
+```
+/search API design patterns
+```
 
 ---
 
 ### /connect -- Connection Discovery
 
+Analyze note from current context:
 ```
-/connect                             Analyze note from context
-/connect "Tool -- Docker"            Analyze specific note
+/connect
 ```
 
-Three signal layers:
-1. Direct -- shared tags + link adjacency
-2. Multi-hop -- 2-3 hops via graph, not directly linked
-3. Structural -- Jaccard similarity on neighborhoods
+Analyze a specific note:
+```
+/connect "Tool -- Docker"
+```
+
+Three signal layers: direct (tags), multi-hop (2-3 hops), structural (Jaccard).
 
 ---
 
 ### /health -- Vault Health Check
 
+Full health report:
 ```
-/health                              Full health report
-/health --fix                        Auto-fix broken links
+/health
 ```
 
-Detects orphans (0-1 connections) and broken wiki-links. Suggests fixes with Levenshtein matching.
+Auto-fix broken links:
+```
+/health --fix
+```
 
 ---
 
 ### /memory -- Memory Dashboard
 
+Full dashboard (all 4 layers):
 ```
-/memory                              Full dashboard (all layers)
-/memory insights                     Long-term insights only
-/memory projects                     Project memories only
-/memory distill                      Trigger manual distillation
+/memory
 ```
 
-Shows all 4 memory layers: Session, Working, Long-term, Project.
+Show long-term insights only:
+```
+/memory insights
+```
+
+Show project memories only:
+```
+/memory projects
+```
+
+Trigger manual insight distillation:
+```
+/memory distill
+```
 
 ---
 
@@ -109,46 +175,66 @@ Shows all 4 memory layers: Session, Working, Long-term, Project.
 
 ### /briefing -- Daily Briefing
 
+Today's summary (48h lookback):
 ```
-/briefing                            Today's summary (48h lookback)
-/briefing --days 7                   Extended lookback (7 days)
+/briefing
 ```
 
-Read-only. Shows: recent changes, priorities, neglected items, suggestions.
+Extended lookback (7 days):
+```
+/briefing --days 7
+```
+
+Read-only. Never modifies vault.
 
 ---
 
 ### /triage -- Inbox Triage
 
+Classify all inbox notes:
 ```
-/triage                              Classify all inbox notes
-/triage --dry-run                    Preview only, no changes
+/triage
 ```
 
-Classifies by type, suggests target folder, auto-tags high-confidence items.
+Preview only, no changes:
+```
+/triage --dry-run
+```
 
 ---
 
 ### /synthesize -- Knowledge Synthesis
 
+Synthesize a topic:
 ```
-/synthesize "machine learning"       Synthesize topic
-/synthesize --top 5 "Docker"         Limit to top 5 sources
+/synthesize "machine learning"
 ```
 
-Creates a summary zettel with wiki-link citations and AI provenance metadata.
+Limit to top 5 sources:
+```
+/synthesize --top 5 "Docker"
+```
+
+Creates a summary zettel with wiki-link citations.
 
 ---
 
 ### /maintain -- Vault Maintenance
 
+Full audit report:
 ```
-/maintain                            Full audit report
-/maintain --fix                      Auto-fix safe issues
-/maintain --stale-days 60            Custom staleness (default: 30)
+/maintain
 ```
 
-Checks: frontmatter, tag consistency, stale projects, outdated references.
+Auto-fix safe issues:
+```
+/maintain --fix
+```
+
+Custom staleness threshold (default 30 days):
+```
+/maintain --stale-days 60
+```
 
 ---
 
@@ -156,71 +242,34 @@ Checks: frontmatter, tag consistency, stale projects, outdated references.
 
 ### /process -- Command Processor
 
+Execute all inbox prompts and actions:
 ```
-/process                             Execute all inbox prompts/actions
-/process --dry-run                   Preview without changes
-```
-
-Processes files with markers:
-
-| Marker | Mode |
-|--------|------|
-| `PROMPT:` | Create vault notes |
-| `ACTION:` | Execute code, git, files |
-| `TASK:` | Same as ACTION |
-
----
-
-### /watch -- Inbox Monitor
-
-```
-/watch                               Start (polls every 30s)
-/watch 10s                           Poll every 10 seconds
-/watch 5m                            Poll every 5 minutes
-/watch stop                          Stop watching
+/process
 ```
 
-Auto-detects and executes new PROMPT:/ACTION:/TASK: files in Inbox.
-
-Safety: max 10 files/cycle, no recursive loops, injection scanning.
-
----
-
-## Knowledge Graph
-
-### /graph -- Graph Analysis
-
+Preview without changes:
 ```
-/graph                               Full statistics
-/graph rank                          PageRank importance ranking
-/graph clusters                      Topic clusters by tag
-/graph path "Note A" "Note B"        Shortest path between notes
-/graph bridges                       Critical connecting notes
-/graph similar "Note Name"           Structurally similar notes
-/graph hops "Note Name"              Hidden connections (2-3 hops)
+/process --dry-run
 ```
 
-All read-only -- analyzes but never modifies files.
+#### Inbox Markers
 
----
-
-### /propose -- Emergent Structure
-
+PROMPT marker (creates vault notes):
 ```
-/propose                             Full analysis (all 4 types)
-/propose mocs                        MOC suggestions only
-/propose connections                 Missed connections only
-/propose hubs                        Hub candidates only
-/propose orphans                     Orphan rescue only
+PROMPT: Create a project structure for my new app
 ```
 
-All proposals are displayed for review -- never auto-applied.
+ACTION marker (executes code, git, files):
+```
+ACTION: Set up a Flask REST API with SQLite and push to GitHub
+```
 
----
+TASK marker (alias for ACTION):
+```
+TASK: Install dependencies and run tests
+```
 
-## Action File Format
-
-Drop these in `00 - Inbox/` for `/process` or `/watch` to pick up:
+#### Action File Template
 
 ```markdown
 ---
@@ -230,30 +279,128 @@ priority: high
 ---
 
 ACTION: Your instructions here.
-Create a Flask API, push to GitHub, etc.
+Multiple lines are fine.
 ```
+
+---
+
+### /watch -- Inbox Monitor
+
+Start watching (polls every 30s):
+```
+/watch
+```
+
+Poll every 10 seconds:
+```
+/watch 10s
+```
+
+Poll every 5 minutes:
+```
+/watch 5m
+```
+
+Stop watching:
+```
+/watch stop
+```
+
+---
+
+## Knowledge Graph
+
+### /graph -- Graph Analysis
+
+Full graph statistics:
+```
+/graph
+```
+
+PageRank importance ranking:
+```
+/graph rank
+```
+
+Topic clusters by shared tags:
+```
+/graph clusters
+```
+
+Shortest path between two notes:
+```
+/graph path "Note A" "Note B"
+```
+
+Critical connecting notes:
+```
+/graph bridges
+```
+
+Notes with similar connection patterns:
+```
+/graph similar "Note Name"
+```
+
+Hidden connections 2-3 hops away:
+```
+/graph hops "Note Name"
+```
+
+All read-only. Never modifies files.
+
+---
+
+### /propose -- Emergent Structure
+
+Full analysis (all 4 types):
+```
+/propose
+```
+
+Only MOC suggestions:
+```
+/propose mocs
+```
+
+Only missed connections:
+```
+/propose connections
+```
+
+Only hub candidates:
+```
+/propose hubs
+```
+
+Only orphan rescue:
+```
+/propose orphans
+```
+
+All proposals require user approval. Never auto-applied.
 
 ---
 
 ## Quick Reference
 
-| Skill | Command | Key Flags |
-|-------|---------|-----------|
-| Create | `/create {type} {title}` | 12 note types |
-| Daily | `/daily` | `{YYYY-MM-DD}` |
-| Scan | `/scan` | `--full` `--verbose` |
-| Search | `/search "{query}"` | semantic + keyword |
-| Connect | `/connect "{note}"` | 3 signal layers |
-| Health | `/health` | `--fix` |
-| Memory | `/memory` | `insights` `projects` `distill` |
-| Briefing | `/briefing` | `--days {N}` |
-| Triage | `/triage` | `--dry-run` |
-| Synthesize | `/synthesize "{topic}"` | `--top {N}` |
-| Maintain | `/maintain` | `--fix` `--stale-days {N}` |
-| Process | `/process` | `--dry-run` |
-| Watch | `/watch` | `{interval}` `stop` |
-| Graph | `/graph` | `rank` `clusters` `path` `bridges` `similar` `hops` |
-| Propose | `/propose` | `mocs` `connections` `hubs` `orphans` |
+| Skill | Key Flags / Subcommands |
+|-------|------------------------|
+| `/create` | `{type} {title}` -- 12 note types |
+| `/daily` | `{YYYY-MM-DD}` |
+| `/scan` | `--full` `--verbose` |
+| `/search` | `"{query}"` |
+| `/connect` | `"{note}"` |
+| `/health` | `--fix` |
+| `/memory` | `insights` `projects` `distill` |
+| `/briefing` | `--days {N}` |
+| `/triage` | `--dry-run` |
+| `/synthesize` | `--top {N}` `"{topic}"` |
+| `/maintain` | `--fix` `--stale-days {N}` |
+| `/process` | `--dry-run` |
+| `/watch` | `{10s\|5m\|...}` `stop` |
+| `/graph` | `rank` `clusters` `path` `bridges` `similar` `hops` |
+| `/propose` | `mocs` `connections` `hubs` `orphans` |
 
 ---
 
