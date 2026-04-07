@@ -2,7 +2,7 @@
 name: maintain
 trigger: /maintain
 description: Audit vault consistency -- detect frontmatter issues, stale projects, and outdated references with auto-fix and proposed corrections
-version: 2.0.0
+version: 3.0.0
 ---
 
 # /maintain -- Vault Maintenance

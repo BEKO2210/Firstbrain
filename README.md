@@ -16,7 +16,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC%20BY--NC%204.0-blue?style=flat-square" alt="License: CC BY-NC 4.0" /></a>
   <a href="https://github.com/BEKO2210/Firstbrain/stargazers"><img src="https://img.shields.io/github/stars/BEKO2210/Firstbrain?style=flat-square" alt="Stars" /></a>
   <a href="https://github.com/BEKO2210/Firstbrain/issues"><img src="https://img.shields.io/github/issues/BEKO2210/Firstbrain?style=flat-square" alt="Issues" /></a>
-  <img src="https://img.shields.io/badge/skills-13-blueviolet?style=flat-square" alt="13 Skills" />
+  <img src="https://img.shields.io/badge/skills-15-blueviolet?style=flat-square" alt="15 Skills" />
 </p>
 
 <p align="center">
@@ -119,8 +119,9 @@ Double-click to start. The launcher checks Node.js, Claude Code CLI, validates t
 
 - [x] **v1.0** -- Foundation, scanning, 7 core skills, semantic search, 4-layer memory *(2026-03-07)*
 - [x] **v1.1** -- Proactive Intelligence: `/briefing`, `/triage`, `/synthesize`, `/maintain` *(2026-03-08)*
-- [x] **v2.0** -- Execution Engine, `/process`, `/watch`, `workspace/`, `ACTION:`/`TASK:` markers, guided onboarding, prompt injection defense, 8 animated SVG docs *(2026-04-07)*
-- [ ] **v3.0** -- Knowledge graph, emergent structure proposals, advanced connection intelligence
+- [x] **v2.0** -- Execution Engine, `/process`, `/watch`, `workspace/`, `ACTION:`/`TASK:` markers, guided onboarding, prompt injection defense *(2026-04-07)*
+- [x] **v3.0** -- Knowledge Graph Engine, `/graph` (PageRank, clusters, bridges, paths), `/propose` (emergent structure), `/connect` v3 (multi-hop + structural similarity) *(2026-04-07)*
+- [ ] **v4.0** -- Temporal analysis, automated weekly digests, cross-vault federation
 
 ---
 

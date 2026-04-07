@@ -2,7 +2,7 @@
 name: process
 trigger: /process
 description: Scan Inbox for PROMPT:-prefixed notes, execute instructions, create files, link to MOCs, and archive prompts
-version: 2.0.0
+version: 3.0.0
 ---
 
 # /process -- Command Processor

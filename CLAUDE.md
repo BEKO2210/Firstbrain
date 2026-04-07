@@ -332,6 +332,44 @@ Every execution gets logged as markdown. In the project's vault note under `## L
 - **Status:** Done
 ```
 
+## Knowledge Graph Intelligence
+
+The vault has a built-in knowledge graph engine that analyzes connections between notes.
+
+### /graph -- Graph Analysis
+
+Builds a directed graph from notes and wiki-links, then runs algorithms:
+
+| Command | What it reveals |
+|---------|----------------|
+| `/graph` | Stats: nodes, edges, density, components, orphans |
+| `/graph rank` | PageRank importance ranking |
+| `/graph clusters` | Topic clusters by shared tags |
+| `/graph path "A" "B"` | Shortest path between two notes |
+| `/graph bridges` | Notes whose removal splits the graph |
+| `/graph similar "Note"` | Notes with similar connection patterns |
+| `/graph hops "Note"` | Hidden connections 2-3 hops away |
+
+All graph operations are **read-only** -- they analyze but never modify files.
+
+### /propose -- Emergent Structure
+
+Analyzes the graph to propose structural improvements:
+
+1. **MOC suggestions** -- tag clusters with 5+ notes but no MOC
+2. **Missed connections** -- notes sharing 3+ tags but not linked
+3. **Hub candidates** -- high PageRank notes that could become MOCs
+4. **Orphan rescue** -- isolated notes matched to their best potential connections
+
+All proposals are PROPOSE-level -- displayed but never auto-applied.
+
+### /connect -- Enhanced (v3)
+
+Connection discovery now has three signal layers:
+1. **Direct** -- shared tags + link adjacency (fast, existing)
+2. **Multi-hop** -- notes reachable in 2-3 hops but not directly linked
+3. **Structural similarity** -- notes linking to/from the same neighbors (Jaccard)
+
 ## Quick Reference
 
 ### Templates

@@ -1,13 +1,19 @@
 ---
 name: connect
 trigger: /connect
-description: Discover connections between notes using shared tags and link adjacency
-version: 2.0.0
+description: Discover connections using tags, link adjacency, multi-hop graph paths, and structural similarity
+version: 3.0.0
 ---
 
-# /connect -- Connection Discovery
+# /connect -- Advanced Connection Discovery
 
-Analyzes a note's tags and link graph to discover related notes the user might want to link. Presents a ranked list with evidence explaining each suggestion. The user selects which connections to add, and Claude inserts them into the note's `## Connections` section.
+Analyzes a note's tags, link graph, multi-hop paths, and structural similarity to discover related notes. Three signal layers:
+
+1. **Direct** -- shared tags + link adjacency (Level 1, fast)
+2. **Multi-hop** -- notes reachable in 2-3 hops but not directly linked (Level 2, graph engine)
+3. **Structural** -- notes with similar connection patterns via Jaccard similarity (Level 3, graph engine)
+
+Presents a ranked list with evidence. User selects which to add.
 
 ## Usage
 

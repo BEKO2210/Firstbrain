@@ -1,7 +1,8 @@
 /**
  * Connection discovery utilities for the /connect skill.
- * Scores potential connections between notes using tag overlap and link adjacency.
- * Zero external dependencies -- Node.js built-ins + Phase 2 scan infrastructure.
+ * Scores potential connections using tag overlap, link adjacency,
+ * multi-hop graph analysis, and structural similarity.
+ * Zero external dependencies -- Node.js built-ins + scan infrastructure + graph engine.
  */
 'use strict';
 
@@ -35,10 +36,8 @@ function findConnections(targetPath, vaultIndex, linkMap, tagIndex) {
   const alreadyLinked = new Set();
   const targetLinks = targetNote.links || [];
   for (const link of targetLinks) {
-    // Add the link target (lowercased for matching)
     alreadyLinked.add(link.target.toLowerCase());
   }
-  // Also resolve link targets to paths for path-based exclusion
   const alreadyLinkedPaths = new Set();
   if (linkMap && linkMap.links) {
     for (const link of linkMap.links) {
@@ -48,16 +47,13 @@ function findConnections(targetPath, vaultIndex, linkMap, tagIndex) {
     }
   }
 
-  // Helper: check if a note should be excluded from suggestions
   function shouldExclude(notePath) {
     if (notePath === targetPath) return true;
     const note = vaultIndex.notes[notePath];
     if (!note) return true;
     if (note.isTemplate) return true;
-    // Exclude MOCs, home, and system-type notes
     if (notePath.startsWith('06 - Atlas/')) return true;
     if (note.name === 'Home' || note.name === 'START HERE' || note.name === 'Workflow Guide' || note.name === 'Tag Conventions') return true;
-    // Exclude already-linked notes
     if (alreadyLinkedPaths.has(notePath)) return true;
     if (alreadyLinked.has((note.name || '').toLowerCase())) return true;
     return false;
@@ -74,7 +70,7 @@ function findConnections(targetPath, vaultIndex, linkMap, tagIndex) {
     }
   }
 
-  // Score by link adjacency: notes that link to the same targets as the target note
+  // Score by link adjacency
   const targetLinkTargets = new Set(
     targetLinks.map(l => l.target.toLowerCase())
   );
@@ -88,7 +84,6 @@ function findConnections(targetPath, vaultIndex, linkMap, tagIndex) {
       if (targetLinkTargets.has(linkTargetLower)) {
         if (!scores[link.source]) scores[link.source] = { score: 0, evidence: [] };
         const evidenceStr = 'both link to [[' + link.target + ']]';
-        // Avoid duplicate evidence for the same shared target
         if (!scores[link.source].evidence.includes(evidenceStr)) {
           scores[link.source].score += 0.5;
           scores[link.source].evidence.push(evidenceStr);
@@ -111,10 +106,36 @@ function findConnections(targetPath, vaultIndex, linkMap, tagIndex) {
 }
 
 /**
- * Format connection suggestions for display as a numbered list with evidence.
+ * Enhanced connection discovery using graph engine.
+ * Adds multi-hop connections and structural similarity on top of basic scoring.
  *
- * @param {Array<{path: string, name: string, score: number, evidence: string[], confidence: string}>} suggestions
- * @returns {string} Formatted suggestion list
+ * @param {string} targetPath - Vault-relative path of the note to analyze
+ * @param {object} vaultIndex - Parsed vault-index.json
+ * @param {object} linkMap - Parsed link-map.json
+ * @param {object} tagIndex - Parsed tag-index.json
+ * @returns {{ basic: object[], multiHop: object[], structural: object[] }}
+ */
+function findConnectionsEnhanced(targetPath, vaultIndex, linkMap, tagIndex) {
+  const basic = findConnections(targetPath, vaultIndex, linkMap, tagIndex);
+
+  let multiHop = [];
+  let structural = [];
+
+  try {
+    const { buildGraph, findMultiHopConnections, findStructurallySimilar } = require('../graph/graph-engine.cjs');
+    const graph = buildGraph(vaultIndex, linkMap);
+
+    multiHop = findMultiHopConnections(graph, targetPath, { maxHops: 3, maxResults: 10 });
+    structural = findStructurallySimilar(graph, targetPath, { minSimilarity: 0.15, maxResults: 5 });
+  } catch (err) {
+    // Graph engine not available -- graceful degradation
+  }
+
+  return { basic, multiHop, structural };
+}
+
+/**
+ * Format connection suggestions for display as a numbered list with evidence.
  */
 function formatConnectionSuggestions(suggestions) {
   if (!suggestions || suggestions.length === 0) {
@@ -135,23 +156,57 @@ function formatConnectionSuggestions(suggestions) {
 }
 
 /**
+ * Format enhanced connections (basic + multi-hop + structural).
+ */
+function formatEnhancedConnections(results) {
+  const lines = [];
+
+  if (results.basic.length > 0) {
+    lines.push('### Direct Connections (tag overlap + link adjacency)');
+    lines.push(formatConnectionSuggestions(results.basic));
+    lines.push('');
+  }
+
+  if (results.multiHop.length > 0) {
+    lines.push('### Hidden Connections (2-3 hops away)');
+    for (const m of results.multiHop) {
+      lines.push('- **[[' + m.name + ']]** (' + m.hops + ' hops via ' + m.via.join(' → ') + ')');
+    }
+    lines.push('');
+  }
+
+  if (results.structural.length > 0) {
+    lines.push('### Structurally Similar (link to same neighbors)');
+    for (const s of results.structural) {
+      lines.push('- **[[' + s.name + ']]** (similarity: ' + (s.similarity * 100).toFixed(0) + '%, shared: ' + s.sharedNeighbors.join(', ') + ')');
+    }
+    lines.push('');
+  }
+
+  if (lines.length === 0) return 'No connection suggestions found.';
+  return lines.join('\n').trim();
+}
+
+/**
  * Ensure vault indexes are fresh (not older than 5 minutes).
- * If stale, triggers a scan to rebuild them.
- *
- * @param {string} vaultRoot - Path to vault root
- * @returns {object|null} Scan result if scan was triggered, null if indexes are fresh
  */
 function ensureFreshIndexes(vaultRoot) {
   const resolvedRoot = path.resolve(vaultRoot);
   const indexDir = path.join(resolvedRoot, '.claude', 'indexes');
   const scanState = loadJson(path.join(indexDir, 'scan-state.json'));
-  const STALE_MS = 5 * 60 * 1000; // 5 minutes
+  const STALE_MS = 5 * 60 * 1000;
 
   if (!scanState || (Date.now() - scanState.lastScan > STALE_MS)) {
     const { scan } = require('../scan/scanner.cjs');
     return scan(resolvedRoot);
   }
-  return null; // Indexes are fresh
+  return null;
 }
 
-module.exports = { findConnections, formatConnectionSuggestions, ensureFreshIndexes };
+module.exports = {
+  findConnections,
+  findConnectionsEnhanced,
+  formatConnectionSuggestions,
+  formatEnhancedConnections,
+  ensureFreshIndexes,
+};

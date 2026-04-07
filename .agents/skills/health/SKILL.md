@@ -2,7 +2,7 @@
 name: health
 trigger: /health
 description: Detect orphan notes and broken wiki-links with suggested fixes
-version: 2.0.0
+version: 3.0.0
 ---
 
 # /health -- Vault Health Check

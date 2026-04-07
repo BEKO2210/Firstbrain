@@ -2,7 +2,7 @@
 name: memory
 trigger: /memory
 description: View and manage Claude's memory -- insights, project context, and embedding status
-version: 2.0.0
+version: 3.0.0
 ---
 
 # /memory -- Memory Dashboard

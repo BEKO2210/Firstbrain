@@ -2,7 +2,7 @@
 name: daily
 trigger: /daily
 description: Create today's daily note with template and roll over open items from previous days
-version: 2.0.0
+version: 3.0.0
 ---
 
 # /daily -- Daily Note Generator

@@ -15,12 +15,12 @@
 - execution-engine
 
 ## Create Release
-- Tag: v2.0.0
-- Title: "Firstbrain v2.0 -- Execution Engine"
+- Tag: v3.0.0
+- Title: "Firstbrain v3.0 -- Knowledge Graph Intelligence"
 - Description: see release notes in project docs
 
 ## Set Repository Description
-"AI-Native Second Brain & Execution Engine for Obsidian. 13 Claude Code skills, 4-layer memory, prompt injection defense. You think -- Claude organizes, codes, and ships."
+"AI-Native Second Brain & Execution Engine for Obsidian. 15 Claude Code skills, knowledge graph, 4-layer memory, prompt injection defense. You think -- Claude organizes, codes, and ships."
 
 ## Set Website
 https://github.com/BEKO2210

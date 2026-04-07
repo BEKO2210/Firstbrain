@@ -2,7 +2,7 @@
 name: synthesize
 trigger: /synthesize
 description: Generate a topic summary from related vault notes with wiki-link citations and AI provenance metadata
-version: 2.0.0
+version: 3.0.0
 ---
 
 # /synthesize -- Knowledge Synthesis
