@@ -1,0 +1,16 @@
+{
+  "name": "firstbrain-main",
+  "version": "1.0.0",
+  "description": "A preconfigured Obsidian vault for anyone who wants their notes, projects, and ideas in one place at last. No more chaos, no more forgotten scraps — just a system that grows with you.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@huggingface/transformers": "^3.8.1"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"01 - Projects\"",
+      "color": {
+        "a": 1,
+        "rgb": 16750848
+      }
+    },
+    {
+      "query": "path:\"02 - Areas\"",
+      "color": {
+        "a": 1,
+        "rgb": 65407
+      }
+    },
+    {
+      "query": "path:\"03 - Resources\"",
+      "color": {
+        "a": 1,
+        "rgb": 8388863
+      }
+    },
+    {
+      "query": "path:\"06 - Atlas\"",
+      "color": {
+        "a": 1,
+        "rgb": 16776960
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -2.4,
+  "nodeSizeMultiplier": 0.916666666666667,
+  "lineSizeMultiplier": 1.14635416666667,
+  "collapse-forces": false,
+  "centerStrength": 0.328125,
+  "repelStrength": 10.9375,
+  "linkStrength": 1,
+  "linkDistance": 500,
+  "scale": 0.25883865621816143,
+  "close": false
+}

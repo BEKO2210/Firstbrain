@@ -1,0 +1,43 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sync
+.sync
+
+# Large files
+*.pdf
+*.zip
+*.tar.gz
+
+# Claude indexes (derived data, regenerable)
+.claude/indexes/
+
+# Node.js dependencies
+node_modules/
+
+# Embedding model cache
+.claude/.models/
+
+# SQLite embedding database (derived data, regenerable)
+.claude/embeddings.db
+.claude/embeddings.db-wal
+.claude/embeddings.db-shm
+
+# Claude local settings (personal per-user config)
+.claude/settings.local.json
+
+# Claude development changelog (internal)
+.claude/changelog.md
+
+# GSD planning directory (development tooling, not part of product)
+.planning/
+
+# Workspace projects (each has its own git repo)
+workspace/*/

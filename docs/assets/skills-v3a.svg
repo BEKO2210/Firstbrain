@@ -1,0 +1,299 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 830" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="skbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <!-- Tier gradients -->
+    <linearGradient id="t1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#388bfd"/>
+      <stop offset="100%" stop-color="#1f6feb"/>
+    </linearGradient>
+    <linearGradient id="t2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a371f7"/>
+      <stop offset="100%" stop-color="#8957e5"/>
+    </linearGradient>
+    <linearGradient id="t3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3fb950"/>
+      <stop offset="100%" stop-color="#2ea043"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="780" height="830" rx="12" fill="url(#skbg)"/>
+  <rect width="780" height="830" rx="12" fill="none" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="390" y="38" text-anchor="middle" fill="#f0f6fc" font-size="20" font-weight="700">Skills</text>
+  <text x="390" y="56" text-anchor="middle" fill="#8b949e" font-size="12">15 Claude Code skills in four tiers</text>
+
+  <!-- ══════════════════════════════════════════════════ -->
+  <!-- TIER 1: Core Skills (v1.0) | Blue                 -->
+  <!-- ══════════════════════════════════════════════════ -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.2s" fill="freeze"/>
+    <!-- Section header -->
+    <rect x="30" y="74" width="720" height="28" rx="6" fill="#1f6feb" opacity="0.08"/>
+    <rect x="30" y="74" width="4" height="28" rx="2" fill="url(#t1)"/>
+    <text x="50" y="93" fill="#388bfd" font-size="13" font-weight="700">CORE</text>
+    <text x="92" y="93" fill="#484f58" font-size="12">v1.0 -- Foundation</text>
+    <rect x="700" y="80" width="40" height="16" rx="8" fill="#1f6feb" opacity="0.15"/>
+    <text x="720" y="92" text-anchor="middle" fill="#388bfd" font-size="9" font-weight="600">7</text>
+  </g>
+
+  <!-- /create -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.4s" fill="freeze"/>
+    <rect x="30" y="110" width="350" height="52" rx="8" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+    <rect x="42" y="122" width="56" height="22" rx="5" fill="#1f6feb" opacity="0.12"/>
+    <text x="70" y="137" text-anchor="middle" fill="#388bfd" font-size="11" font-weight="700">/create</text>
+    <text x="110" y="132" fill="#c9d1d9" font-size="11">Notes from 12 templates.</text>
+    <text x="110" y="148" fill="#8b949e" font-size="10">Picks template, fills frontmatter, places in correct folder.</text>
+  </g>
+
+  <!-- /daily -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.45s" fill="freeze"/>
+    <rect x="400" y="110" width="350" height="52" rx="8" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+    <rect x="412" y="122" width="48" height="22" rx="5" fill="#1f6feb" opacity="0.12"/>
+    <text x="436" y="137" text-anchor="middle" fill="#388bfd" font-size="11" font-weight="700">/daily</text>
+    <text x="472" y="132" fill="#c9d1d9" font-size="11">Today's daily note.</text>
+    <text x="472" y="148" fill="#8b949e" font-size="10">Rolls over open tasks from past 7 days with provenance.</text>
+  </g>
+
+  <!-- /connect -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.5s" fill="freeze"/>
+    <rect x="30" y="170" width="350" height="52" rx="8" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+    <rect x="42" y="182" width="62" height="22" rx="5" fill="#1f6feb" opacity="0.12"/>
+    <text x="73" y="197" text-anchor="middle" fill="#388bfd" font-size="11" font-weight="700">/connect</text>
+    <text x="116" y="192" fill="#c9d1d9" font-size="11">Discover connections.</text>
+    <text x="116" y="208" fill="#8b949e" font-size="10">Shared tags + link adjacency. Scored suggestions.</text>
+  </g>
+
+  <!-- /health -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.55s" fill="freeze"/>
+    <rect x="400" y="170" width="350" height="52" rx="8" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+    <rect x="412" y="182" width="54" height="22" rx="5" fill="#1f6feb" opacity="0.12"/>
+    <text x="439" y="197" text-anchor="middle" fill="#388bfd" font-size="11" font-weight="700">/health</text>
+    <text x="478" y="192" fill="#c9d1d9" font-size="11">Vault health check.</text>
+    <text x="478" y="208" fill="#8b949e" font-size="10">Orphan notes, broken links. Levenshtein suggestions.</text>
+  </g>
+
+  <!-- /scan -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.6s" fill="freeze"/>
+    <rect x="30" y="230" width="350" height="52" rx="8" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+    <rect x="42" y="242" width="46" height="22" rx="5" fill="#1f6feb" opacity="0.12"/>
+    <text x="65" y="257" text-anchor="middle" fill="#388bfd" font-size="11" font-weight="700">/scan</text>
+    <text x="100" y="252" fill="#c9d1d9" font-size="11">Incremental scanner.</text>
+    <text x="100" y="268" fill="#8b949e" font-size="10">Builds vault-index, link-map, tag-index. SHA-256.</text>
+    <!-- Speed badge -->
+    <rect x="336" y="244" width="34" height="14" rx="7" fill="#2ea043" opacity="0.15"/>
+    <text x="353" y="254" text-anchor="middle" fill="#3fb950" font-size="8" font-weight="600">15ms</text>
+  </g>
+
+  <!-- /search -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.65s" fill="freeze"/>
+    <rect x="400" y="230" width="350" height="52" rx="8" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+    <rect x="412" y="242" width="56" height="22" rx="5" fill="#1f6feb" opacity="0.12"/>
+    <text x="440" y="257" text-anchor="middle" fill="#388bfd" font-size="11" font-weight="700">/search</text>
+    <text x="480" y="252" fill="#c9d1d9" font-size="11">Semantic search.</text>
+    <text x="480" y="268" fill="#8b949e" font-size="10">Transformers.js + SQLite. Keyword fallback.</text>
+    <!-- Local badge -->
+    <rect x="706" y="244" width="34" height="14" rx="7" fill="#d29922" opacity="0.15"/>
+    <text x="723" y="254" text-anchor="middle" fill="#e3b341" font-size="8" font-weight="600">local</text>
+  </g>
+
+  <!-- /memory -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.7s" fill="freeze"/>
+    <rect x="30" y="290" width="350" height="52" rx="8" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+    <rect x="42" y="302" width="60" height="22" rx="5" fill="#1f6feb" opacity="0.12"/>
+    <text x="72" y="317" text-anchor="middle" fill="#388bfd" font-size="11" font-weight="700">/memory</text>
+    <text x="114" y="312" fill="#c9d1d9" font-size="11">Memory dashboard.</text>
+    <text x="114" y="328" fill="#8b949e" font-size="10">Active projects, insights, patterns across 4 layers.</text>
+  </g>
+
+  <!-- ══════════════════════════════════════════════════ -->
+  <!-- TIER 2: Proactive Intelligence (v1.1) | Purple    -->
+  <!-- ══════════════════════════════════════════════════ -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.9s" fill="freeze"/>
+    <rect x="30" y="358" width="720" height="28" rx="6" fill="#8957e5" opacity="0.08"/>
+    <rect x="30" y="358" width="4" height="28" rx="2" fill="url(#t2)"/>
+    <text x="50" y="377" fill="#a371f7" font-size="13" font-weight="700">PROACTIVE INTELLIGENCE</text>
+    <text x="240" y="377" fill="#484f58" font-size="12">v1.1 -- Claude works for you</text>
+    <rect x="700" y="364" width="40" height="16" rx="8" fill="#8957e5" opacity="0.15"/>
+    <text x="720" y="376" text-anchor="middle" fill="#a371f7" font-size="9" font-weight="600">4</text>
+  </g>
+
+  <!-- /briefing -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.05s" fill="freeze"/>
+    <rect x="30" y="394" width="350" height="52" rx="8" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+    <rect x="42" y="406" width="62" height="22" rx="5" fill="#8957e5" opacity="0.12"/>
+    <text x="73" y="421" text-anchor="middle" fill="#a371f7" font-size="11" font-weight="700">/briefing</text>
+    <text x="116" y="416" fill="#c9d1d9" font-size="11">Daily executive summary.</text>
+    <text x="116" y="432" fill="#8b949e" font-size="10">Changes, priorities, neglected items. Read-only.</text>
+    <!-- Read-only badge -->
+    <rect x="336" y="408" width="34" height="14" rx="7" fill="#2ea043" opacity="0.15"/>
+    <text x="353" y="418" text-anchor="middle" fill="#3fb950" font-size="8" font-weight="600">safe</text>
+  </g>
+
+  <!-- /triage -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.1s" fill="freeze"/>
+    <rect x="400" y="394" width="350" height="52" rx="8" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+    <rect x="412" y="406" width="52" height="22" rx="5" fill="#8957e5" opacity="0.12"/>
+    <text x="438" y="421" text-anchor="middle" fill="#a371f7" font-size="11" font-weight="700">/triage</text>
+    <text x="476" y="416" fill="#c9d1d9" font-size="11">Inbox classification.</text>
+    <text x="476" y="432" fill="#8b949e" font-size="10">Classifies by type, suggests folder. Auto-tags.</text>
+  </g>
+
+  <!-- /synthesize -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.15s" fill="freeze"/>
+    <rect x="30" y="454" width="350" height="52" rx="8" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+    <rect x="42" y="466" width="74" height="22" rx="5" fill="#8957e5" opacity="0.12"/>
+    <text x="79" y="481" text-anchor="middle" fill="#a371f7" font-size="11" font-weight="700">/synthesize</text>
+    <text x="128" y="476" fill="#c9d1d9" font-size="11">Knowledge synthesis.</text>
+    <text x="128" y="492" fill="#8b949e" font-size="10">Topic-based summary zettel with wiki-link citations.</text>
+  </g>
+
+  <!-- /maintain -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.2s" fill="freeze"/>
+    <rect x="400" y="454" width="350" height="52" rx="8" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+    <rect x="412" y="466" width="66" height="22" rx="5" fill="#8957e5" opacity="0.12"/>
+    <text x="445" y="481" text-anchor="middle" fill="#a371f7" font-size="11" font-weight="700">/maintain</text>
+    <text x="490" y="476" fill="#c9d1d9" font-size="11">Vault consistency audit.</text>
+    <text x="490" y="492" fill="#8b949e" font-size="10">Frontmatter, tags, stale projects. Auto-fix safe issues.</text>
+  </g>
+
+  <!-- ══════════════════════════════════════════════════ -->
+  <!-- TIER 3: Execution Engine (v2.0) | Green            -->
+  <!-- ══════════════════════════════════════════════════ -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.4s" fill="freeze"/>
+    <rect x="30" y="522" width="720" height="28" rx="6" fill="#2ea043" opacity="0.08"/>
+    <rect x="30" y="522" width="4" height="28" rx="2" fill="url(#t3)"/>
+    <text x="50" y="541" fill="#3fb950" font-size="13" font-weight="700">COMMAND PROCESSOR</text>
+    <text x="210" y="541" fill="#484f58" font-size="12">v2.0 -- Execution engine</text>
+    <rect x="700" y="528" width="40" height="16" rx="8" fill="#2ea043" opacity="0.15"/>
+    <text x="720" y="540" text-anchor="middle" fill="#3fb950" font-size="9" font-weight="600">2</text>
+  </g>
+
+  <!-- /process -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.6s" fill="freeze"/>
+    <rect x="30" y="558" width="350" height="52" rx="8" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+    <rect x="42" y="570" width="62" height="22" rx="5" fill="#2ea043" opacity="0.12"/>
+    <text x="73" y="585" text-anchor="middle" fill="#3fb950" font-size="11" font-weight="700">/process</text>
+    <text x="116" y="580" fill="#c9d1d9" font-size="11">Prompt + action execution.</text>
+    <text x="116" y="596" fill="#8b949e" font-size="10">PROMPT:/ACTION:/TASK: from Inbox. Code, git, deploy.</text>
+  </g>
+
+  <!-- /watch -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.65s" fill="freeze"/>
+    <rect x="400" y="558" width="350" height="52" rx="8" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+    <rect x="412" y="570" width="52" height="22" rx="5" fill="#2ea043" opacity="0.12"/>
+    <text x="438" y="585" text-anchor="middle" fill="#3fb950" font-size="11" font-weight="700">/watch</text>
+    <text x="476" y="580" fill="#c9d1d9" font-size="11">Inbox auto-monitor.</text>
+    <text x="476" y="596" fill="#8b949e" font-size="10">Polls every 30s. Injection-safe. Max 10/cycle.</text>
+  </g>
+
+  <!-- ══════════════════════════════════════════════════ -->
+  <!-- TIER 4: Knowledge Graph (v3.0) | Cyan              -->
+  <!-- ══════════════════════════════════════════════════ -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.8s" fill="freeze"/>
+    <rect x="30" y="622" width="720" height="28" rx="6" fill="#1f6feb" opacity="0.08"/>
+    <rect x="30" y="622" width="4" height="28" rx="2" fill="#388bfd"/>
+    <text x="50" y="641" fill="#58a6ff" font-size="13" font-weight="700">KNOWLEDGE GRAPH</text>
+    <text x="198" y="641" fill="#484f58" font-size="12">v3.0 -- Graph intelligence</text>
+    <rect x="700" y="628" width="40" height="16" rx="8" fill="#1f6feb" opacity="0.15"/>
+    <text x="720" y="640" text-anchor="middle" fill="#58a6ff" font-size="9" font-weight="600">2</text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.95s" fill="freeze"/>
+    <rect x="30" y="658" width="350" height="52" rx="8" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+    <rect x="42" y="670" width="52" height="22" rx="5" fill="#1f6feb" opacity="0.12"/>
+    <text x="68" y="685" text-anchor="middle" fill="#58a6ff" font-size="11" font-weight="700">/graph</text>
+    <text x="106" y="680" fill="#c9d1d9" font-size="11">Knowledge graph analysis.</text>
+    <text x="106" y="696" fill="#8b949e" font-size="10">PageRank, clusters, bridges, paths, similarity.</text>
+    <rect x="336" y="672" width="34" height="14" rx="7" fill="#2ea043" opacity="0.15"/>
+    <text x="353" y="682" text-anchor="middle" fill="#3fb950" font-size="8" font-weight="600">read</text>
+  </g>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.0s" fill="freeze"/>
+    <rect x="400" y="658" width="350" height="52" rx="8" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+    <rect x="412" y="670" width="66" height="22" rx="5" fill="#1f6feb" opacity="0.12"/>
+    <text x="445" y="685" text-anchor="middle" fill="#58a6ff" font-size="11" font-weight="700">/propose</text>
+    <text x="490" y="680" fill="#c9d1d9" font-size="11">Emergent structure.</text>
+    <text x="490" y="696" fill="#8b949e" font-size="10">MOC suggestions, missed links, hubs, orphans.</text>
+  </g>
+
+  <!-- ══════════════════════════════════════════════════ -->
+  <!-- WORKFLOW EXAMPLE (animated)                        -->
+  <!-- ══════════════════════════════════════════════════ -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="2.2s" fill="freeze"/>
+    <rect x="30" y="726" width="720" height="50" rx="8" fill="#21262d"/>
+
+    <!-- Step indicators -->
+    <text x="55" y="748" fill="#484f58" font-size="10">Inbox</text>
+    <!-- File icon -->
+    <rect x="86" y="736" width="14" height="18" rx="2" fill="none" stroke="#388bfd" stroke-width="1"/>
+    <text x="93" y="649" text-anchor="middle" fill="#388bfd" font-size="7">P:</text>
+
+    <!-- Arrow 1 -->
+    <line x1="108" y1="746" x2="135" y2="746" stroke="#30363d" stroke-width="1"/>
+    <polygon points="132,743 138,746 132,749" fill="#484f58"/>
+    <!-- Animated particle -->
+    <circle r="2" fill="#388bfd" opacity="0">
+      <animate attributeName="cx" values="110;132" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="746;746" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="145" y="748" fill="#a371f7" font-size="10" font-weight="600">/process</text>
+
+    <!-- Arrow 2 -->
+    <line x1="195" y1="746" x2="222" y2="746" stroke="#30363d" stroke-width="1"/>
+    <polygon points="219,743 225,746 219,749" fill="#484f58"/>
+    <circle r="2" fill="#a371f7" opacity="0">
+      <animate attributeName="cx" values="197;219" dur="1.5s" begin="0.3s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="746;746" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Output files -->
+    <rect x="230" y="736" width="60" height="20" rx="4" fill="#2ea043" opacity="0.1"/>
+    <text x="260" y="750" text-anchor="middle" fill="#3fb950" font-size="8">Project</text>
+
+    <rect x="296" y="736" width="48" height="20" rx="4" fill="#2ea043" opacity="0.1"/>
+    <text x="320" y="750" text-anchor="middle" fill="#3fb950" font-size="8">Tools</text>
+
+    <rect x="350" y="736" width="48" height="20" rx="4" fill="#2ea043" opacity="0.1"/>
+    <text x="374" y="750" text-anchor="middle" fill="#3fb950" font-size="8">Zettel</text>
+
+    <rect x="404" y="736" width="56" height="20" rx="4" fill="#2ea043" opacity="0.1"/>
+    <text x="432" y="750" text-anchor="middle" fill="#3fb950" font-size="8">Snippets</text>
+
+    <!-- Arrow 3 -->
+    <line x1="468" y1="746" x2="495" y2="746" stroke="#30363d" stroke-width="1"/>
+    <polygon points="492,743 498,746 492,749" fill="#484f58"/>
+    <circle r="2" fill="#3fb950" opacity="0">
+      <animate attributeName="cx" values="470;492" dur="1.5s" begin="0.6s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="746;746" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- MOC links -->
+    <rect x="502" y="736" width="44" height="20" rx="4" fill="#388bfd" opacity="0.1"/>
+    <text x="524" y="750" text-anchor="middle" fill="#388bfd" font-size="8">MOCs</text>
+
+    <rect x="552" y="736" width="64" height="20" rx="4" fill="#e3b341" opacity="0.1"/>
+    <text x="584" y="750" text-anchor="middle" fill="#e3b341" font-size="8">Changelog</text>
+
+    <rect x="622" y="736" width="56" height="20" rx="4" fill="#f85149" opacity="0.1"/>
+    <text x="650" y="750" text-anchor="middle" fill="#f85149" font-size="8">Archive</text>
+
+    <!-- Done checkmark -->
+    <circle cx="704" cy="746" r="10" fill="#2ea043" opacity="0.15">
+      <animate attributeName="opacity" values="0.15;0.4;0.15" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <polyline points="699,746 702,749 709,743" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Footer -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.5s" fill="freeze"/>
+    <text x="390" y="822" text-anchor="middle" fill="#484f58" font-size="10">All skills respect Evolution Governance -- AUTO / PROPOSE / NEVER zones</text>
+  </g>
+</svg>

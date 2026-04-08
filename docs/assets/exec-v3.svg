@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 420" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="ebg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="780" height="420" rx="12" fill="url(#ebg)"/>
+  <rect width="780" height="420" rx="12" fill="none" stroke="#30363d" stroke-width="1"/>
+
+  <text x="390" y="36" text-anchor="middle" fill="#f0f6fc" font-size="20" font-weight="700">Execution Engine</text>
+  <text x="390" y="54" text-anchor="middle" fill="#8b949e" font-size="12">Write instructions. Claude builds.</text>
+
+  <!-- FLOW: Inbox -> Process -> Execute -> Log -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.2s" fill="freeze"/>
+
+    <!-- Step 1: Inbox -->
+    <rect x="30" y="78" width="150" height="90" rx="10" fill="#161b22" stroke="#388bfd" stroke-width="1.5"/>
+    <rect x="30" y="78" width="150" height="4" rx="2" fill="#388bfd"/>
+    <!-- File icon -->
+    <rect x="62" y="98" width="20" height="26" rx="3" fill="none" stroke="#388bfd" stroke-width="1.3"/>
+    <line x1="68" y1="107" x2="76" y2="107" stroke="#388bfd" stroke-width="1" opacity="0.6"/>
+    <line x1="68" y1="112" x2="76" y2="112" stroke="#388bfd" stroke-width="1" opacity="0.4"/>
+    <line x1="68" y1="117" x2="74" y2="117" stroke="#388bfd" stroke-width="1" opacity="0.3"/>
+    <text x="92" y="112" fill="#388bfd" font-size="13" font-weight="600">Inbox</text>
+    <text x="50" y="146" fill="#8b949e" font-size="10">Drop .md files with</text>
+    <text x="50" y="160" fill="#a371f7" font-size="10" font-weight="600">ACTION:  TASK:  PROMPT:</text>
+
+    <!-- Arrow 1 -->
+    <line x1="180" y1="123" x2="220" y2="123" stroke="#30363d" stroke-width="1.5"/>
+    <polygon points="216,119 224,123 216,127" fill="#484f58"/>
+    <circle r="3" fill="#388bfd">
+      <animate attributeName="cx" values="184;216" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="123;123" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Step 2: Claude reads -->
+    <rect x="224" y="78" width="150" height="90" rx="10" fill="#161b22" stroke="#a371f7" stroke-width="1.5"/>
+    <rect x="224" y="78" width="150" height="4" rx="2" fill="#a371f7"/>
+    <!-- Brain icon -->
+    <circle cx="263" cy="112" r="12" fill="none" stroke="#a371f7" stroke-width="1.3"/>
+    <circle cx="263" cy="108" r="3" fill="#a371f7" opacity="0.4">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="283" y="116" fill="#a371f7" font-size="13" font-weight="600">Analyze</text>
+    <text x="244" y="146" fill="#8b949e" font-size="10">Validates, scans for</text>
+    <text x="244" y="160" fill="#8b949e" font-size="10">injection, identifies project</text>
+
+    <!-- Arrow 2 -->
+    <line x1="374" y1="123" x2="414" y2="123" stroke="#30363d" stroke-width="1.5"/>
+    <polygon points="410,119 418,123 410,127" fill="#484f58"/>
+    <circle r="3" fill="#a371f7">
+      <animate attributeName="cx" values="378;410" dur="1.5s" begin="0.3s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="123;123" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Step 3: Execute -->
+    <rect x="418" y="78" width="150" height="90" rx="10" fill="#161b22" stroke="#3fb950" stroke-width="1.5"/>
+    <rect x="418" y="78" width="150" height="4" rx="2" fill="#3fb950"/>
+    <!-- Terminal icon -->
+    <rect x="448" y="97" width="24" height="18" rx="3" fill="none" stroke="#3fb950" stroke-width="1.3"/>
+    <polyline points="452,103 456,107 452,111" fill="none" stroke="#3fb950" stroke-width="1" stroke-linecap="round"/>
+    <line x1="459" y1="111" x2="465" y2="111" stroke="#3fb950" stroke-width="1" stroke-linecap="round"/>
+    <text x="480" y="112" fill="#3fb950" font-size="13" font-weight="600">Execute</text>
+    <text x="438" y="146" fill="#8b949e" font-size="10">Code, folders, git push,</text>
+    <text x="438" y="160" fill="#8b949e" font-size="10">build, test, deploy</text>
+
+    <!-- Arrow 3 -->
+    <line x1="568" y1="123" x2="608" y2="123" stroke="#30363d" stroke-width="1.5"/>
+    <polygon points="604,119 612,123 604,127" fill="#484f58"/>
+    <circle r="3" fill="#3fb950">
+      <animate attributeName="cx" values="572;604" dur="1.5s" begin="0.6s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="123;123" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Step 4: Log -->
+    <rect x="612" y="78" width="138" height="90" rx="10" fill="#161b22" stroke="#e3b341" stroke-width="1.5"/>
+    <rect x="612" y="78" width="138" height="4" rx="2" fill="#e3b341"/>
+    <!-- Document icon -->
+    <rect x="642" y="97" width="18" height="22" rx="2" fill="none" stroke="#e3b341" stroke-width="1.3"/>
+    <line x1="646" y1="104" x2="656" y2="104" stroke="#e3b341" stroke-width="0.8"/>
+    <line x1="646" y1="109" x2="656" y2="109" stroke="#e3b341" stroke-width="0.8"/>
+    <line x1="646" y1="114" x2="652" y2="114" stroke="#e3b341" stroke-width="0.8"/>
+    <text x="668" y="112" fill="#e3b341" font-size="13" font-weight="600">Log</text>
+    <text x="632" y="146" fill="#8b949e" font-size="10">Vault note updated,</text>
+    <text x="632" y="160" fill="#8b949e" font-size="10">changelog, memory</text>
+  </g>
+
+  <!-- DUAL STRUCTURE -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.7s" fill="freeze"/>
+    <text x="390" y="200" text-anchor="middle" fill="#f0f6fc" font-size="14" font-weight="600">Every project lives in two places</text>
+
+    <!-- Vault Note side -->
+    <rect x="30" y="218" width="350" height="110" rx="10" fill="#161b22" stroke="#388bfd" stroke-width="1"/>
+    <rect x="30" y="218" width="350" height="4" rx="2" fill="#388bfd"/>
+    <text x="205" y="244" text-anchor="middle" fill="#388bfd" font-size="13" font-weight="700">01 - Projects/My App.md</text>
+    <text x="205" y="262" text-anchor="middle" fill="#484f58" font-size="11">Vault Note</text>
+
+    <text x="55" y="284" fill="#3fb950" font-size="10">Plan</text>
+    <text x="105" y="284" fill="#3fb950" font-size="10">Status</text>
+    <text x="162" y="284" fill="#3fb950" font-size="10">Decisions</text>
+    <text x="240" y="284" fill="#3fb950" font-size="10">Team</text>
+    <text x="286" y="284" fill="#3fb950" font-size="10">Log</text>
+
+    <text x="205" y="314" text-anchor="middle" fill="#8b949e" font-size="10">WHY and WHAT</text>
+
+    <!-- Connection line -->
+    <line x1="380" y1="273" x2="400" y2="273" stroke="#484f58" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <line x1="400" y1="273" x2="400" y2="273" stroke="#484f58" stroke-width="0"/>
+    <!-- Bidirectional arrows -->
+    <polygon points="396,269 404,273 396,277" fill="#484f58"/>
+
+    <!-- Workspace side -->
+    <rect x="400" y="218" width="350" height="110" rx="10" fill="#161b22" stroke="#3fb950" stroke-width="1"/>
+    <rect x="400" y="218" width="350" height="4" rx="2" fill="#3fb950"/>
+    <text x="575" y="244" text-anchor="middle" fill="#3fb950" font-size="13" font-weight="700">workspace/my-app/</text>
+    <text x="575" y="262" text-anchor="middle" fill="#484f58" font-size="11">Code Repository</text>
+
+    <text x="425" y="284" fill="#388bfd" font-size="10">app.py</text>
+    <text x="478" y="284" fill="#388bfd" font-size="10">models/</text>
+    <text x="536" y="284" fill="#388bfd" font-size="10">tests/</text>
+    <text x="586" y="284" fill="#388bfd" font-size="10">.git</text>
+    <text x="620" y="284" fill="#388bfd" font-size="10">Dockerfile</text>
+
+    <text x="575" y="314" text-anchor="middle" fill="#8b949e" font-size="10">HOW and CODE</text>
+  </g>
+
+  <!-- WATCH MODE -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.0s" fill="freeze"/>
+    <rect x="30" y="348" width="720" height="50" rx="8" fill="#21262d"/>
+    <rect x="30" y="348" width="720" height="3" rx="1.5" fill="#8957e5" opacity="0.3"/>
+
+    <!-- Radar icon -->
+    <circle cx="64" cy="373" r="10" fill="none" stroke="#a371f7" stroke-width="1" opacity="0.3"/>
+    <circle cx="64" cy="373" r="6" fill="none" stroke="#a371f7" stroke-width="1" opacity="0.5"/>
+    <circle cx="64" cy="373" r="2" fill="#a371f7"/>
+    <!-- Sweep animation -->
+    <line x1="64" y1="373" x2="64" y2="363" stroke="#a371f7" stroke-width="1.5" stroke-linecap="round" opacity="0.6">
+      <animateTransform attributeName="transform" type="rotate" from="0 64 373" to="360 64 373" dur="3s" repeatCount="indefinite"/>
+    </line>
+
+    <text x="86" y="370" fill="#a371f7" font-size="13" font-weight="700">/watch</text>
+    <text x="86" y="386" fill="#8b949e" font-size="10">Polls Inbox every 30s</text>
+
+    <!-- Features -->
+    <rect x="220" y="362" width="100" height="20" rx="4" fill="#2ea043" opacity="0.08"/>
+    <text x="270" y="376" text-anchor="middle" fill="#3fb950" font-size="10">Auto-execute</text>
+
+    <rect x="330" y="362" width="100" height="20" rx="4" fill="#1f6feb" opacity="0.08"/>
+    <text x="380" y="376" text-anchor="middle" fill="#388bfd" font-size="10">Multi-project</text>
+
+    <rect x="440" y="362" width="100" height="20" rx="4" fill="#e3b341" opacity="0.08"/>
+    <text x="490" y="376" text-anchor="middle" fill="#e3b341" font-size="10">Full logging</text>
+
+    <rect x="550" y="362" width="118" height="20" rx="4" fill="#f85149" opacity="0.08"/>
+    <text x="609" y="376" text-anchor="middle" fill="#f85149" font-size="10">Injection-safe</text>
+  </g>
+
+  <!-- Footer -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.3s" fill="freeze"/>
+    <text x="390" y="414" text-anchor="middle" fill="#484f58" font-size="10">Drop ACTION: files in Inbox from Obsidian, any editor, or external AI. Claude picks them up.</text>
+  </g>
+</svg>

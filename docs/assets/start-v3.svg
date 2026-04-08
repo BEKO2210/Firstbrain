@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 620" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="qbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="qline" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8957e5"/>
+      <stop offset="50%" stop-color="#388bfd"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="780" height="620" rx="12" fill="url(#qbg)"/>
+  <rect width="780" height="620" rx="12" fill="none" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="390" y="38" text-anchor="middle" fill="#f0f6fc" font-size="20" font-weight="700">Quick Start</text>
+  <text x="390" y="56" text-anchor="middle" fill="#8b949e" font-size="12">Up and running in 6 steps</text>
+
+  <!-- Vertical timeline line -->
+  <line x1="72" y1="90" x2="72" y2="590" stroke="#21262d" stroke-width="2"/>
+  <!-- Animated progress overlay -->
+  <line x1="72" y1="90" x2="72" y2="90" stroke="url(#qline)" stroke-width="2">
+    <animate attributeName="y2" from="90" to="590" dur="3s" begin="0.5s" fill="freeze"/>
+  </line>
+
+  <!-- ════════ STEP 1: Clone ════════ -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.3s" fill="freeze"/>
+    <!-- Circle on timeline -->
+    <circle cx="72" cy="110" r="16" fill="#161b22" stroke="#8957e5" stroke-width="2"/>
+    <text x="72" y="115" text-anchor="middle" fill="#a371f7" font-size="13" font-weight="700">1</text>
+
+    <!-- Card -->
+    <rect x="108" y="82" width="640" height="70" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="128" y="106" fill="#f0f6fc" font-size="14" font-weight="600">Clone &amp; Open in Obsidian</text>
+    <!-- Terminal command -->
+    <rect x="128" y="114" width="380" height="26" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+    <text x="138" y="131" fill="#484f58" font-size="11">$</text>
+    <text x="152" y="131" fill="#c9d1d9" font-size="11" font-weight="500">git clone https://github.com/BEKO2210/Firstbrain.git</text>
+    <!-- Arrow hint -->
+    <text x="530" y="131" fill="#484f58" font-size="11">Open folder as vault</text>
+
+    <!-- Tool badges -->
+    <rect x="640" y="94" width="50" height="18" rx="9" fill="#7C3AED" opacity="0.15"/>
+    <text x="665" y="107" text-anchor="middle" fill="#a371f7" font-size="9" font-weight="600">Obsidian</text>
+    <rect x="696" y="94" width="36" height="18" rx="9" fill="#1f6feb" opacity="0.15"/>
+    <text x="714" y="107" text-anchor="middle" fill="#388bfd" font-size="9" font-weight="600">Git</text>
+  </g>
+
+  <!-- ════════ STEP 2: Dataview ════════ -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.7s" fill="freeze"/>
+    <circle cx="72" cy="200" r="16" fill="#161b22" stroke="#6e40c9" stroke-width="2"/>
+    <text x="72" y="205" text-anchor="middle" fill="#a371f7" font-size="13" font-weight="700">2</text>
+
+    <rect x="108" y="172" width="640" height="70" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="128" y="196" fill="#f0f6fc" font-size="14" font-weight="600">Install Dataview Plugin</text>
+    <!-- Path breadcrumb -->
+    <text x="128" y="216" fill="#8b949e" font-size="11">Settings</text>
+    <text x="176" y="216" fill="#484f58" font-size="11">&gt;</text>
+    <text x="188" y="216" fill="#8b949e" font-size="11">Community Plugins</text>
+    <text x="291" y="216" fill="#484f58" font-size="11">&gt;</text>
+    <text x="303" y="216" fill="#8b949e" font-size="11">Browse</text>
+    <text x="341" y="216" fill="#484f58" font-size="11">&gt;</text>
+    <text x="353" y="216" fill="#e3b341" font-size="11" font-weight="600">"Dataview"</text>
+    <text x="413" y="216" fill="#484f58" font-size="11">&gt;</text>
+    <text x="425" y="216" fill="#3fb950" font-size="11" font-weight="600">Install + Enable</text>
+
+    <!-- Required badge -->
+    <rect x="688" y="186" width="50" height="18" rx="9" fill="#da3633" opacity="0.15"/>
+    <text x="713" y="199" text-anchor="middle" fill="#f85149" font-size="9" font-weight="600">required</text>
+    <text x="128" y="234" fill="#484f58" font-size="10">Powers automatic lists on MOC pages and Home dashboard</text>
+  </g>
+
+  <!-- ════════ STEP 3: npm install ════════ -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.1s" fill="freeze"/>
+    <circle cx="72" cy="290" r="16" fill="#161b22" stroke="#1f6feb" stroke-width="2"/>
+    <text x="72" y="295" text-anchor="middle" fill="#388bfd" font-size="13" font-weight="700">3</text>
+
+    <rect x="108" y="262" width="640" height="70" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="128" y="286" fill="#f0f6fc" font-size="14" font-weight="600">Install Semantic Search</text>
+    <rect x="128" y="294" width="200" height="26" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+    <text x="138" y="311" fill="#484f58" font-size="11">$</text>
+    <text x="152" y="311" fill="#c9d1d9" font-size="11" font-weight="500">npm install</text>
+    <text x="348" y="311" fill="#8b949e" font-size="11">Transformers.js for local embeddings</text>
+
+    <!-- Optional badge -->
+    <rect x="688" y="276" width="50" height="18" rx="9" fill="#d29922" opacity="0.15"/>
+    <text x="713" y="289" text-anchor="middle" fill="#e3b341" font-size="9" font-weight="600">optional</text>
+
+    <!-- Lock icon -->
+    <rect x="130" y="323" width="10" height="7" rx="1.5" fill="none" stroke="#3fb950" stroke-width="0.8"/>
+    <path d="M132,323 L132,321 A3,3 0 0,1 138,321 L138,323" fill="none" stroke="#3fb950" stroke-width="0.8"/>
+    <text x="146" y="330" fill="#484f58" font-size="10">100% local -- no data leaves your machine</text>
+  </g>
+
+  <!-- ════════ STEP 4: Start Claude ════════ -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.5s" fill="freeze"/>
+    <circle cx="72" cy="380" r="16" fill="#161b22" stroke="#2ea043" stroke-width="2"/>
+    <text x="72" y="385" text-anchor="middle" fill="#3fb950" font-size="13" font-weight="700">4</text>
+
+    <rect x="108" y="352" width="640" height="70" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="128" y="376" fill="#f0f6fc" font-size="14" font-weight="600">Start Claude Code</text>
+    <rect x="128" y="384" width="120" height="26" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+    <text x="138" y="401" fill="#484f58" font-size="11">$</text>
+    <text x="152" y="401" fill="#c9d1d9" font-size="11" font-weight="500">claude</text>
+    <text x="268" y="401" fill="#8b949e" font-size="11">Reads CLAUDE.md automatically -- ready immediately</text>
+
+    <!-- Status dot -->
+    <circle cx="700" cy="382" r="5" fill="#2ea043" opacity="0.3">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="382" r="2.5" fill="#3fb950"/>
+    <text x="712" y="386" fill="#3fb950" font-size="10">ready</text>
+  </g>
+
+  <!-- ════════ STEP 5: /scan ════════ -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.9s" fill="freeze"/>
+    <circle cx="72" cy="470" r="16" fill="#161b22" stroke="#d29922" stroke-width="2"/>
+    <text x="72" y="475" text-anchor="middle" fill="#e3b341" font-size="13" font-weight="700">5</text>
+
+    <rect x="108" y="442" width="640" height="70" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="128" y="466" fill="#f0f6fc" font-size="14" font-weight="600">Initialize Vault Index</text>
+    <rect x="128" y="474" width="80" height="26" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+    <text x="148" y="491" fill="#a371f7" font-size="11" font-weight="600">/scan</text>
+
+    <!-- Output files -->
+    <text x="228" y="486" fill="#484f58" font-size="11">&gt;</text>
+    <rect x="244" y="478" width="88" height="16" rx="4" fill="#2ea043" opacity="0.1"/>
+    <text x="288" y="490" text-anchor="middle" fill="#3fb950" font-size="9">vault-index.json</text>
+    <rect x="340" y="478" width="72" height="16" rx="4" fill="#2ea043" opacity="0.1"/>
+    <text x="376" y="490" text-anchor="middle" fill="#3fb950" font-size="9">link-map.json</text>
+    <rect x="420" y="478" width="72" height="16" rx="4" fill="#2ea043" opacity="0.1"/>
+    <text x="456" y="490" text-anchor="middle" fill="#3fb950" font-size="9">tag-index.json</text>
+
+    <!-- Speed -->
+    <text x="520" y="490" fill="#484f58" font-size="10">~15ms</text>
+  </g>
+
+  <!-- ════════ STEP 6: Use it ════════ -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.3s" fill="freeze"/>
+    <circle cx="72" cy="560" r="16" fill="#161b22" stroke="#da3633" stroke-width="2"/>
+    <text x="72" y="565" text-anchor="middle" fill="#f85149" font-size="13" font-weight="700">6</text>
+
+    <rect x="108" y="532" width="640" height="70" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="128" y="556" fill="#f0f6fc" font-size="14" font-weight="600">Start Using It</text>
+
+    <!-- Example commands -->
+    <rect x="128" y="562" width="100" height="20" rx="4" fill="#8957e5" opacity="0.1"/>
+    <text x="178" y="576" text-anchor="middle" fill="#a371f7" font-size="10" font-weight="600">/briefing</text>
+
+    <rect x="236" y="562" width="100" height="20" rx="4" fill="#1f6feb" opacity="0.1"/>
+    <text x="286" y="576" text-anchor="middle" fill="#388bfd" font-size="10" font-weight="600">/create</text>
+
+    <rect x="344" y="562" width="80" height="20" rx="4" fill="#2ea043" opacity="0.1"/>
+    <text x="384" y="576" text-anchor="middle" fill="#3fb950" font-size="10" font-weight="600">/health</text>
+
+    <rect x="432" y="562" width="86" height="20" rx="4" fill="#d29922" opacity="0.1"/>
+    <text x="475" y="576" text-anchor="middle" fill="#e3b341" font-size="10" font-weight="600">/search</text>
+
+    <rect x="526" y="562" width="80" height="20" rx="4" fill="#da3633" opacity="0.1"/>
+    <text x="566" y="576" text-anchor="middle" fill="#f85149" font-size="10" font-weight="600">/triage</text>
+
+    <rect x="614" y="562" width="80" height="20" rx="4" fill="#8957e5" opacity="0.1"/>
+    <text x="654" y="576" text-anchor="middle" fill="#a371f7" font-size="10" font-weight="600">/process</text>
+
+    <!-- Animated typing cursor -->
+    <rect x="700" y="562" width="2" height="18" rx="1" fill="#f0f6fc" opacity="0.6">
+      <animate attributeName="opacity" values="0;0.8;0" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Footer -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="2.6s" fill="freeze"/>
+    <text x="390" y="610" text-anchor="middle" fill="#484f58" font-size="10">Or just talk naturally -- Claude understands your intent</text>
+  </g>
+</svg>
