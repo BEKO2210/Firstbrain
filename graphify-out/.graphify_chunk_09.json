@@ -1,0 +1,33 @@
+{
+  "file_type": "image",
+  "source_file": "docs/assets/feat-v3.svg",
+  "nodes": [
+    {"id": "diagram_feat_v3", "label": "Features Diagram", "type": "diagram"},
+    {"id": "feat_15_skills", "label": "15 Skills", "type": "concept"},
+    {"id": "feat_zero_dependencies", "label": "Zero Dependencies", "type": "concept"},
+    {"id": "feat_incremental_scan", "label": "Incremental Scan", "type": "concept"},
+    {"id": "feat_semantic_search", "label": "Semantic Search", "type": "concept"},
+    {"id": "feat_4_layer_memory", "label": "4-Layer Memory", "type": "concept"},
+    {"id": "feat_proactive_intel", "label": "Proactive Intel", "type": "concept"},
+    {"id": "feat_governance", "label": "Governance", "type": "concept"},
+    {"id": "feat_12_templates", "label": "12 Templates", "type": "concept"},
+    {"id": "feat_100_obsidian", "label": "100% Obsidian", "type": "concept"}
+  ],
+  "edges": [
+    {"source": "diagram_feat_v3", "target": "feat_15_skills", "type": "contains", "confidence": 0.75, "method": "INFERRED"},
+    {"source": "diagram_feat_v3", "target": "feat_zero_dependencies", "type": "contains", "confidence": 0.75, "method": "INFERRED"},
+    {"source": "diagram_feat_v3", "target": "feat_incremental_scan", "type": "contains", "confidence": 0.75, "method": "INFERRED"},
+    {"source": "diagram_feat_v3", "target": "feat_semantic_search", "type": "contains", "confidence": 0.75, "method": "INFERRED"},
+    {"source": "diagram_feat_v3", "target": "feat_4_layer_memory", "type": "contains", "confidence": 0.75, "method": "INFERRED"},
+    {"source": "diagram_feat_v3", "target": "feat_proactive_intel", "type": "contains", "confidence": 0.75, "method": "INFERRED"},
+    {"source": "diagram_feat_v3", "target": "feat_governance", "type": "contains", "confidence": 0.75, "method": "INFERRED"},
+    {"source": "diagram_feat_v3", "target": "feat_12_templates", "type": "contains", "confidence": 0.75, "method": "INFERRED"},
+    {"source": "diagram_feat_v3", "target": "feat_100_obsidian", "type": "contains", "confidence": 0.75, "method": "INFERRED"},
+    {"source": "feat_15_skills", "target": "feat_zero_dependencies", "type": "grouped_with", "confidence": 0.75, "method": "INFERRED"},
+    {"source": "feat_zero_dependencies", "target": "feat_incremental_scan", "type": "grouped_with", "confidence": 0.75, "method": "INFERRED"},
+    {"source": "feat_semantic_search", "target": "feat_4_layer_memory", "type": "grouped_with", "confidence": 0.75, "method": "INFERRED"},
+    {"source": "feat_4_layer_memory", "target": "feat_proactive_intel", "type": "grouped_with", "confidence": 0.75, "method": "INFERRED"},
+    {"source": "feat_governance", "target": "feat_12_templates", "type": "grouped_with", "confidence": 0.75, "method": "INFERRED"},
+    {"source": "feat_12_templates", "target": "feat_100_obsidian", "type": "grouped_with", "confidence": 0.75, "method": "INFERRED"}
+  ]
+}

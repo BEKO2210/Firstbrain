@@ -2,6 +2,7 @@
 type: daily
 created: {{date}}
 tags:
+  - template
   - daily
 ---
 
@@ -35,4 +36,6 @@ tags:
 
 ## Connections
 
-- [[]]
+- **Templates MOC:** [[Templates MOC]]
+- **Verwandte Templates:** [[Weekly Review]] | [[Monthly Review]]
+- **Related:** [[]]

@@ -3,6 +3,13 @@ name: maintain
 trigger: /maintain
 description: Audit vault consistency -- detect frontmatter issues, stale projects, and outdated references with auto-fix and proposed corrections
 version: 3.0.0
+type: skill
+tags:
+  - skill
+  - agent
+  - maintenance
+  - consistency
+  - audit
 ---
 
 # /maintain -- Vault Maintenance
@@ -173,3 +180,9 @@ Applies all autoFixable issues by modifying only the frontmatter block of each a
 - **Staleness is mtime-based:** Uses file modification time from the vault index. A metadata-only change (e.g., tag edit) resets the stale clock even if the note content is unchanged.
 - **No historical tracking:** Each /maintain run is independent. Does not compare to previous runs or track fix history beyond the changelog.
 - **Link map dependency:** Outdated reference detection requires a valid link-map.json from the scan infrastructure. If link-map is missing or stale, ensureFreshIndexes handles this.
+
+## Connections
+
+- **Related:** [[health]], [[triage]], [[scan]], [[briefing]]
+- **Uses:** [[scan]], [[health]]
+- **MOC:** [[Skills MOC]]

@@ -3,6 +3,13 @@ name: create
 trigger: /create
 description: Create a new note from template with filled frontmatter and wiki-link suggestions
 version: 3.0.0
+type: skill
+tags:
+  - skill
+  - agent
+  - creation
+  - templates
+  - notes
 ---
 
 # /create -- Note Creator
@@ -153,3 +160,9 @@ scan('.');
 - Does not support custom templates beyond the 12 defined types. New template types require updating CLAUDE.md and create-utils.cjs.
 - Does not auto-create folders. Target folders must already exist in the vault structure.
 - Wiki-link suggestions are based on tag overlap only (Level 1). Semantic similarity deferred to Phase 4.
+
+## Connections
+
+- **Related:** [[triage]], [[daily]], [[synthesize]], [[process]]
+- **Uses:** [[connect]], [[scan]]
+- **MOC:** [[Skills MOC]]

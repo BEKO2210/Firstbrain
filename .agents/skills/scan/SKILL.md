@@ -3,6 +3,13 @@ name: scan
 trigger: /scan
 description: Scan the vault and rebuild cached indexes for all .md files
 version: 3.0.0
+type: skill
+tags:
+  - skill
+  - agent
+  - maintenance
+  - indexing
+  - core
 ---
 
 # /scan -- Vault Scanner

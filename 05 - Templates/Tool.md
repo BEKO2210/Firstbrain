@@ -4,6 +4,7 @@ category:
 url:
 created: {{date}}
 tags:
+  - template
   - tool
 ---
 
@@ -35,6 +36,8 @@ tags:
 
 ## Connections
 
+- **Templates MOC:** [[Templates MOC]]
+- **Verwandte Templates:** [[Code Snippet]] | [[Resource]]
 - **Projects:** [[]]
 - **Alternatives:** [[]]
 - **Docs:** [[]]

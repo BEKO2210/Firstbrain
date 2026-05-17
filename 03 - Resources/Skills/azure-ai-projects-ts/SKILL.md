@@ -1,0 +1,193 @@
+---
+name: "azure-ai-projects-ts"
+description: "High-level SDK for Azure AI Foundry projects with agents, connections, deployments, and evaluations."
+type: skill
+created: 2026-02-27
+domain: cloud-infrastructure
+category: azure
+risk: unknown
+source: community
+tags:
+  - skill
+  - cloud-infrastructure
+  - azure
+  - projects
+---
+
+# Azure AI Projects SDK for TypeScript
+
+High-level SDK for Azure AI Foundry projects with agents, connections, deployments, and evaluations.
+
+## Installation
+
+```bash
+npm install @azure/ai-projects @azure/identity
+```
+
+For tracing:
+```bash
+npm install @azure/monitor-opentelemetry @opentelemetry/api
+```
+
+## Environment Variables
+
+```bash
+AZURE_AI_PROJECT_ENDPOINT=https://<resource>.services.ai.azure.com/api/projects/<project>
+MODEL_DEPLOYMENT_NAME=gpt-4o
+```
+
+## Authentication
+
+```typescript
+import { AIProjectClient } from "@azure/ai-projects";
+import { DefaultAzureCredential } from "@azure/identity";
+
+const client = new AIProjectClient(
+  process.env.AZURE_AI_PROJECT_ENDPOINT!,
+  new DefaultAzureCredential()
+);
+```
+
+## Operation Groups
+
+| Group | Purpose |
+|-------|---------|
+| `client.agents` | Create and manage AI agents |
+| `client.connections` | List connected Azure resources |
+| `client.deployments` | List model deployments |
+| `client.datasets` | Upload and manage datasets |
+| `client.indexes` | Create and manage search indexes |
+| `client.evaluators` | Manage evaluation metrics |
+| `client.memoryStores` | Manage agent memory |
+
+## Getting OpenAI Client
+
+```typescript
+const openAIClient = await client.getOpenAIClient();
+
+// Use for responses
+const response = await openAIClient.responses.create({
+  model: "gpt-4o",
+  input: "What is the capital of France?"
+});
+
+// Use for conversations
+const conversation = await openAIClient.conversations.create({
+  items: [{ type: "message", role: "user", content: "Hello!" }]
+});
+```
+
+## Agents
+
+### Create Agent
+
+```typescript
+const agent = await client.agents.createVersion("my-agent", {
+  kind: "prompt",
+  model: "gpt-4o",
+  instructions: "You are a helpful assistant."
+});
+```
+
+### Agent with Tools
+
+```typescript
+// Code Interpreter
+const agent = await client.agents.createVersion("code-agent", {
+  kind: "prompt",
+  model: "gpt-4o",
+  instructions: "You can execute code.",
+  tools: [{ type: "code_interpreter", container: { type: "auto" } }]
+});
+
+// File Search
+const agent = await client.agents.createVersion("search-agent", {
+  kind: "prompt",
+  model: "gpt-4o",
+  tools: [{ type: "file_search", vector_store_ids: [vectorStoreId] }]
+});
+
+// Web Search
+const agent = await client.agents.createVersion("web-agent", {
+  kind: "prompt",
+  model: "gpt-4o",
+  tools: [{
+    type: "web_search_preview",
+    user_location: { type: "approximate", country: "US", city: "Seattle" }
+  }]
+});
+
+// Azure AI Search
+const agent = await client.agents.createVersion("aisearch-agent", {
+  kind: "prompt",
+  model: "gpt-4o",
+  tools: [{
+    type: "azure_ai_search",
+    azure_ai_search: {
+      indexes: [{
+        project_connection_id: connectionId,
+        index_name: "my-index",
+        query_type: "simple"
+      }]
+    }
+  }]
+});
+
+// Function Tool
+const agent = await client.agents.createVersion("func-agent", {
+  kind: "prompt",
+  model: "gpt-4o",
+  tools: [{
+    type: "function",
+    function: {
+      name: "get_weather",
+      description: "Get weather for a location",
+      strict: true,
+      parameters: {
+        type: "object",
+        properties: { location: { type: "string" } },
+        required: ["location"]
+      }
+    }
+  }]
+});
+
+// MCP Tool
+const agent = await client.agents.createVersion("mcp-agent", {
+  kind: "prompt",
+  model: "gpt-4o",
+  tools: [{
+    type: "mcp",
+    server_label: "my-mcp",
+    server_url: "https://mcp-server.example.com",
+    require_approval: "always"
+  }]
+});
+```
+
+### Run Agent
+
+```typescript
+const openAIClient = await client.getOpenAIClient();
+
+// Create conversation
+const conversation = await openAIClient.conversations.create({
+  items: [{ type: "message", role: "user", content: "Hello!" }]
+});
+
+// Generate response using agent
+const response = await openAIClient.responses.create(
+  { conversation: conversation.id },
+  { body: { agent: { name: agent.name, type: "agent_reference" } } }
+);
+
+// Cleanup
+await openAIClient.conversations.delete(conversation.id);
+await client.agents.deleteVersion(agent.name, agent.version);
+```
+
+## Connections
+
+- **Domain:** [[Cloud & Infrastruktur]]
+- **Kategorie:** [[Microsoft Azure]]
+- **Navigation:** [[Skills Uebersicht]], [[Home]]

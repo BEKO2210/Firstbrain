@@ -1,0 +1,54 @@
+---
+type: resource
+created: 2026-04-08
+updated: 2026-04-08
+tags:
+  - prompt
+  - lyra
+  - pkm
+source: https://github.com/BEKO2210/lyra-prompts
+---
+
+---
+id: "#3662"
+titel: "A radioactive sample contains two different isotopes, A and B"
+kategorie: "Spezielle Situationen"
+unterkategorie: "Importiert"
+tags: ["radioactive", "sample", "contains", "different", "isotopes"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+quelle: "openrlhf-Capybara"
+erstellt: "2026-03-10"
+---
+
+## Prompt
+
+```
+A radioactive sample contains two different isotopes, A and B. A has a half-life of 3 days, and B has a half-life of 6 days. Initially in the sample there are twice as many atoms of A as of B. In how many days will the ratio of the number of atoms of A to B be reversed?
+```
+
+## Anwendung
+
+Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
+Passe die Platzhalter und Details an deine Situation an.
+
+- **Kategorie:** Spezielle Situationen
+- **Schwierigkeit:** Anfaenger — einfach kopieren und anpassen
+- **Tipp:** Fuer bessere Ergebnisse, fuege spezifische Details zu deiner Situation hinzu
+
+## Variationen
+
+- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
+- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
+- Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
+- Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
+
+## Connections
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Spezielle Situationen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

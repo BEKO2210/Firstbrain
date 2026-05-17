@@ -4,6 +4,13 @@ description: Emergent structure proposals -- MOC suggestions, missed connections
 version: 3.0.0
 triggers:
   - /propose
+type: skill
+tags:
+  - skill
+  - agent
+  - discovery
+  - structure
+  - proposals
 ---
 
 # Propose -- Emergent Structure Intelligence
@@ -75,3 +82,9 @@ Orphan: "Tool -- Podman" (0 links in, 1 out)
 - This is a PROPOSE-level skill -- everything requires user confirmation.
 - Creating new MOCs = PROPOSE (new structure)
 - Adding links = AUTO (fix broken connections)
+
+## Connections
+
+- **Related:** [[graph]], [[connect]], [[health]], [[maintain]]
+- **Uses:** [[graph]], [[scan]]
+- **MOC:** [[Skills MOC]]

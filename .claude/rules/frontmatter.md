@@ -1,3 +1,11 @@
+---
+type: system
+created: 2026-04-09
+tags: [system, rules, config]
+---
+
+# Frontmatter Standards
+
 YAML frontmatter standards:
 
 - Every note MUST have: type, created, tags
@@ -14,3 +22,14 @@ YAML frontmatter standards:
   - decision: status, related-project
   - daily: (minimal -- type, created, tags)
   - review: period (weekly/monthly)
+
+## Connections
+
+- **Related System Files:**
+  - [[Governance]] - Evolution governance and zones
+  - [[Linking]] - Wiki-link conventions
+  - [[Naming]] - File naming conventions
+  - [[Process]] - Inbox processing rules
+  - [[Templates]] - Template conventions
+- **Part of:** [[System MOC]]
+- **Navigate:** [[Home]]

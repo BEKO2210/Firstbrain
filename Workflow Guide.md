@@ -1,8 +1,11 @@
 ---
 type: system
+created: 2024-01-01
 tags:
   - system
   - guide
+  - workflow
+  - para
 ---
 
 # Workflow Guide
@@ -112,4 +115,8 @@ This vault works across projects:
 
 ---
 
-[[Home]] | [[Tag Conventions]]
+## Connections
+
+- **System:** [[CLAUDE.md]], [[Tag Conventions]], [[Cheatsheet]]
+- **Start:** [[START HERE]], [[Home]]
+- **MOCs:** [[Skills MOC]], [[Projects MOC]], [[Areas MOC]]

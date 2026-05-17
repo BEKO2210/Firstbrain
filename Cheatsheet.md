@@ -1,9 +1,11 @@
 ---
 type: system
+created: 2024-01-01
 tags:
   - reference
   - commands
   - cheatsheet
+  - system
 ---
 
 # Firstbrain Cheatsheet
@@ -404,4 +406,8 @@ All proposals require user approval. Never auto-applied.
 
 ---
 
-[[Home]] | [[Workflow Guide]] | [[START HERE]]
+## Connections
+
+- **System:** [[CLAUDE.md]], [[Workflow Guide]], [[Tag Conventions]]
+- **Start:** [[START HERE]], [[Home]]
+- **Reference:** [[Skills MOC]]

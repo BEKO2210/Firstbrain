@@ -3,6 +3,13 @@ name: connect
 trigger: /connect
 description: Discover connections using tags, link adjacency, multi-hop graph paths, and structural similarity
 version: 3.0.0
+type: skill
+tags:
+  - skill
+  - agent
+  - discovery
+  - graph
+  - connections
 ---
 
 # /connect -- Advanced Connection Discovery
@@ -119,3 +126,9 @@ The user reviews the list and selects entries by number. Claude then adds the se
 - **Filters out navigation notes:** Templates, MOCs, Home, and system files are excluded from suggestions since they are navigation, not content notes.
 - **Existing connections excluded:** Notes the target already links to are not suggested again.
 - **Score ceiling:** Small vaults with few tags may produce mostly "low confidence" suggestions. This improves as the vault grows and tags are used consistently.
+
+## Connections
+
+- **Related:** [[search]], [[graph]], [[propose]], [[health]]
+- **Used by:** [[create]], [[process]], [[synthesize]]
+- **MOC:** [[Skills MOC]]

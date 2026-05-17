@@ -4,6 +4,7 @@ status: active
 created: {{date}}
 updated: {{date}}
 tags:
+  - template
   - area
 ---
 
@@ -31,6 +32,7 @@ WHERE area = this.file.link AND status = "active"
 
 ## Connections
 
+- **Templates MOC:** [[Templates MOC]]
+- **Verwandte Templates:** [[Project]] | [[Resource]]
 - **Projects:** [[]]
 - **Resources:** [[]]
-- **MOC:** [[]]

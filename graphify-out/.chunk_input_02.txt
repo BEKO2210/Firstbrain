@@ -1,0 +1,22 @@
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\workspace\update_prompts.py
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\Cheatsheet.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\CLAUDE.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\CONTRIBUTING.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\Home.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\MEMORY.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\START HERE.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\Tag Conventions.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\Workflow Guide.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\briefing\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\connect\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\create\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\daily\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\graph\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\health\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\maintain\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\memory\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\process\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\propose\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\scan\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\search\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\synthesize\SKILL.md

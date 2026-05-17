@@ -4,6 +4,7 @@ created: 2024-01-01
 tags:
   - guide
   - onboarding
+  - start
 ---
 
 # Welcome to Your Second Brain
@@ -178,3 +179,12 @@ Only once you have completed projects. At the start, `04 - Archive` stays empty.
 ---
 
 > *The perfect system does not exist. The best system is the one you actually use. Start small.*
+
+---
+
+## Connections
+
+- **Home:** [[Home]] — Central dashboard
+- **System:** [[CLAUDE.md]], [[Workflow Guide]], [[Tag Conventions]], [[Cheatsheet]]
+- **MOCs:** [[Projects MOC]], [[Areas MOC]], [[Resources MOC]], [[Skills MOC]]
+- **Contribute:** [[CONTRIBUTING]], [[README]]

@@ -5,6 +5,7 @@ author:
 created: {{date}}
 updated: {{date}}
 tags:
+  - template
   - resource
 rating:
 ---
@@ -34,6 +35,8 @@ rating:
 
 ## Connections
 
+- **Templates MOC:** [[Templates MOC]]
+- **Verwandte Templates:** [[Zettel]] | [[Tool]] | [[Code Snippet]]
 - **Topic:** [[]]
 - **Related:** [[]]
 - **Project:** [[]]

@@ -1,9 +1,20 @@
 ---
-updated: 
+type: system
+created: 2026-04-09
+tags: [system, memory, config]
 ---
 
-# Project Context
+# Project Memory
 
-Detailed per-project state, decisions, and context. Updated when projects change status.
+Detailed per-project context: status, decisions, blockers, next actions.
 
-- (Projects will appear here as you create them via `/create` or in `01 - Projects/`)
+(Empty)
+
+## Connections
+
+- **Related System Files:**
+  - [[Changelog]] - Vault action history
+  - [[Insights]] - Long-term patterns and insights
+  - [[Preferences]] - User preferences and settings
+- **Part of:** [[System MOC]]
+- **Navigate:** [[Home]]
