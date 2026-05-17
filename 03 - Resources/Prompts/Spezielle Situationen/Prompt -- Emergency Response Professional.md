@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -42,7 +42,12 @@ Passe die Details an deine Beduerfnisse an.
 - Nenne die Kernbotschaft in einem Satz
 - Frage nach einer kuerzeren/laengeren Version
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[spezielle-situationen]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Spezielle Situationen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[emergency-card|emergency-card]]
+  - [[professional-proofreader|professional-proofreader]]
+  - [[istio-traffic-management|istio-traffic-management]]

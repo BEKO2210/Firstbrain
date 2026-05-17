@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -182,7 +182,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach verschiedenen Formulierungsvorschlaegen
 - Bitte um Tipps fuer Koerpersprache und Tonfall
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[technik-alltag]]
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Technik im Alltag]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[ux-feedback|ux-feedback]]
+  - [[seo-aeo-meta-description-generator|seo-aeo-meta-description-generator]]
+  - [[agent-memory-mcp|agent-memory-mcp]]

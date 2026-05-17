@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- sicherheit-und-schutz
+- betrug
+- scam
+- sicherheit
+- erkennung
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2726"
 titel: "Betrugs-Erkennung und Schutz"
@@ -64,7 +67,8 @@ Ausgabe:
 - **Schon reingefallen:** "Ich habe Daten eingegeben — was soll ich SOFORT tun?"
 - **Vorbeugung:** "Die 5 häufigsten Betrugsmaschen 2026 und wie ich mich schütze"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

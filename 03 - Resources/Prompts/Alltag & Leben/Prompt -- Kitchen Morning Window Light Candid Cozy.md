@@ -3,12 +3,16 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- bildbearbeitung
+- lifestyle-foto
+- morgen
+- küche
+- gemütlich
+- bild-prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2435"
 titel: "Lifestyle-Foto: Gemütlicher Morgen in der Küche"
@@ -53,7 +57,8 @@ Ausgabe: Ein einzelnes, authentisch wirkendes Morgen-Lifestyle-Foto — warm, ge
 - **Balkon:** "Morgens auf dem Balkon, Kaffee in der Hand, Stadtblick"
 - **Paar:** "Zwei Personen in der Küche, eins kocht, eins umarmt von hinten"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

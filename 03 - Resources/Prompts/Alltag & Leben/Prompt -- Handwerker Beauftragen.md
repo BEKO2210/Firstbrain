@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- wohnen-und-reparatur
+- handwerker
+- reparatur
+- kostenvoranschlag
+- wohnung
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#035"
 titel: "Handwerker beauftragen"
@@ -53,7 +56,8 @@ Ausgabe: Checkliste von Suche bis Abnahme mit Preisrahmen und Warnzeichen
 - **DIY-Check:** Was kann ich selbst machen, wofür brauche ich einen Profi?
 - **Kostenvoranschlag prüfen:** Ist der Preis fair? Angebot analysieren lassen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - it-entwicklung
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -64,7 +66,12 @@ Ergänze: "Erstelle einen Prompt, der einen bestehenden Bug beschreibt und die L
 ### Variation 4: Multi-Agent-Workflow
 Ergänze: "Zerlege ein großes Feature in mehrere Prompts für verschiedene Agenten (Design, Frontend, Backend)."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[git-pr-workflows-git-workflow|git-pr-workflows-git-workflow]]
+  - [[github-workflow-automation|github-workflow-automation]]
+  - [[ml-pipeline-workflow|ml-pipeline-workflow]]

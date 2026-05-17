@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#081"
-titel: "Aquarell-Tinte Explosion"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#081'
+titel: Aquarell-Tinte Explosion
+kategorie: Bild & Visualisierung
 unterkategorie: Künstlerische Medien
-tags: [aquarell, tinte, explosion, kunst, flüssig]
+tags:
+- aquarell
+- tinte
+- explosion
+- kunst
+- flüssig
+- prompt
+- bild
+- visualisierung
+- künstlerische-medien
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Aquarell-Tinte Explosion
@@ -51,7 +60,8 @@ Der Hintergrund ist reines Weiß oder sehr helles Grau, das die Farbexplosion be
 --ar 1:1 --stylize 300 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

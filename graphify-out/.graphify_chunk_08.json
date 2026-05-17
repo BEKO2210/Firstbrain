@@ -1,0 +1,26 @@
+{
+  "nodes": [
+    {"id": "diagram_exec_v3", "label": "Execution Engine Diagram", "type": "diagram", "file_type": "image", "source_file": "docs/assets/exec-v3.svg"},
+    {"id": "exec_inbox", "label": "Inbox", "type": "concept", "description": "Drop .md files with ACTION: TASK: PROMPT:", "file_type": "image", "source_file": "docs/assets/exec-v3.svg"},
+    {"id": "exec_analyze", "label": "Analyze", "type": "concept", "description": "Validates, scans for injection, identifies project", "file_type": "image", "source_file": "docs/assets/exec-v3.svg"},
+    {"id": "exec_execute", "label": "Execute", "type": "concept", "description": "Code, folders, git push, build, test, deploy", "file_type": "image", "source_file": "docs/assets/exec-v3.svg"},
+    {"id": "exec_log", "label": "Log", "type": "concept", "description": "Vault note updated, changelog, memory", "file_type": "image", "source_file": "docs/assets/exec-v3.svg"},
+    {"id": "exec_vault_note", "label": "01 - Projects/My App.md (Vault Note)", "type": "concept", "description": "Plan, Status, Decisions, Team, Log -- WHY and WHAT", "file_type": "image", "source_file": "docs/assets/exec-v3.svg"},
+    {"id": "exec_workspace", "label": "workspace/my-app/ (Code Repository)", "type": "concept", "description": "app.py, models/, tests/, .git, Dockerfile -- HOW and CODE", "file_type": "image", "source_file": "docs/assets/exec-v3.svg"},
+    {"id": "exec_watch", "label": "/watch", "type": "concept", "description": "Polls Inbox every 30s. Auto-execute, Multi-project, Full logging, Injection-safe", "file_type": "image", "source_file": "docs/assets/exec-v3.svg"}
+  ],
+  "edges": [
+    {"source": "diagram_exec_v3", "target": "exec_inbox", "type": "CONTAINS", "extraction_type": "INFERRED", "confidence_score": 0.75},
+    {"source": "diagram_exec_v3", "target": "exec_analyze", "type": "CONTAINS", "extraction_type": "INFERRED", "confidence_score": 0.75},
+    {"source": "diagram_exec_v3", "target": "exec_execute", "type": "CONTAINS", "extraction_type": "INFERRED", "confidence_score": 0.75},
+    {"source": "diagram_exec_v3", "target": "exec_log", "type": "CONTAINS", "extraction_type": "INFERRED", "confidence_score": 0.75},
+    {"source": "diagram_exec_v3", "target": "exec_vault_note", "type": "CONTAINS", "extraction_type": "INFERRED", "confidence_score": 0.75},
+    {"source": "diagram_exec_v3", "target": "exec_workspace", "type": "CONTAINS", "extraction_type": "INFERRED", "confidence_score": 0.75},
+    {"source": "diagram_exec_v3", "target": "exec_watch", "type": "CONTAINS", "extraction_type": "INFERRED", "confidence_score": 0.75},
+    {"source": "exec_inbox", "target": "exec_analyze", "type": "FLOWS_TO", "extraction_type": "INFERRED", "confidence_score": 0.75},
+    {"source": "exec_analyze", "target": "exec_execute", "type": "FLOWS_TO", "extraction_type": "INFERRED", "confidence_score": 0.75},
+    {"source": "exec_execute", "target": "exec_log", "type": "FLOWS_TO", "extraction_type": "INFERRED", "confidence_score": 0.75},
+    {"source": "exec_vault_note", "target": "exec_workspace", "type": "LINKED_TO", "extraction_type": "INFERRED", "confidence_score": 0.75},
+    {"source": "exec_watch", "target": "exec_inbox", "type": "MONITORS", "extraction_type": "INFERRED", "confidence_score": 0.75}
+  ]
+}

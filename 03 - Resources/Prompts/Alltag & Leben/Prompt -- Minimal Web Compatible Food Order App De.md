@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- kochen-und-ernährung
+- lieferdienst
+- bestellen
+- essen
+- vergleich
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2143"
 titel: "Essen online bestellen — Vergleich"
@@ -65,7 +68,8 @@ Ausgabe:
 - **Sparen:** "Wie spare ich beim regelmäßigen Bestellen am meisten?"
 - **Selber kochen:** "Das Gleiche selber machen — was brauche ich?"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

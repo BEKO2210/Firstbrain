@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -41,7 +41,12 @@ Passe die Details an deine Beduerfnisse an.
 - Bitte um Uebungsaufgaben mit Loesungen
 - Frage nach weiterfuehrenden Ressourcen und Buechern
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[technik-alltag]]
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Technik im Alltag]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[visual-emotion-engineer|visual-emotion-engineer]]
+  - [[ui-visual-validator|ui-visual-validator]]
+  - [[machine-learning-ops-ml-pipeline|machine-learning-ops-ml-pipeline]]

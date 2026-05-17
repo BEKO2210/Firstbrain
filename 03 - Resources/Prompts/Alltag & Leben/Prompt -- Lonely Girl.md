@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- bildbearbeitung
+- portrait
+- straße
+- stimmung
+- bild-prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2887"
 titel: "Stimmungsvolles Straßen-Portrait"
@@ -53,7 +56,8 @@ Ausgabe: Ein einzelnes, stimmungsvolles Straßen-Portrait — cineastisch und at
 - **Gegenlicht:** "Silhouette bei Sonnenuntergang, dramatisches Gegenlicht"
 - **Urban:** "Graffiti-Wand im Hintergrund, Street-Style-Ästhetik"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

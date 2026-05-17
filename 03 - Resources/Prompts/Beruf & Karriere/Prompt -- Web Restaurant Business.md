@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - allgemein
+  - beruf
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -215,7 +217,12 @@ Restaurant-Websites sind einer der häufigsten Freelancer-Aufträge. Fast jedes 
 - Version für Bars/Clubs (dunkleres Design, Event-Kalender statt Speisekarte)
 - Mehrsprachige Version (Deutsch/Englisch Toggle)
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[pro]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

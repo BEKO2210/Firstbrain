@@ -2,21 +2,32 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#349"
-titel: "Alchemistisches Labor im goldenen Zeitalter"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Historische Kunst"
-tags: ["Alchemie", "Steampunk", "Victorian", "Gold", "Mystik", "Labor", "Bibliothek"]
-plattformen: [ChatGPT, Midjourney, DALL-E]
-schwierigkeit: "Fortgeschritten"
+id: '#349'
+titel: Alchemistisches Labor im goldenen Zeitalter
+kategorie: Bild & Visualisierung
+unterkategorie: Historische Kunst
+tags:
+- alchemie
+- steampunk
+- victorian
+- gold
+- mystik
+- labor
+- bibliothek
+- prompt
+- bild
+- visualisierung
+- historische-kunst
+plattformen:
+- ChatGPT
+- Midjourney
+- DALL-E
+schwierigkeit: Fortgeschritten
 ---
 
 ## Prompt
@@ -35,7 +46,8 @@ Ideal für Fantasy-Buchcover, Escape-Room-Werbung, Historische Romane, Harry-Pot
 - Verfallene, staubige Version nach 100 Jahren Vernachlässigung
 - Mobile Version in einem viktorianischen Wohnwagen/Show-Wagen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

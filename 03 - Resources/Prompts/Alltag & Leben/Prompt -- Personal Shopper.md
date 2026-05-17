@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- shopping-und-lifestyle
+- einkauf
+- shopping
+- budget
+- empfehlung
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#1856"
 titel: "Persönlicher Einkaufsberater"
@@ -64,7 +67,8 @@ Ausgabe:
 - **Geschenke:** "Kreative Geschenkideen für [PERSON] zum [ANLASS]"
 - **Einrichtung:** "Gemütliches Wohnzimmer-Update mit kleinem Budget"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

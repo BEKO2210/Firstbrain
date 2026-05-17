@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - bewerbung-jobsuche
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -63,7 +65,12 @@ Ergänze: "Follow-Up-Nachricht nach einem Treffen auf [EVENT/KONFERENZ]."
 ### Variation 4: Absage-Follow-Up
 Ergänze: "Professionelle Antwort auf eine Absage mit Bitte um Feedback und Kontaktpflege."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[linkedin-automation|linkedin-automation]]
+  - [[linkedin-cli|linkedin-cli]]
+  - [[hybrid-cloud-networking|hybrid-cloud-networking]]

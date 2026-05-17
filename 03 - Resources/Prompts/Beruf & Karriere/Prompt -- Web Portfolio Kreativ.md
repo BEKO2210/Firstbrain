@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - allgemein
+  - beruf
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -208,7 +210,12 @@ Portfolio-Websites sind der Klassiker für Freelancer-Aufträge: Designer, Fotog
 - Version für Agenturen (Team-Sektion + Kunden-Logos)
 - Brutalist/Anti-Design Version für maximale Kreativität
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[pro]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[interactive-portfolio|interactive-portfolio]]
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]

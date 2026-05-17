@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -52,7 +52,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach konkreten Spar-Strategien fuer deine Situation
 - Bitte um eine Schritt-fuer-Schritt-Checkliste
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[technik-alltag]]
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Technik im Alltag]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[seo-aeo-keyword-research|seo-aeo-keyword-research]]
+  - [[context7-auto-research|context7-auto-research]]
+  - [[deep-research|deep-research]]

@@ -1,25 +1,33 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kommunikation
+  - beziehungen
 source: https://github.com/BEKO2210/lyra-prompts
 ---
+---
+id: '#3237'
+titel: 'Definition: Classify the relation of question with context t'
+kategorie: Kommunikation & Beziehungen
+unterkategorie: Importiert
+tags:
+- definition
+- classify
+- relation
+- question
+- context
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: openrlhf-UltraFeedback
+erstellt: '2026-03-10'
+---
 
----
-id: "#3237"
-titel: "Definition: Classify the relation of question with context t"
-kategorie: "Kommunikation & Beziehungen"
-unterkategorie: "Importiert"
-tags: ["definition", "classify", "relation", "question", "context"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "openrlhf-UltraFeedback"
-erstellt: "2026-03-10"
----
 
 ## Prompt
 
@@ -44,7 +52,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach alternativen Enden oder Perspektiven
 - Bitte die KI, im Stil eines bestimmten Autors zu schreiben
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kommunikation-beziehungen]]
+
+- **Domain:** [[Kommunikation & Content]]
+- **Kategorie:** [[Kommunikation & Beziehungen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

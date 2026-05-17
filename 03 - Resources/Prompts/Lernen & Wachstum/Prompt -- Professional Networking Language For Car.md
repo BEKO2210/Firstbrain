@@ -1,25 +1,26 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
+  - sprachen-und-übersetzung
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#1025"
-titel: "Professional Networking Language for Career Fairs"
-kategorie: "Lernen & Wachstum"
-unterkategorie: "Importiert"
-tags: ["professional", "networking", "language", "career", "fairs"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "Alex-lucian"
-erstellt: "2026-03-09"
+id: ""
+titel: "Professional Networking Language For Car"
+kategorie: Lernen & Wachstum
+unterkategorie: Sprachen & Übersetzung
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt
@@ -57,7 +58,12 @@ Passe die Details an deine Beduerfnisse an.
 - Bitte um Erklaerungen von Redewendungen
 - Frage nach Uebungen mit steigendem Schwierigkeitsgrad
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

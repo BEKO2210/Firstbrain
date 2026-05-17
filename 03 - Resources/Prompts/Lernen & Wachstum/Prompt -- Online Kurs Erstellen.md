@@ -1,22 +1,26 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
+  - wissenschaft
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#223"
-titel: "Online-Kurs erstellen"
+id: ""
+titel: "Online Kurs Erstellen"
 kategorie: Lernen & Wachstum
-unterkategorie: Skill-Aufbau
-tags: [kurs, online, lehren, wissen, e-learning]
-erstellt: 2026-02-20
-plattformen: [ChatGPT, Claude]
+unterkategorie: Wissenschaft
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 # Online-Kurs erstellen
@@ -53,7 +57,12 @@ Ausgabe:
 - Für Webinare: "Live-Format planen"
 - Für Podcast: "Serie konzipieren"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

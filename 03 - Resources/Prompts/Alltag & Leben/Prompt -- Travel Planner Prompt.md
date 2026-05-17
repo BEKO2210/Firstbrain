@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- reisen-und-freizeit
+- reise
+- tagesplan
+- itinerary
+- urlaub
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2076"
 titel: "Reise-Tagesplan erstellen"
@@ -65,7 +68,8 @@ Ausgabe:
 - **Kultururlaub:** "Fokus nur auf Museen, Galerien und historische Stätten"
 - **Foodie-Reise:** "Kulinarischer Reiseplan mit lokalen Spezialitäten"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

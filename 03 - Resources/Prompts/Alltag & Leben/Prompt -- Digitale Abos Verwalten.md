@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- finanzen-und-digital
+- abos
+- streaming
+- kosten
+- kündigen
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#019"
 titel: "Digitale Abos verwalten"
@@ -54,7 +57,8 @@ Ausgabe: Übersicht aller Abos mit Kosten, Nutzungsbewertung und Handlungsempfeh
 - **Jahresabo-Check:** Wann lohnt sich Jahres- statt Monatszahlung?
 - **Kostenlose Alternativen:** Für jeden bezahlten Dienst eine Gratis-Option finden
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

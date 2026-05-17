@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -54,7 +54,12 @@ Ausgabe: Schritt-für-Schritt-Anleitung nach Priorität mit erwarteter Verbesser
 - **Speicherplatz finden:** Große Dateien finden und sicher löschen
 - **Browser-Reinigung:** Chrome/Firefox schneller machen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[technik-alltag]]
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Technik im Alltag]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[computer-use-agents|computer-use-agents]]
+  - [[computer-vision-expert|computer-vision-expert]]
+  - [[web-performance-optimization|web-performance-optimization]]

@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - allgemein
+  - beruf
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -259,7 +261,12 @@ AUSGABEFORMAT
 - Für Computer Vision: Modellauswahl, Annotation-Pipeline, Edge-Deployment, Echtzeit-Verarbeitung
 - Für Echtzeit/Streaming: Latenz-Optimierung, Streaming-Inference, WebSocket-Architektur, Token-Streaming
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[pro]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[llm-evaluation|llm-evaluation]]
+  - [[llm-app-patterns|llm-app-patterns]]
+  - [[llm-application-dev-ai-assistant|llm-application-dev-ai-assistant]]

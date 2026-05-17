@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- city
+- planning
+- build
+- network
+- bicycle
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3316"
 titel: "A city is planning to build a network of bicycle lanes cover"
@@ -43,7 +46,12 @@ Passe die Platzhalter und Details an deine Situation an.
 - Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
 - Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[concise-planning|concise-planning]]
+  - [[inventory-demand-planning|inventory-demand-planning]]
+  - [[planning-with-files|planning-with-files]]

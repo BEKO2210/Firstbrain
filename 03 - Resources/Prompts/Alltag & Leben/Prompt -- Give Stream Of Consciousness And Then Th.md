@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- stream
+- consciousness
+- final
+- answer
+- technician
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3311"
 titel: "Give stream of consciousness and then the final answer"
@@ -43,7 +46,8 @@ Passe die Platzhalter und Details an deine Situation an.
 - Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
 - Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

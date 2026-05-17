@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -183,7 +183,12 @@ Arbeitsplatz-Strategie, HR informieren?, Grenzen setzen, Netzwerke trennen, neue
 **Variation 4: Trennung als derjenige, der geht (Schuldgefühle, Selbstzweifel)**
 Entscheidung stehen, Schuldgefühle verarbeiten, klar kommunizieren warum, keine Hoffnungen machen, Selbstfürsorge auch als "Trennende/r".
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[spezielle-situationen]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Spezielle Situationen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

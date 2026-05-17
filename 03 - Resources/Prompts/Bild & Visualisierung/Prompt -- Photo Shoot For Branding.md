@@ -2,24 +2,33 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#3009"
-titel: "Photo shoot for branding"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["photo", "shoot", "branding", "generate", "cinematic"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "nouveautravell@gmail.com"
-erstellt: "2026-03-09"
+id: '#3009'
+titel: Photo shoot for branding
+kategorie: Bild & Visualisierung
+unterkategorie: Video & Animation
+tags:
+- photo
+- shoot
+- branding
+- generate
+- cinematic
+- prompt
+- bild
+- visualisierung
+- video-animation
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: nouveautravell@gmail.com
+erstellt: '2026-03-09'
 ---
 
 ## Prompt
@@ -42,7 +51,8 @@ Passe die Details an deine Beduerfnisse an.
 - Ersetze das Hauptmotiv durch dein eigenes Thema
 - Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -1,0 +1,151 @@
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\package.json
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\start.sh
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\settings.json
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\settings.local.json
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\.models\Xenova\all-MiniLM-L6-v2\config.json
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\.models\Xenova\all-MiniLM-L6-v2\tokenizer.json
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\.models\Xenova\all-MiniLM-L6-v2\tokenizer_config.json
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\indexes\link-map.json
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\indexes\scan-state.json
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\indexes\tag-index.json
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\indexes\vault-index.json
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.obsidian\app.json
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.obsidian\appearance.json
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.obsidian\community-plugins.json
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.obsidian\core-plugins.json
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.obsidian\daily-notes.json
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.obsidian\graph.json
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.obsidian\templates.json
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.obsidian\workspace.json
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.obsidian\plugins\dataview\main.js
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.obsidian\plugins\dataview\manifest.json
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\workspace\index.js
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\workspace\update_prompts.py
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\Cheatsheet.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\CLAUDE.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\CONTRIBUTING.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\Home.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\MEMORY.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\START HERE.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\Tag Conventions.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\Workflow Guide.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\briefing\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\connect\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\create\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\daily\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\graph\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\health\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\maintain\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\memory\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\process\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\propose\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\scan\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\search\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\synthesize\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\triage\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\watch\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\changelog.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\memory\insights.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\memory\preferences.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\memory\projects.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\rules\frontmatter.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\rules\governance.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\rules\linking.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\rules\naming.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\rules\process.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\rules\templates.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Area.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Code Snippet.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Daily Note.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Decision.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Meeting.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Monthly Review.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Person.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Project.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Resource.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Tool.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Weekly Review.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Zettel.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\3D & Animation.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Alltag & Leben.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Amazon Web Services.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Analytics & Tracking.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Anwendungssicherheit.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Automatisierung & Workflows.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Backend Entwicklung.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Beruf & Karriere.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Bild & Visualisierung.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Bildgenerierung & KI-Kunst.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Bildung & Wissen.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Business & Marketing.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Cloud & Infrastruktur.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Code & Snippets.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Compliance & Datenschutz.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Computer Vision.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Data Engineering.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Daten & Analyse.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Datenanalyse & Reporting.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Datenbanken.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Design & Kreativitaet.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Developer Experience.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\DevOps & Deployment.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Dokumentation & Wissen.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\E-Commerce & Handel.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\E-Mail & Messaging.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Entscheidungen.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Entwickler-Tools.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Finanzen & Geld.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Frontend Entwicklung.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Gesundheit & Wellness.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Gesundheit & Wohlbefinden.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Google Cloud.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Gruendung & Startup.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Karriere & Beruf.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\KI & Machine Learning.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Kommunikation & Beziehungen.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Kommunikation & Content.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Kontakte.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Kreativit�t & Freizeit.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Leben & Lernen.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Lebensbereiche.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Lernen & Wachstum.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\LLM & KI-Agenten.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Marketing & SEO.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Meetings.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Microsoft Azure.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\ML & Data Science.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Mobile Entwicklung.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Monitoring & Observability.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Penetration Testing.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Persoenliche Entwicklung.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Produktivitaet & Werkzeuge.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Produktmanagement.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Programmiersprachen.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Projekte.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Prompt Engineering.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Prompt Sammlung.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Ressourcen.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Schreiben & Texten.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Sicherheit & Datenschutz.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Skills Uebersicht.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Social Media.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Software Architektur.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Software Entwicklung.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Spezielle Situationen.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Sprachverarbeitung (NLP).md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\System.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Technik im Alltag.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Testing & Qualitaet.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Tools & Software.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\UI & UX Design.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Vertrieb & CRM.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Video & Audio Produktion.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Vorlagen.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\docs\assets\exec-v3.svg
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\docs\assets\feat-v3.svg
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\docs\assets\gov-v3.svg
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\docs\assets\mem-v3.svg
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\docs\assets\scan-v3.svg
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\docs\assets\skills-v3a.svg
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\docs\assets\start-v3.svg
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\docs\assets\vault-v3.svg

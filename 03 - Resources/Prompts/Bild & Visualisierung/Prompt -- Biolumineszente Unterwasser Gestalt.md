@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#087"
-titel: "Biolumineszente Unterwasser-Gestalt"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#087'
+titel: Biolumineszente Unterwasser-Gestalt
+kategorie: Bild & Visualisierung
 unterkategorie: Fantastische Welten
-tags: [unterwasser, biolumineszenz, ozean, mystisch, licht]
+tags:
+- unterwasser
+- biolumineszenz
+- ozean
+- mystisch
+- licht
+- prompt
+- bild
+- visualisierung
+- fantastische-welten
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Biolumineszente Unterwasser-Gestalt
@@ -51,7 +60,8 @@ Im Hintergrund sind die Schatten riesiger, unbekannter Tiefsee-Kreaturen zu erah
 --ar 9:16 --stylize 250 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

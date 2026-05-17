@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#118"
-titel: "Röntgenbild Skelett"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#118'
+titel: Röntgenbild Skelett
+kategorie: Bild & Visualisierung
 unterkategorie: Wissenschaftlich
-tags: [roentgen, skelett, medizin, durchsichtig, anatomie]
+tags:
+- roentgen
+- skelett
+- medizin
+- durchsichtig
+- anatomie
+- prompt
+- bild
+- visualisierung
+- wissenschaftlich
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Röntgenbild Skelett
@@ -51,7 +60,8 @@ Der Hintergrund ist schwarz wie bei echten Röntgenbildern, vielleicht mit mediz
 --ar 2:3 --stylize 150 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

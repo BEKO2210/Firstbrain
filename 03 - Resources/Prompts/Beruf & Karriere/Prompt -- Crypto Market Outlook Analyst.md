@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - finanzen-immobilien
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -65,7 +67,12 @@ Ergänze: "Analysiere DeFi-Protokolle: TVL-Trends, Yield-Vergleich, Risiken."
 ### Variation 4: Portfolio-Allokation
 Ergänze: "Wie viel Prozent meines Portfolios sollte in Krypto sein? Diversifikation."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[blockchain-developer|blockchain-developer]]
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]

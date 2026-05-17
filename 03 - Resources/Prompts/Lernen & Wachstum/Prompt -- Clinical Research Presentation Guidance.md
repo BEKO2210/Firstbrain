@@ -1,25 +1,26 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
+  - lesen-und-recherche
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#3061"
+id: ""
 titel: "Clinical Research Presentation Guidance"
-kategorie: "Lernen & Wachstum"
-unterkategorie: "Importiert"
-tags: ["clinical", "research", "presentation", "guidance", "professor"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "jiayuehuang765@gmail.com"
-erstellt: "2026-03-09"
+kategorie: Lernen & Wachstum
+unterkategorie: Lesen & Recherche
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt
@@ -62,7 +63,12 @@ Passe die Details an deine Beduerfnisse an.
 - Bitte um Uebungsaufgaben mit Loesungen
 - Frage nach weiterfuehrenden Ressourcen und Buechern
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

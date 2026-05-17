@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - importiert
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -41,7 +43,12 @@ Passe die Details an deine Beduerfnisse an.
 - Nenne die Kernbotschaft in einem Satz
 - Frage nach einer kuerzeren/laengeren Version
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[lightning-channel-factories|lightning-channel-factories]]
+  - [[risk-metrics-calculation|risk-metrics-calculation]]
+  - [[startup-metrics-framework|startup-metrics-framework]]

@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#115"
-titel: "Papier-Cutout Schichtung"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#115'
+titel: Papier-Cutout Schichtung
+kategorie: Bild & Visualisierung
 unterkategorie: Handwerkliche Techniken
-tags: [papier, cutout, schichten, handwerk, kunst]
+tags:
+- papier
+- cutout
+- schichten
+- handwerk
+- kunst
+- prompt
+- bild
+- visualisierung
+- handwerkliche-techniken
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Papier-Cutout Schichtung
@@ -51,7 +60,8 @@ Die Farbpalette ist harmonisch und durchdacht – oft monochrom mit einem Akzent
 --ar 3:4 --stylize 150 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

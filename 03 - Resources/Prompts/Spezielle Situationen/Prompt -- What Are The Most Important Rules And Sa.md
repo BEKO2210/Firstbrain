@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -41,7 +41,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach Budget-freundlichen Alternativen
 - Bitte um Farb-Kombinationsvorschlaege
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[spezielle-situationen]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Spezielle Situationen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[odoo-security-rules|odoo-security-rules]]
+  - [[fda-food-safety-auditor|fda-food-safety-auditor]]
+  - [[memory-safety-patterns|memory-safety-patterns]]

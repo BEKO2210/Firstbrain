@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #api
-  - #resource
-  - #pkm
+  - api
+  - resource
+  - pkm
 source: https://github.com/public-apis/public-apis
 ---
 

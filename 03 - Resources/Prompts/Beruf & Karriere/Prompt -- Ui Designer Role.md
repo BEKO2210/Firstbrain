@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - it-entwicklung
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -64,7 +66,12 @@ Ergänze: "Erstelle ein vollständiges Design-System mit Tokens, Varianten und D
 ### Variation 4: Barrierefreies Design
 Ergänze: "Fokus auf WCAG 2.1 AA-Konformität: Kontraste, Screenreader, Tastaturnavigation."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[ux-audit|ux-audit]]
+  - [[ui-ux-designer|ui-ux-designer]]
+  - [[ui-ux-pro-max|ui-ux-pro-max]]

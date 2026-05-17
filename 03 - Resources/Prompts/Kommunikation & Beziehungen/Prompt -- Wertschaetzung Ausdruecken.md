@@ -1,24 +1,31 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kommunikation
+  - beziehungen
+  - zwischenmenschliche-kommunikation
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
-id: "#176"
-titel: "Wertschätzung ausdrücken"
-kategorie: "Kommunikation & Beziehungen"
-unterkategorie: "Zwischenmenschliche Kommunikation"
-tags: ["wertschätzung", "dankbarkeit", "beziehung", "kommunikation"]
-erstellt: "2026-02-23"
-plattformen: [ChatGPT, Claude]
+id: '#176'
+titel: Wertschätzung ausdrücken
+kategorie: Kommunikation & Beziehungen
+unterkategorie: Zwischenmenschliche Kommunikation
+tags:
+- wertschätzung
+- dankbarkeit
+- beziehung
+- kommunikation
+erstellt: '2026-02-23'
+plattformen:
+- ChatGPT
+- Claude
 schwierigkeit: Anfänger
 ---
+
 
 ## Prompt
 
@@ -53,7 +60,12 @@ Ausgabe: 3 Formulierungsvorschläge mit unterschiedlicher Tiefe und passende Ges
 - **Nach Konflikt:** Versöhnung und Wertschätzung verbinden
 - **Kreative Gesten:** 20 Wege Wertschätzung ohne Worte zu zeigen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kommunikation-beziehungen]]
+
+- **Domain:** [[Kommunikation & Content]]
+- **Kategorie:** [[Kommunikation & Beziehungen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - karriere
+  - marketing-social-media
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -64,7 +66,12 @@ Ergänze: "Vergleiche mein Produkt mit [KONKURRENT] und hebe die Vorteile hervor
 ### Variation 4: B2B-Produkttext
 Ergänze: "Schreibe für ein B2B-Produkt: Fokus auf ROI, Effizienz und Integration."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[marketing-ideas|marketing-ideas]]
+  - [[marketing-psychology|marketing-psychology]]
+  - [[product-marketing-context|product-marketing-context]]

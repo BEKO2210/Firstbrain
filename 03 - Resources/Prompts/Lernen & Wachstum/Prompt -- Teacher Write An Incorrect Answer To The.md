@@ -1,24 +1,27 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
+  - **
+  - schreiben
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#3568"
-titel: "Teacher: Write an incorrect answer to the given question bas"
-kategorie: "Lernen & Wachstum"
-unterkategorie: "Importiert"
-tags: ["teacher", "incorrect", "answer", "given", "question"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "openrlhf-UltraFeedback"
-erstellt: "2026-03-10"
+id: ""
+titel: "Teacher Write An Incorrect Answer To The"
+kategorie: Lernen & Wachstum
+unterkategorie: Schreiben
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt
@@ -54,7 +57,12 @@ Passe die Platzhalter und Details an deine Situation an.
 - Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
 - Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

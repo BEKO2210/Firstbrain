@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- kochen-und-ernährung
+- kaffee
+- espresso
+- barista
+- anleitung
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2923"
 titel: "Barista-Kurs: Espresso zu Hause"
@@ -63,7 +66,8 @@ Ausgabe:
 - **Latte Art:** "Erste Schritte für ein Herz im Cappuccino"
 - **Bohnen:** "Welche Bohnen für meinen Geschmack? (fruchtig, schokoladig, nussig)"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

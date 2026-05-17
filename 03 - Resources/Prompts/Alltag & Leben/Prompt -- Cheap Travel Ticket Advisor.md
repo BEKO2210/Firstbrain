@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- reisen-und-freizeit
+- reise
+- günstig
+- tickets
+- sparen
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#1919"
 titel: "Günstige Reisetickets finden"
@@ -65,7 +68,8 @@ Ausgabe:
 - **Fernreise:** "Günstigster Flug nach [FERNZIEL] mit Umsteigen"
 - **Gruppenreise:** "Günstigste Option für 6 Personen"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

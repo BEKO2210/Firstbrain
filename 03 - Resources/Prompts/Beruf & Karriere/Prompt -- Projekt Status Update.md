@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - karriere
+  - pkm
+  - projektmanagement
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -66,7 +68,12 @@ Ergänze: "Fokus auf gelieferten Mehrwert und nächste sichtbare Ergebnisse. Kei
 ### Variation 4: Projektabschluss
 Ergänze: "Das Projekt ist abgeschlossen. Erstelle eine Lessons-Learned-Zusammenfassung mit Erfolgen und Verbesserungspotenzialen."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[hig-components-status|hig-components-status]]
+  - [[conductor-status|conductor-status]]
+  - [[claude-win11-speckit-update-skill|claude-win11-speckit-update-skill]]

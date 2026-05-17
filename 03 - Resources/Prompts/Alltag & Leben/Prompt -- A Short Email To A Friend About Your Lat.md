@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- short
+- email
+- friend
+- latest
+- gastronomy
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3945"
 titel: "A short email to a friend about your latest gastronomy exper"
@@ -41,7 +44,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach weniger bekannten Geheimtipps
 - Bitte um eine sortierte Top-10-Liste mit Begruendung
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[cold-email|cold-email]]
+  - [[email-sequence|email-sequence]]
+  - [[email-systems|email-systems]]

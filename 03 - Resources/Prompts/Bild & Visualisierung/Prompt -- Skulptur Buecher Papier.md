@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#122"
-titel: "Skulptur aus Büchern und Papier"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#122'
+titel: Skulptur aus Büchern und Papier
+kategorie: Bild & Visualisierung
 unterkategorie: Handwerkliche Techniken
-tags: [bücher, papier, lesen, wissen, bibliothek]
+tags:
+- bücher
+- papier
+- lesen
+- wissen
+- bibliothek
+- prompt
+- bild
+- visualisierung
+- handwerkliche-techniken
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Skulptur aus Büchern und Papier
@@ -51,7 +60,8 @@ Der Hintergrund ist eine riesige Bibliothek mit Bücherregalen bis zur Decke. Di
 --ar 3:4 --stylize 180 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

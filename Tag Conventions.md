@@ -1,8 +1,11 @@
 ---
 type: system
+created: 2024-01-01
 tags:
   - system
   - conventions
+  - tags
+  - reference
 ---
 
 # Tag Conventions
@@ -61,4 +64,8 @@ Use freely chosen topic tags, e.g.:
 
 ---
 
-[[Home]] | [[Workflow Guide]]
+## Connections
+
+- **System:** [[CLAUDE.md]], [[Workflow Guide]], [[Cheatsheet]]
+- **Start:** [[START HERE]], [[Home]]
+- **Reference:** [[Skills MOC]], [[Templates MOC]]

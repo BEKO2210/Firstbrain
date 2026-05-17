@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- bildbearbeitung
+- bild-prompt
+- cineastisch
+- kreativ
+- filmisch
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2257"
 titel: "Cineastisches KI-Bild erstellen"
@@ -59,7 +62,8 @@ Ausgabe: Ein einzelnes, hochauflösendes Bild im cineastischen Stil
 - **Historisch:** "Person in historischem Kostüm in passender Umgebung"
 - **Sci-Fi:** "Futuristische Szene wie aus einem Sci-Fi-Blockbuster"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

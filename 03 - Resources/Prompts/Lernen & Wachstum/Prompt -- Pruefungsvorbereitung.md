@@ -1,23 +1,25 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#222"
-titel: "Prüfungsvorbereitung optimieren"
-kategorie: "Lernen & Wachstum"
-unterkategorie: "Prüfungen & Tests"
-tags: ["prüfung", "lernen", "klausur", "vorbereitung"]
-erstellt: "2026-02-23"
-plattformen: [ChatGPT, Claude]
-schwierigkeit: Anfänger
+id: ""
+titel: "Pruefungsvorbereitung"
+kategorie: Lernen & Wachstum
+unterkategorie: Lernmethoden
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt
@@ -54,7 +56,12 @@ Ausgabe: Tagesgenauen Lernplan mit Lernmethoden, Übungsaufgaben-Strategie und P
 - **Multiple Choice:** Strategie für Ankreuz-Prüfungen
 - **Prüfungsangst:** Mentale Vorbereitung und Entspannungstechniken
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

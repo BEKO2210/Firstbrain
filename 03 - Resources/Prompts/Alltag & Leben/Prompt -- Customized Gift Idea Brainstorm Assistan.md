@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- geschenke-und-anlässe
+- geschenk
+- ideen
+- brainstorming
+- anlass
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2358"
 titel: "Geschenkideen finden"
@@ -63,7 +66,11 @@ Ausgabe:
 - **Gruppe:** "Gemeinsames Geschenk von 5 Personen, Budget je 20€"
 - **Kinder:** "Sinnvolles Geschenk für [ALTER]-Jährige, nicht nur Spielzeug"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[multi-agent-brainstorming|multi-agent-brainstorming]]
+  - [[brainstorming|brainstorming]]

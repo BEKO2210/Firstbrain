@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - karriere
+  - marketing-social-media
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -64,7 +66,12 @@ Ergänze: "Erstelle Werbetexte für eine Versicherung — emotional, aber nicht 
 ### Variation 4: Vergleichsseite
 Ergänze: "Erstelle neutrale, informative Produktbeschreibungen für eine Finanzprodukt-Vergleichsseite."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[accessibility-compliance-accessibility-audit|accessibility-compliance-accessibility-audit]]
+  - [[customs-trade-compliance|customs-trade-compliance]]
+  - [[fda-medtech-compliance-auditor|fda-medtech-compliance-auditor]]

@@ -5,6 +5,13 @@ version: 3.0.0
 triggers:
   - /watch
   - /dashboard
+type: skill
+tags:
+  - skill
+  - agent
+  - inbox
+  - automation
+  - monitor
 ---
 
 # Watch -- Inbox Monitor & Auto-Executor
@@ -55,3 +62,9 @@ After each scan cycle, show a one-line status:
 ## Implementation Note
 
 This skill uses Claude Code's `/loop` mechanism or manual polling. Claude reads the Inbox, processes files, and waits. The user can continue chatting -- watch runs between interactions.
+
+## Connections
+
+- **Related:** [[process]], [[triage]], [[daily]]
+- **Uses:** [[process]], [[scan]]
+- **MOC:** [[Skills MOC]]

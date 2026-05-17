@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#117"
-titel: "Rauch- und Nebel-Essenz"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#117'
+titel: Rauch- und Nebel-Essenz
+kategorie: Bild & Visualisierung
 unterkategorie: Atmosphärische Transformation
-tags: [rauch, nebel, mysteriös, ätherisch, porträt]
+tags:
+- rauch
+- nebel
+- mysteriös
+- ätherisch
+- porträt
+- prompt
+- bild
+- visualisierung
+- atmosphärische-transformation
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Rauch- und Nebel-Essenz
@@ -51,7 +60,8 @@ Die Augen des Motivs sind die einzigen festen Punkte – zwei leuchtende Funken 
 --ar 2:3 --stylize 300 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

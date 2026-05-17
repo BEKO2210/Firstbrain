@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - karriere
+  - marketing-social-media
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -64,7 +66,12 @@ Ergänze: "Plane eine Influencer-Kooperation: Briefing, Content-Vorgaben, Vertra
 ### Variation 4: Paid-Ads-Creatives
 Ergänze: "Erstelle Konzepte für TikTok Ads (Spark Ads, In-Feed) mit A/B-Test-Varianten."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[tiktok-automation|tiktok-automation]]
+  - [[marketing-ideas|marketing-ideas]]
+  - [[marketing-psychology|marketing-psychology]]

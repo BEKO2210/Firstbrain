@@ -1,22 +1,27 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kommunikation
+  - beziehungen
+  - konfliktloesung
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
-id: "#179"
-titel: "Streit schlichten"
+id: '#179'
+titel: Streit schlichten
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Konfliktlösung
-tags: [streit, konflikt, schlichten, beziehung]
+tags:
+- streit
+- konflikt
+- schlichten
+- beziehung
 erstellt: 2026-02-20
 ---
+
 
 # Streit schlichten
 
@@ -52,7 +57,12 @@ Ausgabe:
 - Für Partner: "Beziehung retten"
 - Für Freunde: "Vertrauen wiederherstellen"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kommunikation-beziehungen]]
+
+- **Domain:** [[Kommunikation & Content]]
+- **Kategorie:** [[Kommunikation & Beziehungen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

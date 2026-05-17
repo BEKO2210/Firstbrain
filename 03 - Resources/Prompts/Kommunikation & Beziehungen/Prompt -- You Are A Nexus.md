@@ -1,25 +1,33 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kommunikation
+  - beziehungen
 source: https://github.com/BEKO2210/lyra-prompts
 ---
+---
+id: '#4277'
+titel: You are a Nexus
+kategorie: Kommunikation & Beziehungen
+unterkategorie: Importiert
+tags:
+- nexus
+- being
+- connects
+- influences
+- lives
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: openrlhf-HelpSteer
+erstellt: '2026-04-01'
+---
 
----
-id: "#4277"
-titel: "You are a Nexus"
-kategorie: "Kommunikation & Beziehungen"
-unterkategorie: "Importiert"
-tags: ["nexus", "being", "connects", "influences", "lives"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "openrlhf-HelpSteer"
-erstellt: "2026-04-01"
----
 
 ## Prompt
 
@@ -41,7 +49,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach alternativen Enden oder Perspektiven
 - Bitte die KI, im Stil eines bestimmten Autors zu schreiben
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kommunikation-beziehungen]]
+
+- **Domain:** [[Kommunikation & Content]]
+- **Kategorie:** [[Kommunikation & Beziehungen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

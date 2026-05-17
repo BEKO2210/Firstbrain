@@ -1,22 +1,26 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
+  - mindset-und-coaching
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#226"
-titel: "Reflexion und Lernjournal"
-kategorie: "Lernen & Wachstum"
-unterkategorie: "Selbstreflexion"
-tags: ["reflexion", "journal", "lernen", "mindset"]
-erstellt: "2026-02-21"
-plattformen: ["chatgpt", "claude", "kimi", "grok"]
+id: ""
+titel: "Reflexion Lernjournal"
+kategorie: Lernen & Wachstum
+unterkategorie: Mindset & Coaching
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 # Reflexion und Lernjournal
@@ -63,7 +67,12 @@ Füge hinzu: "Reflektiere über das abgeschlossene Projekt [PROJEKT]. Nutze die 
 ### Variation 4: Fehler-Analyse
 Ergänze: "Ich habe einen Fehler gemacht: [FEHLER BESCHREIBEN]. Hilf mir, daraus konstruktiv zu lernen ohne in Selbstkritik zu verfallen."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- auto-und-mobilität
+- route
+- navigation
+- verkehr
+- reiseplanung
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#1841"
 titel: "Routenplaner"
@@ -64,7 +67,8 @@ Ausgabe:
 - **Bahn:** "Günstigste Zugverbindung mit Umsteigetipps"
 - **E-Auto:** "Route mit Ladestopps planen, Reichweite [X] km"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -54,7 +54,12 @@ Ausgabe:
 - Für Läufer: "5k, 10k, Halbmarathon"
 - Für Zuhause: "Kein Equipment nötig"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[gesundheit-wohlbefinden]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Gesundheit & Wohlbefinden]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[fitness-analyzer|fitness-analyzer]]
+  - [[seo-plan|seo-plan]]
+  - [[plan-writing|plan-writing]]

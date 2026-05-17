@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -51,7 +51,12 @@ Ausgabe: Entschuldigungs-Entwurf, Gesprächsvorbereitung, Reaktion auf mögliche
 - Für wiederholtes Fehlverhalten: "Zeigen von Veränderung statt nur Versprechen"
 - Für große Verletzungen: "Geduld mit der Verarbeitungszeit der anderen Person"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[spezielle-situationen]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Spezielle Situationen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

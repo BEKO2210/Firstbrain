@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- kochen-und-ernährung
+- kochen
+- rezept
+- einschränkungen
+- alltagsküche
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2768"
 titel: "Koch-Coach mit Einschränkungen"
@@ -66,7 +69,8 @@ Ausgabe:
 - **Beeindrucken:** "Einfach zu kochen, sieht aber nach Restaurant aus"
 - **Meal Prep:** "Sonntag vorkochen für die ganze Woche"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#085"
-titel: "Barock Ölgemälde mit Goldrahmen"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#085'
+titel: Barock Ölgemälde mit Goldrahmen
+kategorie: Bild & Visualisierung
 unterkategorie: Klassische Kunst
-tags: [barock, rembrandt, caravaggio, gold, dramatisch]
+tags:
+- barock
+- rembrandt
+- caravaggio
+- gold
+- dramatisch
+- prompt
+- bild
+- visualisierung
+- klassische-kunst
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Barock Ölgemälde mit Goldrahmen
@@ -51,7 +60,8 @@ Der Goldrahmen ist ebenso wichtig wie das Bild – verziert mit Ornamenten, Enge
 --ar 3:4 --stylize 200 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

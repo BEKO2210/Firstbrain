@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#129"
-titel: "Ukiyo-e Holzschnitt"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#129'
+titel: Ukiyo-e Holzschnitt
+kategorie: Bild & Visualisierung
 unterkategorie: Traditionelle Kunst
-tags: [ukiyo-e, japanisch, holzschnitt, hokusai, traditionell]
+tags:
+- ukiyo-e
+- japanisch
+- holzschnitt
+- hokusai
+- traditionell
+- prompt
+- bild
+- visualisierung
+- traditionelle-kunst
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Ukiyo-e Holzschnitt
@@ -51,7 +60,8 @@ Das Gesicht ist stilisiert aber erkennbar, mit sanften Gesichtszügen und tradit
 --ar 2:3 --stylize 200 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

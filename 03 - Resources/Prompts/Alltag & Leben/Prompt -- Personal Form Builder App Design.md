@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- organisation-und-produktivität
+- formular
+- umfrage
+- organisieren
+- digital
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2850"
 titel: "Formular oder Umfrage erstellen"
@@ -63,7 +66,8 @@ Ausgabe:
 - **Bewerbung:** "Bewerbungsformular für Ehrenamtliche im Verein"
 - **Quiz:** "Interaktives Quiz mit Punktevergabe am Ende"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

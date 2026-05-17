@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - allgemein
+  - beruf
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -270,7 +272,12 @@ Dieses Prompt ist für den Einsatz als **laufendes ChatGPT-Projekt, Gemini Gem o
 - B2B-Version für LinkedIn parallel zu Instagram (Cross-Plattform-Strategie)
 - Version für Influencer-Aufbau (Personal Brand statt Business)
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[pro]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[instagram|instagram]]
+  - [[instagram-automation|instagram-automation]]
+  - [[enhance-prompt|enhance-prompt]]

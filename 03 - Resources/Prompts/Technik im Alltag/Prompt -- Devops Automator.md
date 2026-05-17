@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -143,7 +143,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach Code-Beispielen mit Kommentaren
 - Bitte um Best Practices und haeufige Fehlerquellen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[technik-alltag]]
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Technik im Alltag]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[cloud-devops|cloud-devops]]
+  - [[devops-deploy|devops-deploy]]
+  - [[devops-troubleshooter|devops-troubleshooter]]

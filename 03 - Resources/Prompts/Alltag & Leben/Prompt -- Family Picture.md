@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- bildbearbeitung
+- familienfoto
+- studio
+- portrait
+- bild-prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2882"
 titel: "Familienfoto im Studio-Stil"
@@ -59,7 +62,11 @@ Ausgabe: Ein einzelnes, professionelles Familienfoto — wie vom Fotografen aufg
 - **Outdoor:** "Familie im Park bei Sonnenuntergang, natürliches Licht"
 - **Lustig:** "Kreatives Familienfoto mit lustigen Posen und Requisiten"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[image-studio|image-studio]]
+  - [[ai-studio-image|ai-studio-image]]

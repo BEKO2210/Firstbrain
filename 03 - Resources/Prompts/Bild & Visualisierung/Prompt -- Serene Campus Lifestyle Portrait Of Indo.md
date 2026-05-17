@@ -2,24 +2,33 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#3766"
-titel: "Serene Campus Lifestyle Portrait of Indonesian Student"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["serene", "campus", "lifestyle", "portrait", "indonesian"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "rhieskhiez@gmail.com,rhieskhiez.creative@gmail.com"
-erstellt: "2026-03-11"
+id: '#3766'
+titel: Serene Campus Lifestyle Portrait of Indonesian Student
+kategorie: Bild & Visualisierung
+unterkategorie: Portrait & Fotografie
+tags:
+- serene
+- campus
+- lifestyle
+- portrait
+- indonesian
+- prompt
+- bild
+- visualisierung
+- portrait-fotografie
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: rhieskhiez@gmail.com,rhieskhiez.creative@gmail.com
+erstellt: '2026-03-11'
 ---
 
 ## Prompt
@@ -131,7 +140,8 @@ Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
 - Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
 - Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - allgemein
+  - beruf
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -233,7 +235,12 @@ E-Mail-Marketing-Setup ist einer der bestbezahlten Freelancer-Services. Unterneh
 - Black-Friday / Saison-Kampagnen Paket (als Upsell)
 - Kurs-Launch Sequenz (Pre-Launch → Cart Open → Cart Close)
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[pro]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[activecampaign-automation|activecampaign-automation]]
+  - [[mailchimp-automation|mailchimp-automation]]
+  - [[sendgrid-automation|sendgrid-automation]]

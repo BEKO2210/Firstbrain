@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#091"
-titel: "Doppelbelichtung mit Natur"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#091'
+titel: Doppelbelichtung mit Natur
+kategorie: Bild & Visualisierung
 unterkategorie: Fotografische Techniken
-tags: [doppelbelichtung, natur, surreal, portrait, analog]
+tags:
+- doppelbelichtung
+- natur
+- surreal
+- portrait
+- analog
+- prompt
+- bild
+- visualisierung
+- fotografische-techniken
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Doppelbelichtung mit Natur
@@ -51,7 +60,8 @@ Der Effekt erinnert an analoge Filmfotografie mit all ihren Unvollkommenheiten â
 --ar 4:5 --stylize 250 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

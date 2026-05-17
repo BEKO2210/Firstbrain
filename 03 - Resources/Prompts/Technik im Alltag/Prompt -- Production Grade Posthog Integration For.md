@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -120,7 +120,12 @@ Passe die Details an deine Beduerfnisse an.
 - Bitte um einen Vergleich der Umweltauswirkungen
 - Frage nach lokalen Initiativen und Moeglichkeiten
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[technik-alltag]]
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Technik im Alltag]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[production-code-audit|production-code-audit]]
+  - [[production-scheduling|production-scheduling]]
+  - [[posthog-automation|posthog-automation]]

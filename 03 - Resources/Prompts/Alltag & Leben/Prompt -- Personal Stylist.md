@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- mode-und-stil
+- mode
+- outfit
+- styling
+- kleidung
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#1861"
 titel: "Persönlicher Stylist"
@@ -65,7 +68,10 @@ Ausgabe:
 - **Business:** "Professionell wirken ohne Kostüm/Anzug"
 - **Kleiderschrank-Check:** "Aus vorhandenen Teilen neue Looks kreieren"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[loki-mode|loki-mode]]

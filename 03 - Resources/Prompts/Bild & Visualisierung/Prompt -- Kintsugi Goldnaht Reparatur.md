@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#105"
-titel: "Kintsugi Goldnaht-Reparatur"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#105'
+titel: Kintsugi Goldnaht-Reparatur
+kategorie: Bild & Visualisierung
 unterkategorie: Material-Transformation
-tags: [kintsugi, gold, keramik, japanisch, reparatur]
+tags:
+- kintsugi
+- gold
+- keramik
+- japanisch
+- reparatur
+- prompt
+- bild
+- visualisierung
+- material-transformation
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Kintsugi Goldnaht-Reparatur
@@ -51,7 +60,8 @@ Das Licht fällt sanft auf die Skulptur und lässt das Gold warm aufleuchten. De
 --ar 3:4 --stylize 150 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

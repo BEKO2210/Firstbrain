@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- expert
+- creating
+- triples
+- long
+- english
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#4430"
 titel: "From now you are an expert in creating RDF triples of long e"
@@ -41,7 +44,12 @@ Passe die Details an deine Beduerfnisse an.
 - Bitte um Erklaerungen von Redewendungen
 - Frage nach Uebungen mit steigendem Schwierigkeitsgrad
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[arm-cortex-expert|arm-cortex-expert]]
+  - [[faf-expert|faf-expert]]
+  - [[n8n-mcp-tools-expert|n8n-mcp-tools-expert]]

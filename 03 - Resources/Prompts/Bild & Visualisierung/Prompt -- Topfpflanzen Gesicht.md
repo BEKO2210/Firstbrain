@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#128"
-titel: "Topfpflanzen-Gesicht"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#128'
+titel: Topfpflanzen-Gesicht
+kategorie: Bild & Visualisierung
 unterkategorie: Natur-Transformation
-tags: [pflanzen, natur, botanisch, wachstum, grün]
+tags:
+- pflanzen
+- natur
+- botanisch
+- wachstum
+- grün
+- prompt
+- bild
+- visualisierung
+- natur-transformation
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Topfpflanzen-Gesicht
@@ -51,7 +60,8 @@ Der Hintergrund ist ein sonniger Gewächshaus oder ein üppiger Garten. Die Stim
 --ar 1:1 --stylize 180 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

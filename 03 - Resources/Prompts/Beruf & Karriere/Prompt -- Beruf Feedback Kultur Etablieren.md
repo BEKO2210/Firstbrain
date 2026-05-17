@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - führung-management
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -65,7 +67,12 @@ Ergänze: "Mein Team arbeitet komplett remote. Fokus auf asynchrone Feedback-Met
 ### Variation 4: Nach Fusion/Übernahme
 Ergänze: "Zwei Unternehmen mit unterschiedlichen Kulturen wurden zusammengeführt. Wie baue ich eine gemeinsame Feedback-Kultur auf?"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[ux-feedback|ux-feedback]]
+  - [[red-team-tactics|red-team-tactics]]
+  - [[red-team-tools|red-team-tools]]

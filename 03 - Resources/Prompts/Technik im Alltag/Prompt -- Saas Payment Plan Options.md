@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -52,7 +52,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach einer Schritt-fuer-Schritt-Anleitung mit Screenshots-Beschreibung
 - Bitte um Alternativen zu deinem aktuellen Tool
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[technik-alltag]]
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Technik im Alltag]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[micro-saas-launcher|micro-saas-launcher]]
+  - [[saas-multi-tenant|saas-multi-tenant]]
+  - [[saas-mvp-launcher|saas-mvp-launcher]]

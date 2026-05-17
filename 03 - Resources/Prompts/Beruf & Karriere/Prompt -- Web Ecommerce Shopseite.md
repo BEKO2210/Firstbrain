@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - allgemein
+  - beruf
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -227,7 +229,12 @@ E-Commerce Produktseiten sind stark nachgefragt — jeder Online-Shop braucht si
 - Food/Getränke Version (Abo-Box, Paket-Auswahl statt Größen)
 - Digital-Produkt Version (Sofort-Download, Lizenz-Auswahl, Preview/Demo)
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[pro]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[latex-paper-conversion|latex-paper-conversion]]
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]

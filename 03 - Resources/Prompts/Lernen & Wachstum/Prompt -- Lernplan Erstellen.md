@@ -1,21 +1,26 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
+  - produktivität
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#219"
-titel: "Lernplan erstellen"
+id: ""
+titel: "Lernplan Erstellen"
 kategorie: Lernen & Wachstum
-unterkategorie: Skill-Aufbau
-tags: [lernen, skill, plan, weiterbildung]
-erstellt: 2026-02-20
+unterkategorie: Produktivität
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 # Lernplan erstellen
@@ -53,7 +58,12 @@ Ausgabe:
 - Für Musik: "Instrument lernen"
 - Für Zertifikate: "SAP/Scrum/AWS-Zertifizierung"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

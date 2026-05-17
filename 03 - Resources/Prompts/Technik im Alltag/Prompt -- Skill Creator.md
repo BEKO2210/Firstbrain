@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -632,7 +632,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach einer SWOT-Analyse fuer deine Idee
 - Bitte um einen konkreten Aktionsplan mit Meilensteinen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[technik-alltag]]
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Technik im Alltag]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[10-andruia-skill-smith|10-andruia-skill-smith]]
+  - [[cc-skill-project-guidelines-example|cc-skill-project-guidelines-example]]
+  - [[cc-skill-strategic-compact|cc-skill-strategic-compact]]

@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- detailed
+- instructions
+- given
+- sentence
+- entity
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3296"
 titel: "Detailed Instructions: Given a sentence and an entity"
@@ -45,7 +48,8 @@ Passe die Platzhalter und Details an deine Situation an.
 - Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
 - Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

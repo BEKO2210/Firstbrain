@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- bildbearbeitung
+- food-foto
+- bild-prompt
+- hyperrealistisch
+- werbung
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2222"
 titel: "Professionelles Food-Foto erstellen"
@@ -51,7 +54,8 @@ Ausgabe: Ein einzelnes, hochauflösendes, hyperrealistisches Food-Foto
 - **Dunkel & Stimmungsvoll:** "Moody Food Photography mit dunklem Hintergrund"
 - **Zutaten-Arrangement:** "Alle Zutaten für [GERICHT] ästhetisch arrangiert"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

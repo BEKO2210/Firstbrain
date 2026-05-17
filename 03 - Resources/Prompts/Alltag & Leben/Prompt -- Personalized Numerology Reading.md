@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- spiritualität-und-selbstreflexion
+- numerologie
+- zahlen
+- persönlichkeit
+- selbstreflexion
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2832"
 titel: "Persönliches Numerologie-Reading"
@@ -62,7 +65,8 @@ Ausgabe:
 - **Name:** "Was sagt mein Name numerologisch über mich aus?"
 - **Vergleich:** "Unterschiede zwischen Numerologie, Astrologie und MBTI"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

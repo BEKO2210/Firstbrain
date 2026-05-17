@@ -1,0 +1,22 @@
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Lernen & Wachstum.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\LLM & KI-Agenten.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Marketing & SEO.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Meetings.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Microsoft Azure.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\ML & Data Science.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Mobile Entwicklung.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Monitoring & Observability.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Penetration Testing.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Persoenliche Entwicklung.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Produktivitaet & Werkzeuge.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Produktmanagement.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Programmiersprachen.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Projekte.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Prompt Engineering.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Prompt Sammlung.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Ressourcen.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Schreiben & Texten.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Sicherheit & Datenschutz.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Skills Uebersicht.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Social Media.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Software Architektur.md

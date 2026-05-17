@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- origin
+- term
+- supper
+- used
+- evening
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3218"
 titel: "What is the origin of the term 'supper' used to describe the"
@@ -41,7 +44,8 @@ Passe die Details an deine Beduerfnisse an.
 - Bitte um Erklaerungen von Redewendungen
 - Frage nach Uebungen mit steigendem Schwierigkeitsgrad
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

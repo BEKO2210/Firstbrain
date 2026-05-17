@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -49,7 +49,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach weniger bekannten Geheimtipps
 - Bitte um eine sortierte Top-10-Liste mit Begruendung
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[technik-alltag]]
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Technik im Alltag]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[idea-darwin|idea-darwin]]
+  - [[openapi-spec-generation|openapi-spec-generation]]
+  - [[documentation-generation-doc-generate|documentation-generation-doc-generate]]

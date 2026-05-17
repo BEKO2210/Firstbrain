@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- bildbearbeitung
+- foto-bearbeitung
+- pose
+- bild-prompt
+- transformation
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2568"
 titel: "Foto-Pose und Setting verändern"
@@ -57,7 +60,10 @@ Ausgabe: Ein transformiertes Foto mit neuer Pose/Setting — natürlich wirkend 
 - **Ganzkörper:** "Nahaufnahme zu Ganzkörperbild erweitern"
 - **Stil-Wechsel:** "Casual-Outfit-Foto → Abendoutfit-Look"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[dbt-transformation-patterns|dbt-transformation-patterns]]

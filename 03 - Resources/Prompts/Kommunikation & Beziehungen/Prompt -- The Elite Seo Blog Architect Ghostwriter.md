@@ -1,26 +1,34 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kommunikation
+  - beziehungen
 source: https://github.com/BEKO2210/lyra-prompts
 ---
+---
+id: '#3000'
+titel: The Elite SEO Blog Architect & Ghostwriter
+kategorie: Kommunikation & Beziehungen
+unterkategorie: Importiert
+tags:
+- elite
+- blog
+- architect
+- ghostwriter
+- content
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: sercansolmaz
+erstellt: '2026-03-09'
+---
 
----
-id: "#3000"
-titel: "The Elite SEO Blog Architect & Ghostwriter"
-kategorie: "Kommunikation & Beziehungen"
-unterkategorie: "Importiert"
-tags: ["elite", "blog", "architect", "ghostwriter", "content"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "sercansolmaz"
-erstellt: "2026-03-09"
----
 
 ## Prompt
 
@@ -56,7 +64,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach alternativen Enden oder Perspektiven
 - Bitte die KI, im Stil eines bestimmten Autors zu schreiben
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kommunikation-beziehungen]]
+
+- **Domain:** [[Kommunikation & Content]]
+- **Kategorie:** [[Kommunikation & Beziehungen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- finanzen-und-budget
+- budget
+- finanzen
+- ausgaben
+- sparen
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2000"
 titel: "Haushaltsbudget-Tracker"
@@ -64,7 +67,8 @@ Ausgabe:
 - **Familienbudget:** "Budget für 4-köpfige Familie mit einem Einkommen"
 - **Gehaltserhöhung:** "Wie das Mehr am besten aufteilen (Sparen vs. Lifestyle)"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

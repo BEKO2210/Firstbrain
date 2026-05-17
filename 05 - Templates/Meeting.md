@@ -5,6 +5,7 @@ time: {{time}}
 participants:
 project: "[[]]"
 tags:
+  - template
   - meeting
 ---
 
@@ -30,5 +31,7 @@ tags:
 
 ## Connections
 
+- **Templates MOC:** [[Templates MOC]]
+- **Verwandte Templates:** [[Decision]] | [[Project]] | [[Person]]
 - **Project:** [[]]
 - **Previous Meeting:** [[]]

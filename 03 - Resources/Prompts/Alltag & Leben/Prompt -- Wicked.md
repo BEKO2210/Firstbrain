@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- wicked
+- smiled
+- while
+- child
+- stopped
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3059"
 titel: "Wicked"
@@ -110,7 +113,8 @@ Passe die Details an deine Beduerfnisse an.
 - Bitte um eine Morgen- oder Abendroutine
 - Frage nach wissenschaftlich fundierten Techniken
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

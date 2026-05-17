@@ -3,6 +3,13 @@ name: search
 trigger: /search
 description: Search vault notes by meaning using semantic similarity or keyword matching
 version: 3.0.0
+type: skill
+tags:
+  - skill
+  - agent
+  - discovery
+  - search
+  - semantic
 ---
 
 # /search -- Semantic Search
@@ -156,3 +163,9 @@ async function search(query, vaultRoot) {
 - `../scan/scanner.cjs` -- Vault scanning for fresh indexes
 - `../scan/utils.cjs` -- `loadJson` for reading index files
 - `@huggingface/transformers` -- Local embedding generation (optional; keyword fallback if not installed)
+
+## Connections
+
+- **Related:** [[synthesize]], [[connect]], [[memory]], [[graph]]
+- **Uses:** [[scan]]
+- **MOC:** [[Skills MOC]]

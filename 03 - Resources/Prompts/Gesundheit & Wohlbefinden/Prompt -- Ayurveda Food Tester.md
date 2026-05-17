@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -42,7 +42,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach einer veganen/vegetarischen Alternative
 - Bitte um Naehrwertangaben pro Portion
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[gesundheit-wohlbefinden]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Gesundheit & Wohlbefinden]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[food-database-query|food-database-query]]
+  - [[fda-food-safety-auditor|fda-food-safety-auditor]]
+  - [[enhance-prompt|enhance-prompt]]

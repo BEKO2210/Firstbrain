@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#121"
-titel: "Schmelzendes Wachs Porträt"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#121'
+titel: Schmelzendes Wachs Porträt
+kategorie: Bild & Visualisierung
 unterkategorie: Material-Transformation
-tags: [wachs, kerze, schmelzen, surreal, zeit]
+tags:
+- wachs
+- kerze
+- schmelzen
+- surreal
+- zeit
+- prompt
+- bild
+- visualisierung
+- material-transformation
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Schmelzendes Wachs Porträt
@@ -51,7 +60,8 @@ Der Hintergrund ist dunkel und warm, vielleicht ein alter Kerzenhalter oder ein 
 --ar 2:3 --stylize 250 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

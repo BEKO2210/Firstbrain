@@ -3,12 +3,14 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- budget
+- sparen
+- finanzen
+- haushalt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#023"
 titel: "Haushaltsbudget optimieren"
@@ -63,7 +65,8 @@ Ergänze: "Berücksichtige, dass ich mit meinem Partner/meiner Partnerin zusamme
 ### Variation 4: Minimalismus-Ansatz
 Ändere zu: "Analysiere meine Ausgaben nach dem Prinzip 'Need vs. Want' und identifiziere alles, was ich streichen könnte, ohne meine Lebensqualität zu mindern."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- haushalt-und-reparaturen
+- reparatur
+- haushalt
+- handwerker
+- sicherheit
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2461"
 titel: "Haushalts-Reparatur-Assistent"
@@ -69,7 +72,8 @@ Ausgabe:
 - **Kostenvergleich:** "Lohnt sich DIY oder ist der Handwerker günstiger?"
 - **Vorbeugung:** "Jährliche Wartungscheckliste für Haus und Wohnung"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

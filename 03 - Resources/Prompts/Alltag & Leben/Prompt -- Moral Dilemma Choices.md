@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- moral
+- dilemma
+- choices
+- scenario
+- were
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#4113"
 titel: "Moral Dilemma Choices"
@@ -44,7 +47,8 @@ Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
 - Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
 - Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

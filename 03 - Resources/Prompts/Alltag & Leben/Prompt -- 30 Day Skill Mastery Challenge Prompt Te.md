@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- lernen-und-weiterbildung
+- lernen
+- challenge
+- 30-tage
+- fähigkeit
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3015"
 titel: "30-Tage-Lern-Challenge erstellen"
@@ -64,7 +67,8 @@ Ausgabe:
 - **Digital:** "Programmieren lernen in 30 Tagen — erste eigene Mini-App"
 - **Fitness:** "30-Tage Körpergewicht-Training für komplette Anfänger"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

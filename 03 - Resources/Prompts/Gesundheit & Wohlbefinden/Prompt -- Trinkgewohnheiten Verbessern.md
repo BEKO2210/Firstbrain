@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -53,7 +53,12 @@ Ausgabe: Tagesplan mit Trinkmengen, Timing, leckeren Wasser-Rezepten und Tracker
 - **Sport-Hydration:** Richtig trinken vor, während und nach dem Training
 - **Kinder-Trinken:** Kindern gesundes Trinken beibringen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[gesundheit-wohlbefinden]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Gesundheit & Wohlbefinden]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

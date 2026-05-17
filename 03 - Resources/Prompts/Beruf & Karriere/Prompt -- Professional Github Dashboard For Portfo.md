@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - it-entwicklung
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -64,7 +66,12 @@ Ergänze: "Integriere einen Blog (Markdown-basiert) ins Portfolio-Dashboard."
 ### Variation 4: Terminal-Style
 Ergänze: "Gestalte das Portfolio im Terminal/CLI-Stil mit Typewriter-Effekt."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[address-github-comments|address-github-comments]]
+  - [[github|github]]
+  - [[github-actions-templates|github-actions-templates]]

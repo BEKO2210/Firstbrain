@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - gründung-selbstständigkeit
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -64,7 +66,12 @@ Ergänze: "Welche Features sollten kostenlos sein und welche hinter der Paywall?
 ### Variation 4: Preiserhöhung kommunizieren
 Ergänze: "Wie kommuniziere ich eine Preiserhöhung an Bestandskunden ohne Abwanderung?"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[pricing-strategy|pricing-strategy]]
+  - [[micro-saas-launcher|micro-saas-launcher]]
+  - [[saas-multi-tenant|saas-multi-tenant]]

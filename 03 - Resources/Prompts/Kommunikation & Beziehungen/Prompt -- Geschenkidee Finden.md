@@ -1,22 +1,27 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kommunikation
+  - beziehungen
+  - privater-austausch
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
-id: "#170"
-titel: "Geschenkidee finden"
+id: '#170'
+titel: Geschenkidee finden
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Privater Austausch
-tags: [geschenk, idee, geburtstag, beziehung]
+tags:
+- geschenk
+- idee
+- geburtstag
+- beziehung
 erstellt: 2026-02-20
 ---
+
 
 # Geschenkidee finden
 
@@ -54,7 +59,12 @@ Ausgabe:
 - Für Kollegen: "Professionell, nicht zu privat"
 - Für Kinder: "Bildung + Spaß"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kommunikation-beziehungen]]
+
+- **Domain:** [[Kommunikation & Content]]
+- **Kategorie:** [[Kommunikation & Beziehungen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

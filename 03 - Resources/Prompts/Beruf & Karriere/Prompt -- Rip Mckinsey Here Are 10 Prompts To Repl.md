@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - gründung-selbstständigkeit
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -65,7 +67,12 @@ Ergänze: "Wo kann ich Kosten senken, ohne Qualität zu verlieren? 80/20-Analyse
 ### Variation 4: Digitale Transformation
 Ergänze: "Entwickle eine Digitalisierungsstrategie für mein traditionelles Unternehmen."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[data-quality-frameworks|data-quality-frameworks]]
+  - [[backtesting-frameworks|backtesting-frameworks]]
+  - [[enhance-prompt|enhance-prompt]]

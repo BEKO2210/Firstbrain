@@ -3,6 +3,13 @@ name: synthesize
 trigger: /synthesize
 description: Generate a topic summary from related vault notes with wiki-link citations and AI provenance metadata
 version: 3.0.0
+type: skill
+tags:
+  - skill
+  - agent
+  - creation
+  - synthesis
+  - ai
 ---
 
 # /synthesize -- Knowledge Synthesis
@@ -173,3 +180,9 @@ Converts a topic string to a tag-safe identifier. Handles edge cases like "Machi
 - **Semantic search is optional:** Without the embedding library, discovery relies on tag and title matching only, which may miss semantically related notes that use different terminology.
 - **Top-N cutoff:** Only the top 10 (or --top N) notes are read for synthesis. Lower-ranked notes are excluded even if relevant.
 - **No cross-synthesis linking:** Synthesis notes do not automatically link to other synthesis notes. They only link to their source notes.
+
+## Connections
+
+- **Related:** [[search]], [[create]], [[memory]], [[process]]
+- **Uses:** [[search]], [[scan]], [[create]]
+- **MOC:** [[Skills MOC]]

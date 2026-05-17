@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#104"
-titel: "Keith Haring Pop Art"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#104'
+titel: Keith Haring Pop Art
+kategorie: Bild & Visualisierung
 unterkategorie: Pop-Art & Street Art
-tags: [keith-haring, pop-art, graffiti, street-art, bunt]
+tags:
+- keith-haring
+- pop-art
+- graffiti
+- street-art
+- bunt
+- prompt
+- bild
+- visualisierung
+- pop-art-street-art
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Keith Haring Pop Art
@@ -51,7 +60,8 @@ Der Stil ist urban, verspielt und politisch aufgeladen – eine Hommage an die 8
 --ar 1:1 --stylize 300 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

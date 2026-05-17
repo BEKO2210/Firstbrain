@@ -1,24 +1,26 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
+  - wissenschaft
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#4152"
-titel: "What are some examples of screw-ups that lead to an increase"
-kategorie: "Lernen & Wachstum"
-unterkategorie: "Importiert"
-tags: ["examples", "screw", "lead", "increase", "wealth"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "openrlhf-HelpSteer"
-erstellt: "2026-03-25"
+id: ""
+titel: "What Are Some Examples Of Screw Ups That"
+kategorie: Lernen & Wachstum
+unterkategorie: Wissenschaft
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt
@@ -41,7 +43,12 @@ Passe die Details an deine Beduerfnisse an.
 - Bitte um eine Zusammenfassung in 3 Saetzen
 - Frage nach weiterführenden Quellen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

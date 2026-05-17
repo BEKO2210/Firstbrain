@@ -1,0 +1,50 @@
+---
+name: "go-concurrency-patterns"
+description: "Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or debugging race conditions."
+type: skill
+created: 2026-02-27
+domain: software-development
+category: architecture
+risk: safe
+source: community
+tags:
+  - skill
+  - software-development
+  - architecture
+  - concurrency
+---
+
+# Go Concurrency Patterns
+
+Production patterns for Go concurrency including goroutines, channels, synchronization primitives, and context management.
+
+## Use this skill when
+
+- Building concurrent Go applications
+- Implementing worker pools and pipelines
+- Managing goroutine lifecycles
+- Using channels for communication
+- Debugging race conditions
+- Implementing graceful shutdown
+
+## Do not use this skill when
+
+- The task is unrelated to go concurrency patterns
+- You need a different domain or tool outside this scope
+
+## Instructions
+
+- Clarify goals, constraints, and required inputs.
+- Apply relevant best practices and validate outcomes.
+- Provide actionable steps and verification.
+- If detailed examples are required, open `resources/implementation-playbook.md`.
+
+## Resources
+
+- `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## Connections
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Software Architektur]]
+- **Navigation:** [[Skills Uebersicht]], [[Home]]

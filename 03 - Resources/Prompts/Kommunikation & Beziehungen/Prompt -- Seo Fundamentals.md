@@ -1,26 +1,34 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kommunikation
+  - beziehungen
 source: https://github.com/BEKO2210/lyra-prompts
 ---
+---
+id: '#2606'
+titel: seo-fundamentals
+kategorie: Kommunikation & Beziehungen
+unterkategorie: Importiert
+tags:
+- fundamentals
+- name
+- description
+- core
+- vitals
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: xenitV1
+erstellt: '2026-03-09'
+---
 
----
-id: "#2606"
-titel: "seo-fundamentals"
-kategorie: "Kommunikation & Beziehungen"
-unterkategorie: "Importiert"
-tags: ["fundamentals", "name", "description", "core", "vitals"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "xenitV1"
-erstellt: "2026-03-09"
----
 
 ## Prompt
 
@@ -190,7 +198,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach Code-Beispielen mit Kommentaren
 - Bitte um Best Practices und haeufige Fehlerquellen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kommunikation-beziehungen]]
+
+- **Domain:** [[Kommunikation & Content]]
+- **Kategorie:** [[Kommunikation & Beziehungen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[local-legal-seo-audit|local-legal-seo-audit]]
+  - [[programmatic-seo|programmatic-seo]]
+  - [[seo|seo]]

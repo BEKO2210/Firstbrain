@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -53,7 +53,12 @@ Ausgabe:
 - Für Unternehmer: "Business-Lösungen"
 - Für Paranoide: "Verschlüsselung, Zero-Knowledge"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[technik-alltag]]
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Technik im Alltag]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[odoo-backup-strategy|odoo-backup-strategy]]
+  - [[cloud-penetration-testing|cloud-penetration-testing]]
+  - [[whatsapp-cloud-api|whatsapp-cloud-api]]

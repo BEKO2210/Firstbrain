@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - allgemein
+  - beruf
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -234,7 +236,12 @@ Etsy-Shop-Setup ist ein stark gefragter Service. Viele wollen auf Etsy verkaufen
 - Listing-Optimierung für bestehende Shops (Rewrite + SEO-Boost)
 - Amazon KDP Version (E-Books, Low-Content Books)
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[pro]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[local-legal-seo-audit|local-legal-seo-audit]]
+  - [[programmatic-seo|programmatic-seo]]
+  - [[seo|seo]]

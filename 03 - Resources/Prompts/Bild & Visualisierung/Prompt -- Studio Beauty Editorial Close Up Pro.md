@@ -2,24 +2,33 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#2429"
-titel: "Studio Beauty Editorial (close-up, pro)"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["studio", "beauty", "editorial", "close", "category"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "dorukkurtoglu@gmail.com"
-erstellt: "2026-03-09"
+id: '#2429'
+titel: Studio Beauty Editorial (close-up, pro)
+kategorie: Bild & Visualisierung
+unterkategorie: Portrait & Fotografie
+tags:
+- studio
+- beauty
+- editorial
+- close
+- category
+- prompt
+- bild
+- visualisierung
+- portrait-fotografie
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: dorukkurtoglu@gmail.com
+erstellt: '2026-03-09'
 ---
 
 ## Prompt
@@ -114,7 +123,8 @@ Passe die Details an deine Beduerfnisse an.
 - Ersetze das Hauptmotiv durch dein eigenes Thema
 - Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

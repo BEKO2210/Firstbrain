@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- spiele-und-unterhaltung
+- spiel
+- gomoku
+- brettspiel
+- strategie
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#1907"
 titel: "Gomoku-Brettspiel"
@@ -59,7 +62,8 @@ Ausgabe:
 - **Tic-Tac-Toe:** "Spiele stattdessen Tic-Tac-Toe auf einem 3x3 Brett"
 - **Schach:** "Spiele eine Partie Schach mit Brettdarstellung"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

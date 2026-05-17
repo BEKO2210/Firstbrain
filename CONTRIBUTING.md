@@ -1,3 +1,12 @@
+---
+type: guide
+created: 2024-01-01
+tags:
+  - contributing
+  - github
+  - guide
+---
+
 # Contributing
 
 Thank you for wanting to contribute to this project! Here is everything you need to know.
@@ -48,3 +57,11 @@ Thank you for wanting to contribute to this project! Here is everything you need
 ## Questions?
 
 Open an Issue or start a [Discussion](https://github.com/BEKO2210/Firstbrain/discussions) on GitHub.
+
+---
+
+## Connections
+
+- **Project:** [[README]]
+- **Start:** [[START HERE]], [[Home]]
+- **MOCs:** [[Resources MOC]], [[Templates MOC]]

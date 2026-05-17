@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#119"
-titel: "Sand- und Staub-Skulptur"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#119'
+titel: Sand- und Staub-Skulptur
+kategorie: Bild & Visualisierung
 unterkategorie: Elementare Transformation
-tags: [sand, staub, wüste, vergänglich, zeit]
+tags:
+- sand
+- staub
+- wüste
+- vergänglich
+- zeit
+- prompt
+- bild
+- visualisierung
+- elementare-transformation
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Sand- und Staub-Skulptur
@@ -51,7 +60,8 @@ Der Hintergrund ist eine endlose Düne unter einer untergehenden Sonne, die alle
 --ar 3:2 --stylize 250 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

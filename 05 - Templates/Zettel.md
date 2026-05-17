@@ -3,6 +3,8 @@ type: zettel
 created: {{date}}
 updated: {{date}}
 tags:
+  - template
+  - zettel
 source:
 ---
 
@@ -18,6 +20,8 @@ source:
 
 ## Connections
 
+- **Templates MOC:** [[Templates MOC]]
+- **Verwandte Templates:** [[Resource]]
 - **Source:** [[]]
 - **Related Ideas:** [[]]
 - **Contradicts:** [[]]

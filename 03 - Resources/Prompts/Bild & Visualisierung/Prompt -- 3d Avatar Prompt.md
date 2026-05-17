@@ -2,24 +2,32 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#3840"
-titel: "3D Avatar Prompt"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["avatar", "prompt", "user", "uploaded", "image"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "ahmettek6@gmail.com"
-erstellt: "2026-03-12"
+id: '#3840'
+titel: 3D Avatar Prompt
+kategorie: Bild & Visualisierung
+unterkategorie: 3D & Modellierung
+tags:
+- avatar
+- prompt
+- user
+- uploaded
+- image
+- bild
+- visualisierung
+- 3d-modellierung
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: ahmettek6@gmail.com
+erstellt: '2026-03-12'
 ---
 
 ## Prompt
@@ -52,7 +60,8 @@ Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
 - Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
 - Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- reisen-und-freizeit
+- reiseplan
+- ausdrucken
+- itinerary
+- übersicht
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2245"
 titel: "Reiseplan zum Ausdrucken"
@@ -66,7 +69,8 @@ Ausgabe:
 - **Notfall-Info:** "Wichtige Telefonnummern, Botschaft, Krankenhaus ergänzen"
 - **Checkliste:** "Reise-Checkliste vor Abfahrt (Reisepass, Versicherung etc.)"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

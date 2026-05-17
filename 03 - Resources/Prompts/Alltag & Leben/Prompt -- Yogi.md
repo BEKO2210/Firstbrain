@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- fitness-und-bewegung
+- yoga
+- meditation
+- entspannung
+- übungen
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#1836"
 titel: "Yoga-Lehrer"
@@ -63,7 +66,8 @@ Ausgabe:
 - **Rücken-Spezial:** "Gezielte Übungen gegen Rückenschmerzen"
 - **Meditation:** "Geführte Meditation für Anfänger (10 Minuten)"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

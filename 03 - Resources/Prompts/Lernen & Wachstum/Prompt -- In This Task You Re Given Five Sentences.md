@@ -1,24 +1,26 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
+  - **
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#3586"
-titel: "In this task, you're given five sentences, numbered 1 through 5"
-kategorie: "Lernen & Wachstum"
-unterkategorie: "Importiert"
-tags: ["task", "given", "five", "sentences", "numbered"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "openrlhf-UltraFeedback"
-erstellt: "2026-03-10"
+id: ""
+titel: "In This Task You Re Given Five Sentences"
+kategorie: Lernen & Wachstum
+unterkategorie: Lernmethoden
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt
@@ -45,7 +47,12 @@ Passe die Platzhalter und Details an deine Situation an.
 - Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
 - Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

@@ -1,66 +1,27 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
+  - wissenschaft
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#4191"
-titel: "Academic analyst and exam pattern extractor"
-kategorie: "Lernen & Wachstum"
-unterkategorie: "Importiert"
-tags: ["academic", "analyst", "exam", "pattern", "extractor"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "helix-77"
-erstellt: "2026-03-30"
----
-
-## Prompt
-
-```
-ROLE: Act as an expert academic analyst and exam pattern extractor.
-
-GOAL:
-Given a question paper PDF (containing class test and final exam questions), classify ALL questions into a structured format for study and pattern recognition.
-
-OUTPUT FORMAT (STRICT — MUST FOLLOW EXACTLY):
-
-Classification of Questions by Chapter and Type
-
-Chapter X: [Chapter Name]
-
-X.1 Definition & Conceptual Questions
-
-[Year/Exam].[Question No]: [Full question text]
-
-[Year/Exam].[Question No]: [Full question text]
-
-X.2 Mathematical/Analytical Questions
-
-[Year/Exam].[Question No]: [Full question text]
-
-...
-
-X.3 Algorithm / Procedural Questions
-
-...
-
-X.4 Programming / Implementation Questions
-
-...
-
-X.5 Comparison / Justification Questions
-
-...
-
---------------------------------------------------
+id: ""
+titel: "Academic Analyst And Exam Pattern Extrac"
+kategorie: Lernen & Wachstum
+unterkategorie: Wissenschaft
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
+-----------------------------------------------
 
 INSTRUCTIONS:
 
@@ -113,7 +74,12 @@ Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
 - Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
 - Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

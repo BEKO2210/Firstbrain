@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- given
+- definition
+- task
+- follow
+- solve
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3264"
 titel: "You will be given a definition of a task first, then an example"
@@ -53,7 +56,11 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach alternativen Enden oder Perspektiven
 - Bitte die KI, im Stil eines bestimmten Autors zu schreiben
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[task-intelligence|task-intelligence]]
+  - [[multi-agent-task-orchestrator|multi-agent-task-orchestrator]]

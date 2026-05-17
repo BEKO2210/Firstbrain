@@ -3,6 +3,13 @@ name: memory
 trigger: /memory
 description: View and manage Claude's memory -- insights, project context, and embedding status
 version: 3.0.0
+type: skill
+tags:
+  - skill
+  - agent
+  - intelligence
+  - memory
+  - insights
 ---
 
 # /memory -- Memory Dashboard

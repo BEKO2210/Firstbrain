@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - gründung-selbstständigkeit
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -66,7 +68,12 @@ Ergänze: "Die Idee soll lokal in [STADT] funktionieren, nicht deutschlandweit."
 ### Variation 4: Social Entrepreneurship
 Ändere zu: "Geschäftsidee mit sozialem Impact. Gewinn und Gemeinwohl vereinen."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[startup-metrics-framework|startup-metrics-framework]]
+  - [[startup-analyst|startup-analyst]]
+  - [[startup-business-analyst-market-opportunity|startup-business-analyst-market-opportunity]]

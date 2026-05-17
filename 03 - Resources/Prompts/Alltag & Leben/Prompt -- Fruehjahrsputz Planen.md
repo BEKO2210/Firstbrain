@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- haushalt-und-organisation
+- putzen
+- frühjahrsputz
+- reinigung
+- ordnung
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#305"
 titel: "Frühjahrsputz planen"
@@ -53,7 +56,8 @@ Ausgabe: Strukturierter Putzplan nach Räumen mit Checkliste und Einkaufsliste
 - **Mit Kindern:** Aufgaben altersgerecht verteilen
 - **Nur Hausmittel:** Essig, Natron, Zitrone - komplett chemiefrei putzen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

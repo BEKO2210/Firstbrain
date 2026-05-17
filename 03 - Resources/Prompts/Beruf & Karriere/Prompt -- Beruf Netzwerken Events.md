@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - karriere
+  - networking
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -64,7 +66,12 @@ Ergänze: "Virtuelle Konferenz oder LinkedIn-Networking. Chat-Strategien, Breako
 ### Variation 4: Als Führungskraft
 Ergänze: "Ich vertrete mein Unternehmen und suche Talente. Employer Branding, authentisch über Kultur sprechen."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[microsoft-azure-webjobs-extensions-authentication-events-dotnet|microsoft-azure-webjobs-extensions-authentication-events-dotnet]]
+  - [[hybrid-cloud-networking|hybrid-cloud-networking]]
+  - [[enhance-prompt|enhance-prompt]]

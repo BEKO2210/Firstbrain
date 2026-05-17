@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- bildbearbeitung
+- cocktail
+- video
+- cineastisch
+- bild-prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2921"
 titel: "Cineastisches Cocktail-Video erstellen"
@@ -53,7 +56,10 @@ Ausgabe: Ein einzelnes, atmosphärisches Cocktail-Bild oder -Video — perfekt f
 - **Behind the Bar:** "Bartender in Aktion, Flaschen im Hintergrund, Shaker in der Hand"
 - **Flat Lay:** "3 Cocktails von oben arrangiert mit Zutaten drumherum"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[seek-and-analyze-video|seek-and-analyze-video]]

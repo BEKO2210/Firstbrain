@@ -2,24 +2,33 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#2681"
-titel: "Surrealist Painting Description: A Study of René Magritte's Style"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["surrealist", "painting", "description", "study", "magritte"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "senoldak"
-erstellt: "2026-03-09"
+id: '#2681'
+titel: 'Surrealist Painting Description: A Study of René Magritte''s Style'
+kategorie: Bild & Visualisierung
+unterkategorie: Spezielle Themen
+tags:
+- surrealist
+- painting
+- description
+- study
+- magritte
+- prompt
+- bild
+- visualisierung
+- spezielle-themen
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: senoldak
+erstellt: '2026-03-09'
 ---
 
 ## Prompt
@@ -109,7 +118,8 @@ Passe die Details an deine Beduerfnisse an.
 - Ersetze das Hauptmotiv durch dein eigenes Thema
 - Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

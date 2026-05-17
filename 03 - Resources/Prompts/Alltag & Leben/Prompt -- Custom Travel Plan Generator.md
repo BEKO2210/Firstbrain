@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- reise-und-mobilität
+- solo-reise
+- essen
+- outdoor
+- reiseplan
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2868"
 titel: "Solo-Reise mit Food- und Outdoor-Fokus"
@@ -69,7 +72,8 @@ Ausgabe:
 - **Slow Travel:** "3 Wochen in einer Region statt Städtehopping"
 - **Food-Only:** "Reine Kulinarik-Reise — wo essen, was kosten, wie bestellen"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- haushalt-und-nachhaltigkeit
+- mülltrennung
+- recycling
+- nachhaltigkeit
+- umwelt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#034"
 titel: "Mülltrennung optimieren"
@@ -52,7 +55,8 @@ Ausgabe: Übersichtliche Trennungstabelle mit den Top-50-Zweifelsfällen
 - **Kompost:** Bioabfall richtig kompostieren (Garten oder Wurmkiste)
 - **Sperrmüll:** Richtig entsorgen, was nicht in die Tonne passt
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

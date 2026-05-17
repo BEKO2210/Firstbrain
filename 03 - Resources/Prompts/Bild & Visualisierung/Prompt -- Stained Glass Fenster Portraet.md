@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#123"
-titel: "Stained Glass Fenster-Porträt"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#123'
+titel: Stained Glass Fenster-Porträt
+kategorie: Bild & Visualisierung
 unterkategorie: Licht & Farbe
-tags: [glas, buntglas, kirche, licht, gotik]
+tags:
+- glas
+- buntglas
+- kirche
+- licht
+- gotik
+- prompt
+- bild
+- visualisierung
+- licht-farbe
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Stained Glass Fenster-Porträt
@@ -51,7 +60,8 @@ Der Hintergrund ist die dunkle Innenseite einer Kirche mit Steinbögen. Die Stim
 --ar 2:3 --stylize 200 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

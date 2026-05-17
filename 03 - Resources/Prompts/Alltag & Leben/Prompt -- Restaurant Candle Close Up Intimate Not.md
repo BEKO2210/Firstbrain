@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- bildbearbeitung
+- lifestyle-foto
+- restaurant
+- kerzenlicht
+- bild-prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2432"
 titel: "Lifestyle-Foto: Restaurant bei Kerzenlicht"
@@ -53,7 +56,8 @@ Ausgabe: Ein einzelnes, stimmungsvolles Restaurant-Portrait — perfekt für Soc
 - **Terrasse:** "Abendliches Restaurant-Portrait auf der Außenterrasse"
 - **Bar:** "Moody Bar-Portrait mit buntem Licht im Hintergrund"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

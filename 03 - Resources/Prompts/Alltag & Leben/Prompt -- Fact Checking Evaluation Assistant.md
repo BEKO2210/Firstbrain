@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- wissen-und-bildung
+- faktencheck
+- wahrheit
+- quellen
+- bewertung
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2960"
 titel: "Faktencheck-Assistent"
@@ -63,7 +66,8 @@ Ausgabe:
 - **Gesundheit:** "Stimmt diese Gesundheits-Behauptung aus dem Internet?"
 - **Geschichte:** "Ist dieses historische 'Fakt' wirklich passiert?"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

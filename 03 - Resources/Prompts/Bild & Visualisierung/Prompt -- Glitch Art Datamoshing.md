@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#098"
-titel: "Glitch Art Datamoshing"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#098'
+titel: Glitch Art Datamoshing
+kategorie: Bild & Visualisierung
 unterkategorie: Digital & Cyberpunk
-tags: [glitch, datamoshing, digital, fehler, kunst]
+tags:
+- glitch
+- datamoshing
+- digital
+- fehler
+- kunst
+- prompt
+- bild
+- visualisierung
+- digital-cyberpunk
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Glitch Art Datamoshing
@@ -51,7 +60,8 @@ Die Farben sind verfälscht – Cyan und Magenta brechen aus den Konturen, Gelb 
 --ar 16:9 --stylize 200 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

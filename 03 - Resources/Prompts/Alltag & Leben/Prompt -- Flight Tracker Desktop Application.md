@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- reise-und-mobilität
+- flug
+- reise
+- tracking
+- flughafen
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2359"
 titel: "Flugstatus verfolgen"
@@ -62,7 +65,10 @@ Ausgabe:
 - **Business:** "Effizient fliegen — Lounge, Priority, Zeitmanagement"
 - **Mit Baby:** "Flugreise mit Baby unter 2 Jahren — Checkliste und Tipps"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[analytics-tracking|analytics-tracking]]

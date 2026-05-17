@@ -1,25 +1,26 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
+  - schreiben
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#3013"
-titel: "Prompt for Humanizing AI Text (English Version)"
-kategorie: "Lernen & Wachstum"
-unterkategorie: "Importiert"
-tags: ["prompt", "humanizing", "text", "english", "version"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "Hazyshades"
-erstellt: "2026-03-09"
+id: ""
+titel: "Prompt For Humanizing Ai Text English Ve"
+kategorie: Lernen & Wachstum
+unterkategorie: Schreiben
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt
@@ -78,7 +79,12 @@ Passe die Details an deine Beduerfnisse an.
 - Ersetze das Hauptmotiv durch dein eigenes Thema
 - Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

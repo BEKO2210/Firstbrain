@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- familie-und-kinder
+- kindergeschichte
+- vorlesen
+- kreativ
+- kinderbuch
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#1946"
 titel: "Kindergeschichten-Erfinder"
@@ -63,7 +66,8 @@ Ausgabe:
 - **Serie:** "Erstelle 3 zusammenhängende Geschichten mit denselben Figuren"
 - **Mitmach-Geschichte:** "Kind kann an 3 Stellen entscheiden wie es weitergeht"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

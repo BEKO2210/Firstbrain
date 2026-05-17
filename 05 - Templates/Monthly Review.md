@@ -3,7 +3,10 @@ type: review
 period: monthly
 month: "{{date:MMMM YYYY}}"
 created: "{{date:YYYY-MM-DD}}"
-tags: [review, monthly]
+tags:
+  - template
+  - review
+  - monthly
 ---
 
 # Monthly Review — {{date:MMMM YYYY}}
@@ -89,6 +92,8 @@ SORT created ASC
 
 ## Connections
 
+- **Templates MOC:** [[Templates MOC]]
+- **Verwandte Templates:** [[Weekly Review]] | [[Daily Note]]
 - **Previous Month:** [[]]
 - **Next Month:** [[]]
 - **Key Projects:** [[]]

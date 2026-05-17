@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - datenanalyse-visualisierung
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -804,7 +806,12 @@ Verkaufbar als Service in diesen Bereichen:
 - **Enterprise White-Label:** Version ohne GitHub-Branding, mit Custom-Domain, Login, Team-Features und E-Mail-Alerts — für B2B-Verkauf als SaaS
 - **Historical Archive:** Erweiterung mit Common Crawl / Internet Archive Integration für historische Nachrichtenanalyse — "Wie hat die Welt über [Event] berichtet?"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[pro]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[kpi-dashboard-design|kpi-dashboard-design]]
+  - [[sankhya-dashboard-html-jsp-custom-best-pratices|sankhya-dashboard-html-jsp-custom-best-pratices]]
+  - [[enhance-prompt|enhance-prompt]]

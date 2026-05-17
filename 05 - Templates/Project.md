@@ -5,6 +5,7 @@ priority: medium
 created: {{date}}
 updated: {{date}}
 tags:
+  - template
   - project
 area: "[[]]"
 ---
@@ -29,6 +30,8 @@ area: "[[]]"
 
 ## Connections
 
+- **Templates MOC:** [[Templates MOC]]
+- **Verwandte Templates:** [[Area]] | [[Meeting]] | [[Decision]] | [[Resource]]
 - **Area:** [[]]
 - **Related Projects:** [[]]
 - **Resources:** [[]]

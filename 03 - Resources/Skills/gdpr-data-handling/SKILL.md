@@ -1,0 +1,52 @@
+---
+name: "gdpr-data-handling"
+description: "Practical implementation guide for GDPR-compliant data processing, consent management, and privacy controls."
+type: skill
+created: 2026-02-27
+domain: security
+category: compliance
+risk: safe
+source: community
+tags:
+  - skill
+  - security
+  - compliance
+  - gdpr
+  - data
+  - handling
+---
+
+# GDPR Data Handling
+
+Practical implementation guide for GDPR-compliant data processing, consent management, and privacy controls.
+
+## Use this skill when
+
+- Building systems that process EU personal data
+- Implementing consent management
+- Handling data subject requests (DSRs)
+- Conducting GDPR compliance reviews
+- Designing privacy-first architectures
+- Creating data processing agreements
+
+## Do not use this skill when
+
+- The task is unrelated to gdpr data handling
+- You need a different domain or tool outside this scope
+
+## Instructions
+
+- Clarify goals, constraints, and required inputs.
+- Apply relevant best practices and validate outcomes.
+- Provide actionable steps and verification.
+- If detailed examples are required, open `resources/implementation-playbook.md`.
+
+## Resources
+
+- `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## Connections
+
+- **Domain:** [[Sicherheit & Datenschutz]]
+- **Kategorie:** [[Compliance & Datenschutz]]
+- **Navigation:** [[Skills Uebersicht]], [[Home]]

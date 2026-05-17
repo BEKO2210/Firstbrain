@@ -1,0 +1,52 @@
+---
+name: "microservices-patterns"
+description: "Master microservices architecture patterns including service boundaries, inter-service communication, data management, and resilience patterns for building distributed systems."
+type: skill
+created: 2026-02-27
+domain: software-development
+category: architecture
+risk: none
+source: community
+tags:
+  - skill
+  - software-development
+  - architecture
+  - microservices
+---
+
+# Microservices Patterns
+
+Master microservices architecture patterns including service boundaries, inter-service communication, data management, and resilience patterns for building distributed systems.
+
+## Use this skill when
+
+- Decomposing monoliths into microservices
+- Designing service boundaries and contracts
+- Implementing inter-service communication
+- Managing distributed data and transactions
+- Building resilient distributed systems
+- Implementing service discovery and load balancing
+- Designing event-driven architectures
+
+## Do not use this skill when
+
+- The system is small enough for a modular monolith
+- You need a quick prototype without distributed complexity
+- There is no operational support for distributed systems
+
+## Instructions
+
+1. Identify domain boundaries and ownership for each service.
+2. Define contracts, data ownership, and communication patterns.
+3. Plan resilience, observability, and deployment strategy.
+4. Provide migration steps and operational guardrails.
+
+## Resources
+
+- `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## Connections
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Software Architektur]]
+- **Navigation:** [[Skills Uebersicht]], [[Home]]

@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- spiele-und-unterhaltung
+- spiel
+- textabenteuer
+- interaktiv
+- unterhaltung
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2084"
 titel: "Textbasiertes Spiel spielen"
@@ -62,7 +65,8 @@ Ausgabe:
 - **Rollenspiel:** "Fantasy-Abenteuer als Held in einer mittelalterlichen Welt"
 - **Wortspiel:** "Wortketten, Reime oder kreative Wortspiele"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

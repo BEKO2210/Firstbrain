@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - allgemein
+  - beruf
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -219,7 +221,12 @@ Das Output dieses Prompts ist ein professioneller Social-Media-Strategieplan den
 - Erweitere um bezahlte Ads-Strategie (Meta Ads Kampagnen-Setup)
 - Erstelle eine Influencer-Kooperations-Strategie als Add-on
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[pro]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[hig-components-content|hig-components-content]]
+  - [[content-marketer|content-marketer]]
+  - [[seo-aeo-content-cluster|seo-aeo-content-cluster]]

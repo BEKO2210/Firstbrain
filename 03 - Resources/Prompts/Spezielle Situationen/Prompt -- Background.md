@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -48,7 +48,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach alternativen Enden oder Perspektiven
 - Bitte die KI, im Stil eines bestimmten Autors zu schreiben
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[spezielle-situationen]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Spezielle Situationen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[makepad-reference|makepad-reference]]
+  - [[reference-builder|reference-builder]]
+  - [[enhance-prompt|enhance-prompt]]

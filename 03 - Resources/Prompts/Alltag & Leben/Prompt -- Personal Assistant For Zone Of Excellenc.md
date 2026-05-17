@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- organisation-und-produktivität
+- aufgaben
+- produktivität
+- prioritäten
+- organisation
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2813"
 titel: "Aufgaben-Manager mit Prioritäten"
@@ -63,7 +66,8 @@ Ausgabe:
 - **Prokrastination:** "Ich schiebe [AUFGABE] seit Wochen vor mir her — hilf mir anzufangen"
 - **Review:** "Wochenrückblick: Was habe ich geschafft? Was bleibt?"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

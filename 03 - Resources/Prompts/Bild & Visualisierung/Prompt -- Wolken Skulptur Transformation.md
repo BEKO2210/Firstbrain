@@ -2,21 +2,31 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#132"
-titel: "Wolken-Skulptur Transformation"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#132'
+titel: Wolken-Skulptur Transformation
+kategorie: Bild & Visualisierung
 unterkategorie: Atmosphärische Transformation
-tags: [wolken, skulptur, ätherisch, porträt, transformation]
+tags:
+- wolken
+- skulptur
+- ätherisch
+- porträt
+- transformation
+- prompt
+- bild
+- visualisierung
+- atmosphärische-transformation
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion, ChatGPT]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
+- ChatGPT
 ---
 
 # Wolken-Skulptur Transformation
@@ -51,7 +61,8 @@ Die Stimmung soll ätherisch und traumhaft sein, als hätte die Essenz des Motiv
 --ar 3:4 --stylize 250 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -48,7 +48,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach branchenspezifischen Keywords fuer den Lebenslauf
 - Bitte um Uebungsfragen fuers Vorstellungsgespraech
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[technik-alltag]]
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Technik im Alltag]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[openapi-spec-generation|openapi-spec-generation]]
+  - [[spec-to-code-compliance|spec-to-code-compliance]]
+  - [[interview-coach|interview-coach]]

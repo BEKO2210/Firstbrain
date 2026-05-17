@@ -2,24 +2,32 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#2744"
-titel: "Ultimate Inpainting / Reference Prompt"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["ultimate", "inpainting", "reference", "prompt", "luxurious"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "rehamhabib.rh@gmail.com"
-erstellt: "2026-03-09"
+id: '#2744'
+titel: Ultimate Inpainting / Reference Prompt
+kategorie: Bild & Visualisierung
+unterkategorie: Bildbearbeitung & Restauration
+tags:
+- ultimate
+- inpainting
+- reference
+- prompt
+- luxurious
+- bild
+- visualisierung
+- bildbearbeitung-restauration
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: rehamhabib.rh@gmail.com
+erstellt: '2026-03-09'
 ---
 
 ## Prompt
@@ -72,7 +80,8 @@ Passe die Details an deine Beduerfnisse an.
 - Ersetze das Hauptmotiv durch dein eigenes Thema
 - Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

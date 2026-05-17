@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- bildbearbeitung
+- comic
+- illustration
+- bild-prompt
+- superheld
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2858"
 titel: "Comic-Seite im amerikanischen Stil"
@@ -61,7 +64,8 @@ Ausgabe: Eine einzelne, druckfertige Comic-Seite im amerikanischen Stil
 - **Cover:** "Ein einzelnes dramatisches Comic-Cover (kein Panel-Layout)"
 - **Kinderbuch:** "Weicherer Stil für ein Kinderbuch — weniger Superheld, mehr Abenteuer"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

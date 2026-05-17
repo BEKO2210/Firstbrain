@@ -1,23 +1,25 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#217"
-titel: "Gedächtnistraining"
-kategorie: "Lernen & Wachstum"
-unterkategorie: "Kognitive Fähigkeiten"
-tags: ["gedächtnis", "merken", "gehirn", "mnemonik"]
-erstellt: "2026-02-23"
-plattformen: [ChatGPT, Claude]
-schwierigkeit: Anfänger
+id: ""
+titel: "Gedaechtnistraining"
+kategorie: Lernen & Wachstum
+unterkategorie: Lernmethoden
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt
@@ -52,7 +54,12 @@ Ausgabe: Techniken-Übersicht mit Schritt-für-Schritt-Anleitungen und tägliche
 - **Speed Memory:** Für Prüfungen und Wettbewerbe trainieren
 - **Alltagsgedächtnis:** Schlüssel, Parkplatz, Einkaufsliste nie mehr vergessen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

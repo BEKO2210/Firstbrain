@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - it-entwicklung
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -64,7 +66,12 @@ Ergänze: "Designe ein Management-Dashboard mit den wichtigsten KPIs für [BEREI
 ### Variation 4: Datenqualitäts-Report
 Ergänze: "Erstelle einen Report zur Datenqualität: fehlende Werte, Duplikate, Inkonsistenzen."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[kpi-dashboard-design|kpi-dashboard-design]]
+  - [[sankhya-dashboard-html-jsp-custom-best-pratices|sankhya-dashboard-html-jsp-custom-best-pratices]]
+  - [[enhance-prompt|enhance-prompt]]

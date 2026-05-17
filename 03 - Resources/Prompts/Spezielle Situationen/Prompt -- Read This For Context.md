@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -45,7 +45,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach einem Wochenplan statt einzelner Tipps
 - Bitte um wissenschaftliche Quellen fuer die Empfehlungen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[spezielle-situationen]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Spezielle Situationen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[audit-context-building|audit-context-building]]
+  - [[c4-context|c4-context]]
+  - [[code-refactoring-context-restore|code-refactoring-context-restore]]

@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- recipe
+- chocolate
+- chip
+- cookies
+- baked
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#4261"
 titel: "What is the recipe for chocolate chip cookies"
@@ -41,7 +44,8 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach einer veganen/vegetarischen Alternative
 - Bitte um Naehrwertangaben pro Portion
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

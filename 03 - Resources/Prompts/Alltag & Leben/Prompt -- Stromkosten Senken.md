@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- finanzen-und-sparen
+- strom
+- energie
+- sparen
+- nebenkosten
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#304"
 titel: "Stromkosten senken"
@@ -53,7 +56,8 @@ Ausgabe: Maßnahmenliste nach Einsparpotential sortiert mit geschätzter Ersparn
 - **Balkonkraftwerk:** Eigenstrom mit Mini-Solaranlage
 - **Anbieterwechsel:** Stromtarif optimieren und vergleichen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

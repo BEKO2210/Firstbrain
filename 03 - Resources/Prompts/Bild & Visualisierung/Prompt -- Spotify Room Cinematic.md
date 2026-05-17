@@ -2,24 +2,33 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#2964"
-titel: "Spotify room cinematic"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["spotify", "room", "cinematic", "uploaded", "photo"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "hariswai7272@gmail.com"
-erstellt: "2026-03-09"
+id: '#2964'
+titel: Spotify room cinematic
+kategorie: Bild & Visualisierung
+unterkategorie: Video & Animation
+tags:
+- spotify
+- room
+- cinematic
+- uploaded
+- photo
+- prompt
+- bild
+- visualisierung
+- video-animation
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: hariswai7272@gmail.com
+erstellt: '2026-03-09'
 ---
 
 ## Prompt
@@ -50,7 +59,8 @@ Passe die Details an deine Beduerfnisse an.
 - Ersetze das Hauptmotiv durch dein eigenes Thema
 - Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

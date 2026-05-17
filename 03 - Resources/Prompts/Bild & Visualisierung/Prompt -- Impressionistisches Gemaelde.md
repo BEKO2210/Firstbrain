@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#103"
-titel: "Impressionistisches Gemälde"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#103'
+titel: Impressionistisches Gemälde
+kategorie: Bild & Visualisierung
 unterkategorie: Klassische Kunst
-tags: [impressionismus, monet, malerei, licht, pinselstriche]
+tags:
+- impressionismus
+- monet
+- malerei
+- licht
+- pinselstriche
+- prompt
+- bild
+- visualisierung
+- klassische-kunst
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Impressionistisches Gemälde
@@ -51,7 +60,8 @@ Der Hintergrund zeigt vielleicht einen Garten, eine Seelandschaft oder eine sonn
 --ar 4:5 --stylize 200 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

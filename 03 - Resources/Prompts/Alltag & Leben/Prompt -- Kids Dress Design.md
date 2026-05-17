@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- kids
+- dress
+- design
+- full
+- body
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3056"
 titel: "KIDS DRESS DESIGN"
@@ -42,7 +45,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach Budget-freundlichen Alternativen
 - Bitte um Farb-Kombinationsvorschlaege
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[design-spells|design-spells]]
+  - [[game-design|game-design]]
+  - [[privacy-by-design|privacy-by-design]]

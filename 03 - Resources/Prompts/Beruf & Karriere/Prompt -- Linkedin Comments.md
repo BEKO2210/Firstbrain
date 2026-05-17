@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - karriere
+  - networking-beziehungen
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -62,7 +64,12 @@ Ergänze: "Schreibe einen eigenständigen LinkedIn-Post zu [THEMA], der Diskussi
 ### Variation 4: Job-Post kommentieren
 Ergänze: "Kommentiere strategisch auf Job-Postings, um aufzufallen (ohne direkt zu bewerben)."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[linkedin-automation|linkedin-automation]]
+  - [[linkedin-cli|linkedin-cli]]
+  - [[hybrid-cloud-networking|hybrid-cloud-networking]]

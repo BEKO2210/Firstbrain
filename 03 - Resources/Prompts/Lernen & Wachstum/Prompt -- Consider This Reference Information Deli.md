@@ -1,24 +1,25 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#3250"
-titel: "Consider this reference information delimited in '''"
-kategorie: "Lernen & Wachstum"
-unterkategorie: "Importiert"
-tags: ["consider", "reference", "information", "delimited", "body"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "openrlhf-HelpSteer"
-erstellt: "2026-03-10"
+id: ""
+titel: "Consider This Reference Information Deli"
+kategorie: Lernen & Wachstum
+unterkategorie: Lernmethoden
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt
@@ -49,7 +50,12 @@ Passe die Details an deine Beduerfnisse an.
 - Bitte um Erklaerungen von Redewendungen
 - Frage nach Uebungen mit steigendem Schwierigkeitsgrad
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

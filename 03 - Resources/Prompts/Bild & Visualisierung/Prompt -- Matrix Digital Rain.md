@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#110"
-titel: "Matrix Digital Rain"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#110'
+titel: Matrix Digital Rain
+kategorie: Bild & Visualisierung
 unterkategorie: Digital & Cyberpunk
-tags: [matrix, code, digital, grün, cyber]
+tags:
+- matrix
+- code
+- digital
+- grün
+- cyber
+- prompt
+- bild
+- visualisierung
+- digital-cyberpunk
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Matrix Digital Rain
@@ -51,7 +60,8 @@ Der Hintergrund ist reines Schwarz mit dem unendlich fallenden Code. Die Stimmun
 --ar 9:16 --stylize 150 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

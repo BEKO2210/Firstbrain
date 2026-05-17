@@ -3,9 +3,14 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kreativitaet
+  - freizeit
+  - brainstorming
+  - ideenfindung
+  - kreativ
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -50,7 +55,12 @@ Ausgabe: 15-20 rohe Ideen, 5 ausgearbeitete Konzepte, Priorisierungsmatrix, Umse
 - Für Zeitdruck: "15-Minuten-Sprint mit Fokus auf Quantity"
 - Für komplexe Probleme: "Systematisches Aufbrechen in Teilprobleme"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kreativitaet-freizeit]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Kreativität & Freizeit]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[multi-agent-brainstorming|multi-agent-brainstorming]]
+  - [[brainstorming|brainstorming]]
+  - [[enhance-prompt|enhance-prompt]]

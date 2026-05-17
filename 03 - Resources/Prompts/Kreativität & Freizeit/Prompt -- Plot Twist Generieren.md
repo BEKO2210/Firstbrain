@@ -3,9 +3,14 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kreativitaet
+  - freizeit
+  - plot-twist
+  - storytelling
+  - schreiben
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -50,7 +55,12 @@ Ausgabe: 3 Twist-Varianten mit Vor- und Nachteilen, versteckte Hinweise für jed
 - Für Charakter-Drama: "Emotionale Enthüllung statt externer Event"
 - Für Comedy: "Unerwartete, aber logische Komödiantische Wendung"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kreativitaet-freizeit]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Kreativität & Freizeit]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[data-storytelling|data-storytelling]]
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]

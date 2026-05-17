@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- technik-und-digital
+- app
+- idee
+- interaktiv
+- konzept
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2753"
 titel: "Interaktive App-Idee beschreiben"
@@ -62,7 +65,12 @@ Ausgabe:
 - **Pitch:** "Erstelle ein 60-Sekunden-Pitch-Skript für Investoren"
 - **Wireframe:** "Beschreibe das Layout so detailliert, dass ein Designer es umsetzen kann"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[app-builder|app-builder]]
+  - [[app-store-changelog|app-store-changelog]]
+  - [[macos-menubar-tuist-app|macos-menubar-tuist-app]]

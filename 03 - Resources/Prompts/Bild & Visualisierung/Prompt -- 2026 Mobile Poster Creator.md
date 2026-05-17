@@ -2,24 +2,33 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#2565"
-titel: "2026 Mobile Poster Creator"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["mobile", "poster", "creator", "graphic", "design"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "bruce.mi321@gmail.com"
-erstellt: "2026-03-09"
+id: '#2565'
+titel: 2026 Mobile Poster Creator
+kategorie: Bild & Visualisierung
+unterkategorie: Poster & Design
+tags:
+- mobile
+- poster
+- creator
+- graphic
+- design
+- prompt
+- bild
+- visualisierung
+- poster-design
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: bruce.mi321@gmail.com
+erstellt: '2026-03-09'
 ---
 
 ## Prompt
@@ -57,7 +66,8 @@ Passe die Details an deine Beduerfnisse an.
 - Ersetze das Hauptmotiv durch dein eigenes Thema
 - Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

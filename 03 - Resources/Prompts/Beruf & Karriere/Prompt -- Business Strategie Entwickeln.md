@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - allgemein
+  - beruf
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -245,7 +247,12 @@ FORMATIERUNG: Tabellen für Zahlenvergleiche. Bullet Points für Maßnahmen. Fet
 - Für Investoren-Pitches: Fokussiere auf TAM/SAM/SOM, Unit Economics und Hockey-Stick-Projektion
 - Für Internationalisierung: Ergänze Markteintrittsstrategie mit Länder-Scoring und Regulatory-Analyse
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[pro]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[notion-template-business|notion-template-business]]
+  - [[business-analyst|business-analyst]]
+  - [[startup-business-analyst-market-opportunity|startup-business-analyst-market-opportunity]]

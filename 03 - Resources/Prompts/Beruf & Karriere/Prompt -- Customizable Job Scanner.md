@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - importiert
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -200,7 +202,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach Code-Beispielen mit Kommentaren
 - Bitte um Best Practices und haeufige Fehlerquellen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[vulnerability-scanner|vulnerability-scanner]]
+  - [[skill-scanner|skill-scanner]]
+  - [[enhance-prompt|enhance-prompt]]

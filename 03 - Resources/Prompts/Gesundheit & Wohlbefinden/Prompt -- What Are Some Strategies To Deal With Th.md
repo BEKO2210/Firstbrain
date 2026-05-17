@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -41,7 +41,12 @@ Passe die Details an deine Beduerfnisse an.
 - Bitte um eine Morgen- oder Abendroutine
 - Frage nach wissenschaftlich fundierten Techniken
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[gesundheit-wohlbefinden]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Gesundheit & Wohlbefinden]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[debugging-strategies|debugging-strategies]]
+  - [[embedding-strategies|embedding-strategies]]
+  - [[enhance-prompt|enhance-prompt]]

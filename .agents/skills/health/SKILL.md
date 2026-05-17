@@ -3,6 +3,13 @@ name: health
 trigger: /health
 description: Detect orphan notes and broken wiki-links with suggested fixes
 version: 3.0.0
+type: skill
+tags:
+  - skill
+  - agent
+  - maintenance
+  - health
+  - links
 ---
 
 # /health -- Vault Health Check
@@ -149,3 +156,9 @@ This skill respects the three governance zones defined in `.claude/rules/governa
 - **Does not check frontmatter consistency:** Missing or incorrect frontmatter fields are not reported. This is deferred to `/maintain` in Phase 5.
 - **Fix suggestions are name-based:** Uses substring matching and Levenshtein distance on note names. Does not consider note content or aliases for fix suggestions.
 - **Orphan threshold is fixed at 0-1:** Notes with exactly 2 connections are not flagged, even if they are poorly connected relative to vault average.
+
+## Connections
+
+- **Related:** [[maintain]], [[connect]], [[graph]], [[propose]]
+- **Uses:** [[scan]], [[connect]]
+- **MOC:** [[Skills MOC]]

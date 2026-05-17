@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-09
 updated: 2026-04-09
 tags:
-  - #prompt
-  - #pkm
-  - #knowledge-base
+  - prompt
+  - pkm
+  - knowledge-base
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -27,3 +27,8 @@ Die Prompts wurden in das Firstbrain-System unter `03 - Resources/Prompts/` inte
 - **Zentrale:** [[Prompts MOC]]
 - **Projekt:** [[Wissens-Zentrale Optimierung]]
 - **Archiv-Übersicht:** [[ARCHIVE_SUMMARY]]
+
+## Connections
+
+- **Sammlung:** [[Prompt Sammlung]]
+- **Navigation:** [[Ressourcen]], [[Home]]

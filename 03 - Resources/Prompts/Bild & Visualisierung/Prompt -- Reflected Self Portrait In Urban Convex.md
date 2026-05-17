@@ -2,24 +2,33 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#2481"
-titel: "Reflected Self-Portrait in an Urban Convex Traffic Mirror"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["reflected", "self", "portrait", "urban", "convex"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "hasangariban@gmail.com"
-erstellt: "2026-03-09"
+id: '#2481'
+titel: Reflected Self-Portrait in an Urban Convex Traffic Mirror
+kategorie: Bild & Visualisierung
+unterkategorie: Portrait & Fotografie
+tags:
+- reflected
+- self
+- portrait
+- urban
+- convex
+- prompt
+- bild
+- visualisierung
+- portrait-fotografie
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: hasangariban@gmail.com
+erstellt: '2026-03-09'
 ---
 
 ## Prompt
@@ -195,7 +204,8 @@ Passe die Details an deine Beduerfnisse an.
 - Ersetze das Hauptmotiv durch dein eigenes Thema
 - Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

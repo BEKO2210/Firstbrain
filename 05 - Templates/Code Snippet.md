@@ -3,6 +3,7 @@ type: code-snippet
 language:
 created: {{date}}
 tags:
+  - template
   - code
   - snippet
 project: "[[]]"
@@ -28,6 +29,7 @@ project: "[[]]"
 
 ## Connections
 
+- **Templates MOC:** [[Templates MOC]]
+- **Verwandte Templates:** [[Tool]] | [[Resource]]
 - **Project:** [[]]
 - **Documentation:** [[]]
-- **Related:** [[]]

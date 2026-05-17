@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#090"
-titel: "Cyanotypie Blaudruck"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#090'
+titel: Cyanotypie Blaudruck
+kategorie: Bild & Visualisierung
 unterkategorie: Fotografische Techniken
-tags: [cyanotypie, blaudruck, vintage, fotografie, blau]
+tags:
+- cyanotypie
+- blaudruck
+- vintage
+- fotografie
+- blau
+- prompt
+- bild
+- visualisierung
+- fotografische-techniken
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Cyanotypie Blaudruck
@@ -51,7 +60,8 @@ Der Hintergrund ist oft weiß oder zeigt abstrakte Blautöne. Manchmal sind Pfla
 --ar 3:4 --stylize 150 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

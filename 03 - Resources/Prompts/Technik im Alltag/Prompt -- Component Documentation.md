@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -108,7 +108,12 @@ Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
 - Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
 - Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[technik-alltag]]
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Technik im Alltag]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[c4-component|c4-component]]
+  - [[frontend-mobile-development-component-scaffold|frontend-mobile-development-component-scaffold]]
+  - [[react-component-performance|react-component-performance]]

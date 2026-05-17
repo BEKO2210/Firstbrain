@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- reference
+- text
+- below
+- provides
+- context
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3943"
 titel: "The reference text below provides context for the following"
@@ -46,7 +49,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach einer SWOT-Analyse fuer deine Idee
 - Bitte um einen konkreten Aktionsplan mit Meilensteinen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[makepad-reference|makepad-reference]]
+  - [[reference-builder|reference-builder]]
+  - [[azure-speech-to-text-rest-py|azure-speech-to-text-rest-py]]

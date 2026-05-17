@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- wissen-und-bildung
+- geschichte
+- epochen
+- zeitreise
+- bildung
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#1871"
 titel: "Zeitreise durch die Geschichte"
@@ -62,7 +65,8 @@ Ausgabe:
 - **Berühmte Personen:** "Einen Tag mit [HISTORISCHE PERSON] verbringen"
 - **Was wäre wenn:** "Was wäre passiert, wenn [HISTORISCHES EREIGNIS] anders verlaufen wäre?"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

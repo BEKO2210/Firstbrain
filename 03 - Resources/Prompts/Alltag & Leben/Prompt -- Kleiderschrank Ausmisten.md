@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- wohnen-und-haushalt
+- kleidung
+- ausmisten
+- minimalistisch
+- organisation
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#026"
 titel: "Kleiderschrank ausmisten"
@@ -61,7 +64,8 @@ Ausgabe:
 - **Nachhaltigkeit:** "Second-Hand first, nachhaltige Marken, Repair statt Replace"
 - **Saisonwechsel:** "Sommer-/Wintergarderobe smart einlagern und rotieren"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -3,12 +3,16 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- haushalt
+- haustier
+- hund
+- katze
+- organisation
+- routine
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#017"
 titel: "Haustier-Alltag organisieren"
@@ -122,7 +126,8 @@ Anpassung an altersbedingte Einschränkungen, Medikamentenmanagement, häufigere
 **Variation 4: Exotische Haustiere (Vögel, Reptilien, Kleintiere)**
 Art-spezifische Pflegeroutinen, Terrarium/Voliere-Pflege, spezielle Fütterungsbedürfnisse, Tierarzt-Suche (Fachpraxis).
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

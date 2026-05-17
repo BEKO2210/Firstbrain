@@ -3,9 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kreativitaet
+  - freizeit
+  - social-media
+  - content
+  - schreiben
+  - instagram
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -52,7 +58,12 @@ Ausgabe:
 - Für TikTok: "Kurz, unterhaltsam, trendig"
 - Für Twitter/X: "Prägnant, kontrovers, thread-fähig"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kreativitaet-freizeit]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Kreativität & Freizeit]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[hig-components-content|hig-components-content]]
+  - [[content-marketer|content-marketer]]
+  - [[seo-aeo-content-cluster|seo-aeo-content-cluster]]

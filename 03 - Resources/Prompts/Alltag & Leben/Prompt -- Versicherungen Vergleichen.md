@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- finanzen-und-budget
+- versicherung
+- vergleich
+- sparen
+- finanzen
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#032"
 titel: "Versicherungen vergleichen"
@@ -62,7 +65,8 @@ Ausgabe:
 - **Immobilienbesitzer:** "Gebäude-, Elementar- und Hausratversicherung optimieren"
 - **Berufseinsteiger:** "Erstes Mal eigene Versicherungen — was brauche ich wirklich?"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

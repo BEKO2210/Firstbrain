@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - importiert
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -239,7 +241,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach einer Checkliste deiner Rechte und Pflichten
 - Bitte um Erklaerung in einfacher Sprache ohne Juristendeutsch
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[cc-skill-project-guidelines-example|cc-skill-project-guidelines-example]]
+  - [[hig-project-context|hig-project-context]]
+  - [[project-skill-audit|project-skill-audit]]

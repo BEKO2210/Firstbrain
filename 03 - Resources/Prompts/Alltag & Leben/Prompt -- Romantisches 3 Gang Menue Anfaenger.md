@@ -3,12 +3,17 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- küche-und-kochen
+- kochen
+- romantisch
+- anfaenger
+- menue
+- beziehung
+- date
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#029"
 titel: "Romantisches 3-Gänge-Menü für Anfänger"
@@ -86,7 +91,8 @@ Ausgabe:
 - Für Picknick: "Kalt servierbar, transportfähig"
 - Für Allergiker: "Glutenfrei/Laktosefrei Varianten"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

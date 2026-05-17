@@ -3,12 +3,16 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- bildbearbeitung
+- lifestyle-foto
+- flugzeug
+- selfie
+- urlaub
+- bild-prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2797"
 titel: "Lifestyle-Foto: Urlaubs-Selfie im Flugzeug"
@@ -53,7 +57,8 @@ Ausgabe: Ein einzelnes, authentisch wirkendes Urlaubs-Selfie im Flugzeug — wie
 - **Business Class:** "Elegantes Selfie in Business-Class mit Champagner"
 - **Landung:** "Aufgeregtes Selfie bei der Landung, Stadt durch Fenster sichtbar"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

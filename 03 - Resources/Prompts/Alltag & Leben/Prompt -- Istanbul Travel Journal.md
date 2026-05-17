@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- bildbearbeitung
+- reisetagebuch
+- illustration
+- bild-prompt
+- reise
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2303"
 titel: "Reisetagebuch-Illustration erstellen"
@@ -53,7 +56,8 @@ Ausgabe: Eine verspielte, hochformatige Reisetagebuch-Illustration — perfekt a
 - **Querformat:** "Als Banner für einen Blog-Header (16:9)"
 - **Fotocollage-Stil:** "Reiseroute als Polaroid-Collage statt Zeichnung"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

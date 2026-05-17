@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- finanzen-und-budget
+- sparen
+- finanzen
+- budget
+- geld
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#030"
 titel: "Sparplan entwickeln"
@@ -61,7 +64,8 @@ Ausgabe:
 - **Große Anschaffung:** "Für Auto, PC oder Möbel gezielt sparen"
 - **50/30/20 Regel:** "Budget nach der bewährten Aufteilung strukturieren"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

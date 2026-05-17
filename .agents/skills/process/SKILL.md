@@ -3,6 +3,13 @@ name: process
 trigger: /process
 description: Scan Inbox for PROMPT:-prefixed notes, execute instructions, create files, link to MOCs, and archive prompts
 version: 3.0.0
+type: skill
+tags:
+  - skill
+  - agent
+  - inbox
+  - automation
+  - prompts
 ---
 
 # /process -- Command Processor
@@ -244,3 +251,9 @@ When files from external AI tools (Gemini, Kimi, etc.) are placed in `00 - Inbox
 - **No undo:** Created files follow normal vault governance. They can be archived but not auto-deleted.
 - **Prompt format:** The `PROMPT:` prefix is required. Notes without it are ignored (use `/triage` for those).
 - **External fetch:** URLs in prompts require internet access. Local-only prompts work offline.
+
+## Connections
+
+- **Related:** [[triage]], [[watch]], [[create]], [[synthesize]]
+- **Uses:** [[create]], [[connect]], [[scan]], [[triage]]
+- **MOC:** [[Skills MOC]]

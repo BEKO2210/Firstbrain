@@ -2,24 +2,33 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#2323"
-titel: "Universal Lead & Candidate Outreach Generator (HR, SALES)"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["universal", "lead", "candidate", "outreach", "generator"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "nnassili-z0"
-erstellt: "2026-03-09"
+id: '#2323'
+titel: Universal Lead & Candidate Outreach Generator (HR, SALES)
+kategorie: Bild & Visualisierung
+unterkategorie: Portrait & Fotografie
+tags:
+- universal
+- lead
+- candidate
+- outreach
+- generator
+- prompt
+- bild
+- visualisierung
+- portrait-fotografie
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: nnassili-z0
+erstellt: '2026-03-09'
 ---
 
 ## Prompt
@@ -260,7 +269,8 @@ Passe die Details an deine Beduerfnisse an.
 - Ersetze das Hauptmotiv durch dein eigenes Thema
 - Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

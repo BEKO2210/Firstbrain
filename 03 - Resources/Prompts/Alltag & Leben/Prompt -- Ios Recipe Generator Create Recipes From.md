@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- kochen-und-ernährung
+- rezept
+- kühlschrank
+- zutaten
+- foto
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2211"
 titel: "Rezepte aus Kühlschrank-Foto"
@@ -63,7 +66,8 @@ Ausgabe:
 - **Wochenplan:** "Aus diesen Zutaten 5 verschiedene Gerichte für die Woche"
 - **Für Kinder:** "Etwas das Kindern schmeckt und schnell geht"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

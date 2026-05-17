@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- technik-und-digital
+- tool
+- ideen
+- einsatz
+- kreativität
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3024"
 titel: "Kreative Einsatzmöglichkeiten für Tools finden"
@@ -61,7 +64,12 @@ Ausgabe:
 - **KI:** "Unerwartete Einsatzmöglichkeiten für ChatGPT im Alltag"
 - **Vergleich:** "Tool A vs. Tool B — welches hat mehr kreatives Potenzial?"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[personal-tool-builder|personal-tool-builder]]
+  - [[tool-use-guardian|tool-use-guardian]]
+  - [[free-tool-strategy|free-tool-strategy]]

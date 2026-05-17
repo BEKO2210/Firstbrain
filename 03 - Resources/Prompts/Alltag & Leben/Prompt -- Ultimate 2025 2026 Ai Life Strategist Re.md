@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- persönliche-entwicklung
+- jahresrückblick
+- strategie
+- ziele
+- selbstreflexion
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2566"
 titel: "Persönlicher Jahresrückblick und Strategieplan"
@@ -65,7 +68,8 @@ Ausgabe:
 - **Beziehungen:** "Soziales Leben und Beziehungen reflektieren"
 - **Finanzen:** "Finanz-Rückblick: Was habe ich ausgegeben, gespart, investiert?"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

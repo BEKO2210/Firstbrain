@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#089"
-titel: "Comic-Pop-Art Explosion"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#089'
+titel: Comic-Pop-Art Explosion
+kategorie: Bild & Visualisierung
 unterkategorie: Pop-Art & Comics
-tags: [comic, pop-art, bunt, retro, roy-lichtenstein]
+tags:
+- comic
+- pop-art
+- bunt
+- retro
+- roy-lichtenstein
+- prompt
+- bild
+- visualisierung
+- pop-art-comics
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Comic-Pop-Art Explosion
@@ -51,7 +60,8 @@ Die Ästhetik ist 60er-Jahre-Retro, Werbung, Comic-Heft. Die Stimmung ist energi
 --ar 1:1 --stylize 300 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

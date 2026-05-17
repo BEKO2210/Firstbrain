@@ -1,7 +1,13 @@
 ---
+type: system
+created: 2026-04-09
+tags: [system, rules, config]
+---
+
+# Template Conventions
+
 paths:
   - "05 - Templates/**"
----
 
 Template conventions:
 
@@ -14,3 +20,14 @@ Template conventions:
   2. Replace all {{date}}, {{title}}, {{time}} with actual values
   3. Fill in at least 2 wiki-links in the Connections section
   4. Add any relevant tags to frontmatter
+
+## Connections
+
+- **Related System Files:**
+  - [[Frontmatter]] - YAML frontmatter standards
+  - [[Governance]] - Evolution governance and zones
+  - [[Linking]] - Wiki-link conventions
+  - [[Naming]] - File naming conventions
+  - [[Process]] - Inbox processing rules
+- **Part of:** [[System MOC]]
+- **Navigate:** [[Home]]

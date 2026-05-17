@@ -5,6 +5,7 @@ company:
 email:
 created: {{date}}
 tags:
+  - template
   - person
 ---
 
@@ -29,6 +30,8 @@ tags:
 
 ## Connections
 
+- **Templates MOC:** [[Templates MOC]]
+- **Verwandte Templates:** [[Meeting]] | [[Project]]
 - **Projects:** [[]]
 - **Company:** [[]]
 - **Introduced By:** [[]]

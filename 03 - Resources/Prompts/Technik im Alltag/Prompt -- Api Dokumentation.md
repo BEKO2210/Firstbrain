@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -50,7 +50,12 @@ Ausgabe: Relevante Endpunkte für meinen Use Case, Authentifizierungs-Flow, Requ
 - Für GraphQL: "Query-Optimierung und Fragmente"
 - Für Webhooks: "Security-Validierung und Retry-Logik"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[technik-alltag]]
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Technik im Alltag]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[moodle-external-api-development|moodle-external-api-development]]
+  - [[api-endpoint-builder|api-endpoint-builder]]
+  - [[api-security-best-practices|api-security-best-practices]]

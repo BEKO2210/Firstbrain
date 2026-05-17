@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- least
+- ideas
+- grove
+- forest
+- garden
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3942"
 titel: "You to make a list of at least 5 ideas for a grove or forest garden"
@@ -41,7 +44,10 @@ Passe die Details an deine Beduerfnisse an.
 - Bitte um Alternativen und Vergleiche
 - Aendere die Sprache auf Deutsch fuer lokale Ergebnisse
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[marketing-ideas|marketing-ideas]]

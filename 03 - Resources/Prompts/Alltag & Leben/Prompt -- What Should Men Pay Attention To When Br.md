@@ -3,12 +3,13 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- attention
+- breastfeeding
+- child
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#4122"
 titel: "What should men pay attention to when breastfeeding their child"
@@ -41,7 +42,8 @@ Passe die Details an deine Beduerfnisse an.
 - Bitte um Alternativen und Vergleiche
 - Aendere die Sprache auf Deutsch fuer lokale Ergebnisse
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

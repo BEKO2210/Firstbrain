@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - finanzen-immobilien
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -64,7 +66,12 @@ Ergänze: "Organisiere Kundendaten für Finanzberatung mit Portfolioübersicht u
 ### Variation 4: Jahresgespräche
 Ergänze: "Plane und organisiere jährliche Kundenreviews mit Vorbereitung und Nachbereitung."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[odoo-sales-crm-expert|odoo-sales-crm-expert]]
+  - [[zoho-crm-automation|zoho-crm-automation]]
+  - [[enhance-prompt|enhance-prompt]]

@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- kreatives-schreiben
+- dokumentarfilm
+- drehbuch
+- konzept
+- recherche
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2181"
 titel: "Dokumentarfilm-Konzept schreiben"
@@ -63,7 +66,8 @@ Ausgabe:
 - **Podcast-Format:** "Gleiche Recherche, aber als Audio-Dokumentation"
 - **Social Media:** "Thema in 5 TikTok/Reels-Episoden aufbereiten"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - karriere
+  - networking-beziehungen
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -63,7 +65,12 @@ Ergänze: "Ich hatte vor [ZEITRAUM] Kontakt mit der Person und möchte die Verbi
 ### Variation 4: Empfehlungsanfrage
 Ergänze: "Ich möchte um eine Empfehlung oder ein Referral bitten, ohne die Beziehung zu belasten."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[hybrid-cloud-networking|hybrid-cloud-networking]]
+  - [[linkedin-automation|linkedin-automation]]
+  - [[linkedin-cli|linkedin-cli]]

@@ -2,24 +2,33 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#2469"
-titel: "Aesthetic Mirror Selfie of a Curly-Haired Woman in a Mocha Ribbed Crop Top"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["aesthetic", "mirror", "selfie", "curly", "haired"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "hasangariban@gmail.com"
-erstellt: "2026-03-09"
+id: '#2469'
+titel: Aesthetic Mirror Selfie of a Curly-Haired Woman in a Mocha Ribbed Crop Top
+kategorie: Bild & Visualisierung
+unterkategorie: Portrait & Fotografie
+tags:
+- aesthetic
+- mirror
+- selfie
+- curly
+- haired
+- prompt
+- bild
+- visualisierung
+- portrait-fotografie
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: hasangariban@gmail.com
+erstellt: '2026-03-09'
 ---
 
 ## Prompt
@@ -188,7 +197,8 @@ Passe die Details an deine Beduerfnisse an.
 - Ersetze das Hauptmotiv durch dein eigenes Thema
 - Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -2,21 +2,32 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#350"
-titel: "Kosmische Entität aus Nebel und Sternenstaub"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Surreale Porträtkunst"
-tags: ["Kosmos", "Nebel", "Surreal", "Porträt", "Galaxie", "Ethereal", "Traumhaft"]
-plattformen: [ChatGPT, Midjourney, DALL-E]
-schwierigkeit: "Fortgeschritten"
+id: '#350'
+titel: Kosmische Entität aus Nebel und Sternenstaub
+kategorie: Bild & Visualisierung
+unterkategorie: Surreale Porträtkunst
+tags:
+- kosmos
+- nebel
+- surreal
+- porträt
+- galaxie
+- ethereal
+- traumhaft
+- prompt
+- bild
+- visualisierung
+- surreale-porträtkunst
+plattformen:
+- ChatGPT
+- Midjourney
+- DALL-E
+schwierigkeit: Fortgeschritten
 ---
 
 ## Prompt
@@ -35,7 +46,8 @@ Perfekt für spirituelle Inhalte, Meditation-Apps, psychedelische Albumartworks,
 - Zornige/explosive Version mit rotem Nebel und Supernova-Augen
 - Tierische Version als kosmischer Wolf oder Adler
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

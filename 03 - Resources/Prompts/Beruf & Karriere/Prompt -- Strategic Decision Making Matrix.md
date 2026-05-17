@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - importiert
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -59,7 +61,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach weniger bekannten Geheimtipps
 - Bitte um eine sortierte Top-10-Liste mit Begruendung
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[cc-skill-strategic-compact|cc-skill-strategic-compact]]
+  - [[ddd-strategic-design|ddd-strategic-design]]
+  - [[architecture-decision-records|architecture-decision-records]]

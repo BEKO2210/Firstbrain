@@ -2,23 +2,31 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#3224"
-titel: "'instant photo of a young man wearing a suit and tie"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "SDXL Prompt"
-tags: ["Cinematic", "Vintage", "Natur"]
-plattformen: ["ChatGPT/DALL-E", "Midjourney", "Stable Diffusion", "Flux"]
-schwierigkeit: "Anfänger"
-quelle: "prompthero-sdxl"
-erstellt: "2026-03-10"
+id: '#3224'
+titel: '''instant photo of a young man wearing a suit and tie'
+kategorie: Bild & Visualisierung
+unterkategorie: SDXL Prompt
+tags:
+- cinematic
+- vintage
+- natur
+- prompt
+- bild
+- visualisierung
+- sdxl-prompt
+plattformen:
+- ChatGPT/DALL-E
+- Midjourney
+- Stable Diffusion
+- Flux
+schwierigkeit: Anfänger
+quelle: prompthero-sdxl
+erstellt: '2026-03-10'
 ---
 
 ## Prompt
@@ -43,7 +51,8 @@ Kopiere den Prompt und fuege ihn in dein bevorzugtes KI-Bildgenerierungs-Tool ei
 - Aendere die Beleuchtung: "golden hour", "studio lighting", "neon", "moody"
 - Fuege Negativ-Prompts hinzu: "no blur, no artifacts, no watermark"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

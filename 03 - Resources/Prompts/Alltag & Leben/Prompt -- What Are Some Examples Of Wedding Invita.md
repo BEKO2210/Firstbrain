@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- examples
+- wedding
+- invitation
+- wording
+- table
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3263"
 titel: "What are some examples of wedding invitation wording"
@@ -41,7 +44,8 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach einem kompletten Zeitplan
 - Bitte um verschiedene Stil-Varianten zum Vergleichen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

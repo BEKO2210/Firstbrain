@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -194,7 +194,12 @@ Smart Home Routinen, Einkaufslisten-Automation, Putzplan-Erinnerungen, Vertragsv
 **Variation 4: Kreative Automation (Content-Erstellung, Design)**
 Canva Templates, Text-Generierung, Bild-Optimierung, Format-Konvertierung, Wiederverwendung von Content, Asset-Management.
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[technik-alltag]]
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Technik im Alltag]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[activecampaign-automation|activecampaign-automation]]
+  - [[mailchimp-automation|mailchimp-automation]]
+  - [[sendgrid-automation|sendgrid-automation]]

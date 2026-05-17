@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -42,7 +42,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach einer SWOT-Analyse fuer deine Idee
 - Bitte um einen konkreten Aktionsplan mit Meilensteinen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[technik-alltag]]
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Technik im Alltag]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[robius-event-action|robius-event-action]]
+  - [[event-sourcing-architect|event-sourcing-architect]]
+  - [[makepad-event-action|makepad-event-action]]

@@ -2,21 +2,33 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#319"
-titel: "Phönix Human Hybrid Porträt"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#319'
+titel: Phönix Human Hybrid Porträt
+kategorie: Bild & Visualisierung
 unterkategorie: Human-Animal Hybrid
-tags: [hybrid, phoenix, mensch, portrait, feuer, transformation, weiblich]
+tags:
+- hybrid
+- phoenix
+- mensch
+- portrait
+- feuer
+- transformation
+- weiblich
+- prompt
+- bild
+- visualisierung
+- human-animal-hybrid
 erstellt: 2026-02-23
-plattformen: [ChatGPT, Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- ChatGPT
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Phönix Human Hybrid Porträt
@@ -52,7 +64,8 @@ Der Hintergrund zeigt einen dramatischen Abendhimmel – Wolken in Orange und Pu
 --ar 3:4 --stylize 300 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

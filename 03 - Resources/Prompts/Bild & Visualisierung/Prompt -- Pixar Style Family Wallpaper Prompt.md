@@ -2,24 +2,32 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#4192"
-titel: "Pixar-Style Family Wallpaper Prompt"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["pixar", "style", "family", "wallpaper", "prompt"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "umutcanyildiz@gmail.com"
-erstellt: "2026-03-30"
+id: '#4192'
+titel: Pixar-Style Family Wallpaper Prompt
+kategorie: Bild & Visualisierung
+unterkategorie: Sonstige
+tags:
+- pixar
+- style
+- family
+- wallpaper
+- prompt
+- bild
+- visualisierung
+- sonstige
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: umutcanyildiz@gmail.com
+erstellt: '2026-03-30'
 ---
 
 ## Prompt
@@ -66,7 +74,8 @@ Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
 - Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
 - Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

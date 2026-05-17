@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- persönliche-entwicklung
+- wachstum
+- entwicklung
+- ziele
+- plan
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2854"
 titel: "Persönlicher Wachstumsplan"
@@ -66,7 +69,11 @@ Ausgabe:
 - **Mindset:** "Innere Blockaden erkennen und überwinden"
 - **Accountability:** "Wöchentliche Check-in-Fragen für Selbstreflexion"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[seo-plan|seo-plan]]
+  - [[plan-writing|plan-writing]]

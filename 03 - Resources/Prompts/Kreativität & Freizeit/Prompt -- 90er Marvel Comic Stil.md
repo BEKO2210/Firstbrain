@@ -3,9 +3,14 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kreativitaet
+  - freizeit
+  - bildbearbeitung
+  - comic
+  - ki-visualisierung
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -51,7 +56,12 @@ Der Hintergrund zeigt dynamische Speedlines, Explosionen oder eine stilisierte S
 --ar 2:3 --stylize 300 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kreativitaet-freizeit]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Kreativität & Freizeit]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

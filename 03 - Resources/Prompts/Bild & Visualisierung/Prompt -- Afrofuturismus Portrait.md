@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#079"
-titel: "Afrofuturismus Portrait"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#079'
+titel: Afrofuturismus Portrait
+kategorie: Bild & Visualisierung
 unterkategorie: Fantastische Welten
-tags: [afrofuturismus, schwarz, kultur, zukunft, stolz]
+tags:
+- afrofuturismus
+- schwarz
+- kultur
+- zukunft
+- stolz
+- prompt
+- bild
+- visualisierung
+- fantastische-welten
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Afrofuturismus Portrait
@@ -51,7 +60,8 @@ Der Hintergrund zeigt eine utopische afrikanische Zukunft – schwebende Städte
 --ar 3:4 --stylize 250 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

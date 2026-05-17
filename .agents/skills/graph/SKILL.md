@@ -4,6 +4,13 @@ description: Knowledge graph analysis -- statistics, clusters, paths, bridges, P
 version: 3.0.0
 triggers:
   - /graph
+type: skill
+tags:
+  - skill
+  - agent
+  - discovery
+  - graph
+  - analysis
 ---
 
 # Graph -- Knowledge Graph Analysis

@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -50,7 +50,12 @@ Ausgabe: Strukturierter Report mit Titel, Beschreibung, Schritte zur Reproduktio
 - Für Performance-Bugs: "Metriken, Messungen und Vergleichsdaten"
 - Für Security-Bugs: "Vertrauliche Behandlung und CVSS-Score"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[technik-alltag]]
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Technik im Alltag]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[phase-gated-debugging|phase-gated-debugging]]
+  - [[systematic-debugging|systematic-debugging]]
+  - [[debugging-toolkit-smart-debug|debugging-toolkit-smart-debug]]

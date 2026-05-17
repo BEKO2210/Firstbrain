@@ -3,6 +3,13 @@ name: triage
 trigger: /triage
 description: Classify inbox notes by type, auto-tag high-confidence items, and propose folder moves for review
 version: 3.0.0
+type: skill
+tags:
+  - skill
+  - agent
+  - inbox
+  - classification
+  - workflow
 ---
 
 # /triage -- Inbox Triage
@@ -189,3 +196,9 @@ Returns the canonical target folder for a given note type. Delegates to create-u
 - **Single-pass classification:** Each note is classified independently. Cross-note context (e.g., "these three notes are all about the same project") is not considered.
 - **Tag suggestions are best-effort:** Suggested tags come from Claude's content analysis, not from a controlled vocabulary. Tags may not match existing tag conventions -- user review is recommended.
 - **No batch undo:** Once AUTO actions are applied, they cannot be bulk-reverted. Individual notes can be manually edited to restore previous frontmatter.
+
+## Connections
+
+- **Related:** [[process]], [[daily]], [[maintain]], [[create]]
+- **Uses:** [[scan]], [[create]]
+- **MOC:** [[Skills MOC]]

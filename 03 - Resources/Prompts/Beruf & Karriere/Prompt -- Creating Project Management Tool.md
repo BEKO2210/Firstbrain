@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - it-entwicklung
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -64,7 +66,12 @@ Ergänze: "Für Freelancer: Projektzeiterfassung mit Rechnungserstellung und Kun
 ### Variation 4: Open-Source-Klon
 Ergänze: "Baue einen vereinfachten Klon von [TRELLO / NOTION / LINEAR] als Lernprojekt."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[personal-tool-builder|personal-tool-builder]]
+  - [[tool-use-guardian|tool-use-guardian]]
+  - [[free-tool-strategy|free-tool-strategy]]

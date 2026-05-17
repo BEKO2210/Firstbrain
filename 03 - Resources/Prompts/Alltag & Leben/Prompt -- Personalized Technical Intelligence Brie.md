@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- wissen-und-organisation
+- news
+- briefing
+- zusammenfassung
+- information
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2348"
 titel: "Tägliches News-Briefing erstellen"
@@ -62,7 +65,10 @@ Ausgabe:
 - **Für Social Media:** "3 relevante Themen als LinkedIn-Post aufbereiten"
 - **Kontrast:** "Pro und Contra zu einem aktuellen Thema gegenüberstellen"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[daily-news-report|daily-news-report]]

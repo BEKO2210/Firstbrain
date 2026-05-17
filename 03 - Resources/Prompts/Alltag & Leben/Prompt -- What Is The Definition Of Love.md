@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- definition
+- love
+- different
+- types
+- romantic
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3941"
 titel: "What is the definition of love"
@@ -41,7 +44,11 @@ Passe die Details an deine Beduerfnisse an.
 - Bitte um Alternativen und Vergleiche
 - Aendere die Sprache auf Deutsch fuer lokale Ergebnisse
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[fp-types-ref|fp-types-ref]]
+  - [[typescript-advanced-types|typescript-advanced-types]]

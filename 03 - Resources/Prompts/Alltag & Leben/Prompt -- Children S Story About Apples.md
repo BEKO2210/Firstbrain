@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- familie-und-kinder
+- lerngeschichte
+- kinder
+- natur
+- bildung
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2161"
 titel: "Lerngeschichte über Natur"
@@ -64,7 +67,8 @@ Ausgabe:
 - **Ernährung:** "Warum ist Obst und Gemüse wichtig für unseren Körper?"
 - **Wetter:** "Woher kommt der Regen? — erklärt für 4-Jährige"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

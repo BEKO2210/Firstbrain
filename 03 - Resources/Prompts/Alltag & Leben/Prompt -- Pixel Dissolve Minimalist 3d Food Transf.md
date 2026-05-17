@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- bildbearbeitung
+- food
+- fotografie
+- bild-prompt
+- 3d-effekt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2149"
 titel: "Food-Fotografie Bild-Prompt"
@@ -52,7 +55,11 @@ Ausgabe: Ein einzelnes, hochauflösendes Bild im beschriebenen Stil
 - **Mehrere Objekte:** "3 verschiedene Früchte nebeneinander im gleichen Stil"
 - **Produktfoto:** "Gleicher Effekt aber mit [PRODUKT] statt Lebensmittel"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[food-database-query|food-database-query]]
+  - [[fda-food-safety-auditor|fda-food-safety-auditor]]

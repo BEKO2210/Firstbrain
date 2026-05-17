@@ -2,24 +2,33 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#3079"
-titel: "Voice Cloning Attacks Infographic"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["voice", "cloning", "attacks", "infographic", "system"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "tracker4devices@gmail.com"
-erstellt: "2026-03-09"
+id: '#3079'
+titel: Voice Cloning Attacks Infographic
+kategorie: Bild & Visualisierung
+unterkategorie: Poster & Design
+tags:
+- voice
+- cloning
+- attacks
+- infographic
+- system
+- prompt
+- bild
+- visualisierung
+- poster-design
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: tracker4devices@gmail.com
+erstellt: '2026-03-09'
 ---
 
 ## Prompt
@@ -183,7 +192,8 @@ Passe die Details an deine Beduerfnisse an.
 - Ersetze das Hauptmotiv durch dein eigenes Thema
 - Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

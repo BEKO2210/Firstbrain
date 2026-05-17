@@ -1,3 +1,14 @@
+---
+type: system
+created: 2024-01-01
+tags:
+  - system
+  - claude
+  - ai
+  - rules
+  - firstbrain
+---
+
 # Firstbrain Elite -- Neural Knowledge Interface
 
 ## Identity & Role
@@ -459,3 +470,11 @@ Detailed conventions live in `.claude/rules/`:
 
 Rules **without** a `paths:` field in frontmatter: load always.
 Rules **with** a `paths:` field: load only when working in matching directories.
+
+---
+
+## Connections
+
+- **System:** [[Workflow Guide]], [[Tag Conventions]], [[Cheatsheet]]
+- **Start:** [[START HERE]], [[Home]]
+- **MOCs:** [[Skills MOC]], [[Projects MOC]], [[Resources MOC]]

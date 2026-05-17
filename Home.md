@@ -1,50 +1,106 @@
 ---
 type: home
+created: 2026-04-11
+updated: 2026-04-11
 tags:
   - navigation
   - home
+  - hub
 ---
 
-# 🧠 Firstbrain -- Dein KI-Wissens-Zentrum
+# ◢◤ Firstbrain
 
-> "Du denkst -- ich organisiere." Willkommen in deinem hochgradig vernetzten zweiten Gehirn, Belkis.
-
----
-
-## ⚡ Schnell-Aktionen (New Note)
-
-Klicke auf einen Link und nutze **Ctrl+Shift+T**, um das passende Template zu wählen.
-
-| Ziel | Erstellen | Template |
-| :--- | :--- | :--- |
-| **Projekt starten** | [[New Project]] | `Project` |
-| **Bereich anlegen** | [[New Area]] | `Area` |
-| **Wissen sichern** | [[New Resource]] | `Resource` |
-| **Tool dokumentieren** | [[New Tool]] | `Tool` |
-| **Idee festhalten** | [[New Zettel]] | `Zettel` |
-| **Entscheidung loggen** | [[New Decision]] | `Decision` |
-| **Kontakt pflegen** | [[New Person]] | `Person` |
-| **Meeting erfassen** | [[New Meeting]] | `Meeting` |
-| **Code-Snippet** | [[New Snippet]] | `Code Snippet` |
+> Du denkst — ich organisiere. | Neural PKM Engine v3.3
 
 ---
 
-## 🛰️ Kommando-Zentrale (MOCs)
+## 🧠 Jetzt
 
-| Bereich | Inhalt & Fokus |
-| :--- | :--- |
-| **[[Prompts MOC|🎯 Prompts]]** | Über 2.770 AI-Prompts (Lyra 4-D Methodik). |
-| **[[Projects MOC|🚀 Projekte]]** | Aktive Pläne, Status und Meilensteine. |
-| **[[Resources MOC|📚 Ressourcen]]** | Externes Wissen, APIs und Forschung. |
-| **[[Areas MOC|🗺️ Bereiche]]** | Langfristige Lebensbereiche und Ziele. |
-| **[[Decisions MOC|⚖️ Entscheidungen]]** | Logbuch wichtiger strategischer Wahlmöglichkeiten. |
-| **[[Tools MOC|🛠️ Tools]]** | Deine Software, Dienste und Workflows. |
+| | |
+|--|--|
+| 📅 Täglich | `/daily` · [[00 - Inbox/Inbox\|Inbox öffnen]] |
+| 🔄 Synchronisieren | `/scan` — Vault-Index auffrischen |
+| 📋 Briefing | `/briefing` — 1-Minuten-Überblick |
+| 🔍 Suchen | `/search [Begriff]` — Semantische Suche |
+| ⚙️ Verarbeiten | `/process` — Inbox ausführen |
 
 ---
 
-## 📊 Aktueller Status
+## 🗺️ Wissensgebiete
 
-### 🔥 Aktive Projekte
+### Technologie
+| Gebiet | Skills | Prompts |
+|--------|-------:|---------|
+| 💻 [[Software Entwicklung]] | 373 | [[Technik im Alltag]] (743) |
+| ☁️ [[Cloud & Infrastruktur]] | 157 | — |
+| 🤖 [[KI & Machine Learning]] | 129 | — |
+| 🎨 [[Design & Kreativitaet]] | 75 | [[Bild & Visualisierung]] (513) · [[Kreativität & Freizeit]] (19) |
+
+### Business & Karriere
+| Gebiet | Skills | Prompts |
+|--------|-------:|---------|
+| 📈 [[Business & Marketing]] | 120 | [[Beruf & Karriere]] (260) |
+| ✍️ [[Kommunikation & Content]] | 107 | [[Kommunikation & Beziehungen]] (150) |
+| 🔒 [[Sicherheit & Datenschutz]] | 85 | — |
+
+### Daten & Produktivität
+| Gebiet | Skills | Prompts |
+|--------|-------:|---------|
+| 📊 [[Daten & Analyse]] | 42 | — |
+| ⚡ [[Produktivitaet & Werkzeuge]] | 240 | — |
+
+### Leben & Wachstum
+| Gebiet | Skills | Prompts |
+|--------|-------:|---------|
+| 🌱 [[Leben & Lernen]] | 60 | [[Lernen & Wachstum]] (353) · [[Alltag & Leben]] (219) · [[Gesundheit & Wohlbefinden]] (129) · [[Spezielle Situationen]] (110) |
+
+---
+
+## 📚 Bibliotheken
+
+| | Link | Inhalt |
+|-|------|--------|
+| 🔧 | [[Skills Uebersicht]] | 1.388 Skills in 10 Gebieten |
+| 💬 | [[Prompt Sammlung]] | 2.493 Prompts in 9 Kategorien |
+| 🗂️ | [[Ressourcen]] | Alle Ressourcen |
+| 📄 | [[Vorlagen]] | Alle Templates |
+
+---
+
+## 📁 Vault-Navigation
+
+| Bereich | Link |
+|---------|------|
+| Projekte | [[Projekte]] |
+| Lebensbereiche | [[Lebensbereiche]] |
+| Entscheidungen | [[Entscheidungen]] |
+| Meetings | [[Meetings]] |
+| Tools & Software | [[Tools & Software]] |
+| Kontakte | [[Kontakte]] |
+| Code-Snippets | [[Code & Snippets]] |
+| System & KI | [[System]] |
+
+---
+
+## ➕ Neue Notiz erstellen
+
+| Typ | Befehl |
+|-----|--------|
+| Projekt | `/create project` |
+| Bereich | `/create area` |
+| Zettel / Idee | `/create zettel` |
+| Tool | `/create tool` |
+| Entscheidung | `/create decision` |
+| Person | `/create person` |
+| Meeting | `/create meeting` |
+| Code-Snippet | `/create snippet` |
+| Ressource | `/create resource` |
+
+---
+
+## 📊 Status
+
+### Aktive Projekte
 ```dataview
 TABLE status, priority, area
 FROM "01 - Projects"
@@ -52,29 +108,31 @@ WHERE status = "active"
 SORT priority ASC
 ```
 
-### ✅ Offene Aufgaben
-```dataview
-TASK
-FROM "01 - Projects" OR "00 - Inbox"
-WHERE !completed
-LIMIT 10
-```
-
-### 🕒 Letzte Änderungen
+### Letzte Änderungen
 ```dataview
 TABLE file.mtime AS "Geändert", type
 FROM ""
-WHERE type AND type != "home" AND type != "moc"
+WHERE type AND type != "home" AND type != "domain" AND type != "kategorie"
+AND !contains(file.folder, ".claude")
+AND !contains(file.folder, ".agents")
+AND !contains(file.folder, "03 - Resources/Skills")
 SORT file.mtime DESC
-LIMIT 8
+LIMIT 10
 ```
 
 ---
 
-## 🛠️ System & Hilfe
-- [[START HERE|🚀 Erste Schritte]] – Onboarding-Guide.
-- [[Workflow Guide|🔄 Workflow]] – Tägliche Routinen.
-- [[MEMORY|🧠 Gedächtnis]] – Claudes Arbeitsstand.
-- [[ARCHIVE_SUMMARY|📦 Archiv]] – Komprimiertes Wissen.
+## ℹ️ Hilfe
 
-*Nutze die Graph-Ansicht (**Ctrl+G**), um die Verbindungen deines Gehirns zu sehen.*
+- [[START HERE]] — Onboarding & Einrichtung
+- [[Workflow Guide]] — Tägliche Routinen & Abläufe
+- [[Cheatsheet]] — Alle Befehle auf einen Blick
+- [[Tag Conventions]] — Tag-Taxonomie & Standards
+
+---
+
+## Connections
+
+- **System:** [[MEMORY]], [[Workflow Guide]], [[START HERE]], [[System]]
+- **Bibliotheken:** [[Skills Uebersicht]], [[Prompt Sammlung]], [[Ressourcen]]
+- **Domains:** [[Software Entwicklung]], [[KI & Machine Learning]], [[Business & Marketing]], [[Leben & Lernen]]

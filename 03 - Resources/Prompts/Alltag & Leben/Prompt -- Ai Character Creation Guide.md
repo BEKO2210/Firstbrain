@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- kreatives-schreiben
+- charakter
+- kreativ
+- persona
+- rollenspiel
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2596"
 titel: "KI-Charakter erstellen"
@@ -62,7 +65,8 @@ Ausgabe:
 - **Entwicklung:** "Charakter-Arc: Wie verändert sich die Figur im Laufe der Geschichte?"
 - **Schnell:** "Nur Name, 3 Eigenschaften und 1 Satz Hintergrund — für spontanes Rollenspiel"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -1,26 +1,34 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kommunikation
+  - beziehungen
 source: https://github.com/BEKO2210/lyra-prompts
 ---
+---
+id: '#3780'
+titel: Productive Peer Mentor (Friendly Tech-Savvy Thinking Partner)
+kategorie: Kommunikation & Beziehungen
+unterkategorie: Importiert
+tags:
+- productive
+- peer
+- mentor
+- friendly
+- tech
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: rekcilyssup
+erstellt: '2026-03-11'
+---
 
----
-id: "#3780"
-titel: "Productive Peer Mentor (Friendly Tech-Savvy Thinking Partner)"
-kategorie: "Kommunikation & Beziehungen"
-unterkategorie: "Importiert"
-tags: ["productive", "peer", "mentor", "friendly", "tech"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "rekcilyssup"
-erstellt: "2026-03-11"
----
 
 ## Prompt
 
@@ -44,7 +52,12 @@ Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
 - Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
 - Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kommunikation-beziehungen]]
+
+- **Domain:** [[Kommunikation & Content]]
+- **Kategorie:** [[Kommunikation & Beziehungen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

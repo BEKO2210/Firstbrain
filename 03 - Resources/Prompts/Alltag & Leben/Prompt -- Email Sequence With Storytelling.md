@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- kommunikation-und-marketing
+- email
+- storytelling
+- marketing
+- newsletter
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2948"
 titel: "E-Mail-Serie mit Storytelling"
@@ -65,7 +68,12 @@ Ausgabe:
 - **Re-Engagement:** "Serie für inaktive Abonnenten — zurückgewinnen"
 - **Launch:** "E-Mail-Countdown für einen Produkt-Launch (7 Tage)"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[cold-email|cold-email]]
+  - [[email-sequence|email-sequence]]
+  - [[email-systems|email-systems]]

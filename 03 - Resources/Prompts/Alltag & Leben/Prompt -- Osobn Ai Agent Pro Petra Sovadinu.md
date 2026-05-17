@@ -3,12 +3,14 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- organisation-und-produktivität
+- assistent
+- persönlich
+- produktivität
+- alltag
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2266"
 titel: "Persönlicher KI-Assistent"
@@ -61,7 +63,8 @@ Ausgabe:
 - **Morgenroutine:** "Erstelle eine Morgenroutine die zu meinem Alltag passt"
 - **Habit-Tracker:** "Hilf mir [GEWOHNHEIT] in 30 Tagen aufzubauen"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

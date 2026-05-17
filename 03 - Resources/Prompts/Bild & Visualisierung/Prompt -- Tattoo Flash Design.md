@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#127"
-titel: "Tattoo Flash Design"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#127'
+titel: Tattoo Flash Design
+kategorie: Bild & Visualisierung
 unterkategorie: Illustration
-tags: [tattoo, flash, traditionell, sailor-jerry, ink]
+tags:
+- tattoo
+- flash
+- traditionell
+- sailor-jerry
+- ink
+- prompt
+- bild
+- visualisierung
+- illustration
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Tattoo Flash Design
@@ -51,7 +60,8 @@ Der Hintergrund ist weiß oder zeigt typische Flash-Sheet-Elemente – mehrere D
 --ar 1:1 --stylize 180 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

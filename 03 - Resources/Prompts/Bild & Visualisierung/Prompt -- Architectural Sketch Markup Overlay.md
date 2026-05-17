@@ -2,24 +2,33 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#2037"
-titel: "Architectural Sketch & Markup Overlay"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["architectural", "sketch", "markup", "overlay", "source"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "iamcanturk"
-erstellt: "2026-03-09"
+id: '#2037'
+titel: Architectural Sketch & Markup Overlay
+kategorie: Bild & Visualisierung
+unterkategorie: Sonstige
+tags:
+- architectural
+- sketch
+- markup
+- overlay
+- source
+- prompt
+- bild
+- visualisierung
+- sonstige
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: iamcanturk
+erstellt: '2026-03-09'
 ---
 
 ## Prompt
@@ -42,7 +51,8 @@ Passe die Details an deine Beduerfnisse an.
 - Ersetze das Hauptmotiv durch dein eigenes Thema
 - Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

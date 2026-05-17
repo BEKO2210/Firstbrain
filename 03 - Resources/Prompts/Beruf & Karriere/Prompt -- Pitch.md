@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - karriere
+  - kommunikation-selbstdarstellung
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -63,7 +65,12 @@ Ergänze: "Erstelle zusätzlich eine 10-Slide-Pitch-Deck-Struktur (Problem, Lös
 ### Variation 4: Kunden-Pitch
 Ergänze: "Pitch für einen potenziellen Kunden: Überzeuge ihn, meine Dienstleistung zu buchen."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[pitch-psychologist|pitch-psychologist]]
+  - [[startup-metrics-framework|startup-metrics-framework]]
+  - [[startup-analyst|startup-analyst]]

@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -58,7 +58,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach Geheimtipps abseits der Touristenpfade
 - Bitte um eine Packliste passend zum Reiseziel
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[technik-alltag]]
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Technik im Alltag]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[seo-content-planner|seo-content-planner]]
+  - [[agent-memory-mcp|agent-memory-mcp]]
+  - [[agent-memory-systems|agent-memory-systems]]

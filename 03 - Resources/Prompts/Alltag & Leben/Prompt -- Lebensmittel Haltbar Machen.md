@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- küche-und-kochen
+- einkochen
+- haltbar
+- konservieren
+- vorrat
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#021"
 titel: "Lebensmittel haltbar machen"
@@ -53,7 +56,8 @@ Ausgabe: Komplettanleitung mit Rezept, Zeitplan, Lagerhinweisen und Haltbarkeits
 - **Dörrautomaten:** Obst, Gemüse und Kräuter trocknen
 - **Notvorrat:** 2-Wochen-Vorrat sinnvoll anlegen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- imagine
+- personal
+- assistant
+- planning
+- someone
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3315"
 titel: "Imagine you are a personal assistant planning someone's day"
@@ -43,7 +46,12 @@ Passe die Platzhalter und Details an deine Situation an.
 - Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
 - Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[personal-tool-builder|personal-tool-builder]]
+  - [[llm-application-dev-ai-assistant|llm-application-dev-ai-assistant]]
+  - [[concise-planning|concise-planning]]

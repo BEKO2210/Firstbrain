@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- denken-und-entscheiden
+- risiko
+- analyse
+- entscheidung
+- bewertung
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2049"
 titel: "Risiko-Analyse für Entscheidungen"
@@ -63,7 +66,8 @@ Ausgabe:
 - **Persönlich:** "Risiken bei Umzug ins Ausland mit Familie"
 - **Schnell-Check:** "Top 3 Risiken in 3 Sätzen zusammenfassen"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

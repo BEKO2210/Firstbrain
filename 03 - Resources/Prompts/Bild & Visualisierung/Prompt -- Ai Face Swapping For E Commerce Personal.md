@@ -2,24 +2,33 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#2153"
-titel: "AI Face Swapping for E-commerce Personalization"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["face", "swapping", "commerce", "personalization", "state"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "Encounterx1"
-erstellt: "2026-03-09"
+id: '#2153'
+titel: AI Face Swapping for E-commerce Personalization
+kategorie: Bild & Visualisierung
+unterkategorie: Produkt & Kommerziell
+tags:
+- face
+- swapping
+- commerce
+- personalization
+- state
+- prompt
+- bild
+- visualisierung
+- produkt-kommerziell
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: Encounterx1
+erstellt: '2026-03-09'
 ---
 
 ## Prompt
@@ -59,7 +68,8 @@ Passe die Details an deine Beduerfnisse an.
 - Ersetze das Hauptmotiv durch dein eigenes Thema
 - Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - allgemein
+  - beruf
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -216,7 +218,12 @@ Karriere-Coaches und Bewerbungsservices berechnen 150-500€ pro Bewerbungspaket
 - Englische Version für internationale Bewerbungen
 - Executive-Version für Führungskräfte (höherer Preis: 500-1.000€)
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[pro]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[linkedin-automation|linkedin-automation]]
+  - [[linkedin-cli|linkedin-cli]]
+  - [[enhance-prompt|enhance-prompt]]

@@ -2,21 +2,32 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#101"
-titel: "Hirsch Human Hybrid Porträt"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#101'
+titel: Hirsch Human Hybrid Porträt
+kategorie: Bild & Visualisierung
 unterkategorie: Human-Animal Hybrid
-tags: [hybrid, hirsch, mensch, portrait, magisch, transformation]
+tags:
+- hybrid
+- hirsch
+- mensch
+- portrait
+- magisch
+- transformation
+- prompt
+- bild
+- visualisierung
+- human-animal-hybrid
 erstellt: 2026-02-21
-plattformen: [ChatGPT, Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- ChatGPT
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Hirsch Human Hybrid Porträt
@@ -52,7 +63,8 @@ Der Hintergrund zeigt einen verwunschenen Herbstwald – goldene Sonnenstrahlen 
 --ar 3:4 --stylize 200 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

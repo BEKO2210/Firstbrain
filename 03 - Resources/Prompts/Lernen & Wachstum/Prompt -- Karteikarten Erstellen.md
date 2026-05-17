@@ -1,23 +1,25 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#308"
-titel: "Karteikarten effektiv erstellen"
-kategorie: "Lernen & Wachstum"
-unterkategorie: "Lernmethoden"
-tags: ["karteikarten", "anki", "spaced-repetition", "lernen"]
-erstellt: "2026-02-23"
-plattformen: [ChatGPT, Claude]
-schwierigkeit: Anfänger
+id: ""
+titel: "Karteikarten Erstellen"
+kategorie: Lernen & Wachstum
+unterkategorie: Lernmethoden
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt
@@ -53,7 +55,12 @@ Ausgabe: 10 goldene Regeln für Karteikarten, 5 Beispielkarten aus dem Stoff und
 - **Bild-Karten:** Visuelle Karteikarten für bildreichen Stoff
 - **Sprachen:** Vokabel-Karten die wirklich funktionieren
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

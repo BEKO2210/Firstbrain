@@ -2,24 +2,33 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#2586"
-titel: "Hyper-Realistic Cinematic Pre-Dawn Scene in Ancient Mecca"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["hyper", "realistic", "cinematic", "dawn", "scene"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "acmilaniraqi@gmail.com"
-erstellt: "2026-03-09"
+id: '#2586'
+titel: Hyper-Realistic Cinematic Pre-Dawn Scene in Ancient Mecca
+kategorie: Bild & Visualisierung
+unterkategorie: Video & Animation
+tags:
+- hyper
+- realistic
+- cinematic
+- dawn
+- scene
+- prompt
+- bild
+- visualisierung
+- video-animation
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: acmilaniraqi@gmail.com
+erstellt: '2026-03-09'
 ---
 
 ## Prompt
@@ -51,7 +60,8 @@ Passe die Details an deine Beduerfnisse an.
 - Ersetze das Hauptmotiv durch dein eigenes Thema
 - Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

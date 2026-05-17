@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - importiert
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -41,7 +43,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach einer SWOT-Analyse fuer deine Idee
 - Bitte um einen konkreten Aktionsplan mit Meilensteinen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[context-manager|context-manager]]
+  - [[azure-resource-manager-playwright-dotnet|azure-resource-manager-playwright-dotnet]]
+  - [[risk-manager|risk-manager]]

@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#080"
-titel: "Anime Charakter Portrait"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#080'
+titel: Anime Charakter Portrait
+kategorie: Bild & Visualisierung
 unterkategorie: Pop-Art & Animation
-tags: [anime, manga, japanisch, cartoon, portrait]
+tags:
+- anime
+- manga
+- japanisch
+- cartoon
+- portrait
+- prompt
+- bild
+- visualisierung
+- pop-art-animation
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Anime Charakter Portrait
@@ -51,7 +60,8 @@ Der Hintergrund ist minimalistisch oder zeigt typische Anime-Elemente wie Sakura
 --ar 3:4 --stylize 250 --niji 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

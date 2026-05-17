@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- bildbearbeitung
+- portrait
+- foto
+- bild-prompt
+- selfie
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2304"
 titel: "Portrait-Foto generieren"
@@ -59,7 +62,8 @@ Ausgabe: Ein einzelnes, realistisches Portrait-Foto — geeignet für Social Med
 - **Triptychon:** "Drei verschiedene Posen/Ausdrücke als Collage"
 - **Editorial:** "Modefoto mit dramatischem Licht und starkem Ausdruck"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

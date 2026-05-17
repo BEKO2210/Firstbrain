@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - it-entwicklung
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -64,7 +66,12 @@ Erg채nze: "Gestalte eine Portfolio-Website f체r Kreative (Fotograf, Designer, K�
 ### Variation 4: Barrierefreiheit
 Erg채nze: "Pr체fe meine Website auf WCAG-2.1-Konformit채t und empfehle konkrete Verbesserungen."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[ux-audit|ux-audit]]
+  - [[ui-ux-designer|ui-ux-designer]]
+  - [[ui-ux-pro-max|ui-ux-pro-max]]

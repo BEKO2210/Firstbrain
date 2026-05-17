@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- finanzen-und-investitionen
+- börse
+- aktien
+- marktanalyse
+- finanzen
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3010"
 titel: "Börsen-Briefing: Marktüberblick"
@@ -65,7 +68,8 @@ Ausgabe:
 - **Anfänger:** "Erkläre mir die Börsenwoche in einfachen Worten"
 - **Sektor:** "Nur Energie-Sektor: Öl, Gas, Erneuerbare — was bewegt sich?"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

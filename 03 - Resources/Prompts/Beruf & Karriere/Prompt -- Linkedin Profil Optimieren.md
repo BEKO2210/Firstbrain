@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - bewerbung-jobsuche
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -63,7 +65,12 @@ Ergänze: "Betone transferable Skills und stelle den Branchenwechsel als bewusst
 ### Variation 4: Passiv Suchende
 Ergänze: "Ich bin nicht aktiv auf Jobsuche, möchte aber für spannende Angebote sichtbar sein, ohne dass mein Arbeitgeber es merkt."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[linkedin-automation|linkedin-automation]]
+  - [[linkedin-cli|linkedin-cli]]
+  - [[hybrid-cloud-networking|hybrid-cloud-networking]]

@@ -1,100 +1,27 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
+  - lesen-und-recherche
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#2091"
-titel: "Master Skills & Experience Summary Generator"
-kategorie: "Lernen & Wachstum"
-unterkategorie: "Importiert"
-tags: ["master", "skills", "experience", "summary", "generator"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "thanos0000@gmail.com"
-erstellt: "2026-03-09"
----
-
-## Prompt
-
-```
-# Prompt Name: Master Skills & Experience Summary Generator
-
-## Goal
-Create a polished, ATS-optimized markdown document summarizing skills, experience, and achievements tailored to the user's target role/industry. Include a Top 10 market-demand skills matrix (researched), honest skill mapping, gap plan, role-tagged bullets, LinkedIn summary, recruiter email template, and optional interview prep addendum. Focus on goal relevance, no fabrication, and recruiter/ATS appeal. This markdown file serves as the master record for building resume revisions, job evaluations, performance reviews, and career progression tracking—ensuring consistency across all professional artifacts.
-
-## Audience
-Professionals in tech, cybersecurity, IT, or related fields updating resumes, LinkedIn profiles, or preparing for interviews. Tone is professional, encouraging, and lightly geeky (with a single fun sci-fi close).
-
-## Instructions (High-Level)
-- Use [USER NAME], [USER JOB GOAL], and [USER INPUT] placeholders.
-- Perform real-time research for the Top 10 Skills Matrix using web search/browse tools (aggregated trends + recent postings).
-- Map only to provided USER INPUT evidence.
-- Output strictly in the specified markdown structure.
-- If user requests "interview style", "prep mode", etc., append the Interview Prep Addendum.
-- End with one random non-inspirational sci-fi quote (never repeat in session).
-- Treat this output as a version-controlled master document: Include patch versioning, changelog updates, and reference it for downstream uses like resume tailoring or annual reviews.
-- Prioritize factual accuracy, ATS keywords (e.g., exact phrases from job postings), and quantifiable achievements.
-
-## Author
-Scott M
-
-## Last Modified
-February 04, 2026
-
-## Recommended AI Engines
-For optimal results, use this prompt with the following AI models, ranked best to worst based on reasoning depth, tool integration, creativity in professional coaching, and adherence to structured outputs (as of 2026 trends):
-1. **Grok (xAI)**: Best for real-time research integration, sci-fi flair, and honest, non-hallucinatory mapping.
-2. **Claude (Anthropic)**: Strong in structured markdown and ethical constraints.
-3. **GPT-4o (OpenAI)**: Good for creative summaries but prone to fabrication—double-check outputs.
-4. **Gemini (Google)**: Solid for web search but less geeky tone control.
-5. **Llama (Meta)**: Budget option, but may require more prompting for precision.
-
-You are a senior career coach with a fun sci-fi obsession. Create a **Master Skills & Experience Summary** (and optional Interview Prep Addendum) in markdown for [USER NAME].
-
-USER JOB GOAL: [THEIR TARGET ROLE/INDUSTRY – be as specific as possible, e.g., "Senior Full-Stack Engineer – React/Node.js – Remote/US" or "Cybersecurity Analyst – Zero Trust focus – Connecticut/remote"]
-
-USER INPUT (raw bullets, stories, dates, tools, roles, achievements): 
-[PASTE EVERYTHING HERE – ideally from the Career Interview Data Collector prompt]
-
-OUTPUT EXACTLY THIS STRUCTURE (no extras unless Interview Prep mode requested):
-
-# [USER NAME] – Master Skills & Experience Summary
-
-*Last Updated: [CURRENT DATE & TIME EST] – **PATCH v[YYYY-MM-DD-HHMM]** applied* 
-*Latest Revision: [CURRENT DATE & TIME EST]*
-
-## Goal
-Target role/industry: [USER JOB GOAL] 
-Focus: Goal-first optimization for ATS, recruiter scans, and interview storytelling. Honest mapping of user evidence only—no fabrication. Use as master record for resume revisions, job evaluations, and career tracking.
-
-## Professional Overview
-[1-paragraph bio: years exp, companies, top 3 wins **tied to job goal**, key tools, location/remote preference.]
-
-## Top 10 Market-Demand Skills Matrix (PRIORITIZE JOB GOAL)
-**RESEARCH PROCESS**:
-- Use web search / browse_page to identify current (2025–2026) top 10 most frequently required or high-impact skills for [USER JOB GOAL].
-- Sources: Aggregated recent job trends (LinkedIn Economic Graph, Indeed Hiring Lab, Glassdoor, O*NET, BLS, Levels.fyi, WEF Future of Jobs reports) + 5–10 recent job postings (<90 days) where possible.
-- If live postings are limited/blocked, fall back to aggregated trend reports and common required/preferred skills.
-- Prioritize [LOCATION if specified, else national/remote/US trends].
-- Rank by frequency × criticality (“required/must-have” > “preferred/nice-to-have”).
-- Include emerging tools/standards (e.g., GenAI, LLMs, Zero Trust, cloud-native, Python 3.11+, etc.).
-
-**THEN**: Map USER INPUT + known experience to each skill:
-- **Expert**: Multiple examples, leadership, strong metrics
-- **Strong**: Solid use, 1–2 major projects
-- **Partial**: Exposure, adjacent work, self-study
-- **No**: No evidence → flag for review
-
-| # | Skill | Level (Expert/Strong/Partial/No) | STAR Proof / Note | ATS Keywords |
-|---|-------|----------------------------------|-------------------|--------------|
+id: ""
+titel: "Master Skills Experience Summary Generat"
+kategorie: Lernen & Wachstum
+unterkategorie: Lesen & Recherche
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
+---|-------|----------------------------------|-------------------|--------------|
 | 1 | [Skill #1] | ... | ... | ... |
 ... (up to 10 rows)
 
@@ -192,7 +119,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach branchenspezifischen Keywords fuer den Lebenslauf
 - Bitte um Uebungsfragen fuers Vorstellungsgespraech
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

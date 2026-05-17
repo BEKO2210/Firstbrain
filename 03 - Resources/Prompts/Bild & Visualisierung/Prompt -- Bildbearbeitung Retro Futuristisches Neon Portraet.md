@@ -2,21 +2,31 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#086"
-titel: "Retro-Futuristisches Neon-Porträt"
-kategorie: Bildbearbeitung & Visualisierung
+id: '#086'
+titel: Retro-Futuristisches Neon-Porträt
+kategorie: Bild & Visualisierung
 unterkategorie: KI-Bildgenerierung
-tags: [retro, futurismus, neon, portrait, synthwave, cyberpunk]
+tags:
+- retro
+- futurismus
+- neon
+- portrait
+- synthwave
+- cyberpunk
+- prompt
+- bild
+- visualisierung
+- ki-bildgenerierung
 erstellt: 2026-02-22
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 ## Prompt
@@ -174,7 +184,8 @@ Steps: 30, CFG: 7, Sampler: DPM++ 2M Karras
 
 5. **Rechtliches:** Bei kommerzieller Nutzung – KI-Generierungs-Nutzungsrechte prüfen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

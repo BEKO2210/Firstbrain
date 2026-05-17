@@ -4,6 +4,7 @@ status: pending
 date: {{date}}
 impact: medium
 tags:
+  - template
   - decision
 ---
 
@@ -39,5 +40,7 @@ tags:
 
 ## Connections
 
+- **Templates MOC:** [[Templates MOC]]
+- **Verwandte Templates:** [[Meeting]] | [[Project]]
 - **Project:** [[]]
 - **Impacts:** [[]]

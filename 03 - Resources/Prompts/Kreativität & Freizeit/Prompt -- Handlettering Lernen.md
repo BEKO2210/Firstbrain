@@ -3,9 +3,14 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kreativitaet
+  - freizeit
+  - handlettering
+  - kalligrafie
+  - kreatives-gestalten
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -53,7 +58,12 @@ Ausgabe: 4-Wochen-Lernplan mit Übungsabfolge, Material-Liste und 3 Anfängerpro
 - **Faux Calligraphy:** Kalligrafie-Look mit normalen Stiften
 - **Projekte:** Konkrete Vorlagen für Karten, Poster und Geschenke
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kreativitaet-freizeit]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Kreativität & Freizeit]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

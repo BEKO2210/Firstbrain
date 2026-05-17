@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - finanzen-immobilien
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -64,7 +66,12 @@ Ergänze: "Erstelle eine Konzernstruktur-Darstellung mit Beteiligungsquoten."
 ### Variation 4: Multi-Dokument
 Ergänze: "Vergleiche Gesellschafter-Daten aus mehreren Dokumenten und finde Unterschiede."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[pdf-official|pdf-official]]
+  - [[json-canvas|json-canvas]]
+  - [[enhance-prompt|enhance-prompt]]

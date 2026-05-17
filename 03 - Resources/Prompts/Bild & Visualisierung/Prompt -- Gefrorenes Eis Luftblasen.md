@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#097"
-titel: "Gefrorenes Eis mit Luftblasen"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#097'
+titel: Gefrorenes Eis mit Luftblasen
+kategorie: Bild & Visualisierung
 unterkategorie: Elementare Transformation
-tags: [eis, gefroren, winter, kristall, kalt]
+tags:
+- eis
+- gefroren
+- winter
+- kristall
+- kalt
+- prompt
+- bild
+- visualisierung
+- elementare-transformation
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Gefrorenes Eis mit Luftblasen
@@ -51,7 +60,8 @@ Der Hintergrund ist eine gefrorene Landschaft – ein See, ein Gletscher, eine H
 --ar 3:4 --stylize 200 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

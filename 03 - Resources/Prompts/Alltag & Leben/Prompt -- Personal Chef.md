@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- kochen-und-ernährung
+- ernährung
+- rezepte
+- diät
+- essensplan
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#1859"
 titel: "Persönlicher Ernährungsplaner"
@@ -64,7 +67,8 @@ Ausgabe:
 - **Saisonal:** "Nur mit aktuell saisonalem Gemüse kochen"
 - **Sparmenü:** "Gesund essen mit maximal 30€ pro Woche"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

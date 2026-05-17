@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - gründung-selbstständigkeit
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -64,7 +66,12 @@ Ergänze: "Erstelle einen E-Mail-Funnel: Lead-Magnet → Nurturing → Verkauf."
 ### Variation 4: Upselling-Strategie
 Ergänze: "Wie verkaufe ich meinen bestehenden Kunden weitere Produkte (Cross-Sell, Upsell)?"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[marketing-ideas|marketing-ideas]]
+  - [[marketing-psychology|marketing-psychology]]
+  - [[product-marketing-context|product-marketing-context]]

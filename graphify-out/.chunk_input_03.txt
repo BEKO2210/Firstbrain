@@ -1,0 +1,22 @@
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\triage\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.agents\skills\watch\SKILL.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\changelog.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\memory\insights.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\memory\preferences.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\memory\projects.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\rules\frontmatter.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\rules\governance.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\rules\linking.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\rules\naming.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\rules\process.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\.claude\rules\templates.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Area.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Code Snippet.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Daily Note.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Decision.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Meeting.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Monthly Review.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Person.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Project.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Resource.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Tool.md

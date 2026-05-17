@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- haushalt-und-organisation
+- wäsche
+- pflege
+- kleidung
+- waschen
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#018"
 titel: "Wäsche richtig pflegen"
@@ -52,7 +55,8 @@ Ausgabe: Schritt-für-Schritt-Anleitung mit Dos und Don'ts
 - **Bügel-Profi:** Richtig bügeln für verschiedene Stoffe
 - **Aufbewahrung:** Kleidung saisongerecht einlagern
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

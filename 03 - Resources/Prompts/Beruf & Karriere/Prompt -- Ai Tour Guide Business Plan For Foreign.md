@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - gründung-selbstständigkeit
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -66,7 +68,12 @@ Ergänze: "Die App muss auch ohne Internet funktionieren. Plane die Offline-Arch
 ### Variation 4: Lokale Partnerschaften
 Ergänze: "Entwickle ein Partnerschaftsmodell mit lokalen Guides, Restaurants und Attraktionen."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[app-builder|app-builder]]
+  - [[app-store-changelog|app-store-changelog]]
+  - [[macos-menubar-tuist-app|macos-menubar-tuist-app]]

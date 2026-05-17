@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- detailed
+- instructions
+- task
+- given
+- question
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3988"
 titel: "Detailed Instructions: In this task"
@@ -43,7 +46,11 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach Budget-freundlichen Alternativen
 - Bitte um Farb-Kombinationsvorschlaege
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[task-intelligence|task-intelligence]]
+  - [[multi-agent-task-orchestrator|multi-agent-task-orchestrator]]

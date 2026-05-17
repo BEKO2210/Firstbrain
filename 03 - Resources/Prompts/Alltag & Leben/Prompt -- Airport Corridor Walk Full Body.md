@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- bildbearbeitung
+- lifestyle-foto
+- flughafen
+- reise
+- bild-prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2426"
 titel: "Lifestyle-Foto: Flughafen-Szene"
@@ -53,7 +56,8 @@ Ausgabe: Ein einzelnes, fotorealistisches Lifestyle-Reisefoto — perfekt für I
 - **Business:** "Im Anzug mit Laptop-Tasche, professionell"
 - **Gruppe:** "Zwei Freunde lachend am Check-in"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

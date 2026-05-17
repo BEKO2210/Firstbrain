@@ -1,25 +1,26 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
+  - kreativität
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#2965"
+id: ""
 titel: "Universal System Design Prompt"
-kategorie: "Lernen & Wachstum"
-unterkategorie: "Importiert"
-tags: ["universal", "system", "design", "prompt", "experienced"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "SaravanaWorkspaces"
-erstellt: "2026-03-09"
+kategorie: Lernen & Wachstum
+unterkategorie: Kreativität
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt
@@ -76,7 +77,12 @@ Passe die Details an deine Beduerfnisse an.
 - Bitte um Uebungsaufgaben mit Loesungen
 - Frage nach weiterfuehrenden Ressourcen und Buechern
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

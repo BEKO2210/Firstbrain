@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- bildbearbeitung
+- technische-zeichnung
+- 3d-render
+- bild-prompt
+- engineering
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2553"
 titel: "Technische Zeichnung aus 3D-Render"
@@ -53,7 +56,12 @@ Ausgabe: Eine ISO-konforme technische Zeichnung mit klaren Maßen — geeignet a
 - **3D-Isometrie:** "Isometrische Darstellung mit Bemaßung"
 - **Vereinfacht:** "Vereinfachte Skizze für die Werkstatt ohne volle Normung"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[protocol-reverse-engineering|protocol-reverse-engineering]]
+  - [[ai-engineering-toolkit|ai-engineering-toolkit]]
+  - [[data-engineering-data-driven-feature|data-engineering-data-driven-feature]]

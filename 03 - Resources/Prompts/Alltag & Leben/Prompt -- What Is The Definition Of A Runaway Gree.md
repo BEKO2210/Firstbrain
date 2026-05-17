@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- definition
+- runaway
+- greenhouse
+- effect
+- examples
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#4383"
 titel: "What is the definition of a 'runaway greenhouse effect' and"
@@ -41,7 +44,8 @@ Passe die Details an deine Beduerfnisse an.
 - Bitte um einen Vergleich der Umweltauswirkungen
 - Frage nach lokalen Initiativen und Moeglichkeiten
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

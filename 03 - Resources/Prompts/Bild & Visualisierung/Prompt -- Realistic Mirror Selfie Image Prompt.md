@@ -2,24 +2,32 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#4308"
-titel: "Realistic Mirror-Selfie Image Prompt"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["realistic", "mirror", "selfie", "image", "prompt"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "parsherr"
-erstellt: "2026-04-02"
+id: '#4308'
+titel: Realistic Mirror-Selfie Image Prompt
+kategorie: Bild & Visualisierung
+unterkategorie: Portrait & Fotografie
+tags:
+- realistic
+- mirror
+- selfie
+- image
+- prompt
+- bild
+- visualisierung
+- portrait-fotografie
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: parsherr
+erstellt: '2026-04-02'
 ---
 
 ## Prompt
@@ -68,7 +76,8 @@ Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
 - Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
 - Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

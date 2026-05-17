@@ -1,0 +1,22 @@
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Weekly Review.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\05 - Templates\Zettel.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\3D & Animation.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Alltag & Leben.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Amazon Web Services.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Analytics & Tracking.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Anwendungssicherheit.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Automatisierung & Workflows.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Backend Entwicklung.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Beruf & Karriere.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Bild & Visualisierung.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Bildgenerierung & KI-Kunst.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Bildung & Wissen.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Business & Marketing.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Cloud & Infrastruktur.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Code & Snippets.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Compliance & Datenschutz.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Computer Vision.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Data Engineering.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Daten & Analyse.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Datenanalyse & Reporting.md
+C:\Users\belki\Desktop\mein Brain\Firstbrain-main\06 - Atlas\MOCs\Datenbanken.md

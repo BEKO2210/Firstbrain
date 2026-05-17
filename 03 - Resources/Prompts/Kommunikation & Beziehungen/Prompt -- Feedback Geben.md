@@ -1,23 +1,30 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kommunikation
+  - beziehungen
+  - konversation-und-feedback
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
-id: "#329"
-titel: "Feedback geben"
-kategorie: Kommunikation
+id: '#329'
+titel: Feedback geben
+kategorie: Kommunikation & Beziehungen
 unterkategorie: Konversation & Feedback
-tags: [feedback, kommunikation, gespräch, beziehung]
+tags:
+- feedback
+- kommunikation
+- gespräch
+- beziehung
 erstellt: 2026-02-23
-plattformen: [ChatGPT, Claude]
+plattformen:
+- ChatGPT
+- Claude
 ---
+
 
 # Feedback geben
 
@@ -49,7 +56,12 @@ Ausgabe: Feedback-Formulierung, mögliche Reaktionen der Person, Gesprächseinst
 - Für positive Verstärkung: "Wertschätzung konkret und authentisch ausdrücken"
 - Für Peers: "Feedback auf Augenhöhe ohne Anbiederung"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kommunikation-beziehungen]]
+
+- **Domain:** [[Kommunikation & Content]]
+- **Kategorie:** [[Kommunikation & Beziehungen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

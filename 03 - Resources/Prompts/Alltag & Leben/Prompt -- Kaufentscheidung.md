@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- finanzen-und-budget
+- kauf
+- entscheidung
+- vergleich
+- produkt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#025"
 titel: "Kaufentscheidung"
@@ -61,7 +64,8 @@ Ausgabe:
 - **Auto:** "Gebraucht vs. neu, Gesamtkosten über 5 Jahre vergleichen"
 - **Haushaltsgeräte:** "Energieeffizienz und Folgekosten berücksichtigen"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

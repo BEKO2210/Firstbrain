@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- haushalt-und-organisation
+- kühlschrank
+- ordnung
+- lebensmittel
+- food-waste
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#033"
 titel: "Kühlschrank richtig organisieren"
@@ -52,7 +55,8 @@ Ausgabe: Visueller Zonenplan, Lagerungstipps und wöchentliche Routine
 - **WG-Kühlschrank:** Aufteilung nach Personen mit Gemeinschaftszone
 - **Mini-Kühlschrank:** Maximale Nutzung auf kleinem Raum
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- monthy
+- month
+- price
+- daily
+- dont
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3310"
 titel: "Have a monthy one month is 31 day price of 175 000 TTC with"
@@ -44,7 +47,12 @@ Passe die Platzhalter und Details an deine Situation an.
 - Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
 - Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[price-psychology-strategist|price-psychology-strategist]]
+  - [[daily-news-report|daily-news-report]]
+  - [[daily|daily]]

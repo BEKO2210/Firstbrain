@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- wohnen-und-haushalt
+- umzug
+- planung
+- organisation
+- checkliste
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#031"
 titel: "Umzugsplanung"
@@ -61,7 +64,8 @@ Ausgabe:
 - **Internationaler Umzug:** "Zoll, Visa, Spedition, Auslandskrankenversicherung"
 - **Kurzfristiger Umzug:** "Nur 2 Wochen Zeit — was ist das Minimum?"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

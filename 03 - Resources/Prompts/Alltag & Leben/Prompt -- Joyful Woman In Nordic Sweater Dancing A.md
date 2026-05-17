@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- bildbearbeitung
+- vintage-foto
+- weihnachten
+- familie
+- bild-prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2470"
 titel: "Vintage-Foto: Festliche Familienfeier"
@@ -53,7 +56,8 @@ Ausgabe: Ein einzelnes, nostalgisches Vintage-Familienfoto — wie aus einem alt
 - **Schwarz-Weiß:** "Festliche Szene in klassischem Schwarz-Weiß"
 - **Doppelbelichtung:** "Nostalgisches Portrait mit Doppelbelichtungs-Effekt"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

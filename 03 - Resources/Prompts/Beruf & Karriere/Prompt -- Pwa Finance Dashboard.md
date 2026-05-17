@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - allgemein
+  - beruf
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -460,7 +462,12 @@ Generiere den Output in dieser Reihenfolge — VOLLSTÄNDIG, KEINE Auslassungen:
 - Schulden-Abbau Version: Snowball/Avalanche-Methode, Tilgungsplan-Visualisierung
 - Verein/Organisation Version: Kassenbuch, Mitgliedsbeiträge, Jahresabschluss-Report
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[pro]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[kpi-dashboard-design|kpi-dashboard-design]]
+  - [[sankhya-dashboard-html-jsp-custom-best-pratices|sankhya-dashboard-html-jsp-custom-best-pratices]]
+  - [[analytics-tracking|analytics-tracking]]

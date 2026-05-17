@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -51,7 +51,12 @@ Passe die Details an deine Beduerfnisse an.
 - Bitte um einen Vergleich der Umweltauswirkungen
 - Frage nach lokalen Initiativen und Moeglichkeiten
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[gesundheit-wohlbefinden]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Gesundheit & Wohlbefinden]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[audit-context-building|audit-context-building]]
+  - [[c4-context|c4-context]]
+  - [[code-refactoring-context-restore|code-refactoring-context-restore]]

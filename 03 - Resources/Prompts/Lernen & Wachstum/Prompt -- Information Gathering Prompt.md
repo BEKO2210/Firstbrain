@@ -1,70 +1,25 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#3066"
+id: ""
 titel: "Information Gathering Prompt"
-kategorie: "Lernen & Wachstum"
-unterkategorie: "Importiert"
-tags: ["information", "gathering", "prompt", "input", "enter"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "kenicodes"
-erstellt: "2026-03-09"
----
-
-## Prompt
-
-```
-## *Information Gathering Prompt*
-
----
-
-## *Prompt Input*
-- Enter the prompt topic = ${topic}
-- **The entered topic is a variable within curly braces that will be referred to as "M" throughout the prompt.**
-
----
-
-## *Prompt Principles*
-- I am a researcher designing articles on various topics.
-- You are **absolutely not** supposed to help me design the article. (Most important point)
-	1. **Never suggest an article about "M" to me.**
-	2. **Do not provide any tips for designing an article about "M".**
-- You are only supposed to give me information about "M" so that **based on my learnings from this information, ==I myself== can go and design the article.**
-- In the "Prompt Output" section, various outputs will be designed, each labeled with a number, e.g., Output 1, Output 2, etc.
-	- **How the outputs work:**
-		1. **To start, after submitting this prompt, ask which output I need.**
-		2. I will type the number of the desired output, e.g., "1" or "2", etc.
-		3. You will only provide the output with that specific number.
-		4. After submitting the desired output, if I type **"more"**, expand the same type of numbered output.
-	- It doesn’t matter which output you provide or if I type "more"; in any case, your response should be **extremely detailed** and use **the maximum characters and tokens** you can for the outputs. (Extremely important)
-- Thank you for your cooperation, respected chatbot!
-
----
-
-## *Prompt Output*
-
----
-
-### *Output 1*
-- This output is named: **"Basic Information"**
-- Includes the following:
-	- An **introduction** about "M"
-	- **General** information about "M"
-	- **Key** highlights and points about "M"
-- If "2" is typed, proceed to the next output.
-- If "more" is typed, expand this type of output.
-
+kategorie: Lernen & Wachstum
+unterkategorie: Lernmethoden
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ### *Output 2*
@@ -109,7 +64,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach alternativen Enden oder Perspektiven
 - Bitte die KI, im Stil eines bestimmten Autors zu schreiben
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

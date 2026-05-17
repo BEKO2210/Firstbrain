@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- finanzen-und-bürokratie
+- steuern
+- finanzamt
+- steuererklärung
+- geld-zurück
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#020"
 titel: "Steuererklärung vorbereiten"
@@ -52,7 +55,8 @@ Ausgabe: Strukturierte Checkliste mit Kategorien, geschätzten Erstattungsbeträ
 - **Vermieter:** Werbungskosten, Abschreibungen, Nebenkosten
 - **Freelancer:** Betriebsausgaben, Umsatzsteuer, EÜR vorbereiten
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -3,12 +3,16 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- küche-und-kochen
+- haustier
+- ernährung
+- hund
+- katze
+- gesund
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#024"
 titel: "Haustier gesund ernähren"
@@ -63,7 +67,8 @@ Ausgabe:
 - **Allergiker:** "Eliminationsdiät durchführen, Auslöser identifizieren"
 - **BARF-Einstieg:** "Rohfütterung richtig starten, Nährstoffberechnung"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -4,6 +4,7 @@ period: weekly
 week:
 created: {{date}}
 tags:
+  - template
   - review
   - weekly
 ---
@@ -43,5 +44,7 @@ tags:
 
 ## Connections
 
+- **Templates MOC:** [[Templates MOC]]
+- **Verwandte Templates:** [[Daily Note]] | [[Monthly Review]]
 - **Previous Week:** [[]]
 - **Projects:** [[]]

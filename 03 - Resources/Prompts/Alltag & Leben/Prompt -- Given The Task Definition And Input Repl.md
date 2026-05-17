@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- given
+- task
+- definition
+- input
+- reply
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3989"
 titel: "Given the task definition and input, reply with output"
@@ -43,7 +46,11 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach weniger bekannten Geheimtipps
 - Bitte um eine sortierte Top-10-Liste mit Begruendung
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[task-intelligence|task-intelligence]]
+  - [[multi-agent-task-orchestrator|multi-agent-task-orchestrator]]

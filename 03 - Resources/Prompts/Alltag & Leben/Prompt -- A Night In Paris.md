@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- bildbearbeitung
+- cineastisch
+- stadtportrait
+- bild-prompt
+- filmisch
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2645"
 titel: "Cineastisches Stadtportrait generieren"
@@ -54,7 +57,8 @@ Ausgabe: Ein einzelnes, cineastisches Portrait im Film-Look — wie ein Still au
 - **Schwarzweiß:** "Klassisches S/W-Portrait im Stil der französischen Nouvelle Vague"
 - **Doppelbelichtung:** "Gesicht überlagert mit Stadtlichtern — filmische Doppelbelichtung"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

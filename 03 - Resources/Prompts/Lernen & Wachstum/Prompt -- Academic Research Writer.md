@@ -1,33 +1,26 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
+  - lesen-und-recherche
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#3929"
+id: ""
 titel: "Academic Research Writer"
-kategorie: "Lernen & Wachstum"
-unterkategorie: "Importiert"
-tags: ["academic", "research", "writer", "name", "description"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "netodowalter"
-erstellt: "2026-03-17"
----
-
-## Prompt
-
-```
----
-name: academic-research-writer
-description: "Assistente especialista em pesquisa e escrita acadêmica. Use para todo o ciclo de vida de um trabalho acadêmico - planejamento, pesquisa, revisão de literatura, redação, análise de dados, formatação de citações (APA, MLA, Chicago), revisão e preparação para publicação."
+kategorie: Lernen & Wachstum
+unterkategorie: Lesen & Recherche
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 # Skill de Escrita e Pesquisa Acadêmica
@@ -261,7 +254,12 @@ Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
 - Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
 - Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

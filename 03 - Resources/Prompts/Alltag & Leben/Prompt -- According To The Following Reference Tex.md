@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- according
+- reference
+- text
+- delimited
+- october
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#4260"
 titel: "According to the following reference text delimited in ###"
@@ -45,7 +48,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach alternativen Enden oder Perspektiven
 - Bitte die KI, im Stil eines bestimmten Autors zu schreiben
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[makepad-reference|makepad-reference]]
+  - [[reference-builder|reference-builder]]
+  - [[azure-speech-to-text-rest-py|azure-speech-to-text-rest-py]]

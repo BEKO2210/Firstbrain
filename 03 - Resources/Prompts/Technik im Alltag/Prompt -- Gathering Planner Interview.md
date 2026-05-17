@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -131,7 +131,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach einem kompletten Zeitplan
 - Bitte um verschiedene Stil-Varianten zum Vergleichen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[technik-alltag]]
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Technik im Alltag]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[seo-content-planner|seo-content-planner]]
+  - [[interview-coach|interview-coach]]
+  - [[enhance-prompt|enhance-prompt]]

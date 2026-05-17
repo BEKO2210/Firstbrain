@@ -1,25 +1,33 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kommunikation
+  - beziehungen
 source: https://github.com/BEKO2210/lyra-prompts
 ---
+---
+id: '#3962'
+titel: You are provided with an 'Event'
+kategorie: Kommunikation & Beziehungen
+unterkategorie: Importiert
+tags:
+- provided
+- event
+- intent
+- xemotion
+- personx
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: openrlhf-UltraFeedback
+erstellt: '2026-03-18'
+---
 
----
-id: "#3962"
-titel: "You are provided with an 'Event'"
-kategorie: "Kommunikation & Beziehungen"
-unterkategorie: "Importiert"
-tags: ["provided", "event", "intent", "xemotion", "personx"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "openrlhf-UltraFeedback"
-erstellt: "2026-03-18"
----
 
 ## Prompt
 
@@ -55,7 +63,12 @@ Passe die Details an deine Beduerfnisse an.
 - Nenne die Kernbotschaft in einem Satz
 - Frage nach einer kuerzeren/laengeren Version
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kommunikation-beziehungen]]
+
+- **Domain:** [[Kommunikation & Content]]
+- **Kategorie:** [[Kommunikation & Beziehungen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

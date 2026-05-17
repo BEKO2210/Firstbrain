@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - karriere
+  - kommunikation-am-arbeitsplatz
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -63,7 +65,12 @@ Ergänze: "Es gibt ein ernstes Leistungsproblem. Ich muss klar und gleichzeitig 
 ### Variation 4: Feedback nach oben
 Ergänze: "Ich möchte meinem Vorgesetzten konstruktives Feedback geben, ohne die Hierarchie zu gefährden."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[ux-feedback|ux-feedback]]
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]

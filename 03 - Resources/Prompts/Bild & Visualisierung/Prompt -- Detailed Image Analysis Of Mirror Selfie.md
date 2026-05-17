@@ -2,24 +2,33 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#2471"
-titel: "Detailed Image Analysis of a Mirror Selfie in a Bedroom Environment"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["detailed", "image", "analysis", "mirror", "selfie"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "hasangariban@gmail.com"
-erstellt: "2026-03-09"
+id: '#2471'
+titel: Detailed Image Analysis of a Mirror Selfie in a Bedroom Environment
+kategorie: Bild & Visualisierung
+unterkategorie: Portrait & Fotografie
+tags:
+- detailed
+- image
+- analysis
+- mirror
+- selfie
+- prompt
+- bild
+- visualisierung
+- portrait-fotografie
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: hasangariban@gmail.com
+erstellt: '2026-03-09'
 ---
 
 ## Prompt
@@ -187,7 +196,8 @@ Passe die Details an deine Beduerfnisse an.
 - Ersetze das Hauptmotiv durch dein eigenes Thema
 - Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

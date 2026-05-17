@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#082"
-titel: "Architektonische Geometrie-Porträt"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#082'
+titel: Architektonische Geometrie-Porträt
+kategorie: Bild & Visualisierung
 unterkategorie: Struktur & Form
-tags: [architektur, geometrie, bauhaus, struktur, modern]
+tags:
+- architektur
+- geometrie
+- bauhaus
+- struktur
+- modern
+- prompt
+- bild
+- visualisierung
+- struktur-form
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Architektonische Geometrie-Porträt
@@ -51,7 +60,8 @@ Der Hintergrund ist ein minimalistischer Himmel oder eine abstrakte Stadtlandsch
 --ar 4:5 --stylize 200 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -1,22 +1,25 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#224"
-titel: "Podcast-Empfehlungen"
+id: ""
+titel: "Podcast Empfehlungen"
 kategorie: Lernen & Wachstum
-unterkategorie: Skill-Aufbau
-tags: [podcast, hören, lernen, empfehlung]
-erstellt: 2026-02-20
-plattformen: [ChatGPT, Claude]
+unterkategorie: Lernmethoden
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 # Podcast-Empfehlungen
@@ -52,7 +55,12 @@ Ausgabe:
 - Für Sport: "Motivierende Podcasts"
 - Für Einschlafen: "Ruhig, nicht zu spannend"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

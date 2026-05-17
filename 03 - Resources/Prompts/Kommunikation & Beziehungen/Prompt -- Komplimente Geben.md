@@ -1,23 +1,30 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kommunikation
+  - beziehungen
+  - privater-austausch
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
-id: "#175"
-titel: "Komplimente geben"
+id: '#175'
+titel: Komplimente geben
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Privater Austausch
-tags: [kompliment, beziehung, kommunikation, wertschätzung]
+tags:
+- kompliment
+- beziehung
+- kommunikation
+- wertschätzung
 erstellt: 2026-02-20
-plattformen: [ChatGPT, Claude]
+plattformen:
+- ChatGPT
+- Claude
 ---
+
 
 # Komplimente geben
 
@@ -51,7 +58,12 @@ Ausgabe:
 - Für Arbeit: "Professionell, nicht zu privat"
 - Für Fremde: "Nett, nicht aufdringlich"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kommunikation-beziehungen]]
+
+- **Domain:** [[Kommunikation & Content]]
+- **Kategorie:** [[Kommunikation & Beziehungen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

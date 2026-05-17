@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- küche-und-kochen
+- kochen
+- rezept
+- meal-prep
+- essen
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#028"
 titel: "Rezept anpassen"
@@ -56,7 +59,8 @@ Ausgabe:
 - **Gäste-Menü:** "Etwas Beeindruckendes, das trotzdem einfach zuzubereiten ist"
 - **Resteverwertung:** "Nutze ausschließlich die vorhandenen Zutaten, nichts dazukaufen"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

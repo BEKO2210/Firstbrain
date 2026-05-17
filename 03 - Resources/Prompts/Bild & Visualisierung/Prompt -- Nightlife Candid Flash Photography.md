@@ -2,24 +2,33 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#2688"
-titel: "Nightlife Candid Flash Photography"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["nightlife", "candid", "flash", "photography", "high"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "dorukkurtoglu@gmail.com"
-erstellt: "2026-03-09"
+id: '#2688'
+titel: Nightlife Candid Flash Photography
+kategorie: Bild & Visualisierung
+unterkategorie: Portrait & Fotografie
+tags:
+- nightlife
+- candid
+- flash
+- photography
+- high
+- prompt
+- bild
+- visualisierung
+- portrait-fotografie
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: dorukkurtoglu@gmail.com
+erstellt: '2026-03-09'
 ---
 
 ## Prompt
@@ -49,7 +58,8 @@ Passe die Details an deine Beduerfnisse an.
 - Ersetze das Hauptmotiv durch dein eigenes Thema
 - Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

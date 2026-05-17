@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - karriere
+  - pkm
+  - projektmanagement
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -65,7 +67,12 @@ Ergänze: "Wie koordiniere ich ein verteiltes Remote-Team über Zeitzonen hinweg
 ### Variation 4: Krisenmodus
 Ergänze: "Das Projekt ist im Verzug. Erstelle einen Recovery-Plan mit Priorisierung und Scope-Reduktion."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[git-pr-workflows-git-workflow|git-pr-workflows-git-workflow]]
+  - [[github-workflow-automation|github-workflow-automation]]
+  - [[ml-pipeline-workflow|ml-pipeline-workflow]]

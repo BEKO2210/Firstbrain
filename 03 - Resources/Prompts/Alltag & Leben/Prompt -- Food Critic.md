@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- kochen-und-ernährung
+- restaurant
+- bewertung
+- review
+- essen
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#1857"
 titel: "Restaurant-Bewertung schreiben"
@@ -64,7 +67,12 @@ Ausgabe:
 - **Vergleich:** "Zwei ähnliche Restaurants gegenüberstellen"
 - **Empfehlung:** "Für welche Zielgruppe ist dieses Restaurant perfekt?"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[comprehensive-review-full-review|comprehensive-review-full-review]]
+  - [[differential-review|differential-review]]
+  - [[cc-skill-security-review|cc-skill-security-review]]

@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- auto-und-mobilität
+- auto
+- reparatur
+- diagnose
+- fehlersuche
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#1803"
 titel: "Auto-Problemdiagnose"
@@ -64,7 +67,10 @@ Ausgabe:
 - **Kaufberatung:** "Worauf bei Gebrauchtwagen-Besichtigung achten?"
 - **Saisoncheck:** "Auto winterfest/sommerfest machen — Checkliste"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[context7-auto-research|context7-auto-research]]

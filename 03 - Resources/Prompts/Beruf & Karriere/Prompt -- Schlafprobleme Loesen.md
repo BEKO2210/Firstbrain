@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - allgemein
+  - beruf
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -245,7 +247,12 @@ Gründungsberatung ist ein Premium-Service: IHK-Berater kosten 80-150€/h, priv
 - Skalierungs-Plan für bestehende Businesses (von Solo zu Team)
 - Investor-Pitch-Deck Texte (für Seed-Funding/Crowdfunding)
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[pro]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[startup-metrics-framework|startup-metrics-framework]]
+  - [[startup-analyst|startup-analyst]]
+  - [[startup-business-analyst-market-opportunity|startup-business-analyst-market-opportunity]]

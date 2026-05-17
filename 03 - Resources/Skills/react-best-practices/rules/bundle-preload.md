@@ -1,0 +1,62 @@
+---
+type: regel
+created: 2026-04-11
+parent-skill: "react-best-practices"
+domain: software-development
+category: frontend
+tags:
+  - skill-referenz
+  - software-development
+  - frontend
+---
+
+## Preload Based on User Intent
+
+Preload heavy bundles before they're needed to reduce perceived latency.
+
+**Example (preload on hover/focus):**
+
+```tsx
+function EditorButton({ onClick }: { onClick: () => void }) {
+  const preload = () => {
+    if (typeof window !== 'undefined') {
+      void import('./monaco-editor')
+    }
+  }
+
+  return (
+    <button
+      onMouseEnter={preload}
+      onFocus={preload}
+      onClick={onClick}
+    >
+      Open Editor
+    </button>
+  )
+}
+```
+
+**Example (preload when feature flag is enabled):**
+
+```tsx
+function FlagsProvider({ children, flags }: Props) {
+  useEffect(() => {
+    if (flags.editorEnabled && typeof window !== 'undefined') {
+      void import('./monaco-editor').then(mod => mod.init())
+    }
+  }, [flags.editorEnabled])
+
+  return <FlagsContext.Provider value={flags}>
+    {children}
+  </FlagsContext.Provider>
+}
+```
+
+The `typeof window !== 'undefined'` check prevents bundling preloaded modules for SSR, optimizing server bundle size and build speed.
+
+## Connections
+
+- **Gehoert zu:** [[react-best-practices]]
+- **Pfad:** `rules/bundle-preload.md`
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Frontend Entwicklung]]

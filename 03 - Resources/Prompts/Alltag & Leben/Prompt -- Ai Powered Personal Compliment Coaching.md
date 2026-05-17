@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- powered
+- personal
+- compliment
+- coaching
+- engine
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#4031"
 titel: "AI-Powered Personal Compliment & Coaching Engine"
@@ -55,7 +58,12 @@ Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
 - Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
 - Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[personal-tool-builder|personal-tool-builder]]
+  - [[unreal-engine-cpp-pro|unreal-engine-cpp-pro]]
+  - [[growth-engine|growth-engine]]

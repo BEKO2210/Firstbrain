@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#109"
-titel: "Marmor-Statue klassisch"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#109'
+titel: Marmor-Statue klassisch
+kategorie: Bild & Visualisierung
 unterkategorie: Klassische Skulptur
-tags: [marmor, statue, klassisch, antik, skulptur]
+tags:
+- marmor
+- statue
+- klassisch
+- antik
+- skulptur
+- prompt
+- bild
+- visualisierung
+- klassische-skulptur
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Marmor-Statue klassisch
@@ -51,7 +60,8 @@ Das Licht fällt dramatisch von der Seite und betont die muskulösen oder weiche
 --ar 2:3 --stylize 150 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

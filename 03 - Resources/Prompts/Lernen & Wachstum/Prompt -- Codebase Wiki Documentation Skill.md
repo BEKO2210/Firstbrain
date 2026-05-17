@@ -1,33 +1,26 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
+  - programmieren
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#2444"
-titel: "Codebase WIKI Documentation Skill"
-kategorie: "Lernen & Wachstum"
-unterkategorie: "Importiert"
-tags: ["codebase", "wiki", "documentation", "skill", "name"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "s-celles"
-erstellt: "2026-03-09"
----
-
-## Prompt
-
-```
----
-name: codebase-wiki-documentation-skill
-description: A skill for generating comprehensive WIKI.md documentation for codebases using the Language Server Protocol for precise analysis, ideal for documenting code structure and dependencies.
+id: ""
+titel: "Codebase Wiki Documentation Skill"
+kategorie: Lernen & Wachstum
+unterkategorie: Programmieren
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 # Codebase WIKI Documentation Skill
@@ -78,7 +71,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach Code-Beispielen mit Kommentaren
 - Bitte um Best Practices und haeufige Fehlerquellen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

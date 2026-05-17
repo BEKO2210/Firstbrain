@@ -3,12 +3,16 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- wohnen
+- balkon
+- terrasse
+- garten
+- gestaltung
+- urban
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#016"
 titel: "Balkon- und Terrassengestaltung"
@@ -100,7 +104,8 @@ Auswahl schattenverträglicher Pflanzen (Farn, Hosta, Hortensie), warme Farben b
 **Variation 4: Familienfreundliche Terrasse**
 Kinder sichere Pflanzen (nicht giftig), robuste Möbel, Spielbereich integriert, genug Sitzplätze.
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

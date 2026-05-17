@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - karriere
+  - kommunikation-selbstdarstellung
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -68,7 +70,12 @@ Ergänze: "Geschäftsidee in 60 Sekunden für potenzielle Investoren: Problem �
 ### Variation 4: Messe/Konferenz
 Ergänze: "Spontaner Pitch am Stand oder beim Kaffee — natürlich und nicht verkäuferisch."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[pitch-psychologist|pitch-psychologist]]
+  - [[hybrid-cloud-networking|hybrid-cloud-networking]]
+  - [[enhance-prompt|enhance-prompt]]

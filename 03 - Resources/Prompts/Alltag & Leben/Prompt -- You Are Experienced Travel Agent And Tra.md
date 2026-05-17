@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- experienced
+- travel
+- agent
+- advisor
+- plan
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3302"
 titel: "You are experienced travel agent and travel advisor"
@@ -44,7 +47,12 @@ Passe die Platzhalter und Details an deine Situation an.
 - Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
 - Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[travel-health-analyzer|travel-health-analyzer]]
+  - [[agent-memory-mcp|agent-memory-mcp]]
+  - [[agent-memory-systems|agent-memory-systems]]

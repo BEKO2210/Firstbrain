@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- auto-und-mobilität
+- auto
+- winter
+- pflege
+- sicherheit
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#306"
 titel: "Auto winterfest machen"
@@ -53,7 +56,10 @@ Ausgabe: Checkliste nach Priorität sortiert mit Kosten und DIY-Anleitungen
 - **Erste Hilfe bei Panne:** Batterie leer, eingefroren, Aquaplaning
 - **Budget-Version:** Winterfertig mit unter 50€
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[context7-auto-research|context7-auto-research]]

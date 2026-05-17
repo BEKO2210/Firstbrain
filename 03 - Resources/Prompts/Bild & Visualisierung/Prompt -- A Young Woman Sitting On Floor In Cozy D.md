@@ -2,24 +2,34 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#3133"
-titel: "A young woman sitting on the floor in a cozy, decorated room, taking a mirror selfie with a red phone."
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["young", "woman", "sitting", "floor", "cozy"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "rhieskhiez@gmail.com,rhieskhiez.creative@gmail.com"
-erstellt: "2026-03-09"
+id: '#3133'
+titel: A young woman sitting on the floor in a cozy, decorated room, taking a mirror
+  selfie with a red phone.
+kategorie: Bild & Visualisierung
+unterkategorie: Portrait & Fotografie
+tags:
+- young
+- woman
+- sitting
+- floor
+- cozy
+- prompt
+- bild
+- visualisierung
+- portrait-fotografie
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: rhieskhiez@gmail.com,rhieskhiez.creative@gmail.com
+erstellt: '2026-03-09'
 ---
 
 ## Prompt
@@ -77,7 +87,8 @@ Passe die Details an deine Beduerfnisse an.
 - Ersetze das Hauptmotiv durch dein eigenes Thema
 - Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

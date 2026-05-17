@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - allgemein
+  - beruf
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -569,7 +571,12 @@ Generiere den Output in dieser Reihenfolge — VOLLSTÄNDIG, KEINE Auslassungen:
 - Agentur-CRM: Projekt-Verknüpfung, Retainer-Tracking, Client-Portal, Briefing-Templates
 - Fundraising-CRM: Investor-Pipeline, Due-Diligence Tracker, Cap-Table Integration
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[pro]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[odoo-sales-crm-expert|odoo-sales-crm-expert]]
+  - [[zoho-crm-automation|zoho-crm-automation]]
+  - [[sales-automator|sales-automator]]

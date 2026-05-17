@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- wohnen-und-haushalt
+- putzen
+- haushalt
+- organisation
+- routine
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#027"
 titel: "Putzplan erstellen"
@@ -56,7 +59,8 @@ Ausgabe:
 - **Familie mit Kindern:** "Altersgerechte Aufgaben für Kinder integrieren"
 - **Allergikerhaushalt:** "Spezielle Reinigung für Hausstaubmilben und Pollen"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- examples
+- suspenders
+- considered
+- stylish
+- fashionable
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3940"
 titel: "What are some examples of suspenders that are considered to"
@@ -41,7 +44,8 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach Budget-freundlichen Alternativen
 - Bitte um Farb-Kombinationsvorschlaege
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

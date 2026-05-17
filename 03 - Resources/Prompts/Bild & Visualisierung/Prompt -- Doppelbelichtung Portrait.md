@@ -2,21 +2,28 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#324"
-titel: "Doppelbelichtung Portrait"
-kategorie: Bildbearbeitung
+id: '#324'
+titel: Doppelbelichtung Portrait
+kategorie: Bild & Visualisierung
 unterkategorie: Kreative Fotografie
-tags: [doppelbelichtung, portrait, kreativ, fotografie]
+tags:
+- doppelbelichtung
+- portrait
+- kreativ
+- fotografie
+- prompt
+- bild
+- visualisierung
+- kreative-fotografie
 erstellt: 2026-02-23
-plattformen: [ChatGPT, Claude]
+plattformen:
+- ChatGPT
+- Claude
 ---
 
 # Doppelbelichtung Portrait
@@ -51,7 +58,8 @@ Ausgabe: Auswahl passender Bildpaare, Layer-Techniken, Blending Modes Guide, Far
 - Für Konzept-Portraits: "Symbolik und Bedeutung der Elemente"
 - Für Animation: "Cinemagraph-Style mit lebendigem Element"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

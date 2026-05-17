@@ -1,23 +1,30 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kommunikation
+  - beziehungen
+  - konversation-und-feedback
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
-id: "#330"
-titel: "Kritik einfordern"
-kategorie: Kommunikation
+id: '#330'
+titel: Kritik einfordern
+kategorie: Kommunikation & Beziehungen
 unterkategorie: Konversation & Feedback
-tags: [kritik, feedback, selbstverbesserung, kommunikation]
+tags:
+- kritik
+- feedback
+- selbstverbesserung
+- kommunikation
 erstellt: 2026-02-23
-plattformen: [ChatGPT, Claude]
+plattformen:
+- ChatGPT
+- Claude
 ---
+
 
 # Kritik einfordern
 
@@ -50,7 +57,12 @@ Ausgabe: Anfrage-Text, Gesprächsleitfaden für die Rückmeldung, Reaktion auf m
 - Für persönliche Beziehungen: "Sanfte Einladung zu Verbesserungsvorschlägen"
 - Für 360-Grad-Feedback: "Strukturierte Anfrage an verschiedene Stakeholder"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kommunikation-beziehungen]]
+
+- **Domain:** [[Kommunikation & Content]]
+- **Kategorie:** [[Kommunikation & Beziehungen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

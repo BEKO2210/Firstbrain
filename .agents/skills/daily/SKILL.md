@@ -3,6 +3,13 @@ name: daily
 trigger: /daily
 description: Create today's daily note with template and roll over open items from previous days
 version: 3.0.0
+type: skill
+tags:
+  - skill
+  - agent
+  - inbox
+  - daily
+  - workflow
 ---
 
 # /daily -- Daily Note Generator
@@ -158,3 +165,9 @@ scan('.');
 - Does not auto-check completed items in previous daily notes. If the user completed a rolled-over task, they should check it off in today's note.
 - Does not support custom daily note templates. Uses the standard `05 - Templates/Daily Note.md`.
 - 7-day lookback window is fixed. Items older than 7 days are not rolled over (by design -- stale tasks should become project tasks).
+
+## Connections
+
+- **Related:** [[create]], [[triage]], [[briefing]]
+- **Uses:** [[scan]], [[create]]
+- **MOC:** [[Skills MOC]]

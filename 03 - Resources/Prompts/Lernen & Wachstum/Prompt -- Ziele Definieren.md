@@ -1,21 +1,26 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
+  - produktivität
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#228"
-titel: "Ziele definieren"
+id: ""
+titel: "Ziele Definieren"
 kategorie: Lernen & Wachstum
-unterkategorie: Entscheidungsfindung
-tags: [ziele, smart, planung, wachstum]
-erstellt: 2026-02-20
+unterkategorie: Produktivität
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 # Ziele definieren
@@ -52,7 +57,12 @@ Ausgabe:
 - Für Finanzen: "Schuldenfrei in 18 Monaten"
 - Für Beziehungen: "Mehr Zeit mit Partner"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

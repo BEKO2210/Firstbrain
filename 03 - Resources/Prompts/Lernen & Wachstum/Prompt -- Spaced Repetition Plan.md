@@ -1,22 +1,26 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
+  - produktivität
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#335"
-titel: "Spaced-Repetition Plan"
+id: ""
+titel: "Spaced Repetition Plan"
 kategorie: Lernen & Wachstum
-unterkategorie: Lernmethoden
-tags: [spaced-repetition, lernen, wiederholung, plan]
-erstellt: 2026-02-23
-plattformen: [ChatGPT, Claude]
+unterkategorie: Produktivität
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 # Spaced-Repetition Plan
@@ -50,7 +54,12 @@ Ausgabe: Tagesplan mit Intervallen (1-3-7-14-30 Tage), Lernkarten-Vorschläge, R
 - Für berufliche Weiterbildung: "Kontinuierlicher Plan über 6 Monate"
 - Für Sprachen: "Inklusive aktiver Anwendungsphasen"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

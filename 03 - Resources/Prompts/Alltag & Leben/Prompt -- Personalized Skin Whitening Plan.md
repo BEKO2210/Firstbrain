@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- gesundheit-und-pflege
+- hautpflege
+- skincare
+- routine
+- pflege
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2277"
 titel: "Hautpflege-Routine erstellen"
@@ -64,7 +67,8 @@ Ausgabe:
 - **Männer:** "Einfache Hautpflege-Routine für Männer"
 - **Sommer/Winter:** "Wie passe ich meine Routine an die Jahreszeit an?"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

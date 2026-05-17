@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#116"
-titel: "Pixar 3D Charakter"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#116'
+titel: Pixar 3D Charakter
+kategorie: Bild & Visualisierung
 unterkategorie: 3D Animation
-tags: [pixar, 3d, animation, cartoon, freundlich]
+tags:
+- pixar
+- 3d
+- animation
+- cartoon
+- freundlich
+- prompt
+- bild
+- visualisierung
+- 3d-animation
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Pixar 3D Charakter
@@ -51,7 +60,8 @@ Der Hintergrund ist bunt und einladend, vielleicht mit typischen Pixar-Elementen
 --ar 3:4 --stylize 200 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

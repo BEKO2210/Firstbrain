@@ -1,22 +1,25 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#334"
-titel: "Feynman-Technik erklären"
+id: ""
+titel: "Feynman Technik"
 kategorie: Lernen & Wachstum
 unterkategorie: Lernmethoden
-tags: [feynman, lernen, erklären, verstehen]
-erstellt: 2026-02-23
-plattformen: [ChatGPT, Claude]
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 # Feynman-Technik erklären
@@ -48,7 +51,12 @@ Ausgabe: Einfache Erklärung, identifizierte Wissenslücken, vereinfachte Analog
 - Für historische Ereignisse: "Erzähle als Geschichte mit Ursache-Wirkung"
 - Für Prozesse: "Flussdiagramm in einfachen Worten beschreiben"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

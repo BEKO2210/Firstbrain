@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - allgemein
+  - beruf
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -422,7 +424,12 @@ Generiere den Output in dieser Reihenfolge — VOLLSTÄNDIG, KEINE Auslassungen:
 - Running/Cardio Version mit GPS-Tracking (Geolocation API) und Streckenverlauf
 - Bodyweight-Only Version für Home-Workouts ohne Equipment-Auswahl
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[pro]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[fitness-analyzer|fitness-analyzer]]
+  - [[technical-change-tracker|technical-change-tracker]]
+  - [[react-native-architecture|react-native-architecture]]

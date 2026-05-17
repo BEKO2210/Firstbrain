@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- reise-und-mobilität
+- reise
+- planung
+- urlaub
+- reiseagent
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2777"
 titel: "Persönlicher Reise-Agent"
@@ -66,7 +69,8 @@ Ausgabe:
 - **Luxus:** "Besonderer Anlass — Hochzeitsreise planen"
 - **Roadtrip:** "2 Wochen mit dem Auto durch [REGION] — Route + Stopps"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

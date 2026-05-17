@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -183,7 +183,12 @@ Isometrische Übungen, Fuß-Circles unter dem Tisch, Bauch anspannen, Schulterbl
 **Variation 4: Bewegung für gestresste Menschen (Entspannung + Aktivität)**
 Yoga, Tai Chi, Spaziergänge in der Natur, Atemübungen kombiniert mit Bewegung, keine zusätzlichen Leistungsdruck, Achtsamkeit integrieren.
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[gesundheit-wohlbefinden]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Gesundheit & Wohlbefinden]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[fitness-analyzer|fitness-analyzer]]
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]

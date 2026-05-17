@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- interesting
+- facts
+- triple
+- crown
+- winner
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#4120"
 titel: "What are the most interesting facts about the 1973 Triple Cr"
@@ -41,7 +44,8 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach Geheimtipps abseits der Touristenpfade
 - Bitte um eine Packliste passend zum Reiseziel
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

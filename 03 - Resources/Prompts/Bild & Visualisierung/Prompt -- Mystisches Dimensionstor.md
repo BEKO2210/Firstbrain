@@ -2,21 +2,32 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#347"
-titel: "Mystisches Dimensionstor in vergessener Ruine"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Konzeptkunst"
-tags: ["Fantasy", "Mystisch", "Portal", "Ruine", "Magie", "Licht", "Surreal"]
-plattformen: [ChatGPT, Midjourney, DALL-E]
-schwierigkeit: "Fortgeschritten"
+id: '#347'
+titel: Mystisches Dimensionstor in vergessener Ruine
+kategorie: Bild & Visualisierung
+unterkategorie: Konzeptkunst
+tags:
+- fantasy
+- mystisch
+- portal
+- ruine
+- magie
+- licht
+- surreal
+- prompt
+- bild
+- visualisierung
+- konzeptkunst
+plattformen:
+- ChatGPT
+- Midjourney
+- DALL-E
+schwierigkeit: Fortgeschritten
 ---
 
 ## Prompt
@@ -35,7 +46,8 @@ Erzeugt atmosphärische Fantasy-Kunst für Buchcover, Albumartworks oder dekorat
 - Zerstörtes, dunkles Portal mit Rissern für dystopische Settings
 - Miniatur-Version als Schmuckanhänger im Makro-Stil fotografiert
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

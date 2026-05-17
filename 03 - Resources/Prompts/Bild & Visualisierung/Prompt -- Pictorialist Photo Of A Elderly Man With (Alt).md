@@ -2,23 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#4083"
-titel: "'pictorialist photo of a elderly man with a beard and glasses"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "SDXL Prompt"
-tags: ["Cinematic", "Vintage"]
-plattformen: ["ChatGPT/DALL-E", "Midjourney", "Stable Diffusion", "Flux"]
-schwierigkeit: "Anfänger"
-quelle: "prompthero-sdxl"
-erstellt: "2026-03-23"
+id: '#4083'
+titel: '''pictorialist photo of a elderly man with a beard and glasses'
+kategorie: Bild & Visualisierung
+unterkategorie: SDXL Prompt
+tags:
+- cinematic
+- vintage
+- prompt
+- bild
+- visualisierung
+- sdxl-prompt
+plattformen:
+- ChatGPT/DALL-E
+- Midjourney
+- Stable Diffusion
+- Flux
+schwierigkeit: Anfänger
+quelle: prompthero-sdxl
+erstellt: '2026-03-23'
 ---
 
 ## Prompt
@@ -43,7 +50,8 @@ Kopiere den Prompt und fuege ihn in dein bevorzugtes KI-Bildgenerierungs-Tool ei
 - Aendere die Beleuchtung: "golden hour", "studio lighting", "neon", "moody"
 - Fuege Negativ-Prompts hinzu: "no blur, no artifacts, no watermark"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

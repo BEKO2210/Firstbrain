@@ -3,12 +3,14 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- shop
+- earth
+- food
+- market
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#4124"
 titel: "From which shop we can buy an earth"
@@ -41,7 +43,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach einer SWOT-Analyse fuer deine Idee
 - Bitte um einen konkreten Aktionsplan mit Meilensteinen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[food-database-query|food-database-query]]
+  - [[fda-food-safety-auditor|fda-food-safety-auditor]]
+  - [[apify-market-research|apify-market-research]]

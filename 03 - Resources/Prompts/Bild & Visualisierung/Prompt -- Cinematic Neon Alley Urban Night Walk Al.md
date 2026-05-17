@@ -2,24 +2,33 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#2676"
-titel: "Cinematic Neon Alley – Urban Night Walk (Album Cover Style)"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["cinematic", "neon", "alley", "urban", "night"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "kocosm@hotmail.com"
-erstellt: "2026-03-09"
+id: '#2676'
+titel: Cinematic Neon Alley – Urban Night Walk (Album Cover Style)
+kategorie: Bild & Visualisierung
+unterkategorie: Digitale Effekte
+tags:
+- cinematic
+- neon
+- alley
+- urban
+- night
+- prompt
+- bild
+- visualisierung
+- digitale-effekte
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: kocosm@hotmail.com
+erstellt: '2026-03-09'
 ---
 
 ## Prompt
@@ -72,7 +81,8 @@ Passe die Details an deine Beduerfnisse an.
 - Ersetze das Hauptmotiv durch dein eigenes Thema
 - Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

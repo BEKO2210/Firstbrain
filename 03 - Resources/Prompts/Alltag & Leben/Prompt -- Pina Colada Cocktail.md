@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- bildbearbeitung
+- cocktail
+- video
+- cineastisch
+- piña-colada
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3001"
 titel: "Cineastisches Cocktail-Video: Piña Colada"
@@ -53,7 +56,10 @@ Ausgabe: Ein einzelnes, cineastisches Cocktail-Video — luxuriös und werbetaug
 - **Winter:** "Heißer Glühwein mit Dampf, gemütliche Weihnachts-Atmosphäre"
 - **Minimal:** "Gin Tonic auf weißem Marmor, cleane Studio-Ästhetik"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[seek-and-analyze-video|seek-and-analyze-video]]

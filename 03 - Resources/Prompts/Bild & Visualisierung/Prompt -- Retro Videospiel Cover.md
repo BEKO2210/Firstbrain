@@ -2,21 +2,28 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#309"
-titel: "Retro-Videospiel Cover Art"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Gaming & Retro"
-tags: ["retro", "videospiel", "gaming", "cover-art"]
-erstellt: "2026-02-23"
-plattformen: [ChatGPT, Claude]
+id: '#309'
+titel: Retro-Videospiel Cover Art
+kategorie: Bild & Visualisierung
+unterkategorie: Gaming & Retro
+tags:
+- retro
+- videospiel
+- gaming
+- cover-art
+- prompt
+- bild
+- visualisierung
+- gaming-retro
+erstellt: '2026-02-23'
+plattformen:
+- ChatGPT
+- Claude
 schwierigkeit: Anfänger
 ---
 
@@ -41,7 +48,8 @@ Erstelle ein Bild im Stil klassischer Videospiel-Cover-Art der 80er/90er Jahre: 
 - **Arcade Cabinet:** Seitliche Arcade-Automaten-Grafik im Retrodesign
 - **Game Over Screen:** Dramatischer Game-Over-Bildschirm im Retro-Stil
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

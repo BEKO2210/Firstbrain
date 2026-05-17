@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -51,7 +51,12 @@ Ausgabe:
 - Für Fortgeschrittene: "Selbst gehostete Lösungen"
 - Für Unternehmer: "Team-Passwort-Management"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[technik-alltag]]
+
+- **Domain:** [[Software Entwicklung]]
+- **Kategorie:** [[Technik im Alltag]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[context-manager|context-manager]]
+  - [[azure-resource-manager-playwright-dotnet|azure-resource-manager-playwright-dotnet]]
+  - [[risk-manager|risk-manager]]

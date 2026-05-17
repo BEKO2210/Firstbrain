@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - karriere
+  - kommunikation-am-arbeitsplatz
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -63,7 +65,12 @@ Ergänze: "Interaktive Lernpräsentation mit Quizfragen, Übungen und Teilnehmer
 ### Variation 4: Konferenz-Vortrag
 Ergänze: "30-Minuten-Fachvortrag vor [ANZAHL] Personen mit Q&A-Session am Ende."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[pitch-psychologist|pitch-psychologist]]
+  - [[data-storytelling|data-storytelling]]
+  - [[enhance-prompt|enhance-prompt]]

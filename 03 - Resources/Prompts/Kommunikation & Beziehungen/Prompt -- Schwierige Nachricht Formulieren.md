@@ -1,22 +1,27 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kommunikation
+  - beziehungen
+  - privater-austausch
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
-id: "#177"
-titel: "Schwierige Nachricht formulieren"
+id: '#177'
+titel: Schwierige Nachricht formulieren
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Privater Austausch
-tags: [nachricht, kommunikation, schwierig, beziehung]
+tags:
+- nachricht
+- kommunikation
+- schwierig
+- beziehung
 erstellt: 2026-02-20
 ---
+
 
 # Schwierige Nachricht formulieren
 
@@ -51,7 +56,12 @@ Ausgabe:
 - Für Trennungen: "Beziehung beenden"
 - Für Kritik: "Konstruktives Feedback"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kommunikation-beziehungen]]
+
+- **Domain:** [[Kommunikation & Content]]
+- **Kategorie:** [[Kommunikation & Beziehungen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

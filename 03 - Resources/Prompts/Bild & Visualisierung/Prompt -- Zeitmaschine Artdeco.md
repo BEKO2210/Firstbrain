@@ -2,21 +2,32 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#351"
-titel: "Zeit-Reise-Apparat im Art-Deco-Stil"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Retro-Futurismus"
-tags: ["Zeitreise", "Art Deco", "Maschine", "1920s", "Futuristisch", "Nostalgisch", "Mechanik"]
-plattformen: [ChatGPT, Midjourney, DALL-E]
-schwierigkeit: "Fortgeschritten"
+id: '#351'
+titel: Zeit-Reise-Apparat im Art-Deco-Stil
+kategorie: Bild & Visualisierung
+unterkategorie: Retro-Futurismus
+tags:
+- zeitreise
+- art deco
+- maschine
+- 1920s
+- futuristisch
+- nostalgisch
+- mechanik
+- prompt
+- bild
+- visualisierung
+- retro-futurismus
+plattformen:
+- ChatGPT
+- Midjourney
+- DALL-E
+schwierigkeit: Fortgeschritten
 ---
 
 ## Prompt
@@ -35,7 +46,8 @@ Ideal für Retro-Futurismus Kunst, Alternative-History Buchcover, Escape-Room-Ko
 - Minimalistische moderne Version aus weißem Kunststoff
 - Tragbare Armbanduhr-Version für eine Person
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

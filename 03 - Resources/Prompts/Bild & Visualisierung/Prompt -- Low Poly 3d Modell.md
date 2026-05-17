@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#108"
-titel: "Low Poly 3D Modell"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#108'
+titel: Low Poly 3D Modell
+kategorie: Bild & Visualisierung
 unterkategorie: 3D Animation
-tags: [low-poly, 3d, geometrisch, polygon, game]
+tags:
+- low-poly
+- 3d
+- geometrisch
+- polygon
+- game
+- prompt
+- bild
+- visualisierung
+- 3d-animation
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Low Poly 3D Modell
@@ -51,7 +60,8 @@ Der Hintergrund ist minimalistisch – vielleicht ein einfacher Farbverlauf oder
 --ar 1:1 --stylize 150 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

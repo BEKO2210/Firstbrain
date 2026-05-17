@@ -2,24 +2,33 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#2870"
-titel: "Cinematic Ink & Color Illustration Generator — Gary Frank Style"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["cinematic", "color", "illustration", "generator", "gary"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "42@eyupyusufa.com"
-erstellt: "2026-03-09"
+id: '#2870'
+titel: Cinematic Ink & Color Illustration Generator — Gary Frank Style
+kategorie: Bild & Visualisierung
+unterkategorie: Video & Animation
+tags:
+- cinematic
+- color
+- illustration
+- generator
+- gary
+- prompt
+- bild
+- visualisierung
+- video-animation
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: 42@eyupyusufa.com
+erstellt: '2026-03-09'
 ---
 
 ## Prompt
@@ -191,7 +200,8 @@ Passe die Details an deine Beduerfnisse an.
 - Ersetze das Hauptmotiv durch dein eigenes Thema
 - Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

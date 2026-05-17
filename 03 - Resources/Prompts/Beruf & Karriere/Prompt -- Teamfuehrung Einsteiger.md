@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - führung-management
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -67,7 +69,12 @@ Ergänze: "Das Team ist demotiviert, es gibt Konflikte und hohe Fluktuation. Wie
 ### Variation 4: Lateral führen
 Ändere zu: "Ich führe ohne disziplinarische Verantwortung (Projektleiter). Wie bekomme ich Commitment ohne Weisungsbefugnis?"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[red-team-tactics|red-team-tactics]]
+  - [[red-team-tools|red-team-tools]]
+  - [[team-collaboration-standup-notes|team-collaboration-standup-notes]]

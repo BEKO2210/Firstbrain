@@ -1,23 +1,32 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kommunikation
+  - beziehungen
+  - familie
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
-id: "#173"
-titel: "Familienkommunikation verbessern"
+id: '#173'
+titel: Familienkommunikation verbessern
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Familie
-tags: [familie, kommunikation, beziehung, gespräch, zuhause]
+tags:
+- familie
+- kommunikation
+- beziehung
+- gespräch
+- zuhause
 erstellt: 2026-02-22
-plattformen: [ChatGPT, Claude, Gemini]
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
 ---
+
 
 ## Prompt
 
@@ -160,7 +169,12 @@ Grenzen zwischen Generationen, gemeinsame Entscheidungen, Wertschätzung für Er
 **Variation 4: Fernbeziehung zur Familie (Eltern, Geschwister entfernt)**
 Regelmäßige Video-Calls, gemeinsame Online-Aktivitäten, Besuchsplanung, WhatsApp-Gruppen mit Sinn, Briefe/Surprise-Pakete, bei Konflikten nicht aus dem Weg gehen.
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kommunikation-beziehungen]]
+
+- **Domain:** [[Kommunikation & Content]]
+- **Kategorie:** [[Kommunikation & Beziehungen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

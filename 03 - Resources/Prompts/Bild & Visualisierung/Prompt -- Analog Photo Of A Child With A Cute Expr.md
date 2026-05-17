@@ -2,23 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#3210"
-titel: "'Analog photo of a child with a cute expression and messy hair"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "SDXL Prompt"
-tags: ["Cinematic", "Vintage"]
-plattformen: ["ChatGPT/DALL-E", "Midjourney", "Stable Diffusion", "Flux"]
-schwierigkeit: "Anfänger"
-quelle: "prompthero-sdxl"
-erstellt: "2026-03-10"
+id: '#3210'
+titel: '''Analog photo of a child with a cute expression and messy hair'
+kategorie: Bild & Visualisierung
+unterkategorie: SDXL Prompt
+tags:
+- cinematic
+- vintage
+- prompt
+- bild
+- visualisierung
+- sdxl-prompt
+plattformen:
+- ChatGPT/DALL-E
+- Midjourney
+- Stable Diffusion
+- Flux
+schwierigkeit: Anfänger
+quelle: prompthero-sdxl
+erstellt: '2026-03-10'
 ---
 
 ## Prompt
@@ -41,7 +48,8 @@ Passe die Details an deine Beduerfnisse an.
 - Ersetze das Hauptmotiv durch dein eigenes Thema
 - Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

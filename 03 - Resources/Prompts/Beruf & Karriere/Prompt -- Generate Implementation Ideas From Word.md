@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - beruf
+  - karriere
+  - pkm
+  - projektmanagement
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -64,7 +66,12 @@ Ergänze: "Prüfe die technische und wirtschaftliche Machbarkeit jedes Moduls un
 ### Variation 4: Kostenabschätzung
 Ergänze: "Schätze den Aufwand pro Modul in Personentagen und ordne Kompetenzbereiche zu."
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[beruf-karriere]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[odoo-module-developer|odoo-module-developer]]
+  - [[terraform-module-library|terraform-module-library]]
+  - [[enhance-prompt|enhance-prompt]]

@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- json
+- data
+- names
+- famous
+- fashion
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3835"
 titel: "Provide a JSON data with the names of 5 famous fashion designers"
@@ -53,7 +56,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach Budget-freundlichen Alternativen
 - Bitte um Farb-Kombinationsvorschlaege
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[json-canvas|json-canvas]]
+  - [[data-structure-protocol|data-structure-protocol]]
+  - [[data-quality-frameworks|data-quality-frameworks]]

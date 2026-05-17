@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- kochen-und-ernährung
+- rezept
+- zutaten
+- kochen
+- resteverwertung
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#1992"
 titel: "Rezept-Finder nach Zutaten"
@@ -62,7 +65,8 @@ Ausgabe:
 - **Kinderfreundlich:** "Rezepte die auch Kindern schmecken"
 - **Resteplan:** "Was mache ich morgen mit den Resten von heute?"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

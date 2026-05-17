@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- reisen-und-freizeit
+- reise
+- sehenswürdigkeiten
+- empfehlungen
+- städtetrip
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#1762"
 titel: "Reiseführer"
@@ -61,7 +64,8 @@ Ausgabe:
 - **Kulturell:** "Fokus auf Geschichte, Architektur und Museen"
 - **Outdoor:** "Wanderwege, Aussichtspunkte und Naturerlebnisse"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

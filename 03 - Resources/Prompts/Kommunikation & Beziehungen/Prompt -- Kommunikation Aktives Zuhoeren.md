@@ -1,23 +1,32 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kommunikation
+  - beziehungen
+  - gespraechsfuehrung
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
-id: "#172"
-titel: "Aktives Zuhören trainieren"
+id: '#172'
+titel: Aktives Zuhören trainieren
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Gesprächsführung
-tags: [zuhören, kommunikation, empathie, gespräch, beziehung]
+tags:
+- zuhören
+- kommunikation
+- empathie
+- gespräch
+- beziehung
 erstellt: 2026-02-22
-plattformen: [ChatGPT, Claude, Gemini]
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
 ---
+
 
 ## Prompt
 
@@ -178,7 +187,12 @@ Auf Augenhöhe gehen, nicht unterbrechen auch wenn es langsam ist, Gefühle erns
 **Variation 4: Zuhören in multikulturellen Kontexten (Sprachbarrieren, kulturelle Unterschiede)**
 Geduld mit Sprache, Nachfragen erlaubt, kulturelle Kontexte berücksichtigen, nicht überinterpretieren, Klärungsfragen stellen.
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kommunikation-beziehungen]]
+
+- **Domain:** [[Kommunikation & Content]]
+- **Kategorie:** [[Kommunikation & Beziehungen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

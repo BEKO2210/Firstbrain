@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- essen-und-ausgehen
+- restaurant
+- empfehlung
+- essen
+- bewertung
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2815"
 titel: "Restaurant-Scout: Wo essen gehen?"
@@ -64,7 +67,8 @@ Ausgabe:
 - **Spezialitäten:** "Bestes [GERICHT] in [STADT]?"
 - **Geheimtipps:** "Wenig bekannte Restaurants in [STADT] die sich lohnen"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

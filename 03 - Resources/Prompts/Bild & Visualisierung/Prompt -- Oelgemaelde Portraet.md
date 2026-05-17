@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#113"
-titel: "Ölgemälde Porträt"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#113'
+titel: Ölgemälde Porträt
+kategorie: Bild & Visualisierung
 unterkategorie: Künstlerische Medien
-tags: [oel, gemaelde, kunst, klassisch, portrait]
+tags:
+- oel
+- gemaelde
+- kunst
+- klassisch
+- portrait
+- prompt
+- bild
+- visualisierung
+- künstlerische-medien
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Ölgemälde Porträt
@@ -51,7 +60,8 @@ Die Farbpalette ist warm und erdig – Ocker, Umbra, Siena, mit gelegentlichen A
 --ar 3:4 --stylize 200 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

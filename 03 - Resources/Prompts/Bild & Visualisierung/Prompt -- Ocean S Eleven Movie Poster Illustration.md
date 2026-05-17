@@ -2,24 +2,33 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#4321"
-titel: "Ocean’s Eleven Movie Poster Illustration"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Importiert"
-tags: ["ocean", "eleven", "movie", "poster", "illustration"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "senoldak"
-erstellt: "2026-04-06"
+id: '#4321'
+titel: Ocean’s Eleven Movie Poster Illustration
+kategorie: Bild & Visualisierung
+unterkategorie: Poster & Design
+tags:
+- ocean
+- eleven
+- movie
+- poster
+- illustration
+- prompt
+- bild
+- visualisierung
+- poster-design
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: senoldak
+erstellt: '2026-04-06'
 ---
 
 ## Prompt
@@ -44,7 +53,8 @@ Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
 - Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
 - Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

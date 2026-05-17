@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- guide
+- filing
+- taxes
+- small
+- businesses
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3216"
 titel: "A guide to filing taxes for small businesses that are new to"
@@ -41,7 +44,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach konkreten Spar-Strategien fuer deine Situation
 - Bitte um eine Schritt-fuer-Schritt-Checkliste
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[blog-writing-guide|blog-writing-guide]]
+  - [[claude-code-guide|claude-code-guide]]
+  - [[environment-setup-guide|environment-setup-guide]]

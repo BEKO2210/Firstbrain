@@ -2,21 +2,28 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#325"
-titel: "Vintage-Foto-Restauration"
-kategorie: Bildbearbeitung
+id: '#325'
+titel: Vintage-Foto-Restauration
+kategorie: Bild & Visualisierung
 unterkategorie: Foto-Restauration
-tags: [foto, restaurierung, vintage, bildbearbeitung]
+tags:
+- foto
+- restaurierung
+- vintage
+- bildbearbeitung
+- prompt
+- bild
+- visualisierung
+- foto-restauration
 erstellt: 2026-02-23
-plattformen: [ChatGPT, Claude]
+plattformen:
+- ChatGPT
+- Claude
 ---
 
 # Vintage-Foto-Restauration
@@ -50,7 +57,8 @@ Ausgabe: Schritt-für-Schritt Workflow, benötigte Tools (GIMP/Photoshop/AI-Tool
 - Für Farbgebung: "KI-Farbe vs historisch recherchierte Farben"
 - Für beschädigte Bereiche: "Rekonstruktionstechniken für fehlende Teile"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

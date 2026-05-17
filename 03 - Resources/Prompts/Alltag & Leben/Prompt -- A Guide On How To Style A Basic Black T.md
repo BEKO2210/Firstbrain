@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- guide
+- style
+- basic
+- black
+- shirt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#3219"
 titel: "A guide on how to style a basic black t-shirt"
@@ -41,7 +44,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach Budget-freundlichen Alternativen
 - Bitte um Farb-Kombinationsvorschlaege
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[blog-writing-guide|blog-writing-guide]]
+  - [[claude-code-guide|claude-code-guide]]
+  - [[environment-setup-guide|environment-setup-guide]]

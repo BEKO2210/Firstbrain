@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- bildbearbeitung
+- lifestyle-foto
+- supermarkt
+- lustig
+- bild-prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2443"
 titel: "Lifestyle-Foto: Lustige Supermarkt-Szene"
@@ -53,7 +56,8 @@ Ausgabe: Ein einzelnes, lustiges Alltagsfoto — perfekt für relatable Content 
 - **Chaos:** "Überladener Einkaufswagen, überfordert lächelnd"
 - **Snack-Dieb:** "Heimlich Chips essend im Gang, schuldbewusstes Grinsen"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

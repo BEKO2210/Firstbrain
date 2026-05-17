@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- kreatives-schreiben
+- perspektive
+- text
+- umschreiben
+- erzähler
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2674"
 titel: "Text-Perspektive wechseln"
@@ -56,7 +59,11 @@ Ausgabe: Der umgeschriebene Text in der gewünschten Perspektive — gleicher In
 - **Zeitform:** "Präsens in Vergangenheitsform umschreiben"
 - **Zielgruppe:** "Erwachsenen-Text für Kinder verständlich umschreiben"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[azure-speech-to-text-rest-py|azure-speech-to-text-rest-py]]
+  - [[azure-ai-translation-text-py|azure-ai-translation-text-py]]

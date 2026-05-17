@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - allgemein
+  - beruf
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -594,7 +596,12 @@ Generiere den Output in dieser Reihenfolge — VOLLSTÄNDIG, KEINE Auslassungen:
 - Medical Version: Praxis-Software-Anbindung, Anamnese-Formular, Rezept-Management
 - Coworking-Space Version: Raum-Buchung, Hot-Desk, Meeting-Räume, Tages-/Monats-Passes
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[pro]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[micro-saas-launcher|micro-saas-launcher]]
+  - [[saas-multi-tenant|saas-multi-tenant]]
+  - [[saas-mvp-launcher|saas-mvp-launcher]]

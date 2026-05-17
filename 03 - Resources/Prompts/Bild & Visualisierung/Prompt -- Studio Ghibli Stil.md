@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#125"
-titel: "Studio Ghibli Stil"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#125'
+titel: Studio Ghibli Stil
+kategorie: Bild & Visualisierung
 unterkategorie: Pop-Art & Animation
-tags: [ghibli, anime, aquarell, fantasie, portrait]
+tags:
+- ghibli
+- anime
+- aquarell
+- fantasie
+- portrait
+- prompt
+- bild
+- visualisierung
+- pop-art-animation
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Studio Ghibli Stil
@@ -51,7 +60,8 @@ Der Hintergrund zeigt eine idyllische Landschaft – vielleicht ein schwebendes 
 --ar 16:9 --stylize 200 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -2,21 +2,32 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#348"
-titel: "Biomechanischer Organismus mit transparenten Organen"
-kategorie: "Bild & Visualisierung"
-unterkategorie: "Surreale Kunst"
-tags: ["Biomechanisch", "Surreal", "Organisch", "Transparent", "Giger", "Futuristisch", "Anatomie"]
-plattformen: [ChatGPT, Midjourney, DALL-E]
-schwierigkeit: "Experte"
+id: '#348'
+titel: Biomechanischer Organismus mit transparenten Organen
+kategorie: Bild & Visualisierung
+unterkategorie: Surreale Kunst
+tags:
+- biomechanisch
+- surreal
+- organisch
+- transparent
+- giger
+- futuristisch
+- anatomie
+- prompt
+- bild
+- visualisierung
+- surreale-kunst
+plattformen:
+- ChatGPT
+- Midjourney
+- DALL-E
+schwierigkeit: Experte
 ---
 
 ## Prompt
@@ -35,7 +46,8 @@ Perfekt für Science-Fiction Buchcover, Albumartworks progressiver Metal-Bands, 
 - Florale Variante mit Ranken statt Metallteilen
 - Miniatisierte Taschenuhr-Version im Steampunk-Stil
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

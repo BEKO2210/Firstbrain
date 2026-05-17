@@ -1,26 +1,34 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kommunikation
+  - beziehungen
 source: https://github.com/BEKO2210/lyra-prompts
 ---
+---
+id: '#3016'
+titel: Voice Conversation Coach
+kategorie: Kommunikation & Beziehungen
+unterkategorie: Importiert
+tags:
+- voice
+- conversation
+- coach
+- prompt
+- friendly
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: awesome-chatgpt-prompts
+autor: mark@texashomeresources.com
+erstellt: '2026-03-09'
+---
 
----
-id: "#3016"
-titel: "Voice Conversation Coach"
-kategorie: "Kommunikation & Beziehungen"
-unterkategorie: "Importiert"
-tags: ["voice", "conversation", "coach", "prompt", "friendly"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "mark@texashomeresources.com"
-erstellt: "2026-03-09"
----
 
 ## Prompt
 
@@ -51,7 +59,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach verschiedenen Formulierungsvorschlaegen
 - Bitte um Tipps fuer Koerpersprache und Tonfall
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kommunikation-beziehungen]]
+
+- **Domain:** [[Kommunikation & Content]]
+- **Kategorie:** [[Kommunikation & Beziehungen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

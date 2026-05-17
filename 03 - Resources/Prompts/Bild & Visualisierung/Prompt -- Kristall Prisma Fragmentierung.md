@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#106"
-titel: "Kristall-Prisma Fragmentierung"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#106'
+titel: Kristall-Prisma Fragmentierung
+kategorie: Bild & Visualisierung
 unterkategorie: Licht & Reflexion
-tags: [kristall, prisma, licht, fragmente, abstrakt]
+tags:
+- kristall
+- prisma
+- licht
+- fragmente
+- abstrakt
+- prompt
+- bild
+- visualisierung
+- licht-reflexion
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Kristall-Prisma Fragmentierung
@@ -51,7 +60,8 @@ Die Stimmung ist gleichzeitig zerbrechlich und kraftvoll – eine Metapher für 
 --ar 1:1 --stylize 300 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

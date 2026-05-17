@@ -2,21 +2,29 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#126"
-titel: "Surreale Avantgarde Collage"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#126'
+titel: Surreale Avantgarde Collage
+kategorie: Bild & Visualisierung
 unterkategorie: Mixed Media
-tags: [surreal, collage, avantgarde, mixed-media, kunst]
+tags:
+- surreal
+- collage
+- avantgarde
+- mixed-media
+- kunst
+- prompt
+- bild
+- visualisierung
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Surreale Avantgarde Collage
@@ -51,7 +59,8 @@ Texturen von altem Papier, Zeitungsausschnitten, Farbspritzern und handgezeichne
 --ar 4:5 --stylize 250 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

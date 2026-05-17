@@ -1,25 +1,33 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kommunikation
+  - beziehungen
 source: https://github.com/BEKO2210/lyra-prompts
 ---
+---
+id: '#4142'
+titel: 'Detailed Instructions: This task is about classifying the si'
+kategorie: Kommunikation & Beziehungen
+unterkategorie: Importiert
+tags:
+- detailed
+- instructions
+- task
+- classifying
+- similarity
+plattformen:
+- ChatGPT
+- Claude
+- Gemini
+schwierigkeit: Anfänger
+quelle: openrlhf-UltraFeedback
+erstellt: '2026-03-25'
+---
 
----
-id: "#4142"
-titel: "Detailed Instructions: This task is about classifying the si"
-kategorie: "Kommunikation & Beziehungen"
-unterkategorie: "Importiert"
-tags: ["detailed", "instructions", "task", "classifying", "similarity"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "openrlhf-UltraFeedback"
-erstellt: "2026-03-25"
----
 
 ## Prompt
 
@@ -43,7 +51,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach verschiedenen Formulierungsvorschlaegen
 - Bitte um Tipps fuer Koerpersprache und Tonfall
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kommunikation-beziehungen]]
+
+- **Domain:** [[Kommunikation & Content]]
+- **Kategorie:** [[Kommunikation & Beziehungen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

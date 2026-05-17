@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- kochen-und-ernährung
+- restaurant
+- menü
+- konzept
+- gastronomie
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#1922"
 titel: "Restaurant-Konzept entwickeln"
@@ -62,7 +65,8 @@ Ausgabe:
 - **Fusion:** "Zwei Küchen kombinieren: [KÜCHE 1] trifft [KÜCHE 2]"
 - **Pop-up:** "Einmal-Event mit 3 Gerichten und passendem Getränk"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

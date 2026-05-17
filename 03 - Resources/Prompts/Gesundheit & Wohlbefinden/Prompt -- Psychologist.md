@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -42,7 +42,12 @@ Passe die Details an deine Beduerfnisse an.
 - Bitte um Uebungsaufgaben mit Loesungen
 - Frage nach weiterfuehrenden Ressourcen und Buechern
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[gesundheit-wohlbefinden]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Gesundheit & Wohlbefinden]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[brand-perception-psychologist|brand-perception-psychologist]]
+  - [[headline-psychologist|headline-psychologist]]
+  - [[onboarding-psychologist|onboarding-psychologist]]

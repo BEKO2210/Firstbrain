@@ -3,9 +3,9 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lyra
+  - pkm
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -42,7 +42,12 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach Code-Beispielen mit Kommentaren
 - Bitte um Best Practices und haeufige Fehlerquellen
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[spezielle-situationen]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Spezielle Situationen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[seo-aeo-keyword-research|seo-aeo-keyword-research]]
+  - [[context7-auto-research|context7-auto-research]]
+  - [[deep-research|deep-research]]

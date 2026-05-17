@@ -3,9 +3,11 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - allgemein
+  - beruf
+  - karriere
+  - pkm
+  - prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
@@ -218,7 +220,12 @@ SaaS-Dashboards sind die höchstbezahlten Web-Projekte für Freelancer: 2.000-5.
 - Projekt-Management Board (Kanban-artige Ansicht statt Tabelle)
 - Finance/Banking Dashboard (Kontostand, Transaktionen, Budgets)
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[pro]]
+
+- **Domain:** [[Business & Marketing]]
+- **Kategorie:** [[Beruf & Karriere]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[kpi-dashboard-design|kpi-dashboard-design]]
+  - [[sankhya-dashboard-html-jsp-custom-best-pratices|sankhya-dashboard-html-jsp-custom-best-pratices]]
+  - [[micro-saas-launcher|micro-saas-launcher]]

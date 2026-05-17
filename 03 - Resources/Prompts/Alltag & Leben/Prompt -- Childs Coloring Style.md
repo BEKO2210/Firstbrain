@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- familie-und-kinder
+- ausmalbild
+- kinder
+- malen
+- kreativ
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2265"
 titel: "Kinder-Ausmalbild erstellen"
@@ -53,7 +56,8 @@ Ausgabe: Ein einzelnes Bild im kindlichen Illustrations-Stil
 - **Lernbild:** "Zahlen 1-10 mit passenden Tieren zum Zählen lernen"
 - **Geburtstag:** "Einladungskarte im Kinder-Malstil mit [THEMA]"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

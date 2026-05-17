@@ -1,102 +1,26 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - lernen
+  - wachstum
+  - lyra
+  - pkm
+  - lernmethoden
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#3855"
-titel: "Explain It Like I Built It  Technical Documentation for Non-Technical Founders"
-kategorie: "Lernen & Wachstum"
-unterkategorie: "Importiert"
-tags: ["explain", "built", "technical", "documentation", "founders"]
-plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
-quelle: "awesome-chatgpt-prompts"
-autor: "gokbeyinac"
-erstellt: "2026-03-14"
----
-
-## Prompt
-
-```
-You are a senior technical writer who specializes in making complex systems
-understandable to non-engineers. You have a gift for analogy, narrative, and
-turning architecture diagrams into stories.
-
-I need you to analyze this project and write a comprehensive documentation
-file called `FORME.md` that explains everything about this project in
-plain language.
-
-## Project Context
-- **Project name:** ${name}
-- **What it does (one sentence):** [e.g., "A SaaS platform that lets restaurants manage their own online ordering without paying commission to aggregators"]
-- **My role:** [e.g., "I'm the founder / product owner / designer — I don't write code but I make all product and architecture decisions"]
-- **Tech stack (if you know it):** [e.g., "Next.js, Supabase, Tailwind" or "I'm not sure, figure it out from the code"]
-- **Stage:** [MVP / v1 in production / scaling / legacy refactor]
-
-## Codebase
-[Upload files, provide path, or paste key files]
-
-## Document Structure
-
-Write the FORME.md with these sections, in this order:
-
-### 1. The Big Picture (Project Overview)
-Start with a 3-4 sentence executive summary anyone could understand.
-Then provide:
-- What problem this solves and for whom
-- How users interact with it (the user journey in plain words)
-- A "if this were a restaurant" (or similar) analogy for the entire system
-
-### 2. Technical Architecture — The Blueprint
-Explain how the system is designed and WHY those choices were made.
-- Draw the architecture using a simple text diagram (boxes and arrows)
-- Explain each major layer/service like you're giving a building tour:
-  "This is the kitchen (API layer) — all the real work happens here.
-  Orders come in from the front desk (frontend), get processed here,
-  and results get stored in the filing cabinet (database)."
-- For every architectural decision, answer: "Why this and not the obvious alternative?"
-- Highlight any clever or unusual choices the developer made
-
-### 3. Codebase Structure — The Filing System
-Map out the project's file and folder organization.
-- Show the folder tree (top 2-3 levels)
-- For each major folder, explain:
-  - What lives here (in plain words)
-  - When would someone need to open this folder
-  - How it relates to other folders
-- Flag any non-obvious naming conventions
-- Identify the "entry points" — the files where things start
-
-### 4. Connections & Data Flow — How Things Talk to Each Other
-Trace how data moves through the system.
-- Pick 2-3 core user actions (e.g., "user signs up", "user places an order")
-- For each action, walk through the FULL journey step by step:
-  "When a user clicks 'Place Order', here's what happens behind the scenes:
-  1. The button triggers a function in [file] — think of it as ringing a bell
-  2. That bell sound travels to ${api_route} — the kitchen hears the order
-  3. The kitchen checks with [database] — do we have the ingredients?
-  4. If yes, it sends back a confirmation — the waiter brings the receipt"
-- Explain external service connections (payments, email, APIs) and what happens if they fail
-- Describe the authentication flow (how does the app know who you are?)
-
-### 5. Technology Choices — The Toolbox
-For every significant technology/library/service used:
-- What it is (one sentence, no jargon)
-- What job it does in this project specifically
-- Why it was chosen over alternatives (be specific: "We use Supabase instead of Firebase because...")
-- Any limitations or trade-offs you should know about
-- Cost implications (free tier? paid? usage-based?)
-
-Format as a table:
-| Technology | What It Does Here | Why This One | Watch Out For |
-|-----------|------------------|-------------|---------------|
+id: ""
+titel: "Explain It Like I Built It Technical Doc"
+kategorie: Lernen & Wachstum
+unterkategorie: Lernmethoden
+tags: ['prompt', 'lyra', 'pkm', 'lernen', 'wachstum']
+erstellt: 2026-04-09
+plattformen: [ChatGPT, Claude, Gemini]
+-----------|------------------|-------------|---------------|
 
 ### 6. Environment & Configuration
 Explain the setup without assuming technical knowledge:
@@ -216,7 +140,12 @@ Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
 - Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
 - Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[lernen-wachstum]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Lernen & Wachstum]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

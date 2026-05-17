@@ -1,23 +1,30 @@
 ---
 type: resource
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-09
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+  - prompt
+  - kommunikation
+  - beziehungen
+  - konfliktloesung
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
-id: "#171"
-titel: "Grenzen setzen"
+id: '#171'
+titel: Grenzen setzen
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Konfliktlösung
-tags: [grenzen, nein-sagen, selbstfürsorge, kommunikation]
+tags:
+- grenzen
+- nein-sagen
+- selbstfürsorge
+- kommunikation
 erstellt: 2026-02-20
-plattformen: [ChatGPT, Claude]
+plattformen:
+- ChatGPT
+- Claude
 ---
+
 
 # Grenzen setzen
 
@@ -52,7 +59,12 @@ Ausgabe:
 - Für Freunde: "Zu viel gefragt"
 - Für Chef: "Überstunden, Work-Life-Balance"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[kommunikation-beziehungen]]
+
+- **Domain:** [[Kommunikation & Content]]
+- **Kategorie:** [[Kommunikation & Beziehungen]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[enhance-prompt|enhance-prompt]]
+  - [[llm-application-dev-prompt-optimize|llm-application-dev-prompt-optimize]]
+  - [[llm-prompt-optimizer|llm-prompt-optimizer]]

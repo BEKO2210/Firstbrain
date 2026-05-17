@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#111"
-titel: "Minimalistisches Linien-Art"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#111'
+titel: Minimalistisches Linien-Art
+kategorie: Bild & Visualisierung
 unterkategorie: Illustration
-tags: [linien, minimalistisch, zeichnung, elegant, modern]
+tags:
+- linien
+- minimalistisch
+- zeichnung
+- elegant
+- modern
+- prompt
+- bild
+- visualisierung
+- illustration
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Minimalistisches Linien-Art
@@ -51,7 +60,8 @@ Der Hintergrund ist einfarbig weiß oder cremefarben, vielleicht mit subtiler Te
 --ar 1:1 --stylize 150 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

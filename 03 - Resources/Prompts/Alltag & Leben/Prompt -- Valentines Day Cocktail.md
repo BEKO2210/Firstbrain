@@ -3,12 +3,15 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- bildbearbeitung
+- cocktail
+- valentinstag
+- romantisch
+- bild-prompt
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#2966"
 titel: "Romantisches Cocktail-Video (Valentinstag)"
@@ -53,7 +56,8 @@ Ausgabe: Ein cineastisches, romantisches Cocktail-Video — perfekt für Instagr
 - **Halloween:** "Gruselige Cocktails mit Rauch, dunkle Farben, mysteriös"
 - **Einzelner Drink:** "10-Sekunden Slow-Motion nur für einen Cocktail"
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]

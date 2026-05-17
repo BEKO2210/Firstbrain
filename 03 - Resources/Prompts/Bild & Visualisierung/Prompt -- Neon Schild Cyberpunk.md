@@ -2,21 +2,30 @@
 type: resource
 created: 2026-04-08
 updated: 2026-04-08
-tags:
-  - #prompt
-  - #lyra
-  - #pkm
+tags: []
 source: https://github.com/BEKO2210/lyra-prompts
 ---
 
 ---
-id: "#112"
-titel: "Neon-Schild Cyberpunk"
-kategorie: Bildbearbeitung & KI-Visualisierung
+id: '#112'
+titel: Neon-Schild Cyberpunk
+kategorie: Bild & Visualisierung
 unterkategorie: Digital & Cyberpunk
-tags: [neon, schild, cyberpunk, stadt, nacht]
+tags:
+- neon
+- schild
+- cyberpunk
+- stadt
+- nacht
+- prompt
+- bild
+- visualisierung
+- digital-cyberpunk
 erstellt: 2026-02-20
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen:
+- Midjourney
+- DALL-E
+- Stable Diffusion
 ---
 
 # Neon-Schild Cyberpunk
@@ -51,7 +60,8 @@ Die Atmosphäre ist düster aber faszinierend, futuristisch aber menschlich. Die
 --ar 16:9 --stylize 200 --v 6
 ```
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[bildbearbeitung-visualisierung]]
+
+- **Domain:** [[Design & Kreativitaet]]
+- **Kategorie:** [[Bild & Visualisierung]]
+- **Sammlung:** [[Prompt Sammlung]]

@@ -3,12 +3,13 @@ type: resource
 created: 2026-04-08
 updated: 2026-04-08
 tags:
-  - #prompt
-  - #lyra
-  - #pkm
+- prompt
+- alltag
+- ideas
+- recipes
+- apricots
 source: https://github.com/BEKO2210/lyra-prompts
 ---
-
 ---
 id: "#4119"
 titel: "Give me some ideas for recipes that include apricots"
@@ -41,7 +42,10 @@ Passe die Details an deine Beduerfnisse an.
 - Frage nach einer veganen/vegetarischen Alternative
 - Bitte um Naehrwertangaben pro Portion
 
-
 ## Connections
-- **MOC:** [[Prompts MOC]]
-- **Category:** [[alltag-leben]]
+
+- **Domain:** [[Leben & Lernen]]
+- **Kategorie:** [[Alltag & Leben]]
+- **Sammlung:** [[Prompt Sammlung]]
+- **Passende Skills:**
+  - [[marketing-ideas|marketing-ideas]]
